@@ -1,0 +1,1676 @@
+[
+  {
+    "name": "Fashion",
+    "parent": null,
+    "slug": "fashion",
+    "sort_order": 10
+  },
+  {
+    "name": "Electronics",
+    "parent": null,
+    "slug": "electronics",
+    "sort_order": 20
+  },
+  {
+    "name": "Cosmetics \u0026 Beauty",
+    "parent": null,
+    "slug": "cosmetics-beauty",
+    "sort_order": 30
+  },
+  {
+    "name": "Home, Living \u0026 Appliances",
+    "parent": null,
+    "slug": "home-living-appliances",
+    "sort_order": 40
+  },
+  {
+    "name": "Headphones",
+    "parent": "audio",
+    "slug": "headphones",
+    "sort_order": 10
+  },
+  {
+    "name": "Earbuds",
+    "parent": "audio",
+    "slug": "earbuds",
+    "sort_order": 20
+  },
+  {
+    "name": "Bluetooth Speakers",
+    "parent": "audio",
+    "slug": "bluetooth-speakers",
+    "sort_order": 30
+  },
+  {
+    "name": "Soundbars",
+    "parent": "audio",
+    "slug": "soundbars",
+    "sort_order": 40
+  },
+  {
+    "name": "Home Audio",
+    "parent": "audio",
+    "slug": "home-audio",
+    "sort_order": 50
+  },
+  {
+    "name": "Microphones",
+    "parent": "audio",
+    "slug": "microphones",
+    "sort_order": 60
+  },
+  {
+    "name": "Audio Cables",
+    "parent": "audio",
+    "slug": "audio-cables",
+    "sort_order": 70
+  },
+  {
+    "name": "Body Wash",
+    "parent": "bath-body",
+    "slug": "body-wash",
+    "sort_order": 10
+  },
+  {
+    "name": "Bath Soaps",
+    "parent": "bath-body",
+    "slug": "bath-soaps",
+    "sort_order": 20
+  },
+  {
+    "name": "Body Scrubs",
+    "parent": "bath-body",
+    "slug": "body-scrubs",
+    "sort_order": 30
+  },
+  {
+    "name": "Body Lotions",
+    "parent": "bath-body",
+    "slug": "body-lotions",
+    "sort_order": 40
+  },
+  {
+    "name": "Body Oils",
+    "parent": "bath-body",
+    "slug": "body-oils",
+    "sort_order": 50
+  },
+  {
+    "name": "Hand \u0026 Foot Care",
+    "parent": "bath-body",
+    "slug": "hand-foot-care",
+    "sort_order": 60
+  },
+  {
+    "name": "Bath Accessories",
+    "parent": "bath-body",
+    "slug": "bath-accessories",
+    "sort_order": 70
+  },
+  {
+    "name": "Hair Dryers",
+    "parent": "beauty-tools",
+    "slug": "hair-dryers",
+    "sort_order": 10
+  },
+  {
+    "name": "Hair Straighteners",
+    "parent": "beauty-tools",
+    "slug": "hair-straighteners",
+    "sort_order": 20
+  },
+  {
+    "name": "Curling Irons",
+    "parent": "beauty-tools",
+    "slug": "curling-irons",
+    "sort_order": 30
+  },
+  {
+    "name": "Hair Clippers",
+    "parent": "beauty-tools",
+    "slug": "hair-clippers",
+    "sort_order": 40
+  },
+  {
+    "name": "Trimmers",
+    "parent": "beauty-tools",
+    "slug": "trimmers",
+    "sort_order": 50
+  },
+  {
+    "name": "Electric Shavers",
+    "parent": "beauty-tools",
+    "slug": "electric-shavers",
+    "sort_order": 60
+  },
+  {
+    "name": "Facial Tools",
+    "parent": "beauty-tools",
+    "slug": "facial-tools",
+    "sort_order": 70
+  },
+  {
+    "name": "Manicure \u0026 Pedicure Tools",
+    "parent": "beauty-tools",
+    "slug": "manicure-pedicure-tools",
+    "sort_order": 80
+  },
+  {
+    "name": "Digital Cameras",
+    "parent": "cameras-photography",
+    "slug": "digital-cameras",
+    "sort_order": 10
+  },
+  {
+    "name": "Security Cameras",
+    "parent": "cameras-photography",
+    "slug": "security-cameras",
+    "sort_order": 20
+  },
+  {
+    "name": "CCTV Systems",
+    "parent": "cameras-photography",
+    "slug": "cctv-systems",
+    "sort_order": 30
+  },
+  {
+    "name": "Camera Lenses",
+    "parent": "cameras-photography",
+    "slug": "camera-lenses",
+    "sort_order": 40
+  },
+  {
+    "name": "Tripods",
+    "parent": "cameras-photography",
+    "slug": "tripods",
+    "sort_order": 50
+  },
+  {
+    "name": "Camera Accessories",
+    "parent": "cameras-photography",
+    "slug": "camera-accessories",
+    "sort_order": 60
+  },
+  {
+    "name": "Memory Cards",
+    "parent": "cameras-photography",
+    "slug": "memory-cards",
+    "sort_order": 70
+  },
+  {
+    "name": "Cleaning Supplies",
+    "parent": "cleaning-household",
+    "slug": "cleaning-supplies",
+    "sort_order": 10
+  },
+  {
+    "name": "Laundry",
+    "parent": "cleaning-household",
+    "slug": "laundry",
+    "sort_order": 20
+  },
+  {
+    "name": "Brooms \u0026 Brushes",
+    "parent": "cleaning-household",
+    "slug": "brooms-brushes",
+    "sort_order": 30
+  },
+  {
+    "name": "Bins",
+    "parent": "cleaning-household",
+    "slug": "bins",
+    "sort_order": 40
+  },
+  {
+    "name": "Household Tools",
+    "parent": "cleaning-household",
+    "slug": "household-tools",
+    "sort_order": 50
+  },
+  {
+    "name": "Storage Containers",
+    "parent": "cleaning-household",
+    "slug": "storage-containers",
+    "sort_order": 60
+  },
+  {
+    "name": "Laptops",
+    "parent": "computers",
+    "slug": "laptops",
+    "sort_order": 10
+  },
+  {
+    "name": "Desktop Computers",
+    "parent": "computers",
+    "slug": "desktop-computers",
+    "sort_order": 20
+  },
+  {
+    "name": "Monitors",
+    "parent": "computers",
+    "slug": "monitors",
+    "sort_order": 30
+  },
+  {
+    "name": "Keyboards",
+    "parent": "computers",
+    "slug": "keyboards",
+    "sort_order": 40
+  },
+  {
+    "name": "Mice",
+    "parent": "computers",
+    "slug": "mice",
+    "sort_order": 50
+  },
+  {
+    "name": "Webcams",
+    "parent": "computers",
+    "slug": "webcams",
+    "sort_order": 60
+  },
+  {
+    "name": "Laptop Bags",
+    "parent": "computers",
+    "slug": "laptop-bags",
+    "sort_order": 70
+  },
+  {
+    "name": "Laptop Stands",
+    "parent": "computers",
+    "slug": "laptop-stands",
+    "sort_order": 80
+  },
+  {
+    "name": "Computer Accessories",
+    "parent": "computers",
+    "slug": "computer-accessories",
+    "sort_order": 90
+  },
+  {
+    "name": "Skincare",
+    "parent": "cosmetics-beauty",
+    "slug": "skincare",
+    "sort_order": 10
+  },
+  {
+    "name": "Hair Care",
+    "parent": "cosmetics-beauty",
+    "slug": "hair-care",
+    "sort_order": 20
+  },
+  {
+    "name": "Makeup",
+    "parent": "cosmetics-beauty",
+    "slug": "makeup",
+    "sort_order": 30
+  },
+  {
+    "name": "Fragrance",
+    "parent": "cosmetics-beauty",
+    "slug": "fragrance",
+    "sort_order": 40
+  },
+  {
+    "name": "Bath \u0026 Body",
+    "parent": "cosmetics-beauty",
+    "slug": "bath-body",
+    "sort_order": 50
+  },
+  {
+    "name": "Men's Grooming",
+    "parent": "cosmetics-beauty",
+    "slug": "mens-grooming",
+    "sort_order": 60
+  },
+  {
+    "name": "Beauty Tools",
+    "parent": "cosmetics-beauty",
+    "slug": "beauty-tools",
+    "sort_order": 70
+  },
+  {
+    "name": "Personal Care",
+    "parent": "cosmetics-beauty",
+    "slug": "personal-care",
+    "sort_order": 80
+  },
+  {
+    "name": "Mobile Phones",
+    "parent": "electronics",
+    "slug": "mobile-phones",
+    "sort_order": 10
+  },
+  {
+    "name": "Tablets",
+    "parent": "electronics",
+    "slug": "tablets",
+    "sort_order": 20
+  },
+  {
+    "name": "Computers",
+    "parent": "electronics",
+    "slug": "computers",
+    "sort_order": 30
+  },
+  {
+    "name": "Mobile Accessories",
+    "parent": "electronics",
+    "slug": "mobile-accessories",
+    "sort_order": 40
+  },
+  {
+    "name": "Audio",
+    "parent": "electronics",
+    "slug": "audio",
+    "sort_order": 50
+  },
+  {
+    "name": "TVs \u0026 Entertainment",
+    "parent": "electronics",
+    "slug": "tvs-entertainment",
+    "sort_order": 60
+  },
+  {
+    "name": "Cameras \u0026 Photography",
+    "parent": "electronics",
+    "slug": "cameras-photography",
+    "sort_order": 70
+  },
+  {
+    "name": "Gaming",
+    "parent": "electronics",
+    "slug": "gaming",
+    "sort_order": 80
+  },
+  {
+    "name": "Smart Devices",
+    "parent": "electronics",
+    "slug": "smart-devices",
+    "sort_order": 90
+  },
+  {
+    "name": "Power \u0026 Electrical",
+    "parent": "electronics",
+    "slug": "power-electrical",
+    "sort_order": 100
+  },
+  {
+    "name": "Networking",
+    "parent": "electronics",
+    "slug": "networking",
+    "sort_order": 110
+  },
+  {
+    "name": "Men's Fashion",
+    "parent": "fashion",
+    "slug": "mens-fashion",
+    "sort_order": 10
+  },
+  {
+    "name": "Women's Fashion",
+    "parent": "fashion",
+    "slug": "womens-fashion",
+    "sort_order": 20
+  },
+  {
+    "name": "Kids' Fashion",
+    "parent": "fashion",
+    "slug": "kids-fashion",
+    "sort_order": 30
+  },
+  {
+    "name": "Footwear",
+    "parent": "fashion",
+    "slug": "footwear",
+    "sort_order": 40
+  },
+  {
+    "name": "Fashion Accessories",
+    "parent": "fashion",
+    "slug": "fashion-accessories",
+    "sort_order": 50
+  },
+  {
+    "name": "Watches",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-watches",
+    "sort_order": 10
+  },
+  {
+    "name": "Sunglasses",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-sunglasses",
+    "sort_order": 20
+  },
+  {
+    "name": "Jewelry",
+    "parent": "fashion-accessories",
+    "slug": "jewelry",
+    "sort_order": 30
+  },
+  {
+    "name": "Bags",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-bags",
+    "sort_order": 40
+  },
+  {
+    "name": "Wallets",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-wallets",
+    "sort_order": 50
+  },
+  {
+    "name": "Belts",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-belts",
+    "sort_order": 60
+  },
+  {
+    "name": "Caps \u0026 Hats",
+    "parent": "fashion-accessories",
+    "slug": "caps-hats",
+    "sort_order": 70
+  },
+  {
+    "name": "Scarves",
+    "parent": "fashion-accessories",
+    "slug": "scarves",
+    "sort_order": 80
+  },
+  {
+    "name": "Hair Accessories",
+    "parent": "fashion-accessories",
+    "slug": "fashion-accessories-hair-accessories",
+    "sort_order": 90
+  },
+  {
+    "name": "Travel Accessories",
+    "parent": "fashion-accessories",
+    "slug": "travel-accessories",
+    "sort_order": 100
+  },
+  {
+    "name": "Men's Shoes",
+    "parent": "footwear",
+    "slug": "mens-shoes",
+    "sort_order": 10
+  },
+  {
+    "name": "Women's Shoes",
+    "parent": "footwear",
+    "slug": "womens-shoes",
+    "sort_order": 20
+  },
+  {
+    "name": "Children's Shoes",
+    "parent": "footwear",
+    "slug": "footwear-childrens-shoes",
+    "sort_order": 30
+  },
+  {
+    "name": "Sneakers",
+    "parent": "footwear",
+    "slug": "sneakers",
+    "sort_order": 40
+  },
+  {
+    "name": "Formal Shoes",
+    "parent": "footwear",
+    "slug": "formal-shoes",
+    "sort_order": 50
+  },
+  {
+    "name": "Boots",
+    "parent": "footwear",
+    "slug": "boots",
+    "sort_order": 60
+  },
+  {
+    "name": "Sandals",
+    "parent": "footwear",
+    "slug": "sandals",
+    "sort_order": 70
+  },
+  {
+    "name": "Slippers",
+    "parent": "footwear",
+    "slug": "slippers",
+    "sort_order": 80
+  },
+  {
+    "name": "Sports Shoes",
+    "parent": "footwear",
+    "slug": "sports-shoes",
+    "sort_order": 90
+  },
+  {
+    "name": "Perfumes",
+    "parent": "fragrance",
+    "slug": "perfumes",
+    "sort_order": 10
+  },
+  {
+    "name": "Body Sprays",
+    "parent": "fragrance",
+    "slug": "body-sprays",
+    "sort_order": 20
+  },
+  {
+    "name": "Body Mists",
+    "parent": "fragrance",
+    "slug": "body-mists",
+    "sort_order": 30
+  },
+  {
+    "name": "Deodorants",
+    "parent": "fragrance",
+    "slug": "fragrance-deodorants",
+    "sort_order": 40
+  },
+  {
+    "name": "Fragrance Oils",
+    "parent": "fragrance",
+    "slug": "fragrance-oils",
+    "sort_order": 50
+  },
+  {
+    "name": "Men's Fragrance",
+    "parent": "fragrance",
+    "slug": "mens-fragrance",
+    "sort_order": 60
+  },
+  {
+    "name": "Women's Fragrance",
+    "parent": "fragrance",
+    "slug": "womens-fragrance",
+    "sort_order": 70
+  },
+  {
+    "name": "Unisex Fragrance",
+    "parent": "fragrance",
+    "slug": "unisex-fragrance",
+    "sort_order": 80
+  },
+  {
+    "name": "Gaming Consoles",
+    "parent": "gaming",
+    "slug": "gaming-consoles",
+    "sort_order": 10
+  },
+  {
+    "name": "PlayStation",
+    "parent": "gaming",
+    "slug": "playstation",
+    "sort_order": 20
+  },
+  {
+    "name": "Xbox",
+    "parent": "gaming",
+    "slug": "xbox",
+    "sort_order": 30
+  },
+  {
+    "name": "Nintendo",
+    "parent": "gaming",
+    "slug": "nintendo",
+    "sort_order": 40
+  },
+  {
+    "name": "Gaming Controllers",
+    "parent": "gaming",
+    "slug": "gaming-controllers",
+    "sort_order": 50
+  },
+  {
+    "name": "Gaming Headsets",
+    "parent": "gaming",
+    "slug": "gaming-headsets",
+    "sort_order": 60
+  },
+  {
+    "name": "Gaming Accessories",
+    "parent": "gaming",
+    "slug": "gaming-accessories",
+    "sort_order": 70
+  },
+  {
+    "name": "Gaming Chairs",
+    "parent": "gaming",
+    "slug": "gaming-chairs",
+    "sort_order": 80
+  },
+  {
+    "name": "Shampoos",
+    "parent": "hair-care",
+    "slug": "shampoos",
+    "sort_order": 10
+  },
+  {
+    "name": "Conditioners",
+    "parent": "hair-care",
+    "slug": "conditioners",
+    "sort_order": 20
+  },
+  {
+    "name": "Hair Oils",
+    "parent": "hair-care",
+    "slug": "hair-oils",
+    "sort_order": 30
+  },
+  {
+    "name": "Hair Creams",
+    "parent": "hair-care",
+    "slug": "hair-creams",
+    "sort_order": 40
+  },
+  {
+    "name": "Hair Treatments",
+    "parent": "hair-care",
+    "slug": "hair-treatments",
+    "sort_order": 50
+  },
+  {
+    "name": "Hair Colour",
+    "parent": "hair-care",
+    "slug": "hair-colour",
+    "sort_order": 60
+  },
+  {
+    "name": "Hair Extensions",
+    "parent": "hair-care",
+    "slug": "hair-extensions",
+    "sort_order": 70
+  },
+  {
+    "name": "Wigs",
+    "parent": "hair-care",
+    "slug": "wigs",
+    "sort_order": 80
+  },
+  {
+    "name": "Braids",
+    "parent": "hair-care",
+    "slug": "braids",
+    "sort_order": 90
+  },
+  {
+    "name": "Hair Accessories",
+    "parent": "hair-care",
+    "slug": "hair-care-hair-accessories",
+    "sort_order": 100
+  },
+  {
+    "name": "Beds",
+    "parent": "home-furniture",
+    "slug": "beds",
+    "sort_order": 10
+  },
+  {
+    "name": "Mattresses",
+    "parent": "home-furniture",
+    "slug": "mattresses",
+    "sort_order": 20
+  },
+  {
+    "name": "Chairs",
+    "parent": "home-furniture",
+    "slug": "chairs",
+    "sort_order": 30
+  },
+  {
+    "name": "Tables",
+    "parent": "home-furniture",
+    "slug": "tables",
+    "sort_order": 40
+  },
+  {
+    "name": "Sofas",
+    "parent": "home-furniture",
+    "slug": "sofas",
+    "sort_order": 50
+  },
+  {
+    "name": "Shelving",
+    "parent": "home-furniture",
+    "slug": "shelving",
+    "sort_order": 60
+  },
+  {
+    "name": "Storage",
+    "parent": "home-furniture",
+    "slug": "storage",
+    "sort_order": 70
+  },
+  {
+    "name": "Home Decor",
+    "parent": "home-furniture",
+    "slug": "home-decor",
+    "sort_order": 80
+  },
+  {
+    "name": "Refrigerators",
+    "parent": "home-appliances",
+    "slug": "refrigerators",
+    "sort_order": 10
+  },
+  {
+    "name": "Freezers",
+    "parent": "home-appliances",
+    "slug": "freezers",
+    "sort_order": 20
+  },
+  {
+    "name": "Washing Machines",
+    "parent": "home-appliances",
+    "slug": "washing-machines",
+    "sort_order": 30
+  },
+  {
+    "name": "Fans",
+    "parent": "home-appliances",
+    "slug": "fans",
+    "sort_order": 40
+  },
+  {
+    "name": "Air Conditioners",
+    "parent": "home-appliances",
+    "slug": "air-conditioners",
+    "sort_order": 50
+  },
+  {
+    "name": "Microwaves",
+    "parent": "home-appliances",
+    "slug": "microwaves",
+    "sort_order": 60
+  },
+  {
+    "name": "Blenders",
+    "parent": "home-appliances",
+    "slug": "blenders",
+    "sort_order": 70
+  },
+  {
+    "name": "Rice Cookers",
+    "parent": "home-appliances",
+    "slug": "rice-cookers",
+    "sort_order": 80
+  },
+  {
+    "name": "Electric Kettles",
+    "parent": "home-appliances",
+    "slug": "electric-kettles",
+    "sort_order": 90
+  },
+  {
+    "name": "Irons",
+    "parent": "home-appliances",
+    "slug": "irons",
+    "sort_order": 100
+  },
+  {
+    "name": "Kitchen \u0026 Dining",
+    "parent": "home-living-appliances",
+    "slug": "kitchen-dining",
+    "sort_order": 10
+  },
+  {
+    "name": "Home Appliances",
+    "parent": "home-living-appliances",
+    "slug": "home-appliances",
+    "sort_order": 20
+  },
+  {
+    "name": "Home \u0026 Furniture",
+    "parent": "home-living-appliances",
+    "slug": "home-furniture",
+    "sort_order": 30
+  },
+  {
+    "name": "Cleaning \u0026 Household",
+    "parent": "home-living-appliances",
+    "slug": "cleaning-household",
+    "sort_order": 40
+  },
+  {
+    "name": "Boys' Clothing",
+    "parent": "kids-fashion",
+    "slug": "boys-clothing",
+    "sort_order": 10
+  },
+  {
+    "name": "Girls' Clothing",
+    "parent": "kids-fashion",
+    "slug": "girls-clothing",
+    "sort_order": 20
+  },
+  {
+    "name": "Baby Clothing",
+    "parent": "kids-fashion",
+    "slug": "baby-clothing",
+    "sort_order": 30
+  },
+  {
+    "name": "School Wear",
+    "parent": "kids-fashion",
+    "slug": "school-wear",
+    "sort_order": 40
+  },
+  {
+    "name": "Children's Shoes",
+    "parent": "kids-fashion",
+    "slug": "childrens-shoes",
+    "sort_order": 50
+  },
+  {
+    "name": "Sandals \u0026 Slippers",
+    "parent": "kids-fashion",
+    "slug": "kids-fashion-sandals-slippers",
+    "sort_order": 60
+  },
+  {
+    "name": "Baby Shoes",
+    "parent": "kids-fashion",
+    "slug": "baby-shoes",
+    "sort_order": 70
+  },
+  {
+    "name": "Children's Bags",
+    "parent": "kids-fashion",
+    "slug": "childrens-bags",
+    "sort_order": 80
+  },
+  {
+    "name": "Children's Accessories",
+    "parent": "kids-fashion",
+    "slug": "childrens-accessories",
+    "sort_order": 90
+  },
+  {
+    "name": "Cookware",
+    "parent": "kitchen-dining",
+    "slug": "cookware",
+    "sort_order": 10
+  },
+  {
+    "name": "Kitchen Utensils",
+    "parent": "kitchen-dining",
+    "slug": "kitchen-utensils",
+    "sort_order": 20
+  },
+  {
+    "name": "Kitchen Appliances",
+    "parent": "kitchen-dining",
+    "slug": "kitchen-appliances",
+    "sort_order": 30
+  },
+  {
+    "name": "Food Storage",
+    "parent": "kitchen-dining",
+    "slug": "food-storage",
+    "sort_order": 40
+  },
+  {
+    "name": "Dinnerware",
+    "parent": "kitchen-dining",
+    "slug": "dinnerware",
+    "sort_order": 50
+  },
+  {
+    "name": "Drinkware",
+    "parent": "kitchen-dining",
+    "slug": "drinkware",
+    "sort_order": 60
+  },
+  {
+    "name": "Cutlery",
+    "parent": "kitchen-dining",
+    "slug": "cutlery",
+    "sort_order": 70
+  },
+  {
+    "name": "Foundation",
+    "parent": "makeup",
+    "slug": "foundation",
+    "sort_order": 10
+  },
+  {
+    "name": "Concealer",
+    "parent": "makeup",
+    "slug": "concealer",
+    "sort_order": 20
+  },
+  {
+    "name": "Powder",
+    "parent": "makeup",
+    "slug": "powder",
+    "sort_order": 30
+  },
+  {
+    "name": "Blush",
+    "parent": "makeup",
+    "slug": "blush",
+    "sort_order": 40
+  },
+  {
+    "name": "Bronzer",
+    "parent": "makeup",
+    "slug": "bronzer",
+    "sort_order": 50
+  },
+  {
+    "name": "Highlighter",
+    "parent": "makeup",
+    "slug": "highlighter",
+    "sort_order": 60
+  },
+  {
+    "name": "Lipstick",
+    "parent": "makeup",
+    "slug": "lipstick",
+    "sort_order": 70
+  },
+  {
+    "name": "Lip Gloss",
+    "parent": "makeup",
+    "slug": "lip-gloss",
+    "sort_order": 80
+  },
+  {
+    "name": "Lip Liner",
+    "parent": "makeup",
+    "slug": "lip-liner",
+    "sort_order": 90
+  },
+  {
+    "name": "Eyeliner",
+    "parent": "makeup",
+    "slug": "eyeliner",
+    "sort_order": 100
+  },
+  {
+    "name": "Mascara",
+    "parent": "makeup",
+    "slug": "mascara",
+    "sort_order": 110
+  },
+  {
+    "name": "Eyeshadow",
+    "parent": "makeup",
+    "slug": "eyeshadow",
+    "sort_order": 120
+  },
+  {
+    "name": "Makeup Brushes",
+    "parent": "makeup",
+    "slug": "makeup-brushes",
+    "sort_order": 130
+  },
+  {
+    "name": "Makeup Tools",
+    "parent": "makeup",
+    "slug": "makeup-tools",
+    "sort_order": 140
+  },
+  {
+    "name": "T-Shirts \u0026 Polos",
+    "parent": "mens-fashion",
+    "slug": "t-shirts-polos",
+    "sort_order": 10
+  },
+  {
+    "name": "Shirts",
+    "parent": "mens-fashion",
+    "slug": "shirts",
+    "sort_order": 20
+  },
+  {
+    "name": "Trousers \u0026 Chinos",
+    "parent": "mens-fashion",
+    "slug": "trousers-chinos",
+    "sort_order": 30
+  },
+  {
+    "name": "Jeans",
+    "parent": "mens-fashion",
+    "slug": "jeans",
+    "sort_order": 40
+  },
+  {
+    "name": "Shorts",
+    "parent": "mens-fashion",
+    "slug": "shorts",
+    "sort_order": 50
+  },
+  {
+    "name": "Suits \u0026 Blazers",
+    "parent": "mens-fashion",
+    "slug": "mens-suits-blazers",
+    "sort_order": 60
+  },
+  {
+    "name": "Jackets \u0026 Coats",
+    "parent": "mens-fashion",
+    "slug": "mens-jackets-coats",
+    "sort_order": 70
+  },
+  {
+    "name": "Underwear",
+    "parent": "mens-fashion",
+    "slug": "underwear",
+    "sort_order": 80
+  },
+  {
+    "name": "Sleepwear",
+    "parent": "mens-fashion",
+    "slug": "mens-sleepwear",
+    "sort_order": 90
+  },
+  {
+    "name": "Sportswear",
+    "parent": "mens-fashion",
+    "slug": "mens-sportswear",
+    "sort_order": 100
+  },
+  {
+    "name": "Traditional Wear",
+    "parent": "mens-fashion",
+    "slug": "mens-traditional-wear",
+    "sort_order": 110
+  },
+  {
+    "name": "Shoes",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-shoes",
+    "sort_order": 120
+  },
+  {
+    "name": "Sandals \u0026 Slippers",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-sandals-slippers",
+    "sort_order": 130
+  },
+  {
+    "name": "Bags",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-bags",
+    "sort_order": 140
+  },
+  {
+    "name": "Belts",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-belts",
+    "sort_order": 150
+  },
+  {
+    "name": "Wallets",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-wallets",
+    "sort_order": 160
+  },
+  {
+    "name": "Watches",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-watches",
+    "sort_order": 170
+  },
+  {
+    "name": "Sunglasses",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-sunglasses",
+    "sort_order": 180
+  },
+  {
+    "name": "Hats \u0026 Caps",
+    "parent": "mens-fashion",
+    "slug": "mens-fashion-hats-caps",
+    "sort_order": 190
+  },
+  {
+    "name": "Men's Accessories",
+    "parent": "mens-fashion",
+    "slug": "mens-accessories",
+    "sort_order": 200
+  },
+  {
+    "name": "Shaving",
+    "parent": "mens-grooming",
+    "slug": "shaving",
+    "sort_order": 10
+  },
+  {
+    "name": "Beard Care",
+    "parent": "mens-grooming",
+    "slug": "beard-care",
+    "sort_order": 20
+  },
+  {
+    "name": "Beard Oils",
+    "parent": "mens-grooming",
+    "slug": "beard-oils",
+    "sort_order": 30
+  },
+  {
+    "name": "Aftershave",
+    "parent": "mens-grooming",
+    "slug": "aftershave",
+    "sort_order": 40
+  },
+  {
+    "name": "Men's Skincare",
+    "parent": "mens-grooming",
+    "slug": "mens-skincare",
+    "sort_order": 50
+  },
+  {
+    "name": "Hair Styling",
+    "parent": "mens-grooming",
+    "slug": "hair-styling",
+    "sort_order": 60
+  },
+  {
+    "name": "Grooming Kits",
+    "parent": "mens-grooming",
+    "slug": "grooming-kits",
+    "sort_order": 70
+  },
+  {
+    "name": "Chargers",
+    "parent": "mobile-accessories",
+    "slug": "chargers",
+    "sort_order": 10
+  },
+  {
+    "name": "Fast Chargers",
+    "parent": "mobile-accessories",
+    "slug": "fast-chargers",
+    "sort_order": 20
+  },
+  {
+    "name": "USB Cables",
+    "parent": "mobile-accessories",
+    "slug": "usb-cables",
+    "sort_order": 30
+  },
+  {
+    "name": "Power Banks",
+    "parent": "mobile-accessories",
+    "slug": "power-banks",
+    "sort_order": 40
+  },
+  {
+    "name": "Wireless Chargers",
+    "parent": "mobile-accessories",
+    "slug": "wireless-chargers",
+    "sort_order": 50
+  },
+  {
+    "name": "Phone Holders",
+    "parent": "mobile-accessories",
+    "slug": "phone-holders",
+    "sort_order": 60
+  },
+  {
+    "name": "Car Chargers",
+    "parent": "mobile-accessories",
+    "slug": "car-chargers",
+    "sort_order": 70
+  },
+  {
+    "name": "Bluetooth Adapters",
+    "parent": "mobile-accessories",
+    "slug": "bluetooth-adapters",
+    "sort_order": 80
+  },
+  {
+    "name": "Smartphones",
+    "parent": "mobile-phones",
+    "slug": "smartphones",
+    "sort_order": 10
+  },
+  {
+    "name": "Feature Phones",
+    "parent": "mobile-phones",
+    "slug": "feature-phones",
+    "sort_order": 20
+  },
+  {
+    "name": "Refurbished Phones",
+    "parent": "mobile-phones",
+    "slug": "refurbished-phones",
+    "sort_order": 30
+  },
+  {
+    "name": "Phone Cases",
+    "parent": "mobile-phones",
+    "slug": "phone-cases",
+    "sort_order": 40
+  },
+  {
+    "name": "Screen Protectors",
+    "parent": "mobile-phones",
+    "slug": "screen-protectors",
+    "sort_order": 50
+  },
+  {
+    "name": "Wi-Fi Routers",
+    "parent": "networking",
+    "slug": "wi-fi-routers",
+    "sort_order": 10
+  },
+  {
+    "name": "Modems",
+    "parent": "networking",
+    "slug": "modems",
+    "sort_order": 20
+  },
+  {
+    "name": "Network Switches",
+    "parent": "networking",
+    "slug": "network-switches",
+    "sort_order": 30
+  },
+  {
+    "name": "Wi-Fi Extenders",
+    "parent": "networking",
+    "slug": "wi-fi-extenders",
+    "sort_order": 40
+  },
+  {
+    "name": "Network Cables",
+    "parent": "networking",
+    "slug": "network-cables",
+    "sort_order": 50
+  },
+  {
+    "name": "Network Accessories",
+    "parent": "networking",
+    "slug": "network-accessories",
+    "sort_order": 60
+  },
+  {
+    "name": "Oral Care",
+    "parent": "personal-care",
+    "slug": "oral-care",
+    "sort_order": 10
+  },
+  {
+    "name": "Feminine Care",
+    "parent": "personal-care",
+    "slug": "feminine-care",
+    "sort_order": 20
+  },
+  {
+    "name": "Deodorants",
+    "parent": "personal-care",
+    "slug": "personal-care-deodorants",
+    "sort_order": 30
+  },
+  {
+    "name": "Hand Care",
+    "parent": "personal-care",
+    "slug": "hand-care",
+    "sort_order": 40
+  },
+  {
+    "name": "Foot Care",
+    "parent": "personal-care",
+    "slug": "foot-care",
+    "sort_order": 50
+  },
+  {
+    "name": "Personal Hygiene",
+    "parent": "personal-care",
+    "slug": "personal-hygiene",
+    "sort_order": 60
+  },
+  {
+    "name": "Extension Boards",
+    "parent": "power-electrical",
+    "slug": "extension-boards",
+    "sort_order": 10
+  },
+  {
+    "name": "Surge Protectors",
+    "parent": "power-electrical",
+    "slug": "surge-protectors",
+    "sort_order": 20
+  },
+  {
+    "name": "Inverters",
+    "parent": "power-electrical",
+    "slug": "inverters",
+    "sort_order": 30
+  },
+  {
+    "name": "UPS",
+    "parent": "power-electrical",
+    "slug": "ups",
+    "sort_order": 40
+  },
+  {
+    "name": "Rechargeable Batteries",
+    "parent": "power-electrical",
+    "slug": "rechargeable-batteries",
+    "sort_order": 50
+  },
+  {
+    "name": "Adapters",
+    "parent": "power-electrical",
+    "slug": "adapters",
+    "sort_order": 60
+  },
+  {
+    "name": "Electrical Accessories",
+    "parent": "power-electrical",
+    "slug": "electrical-accessories",
+    "sort_order": 70
+  },
+  {
+    "name": "Face Wash",
+    "parent": "skincare",
+    "slug": "face-wash",
+    "sort_order": 10
+  },
+  {
+    "name": "Cleansers",
+    "parent": "skincare",
+    "slug": "cleansers",
+    "sort_order": 20
+  },
+  {
+    "name": "Toners",
+    "parent": "skincare",
+    "slug": "toners",
+    "sort_order": 30
+  },
+  {
+    "name": "Moisturizers",
+    "parent": "skincare",
+    "slug": "moisturizers",
+    "sort_order": 40
+  },
+  {
+    "name": "Face Creams",
+    "parent": "skincare",
+    "slug": "face-creams",
+    "sort_order": 50
+  },
+  {
+    "name": "Serums",
+    "parent": "skincare",
+    "slug": "serums",
+    "sort_order": 60
+  },
+  {
+    "name": "Face Masks",
+    "parent": "skincare",
+    "slug": "face-masks",
+    "sort_order": 70
+  },
+  {
+    "name": "Sunscreen",
+    "parent": "skincare",
+    "slug": "sunscreen",
+    "sort_order": 80
+  },
+  {
+    "name": "Acne Care",
+    "parent": "skincare",
+    "slug": "acne-care",
+    "sort_order": 90
+  },
+  {
+    "name": "Body Care",
+    "parent": "skincare",
+    "slug": "body-care",
+    "sort_order": 100
+  },
+  {
+    "name": "Smartwatches",
+    "parent": "smart-devices",
+    "slug": "smartwatches",
+    "sort_order": 10
+  },
+  {
+    "name": "Fitness Trackers",
+    "parent": "smart-devices",
+    "slug": "fitness-trackers",
+    "sort_order": 20
+  },
+  {
+    "name": "Smart Home Devices",
+    "parent": "smart-devices",
+    "slug": "smart-home-devices",
+    "sort_order": 30
+  },
+  {
+    "name": "Smart Plugs",
+    "parent": "smart-devices",
+    "slug": "smart-plugs",
+    "sort_order": 40
+  },
+  {
+    "name": "Smart Lights",
+    "parent": "smart-devices",
+    "slug": "smart-lights",
+    "sort_order": 50
+  },
+  {
+    "name": "Smart Speakers",
+    "parent": "smart-devices",
+    "slug": "smart-speakers",
+    "sort_order": 60
+  },
+  {
+    "name": "Android Tablets",
+    "parent": "tablets",
+    "slug": "android-tablets",
+    "sort_order": 10
+  },
+  {
+    "name": "iPads",
+    "parent": "tablets",
+    "slug": "ipads",
+    "sort_order": 20
+  },
+  {
+    "name": "Tablet Cases",
+    "parent": "tablets",
+    "slug": "tablet-cases",
+    "sort_order": 30
+  },
+  {
+    "name": "Tablet Accessories",
+    "parent": "tablets",
+    "slug": "tablet-accessories",
+    "sort_order": 40
+  },
+  {
+    "name": "Smart TVs",
+    "parent": "tvs-entertainment",
+    "slug": "smart-tvs",
+    "sort_order": 10
+  },
+  {
+    "name": "LED TVs",
+    "parent": "tvs-entertainment",
+    "slug": "led-tvs",
+    "sort_order": 20
+  },
+  {
+    "name": "TV Accessories",
+    "parent": "tvs-entertainment",
+    "slug": "tv-accessories",
+    "sort_order": 30
+  },
+  {
+    "name": "Streaming Devices",
+    "parent": "tvs-entertainment",
+    "slug": "streaming-devices",
+    "sort_order": 40
+  },
+  {
+    "name": "TV Boxes",
+    "parent": "tvs-entertainment",
+    "slug": "tv-boxes",
+    "sort_order": 50
+  },
+  {
+    "name": "Projectors",
+    "parent": "tvs-entertainment",
+    "slug": "projectors",
+    "sort_order": 60
+  },
+  {
+    "name": "Remote Controls",
+    "parent": "tvs-entertainment",
+    "slug": "remote-controls",
+    "sort_order": 70
+  },
+  {
+    "name": "Dresses",
+    "parent": "womens-fashion",
+    "slug": "dresses",
+    "sort_order": 10
+  },
+  {
+    "name": "Tops \u0026 Blouses",
+    "parent": "womens-fashion",
+    "slug": "tops-blouses",
+    "sort_order": 20
+  },
+  {
+    "name": "T-Shirts",
+    "parent": "womens-fashion",
+    "slug": "t-shirts",
+    "sort_order": 30
+  },
+  {
+    "name": "Skirts",
+    "parent": "womens-fashion",
+    "slug": "skirts",
+    "sort_order": 40
+  },
+  {
+    "name": "Trousers",
+    "parent": "womens-fashion",
+    "slug": "trousers",
+    "sort_order": 50
+  },
+  {
+    "name": "Jeans",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-jeans",
+    "sort_order": 60
+  },
+  {
+    "name": "Shorts",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-shorts",
+    "sort_order": 70
+  },
+  {
+    "name": "Jumpsuits",
+    "parent": "womens-fashion",
+    "slug": "jumpsuits",
+    "sort_order": 80
+  },
+  {
+    "name": "Suits \u0026 Blazers",
+    "parent": "womens-fashion",
+    "slug": "womens-suits-blazers",
+    "sort_order": 90
+  },
+  {
+    "name": "Jackets \u0026 Coats",
+    "parent": "womens-fashion",
+    "slug": "womens-jackets-coats",
+    "sort_order": 100
+  },
+  {
+    "name": "Underwear \u0026 Lingerie",
+    "parent": "womens-fashion",
+    "slug": "underwear-lingerie",
+    "sort_order": 110
+  },
+  {
+    "name": "Sleepwear",
+    "parent": "womens-fashion",
+    "slug": "womens-sleepwear",
+    "sort_order": 120
+  },
+  {
+    "name": "Sportswear",
+    "parent": "womens-fashion",
+    "slug": "womens-sportswear",
+    "sort_order": 130
+  },
+  {
+    "name": "Traditional Wear",
+    "parent": "womens-fashion",
+    "slug": "womens-traditional-wear",
+    "sort_order": 140
+  },
+  {
+    "name": "Shoes",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-shoes",
+    "sort_order": 150
+  },
+  {
+    "name": "Sandals \u0026 Slippers",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-sandals-slippers",
+    "sort_order": 160
+  },
+  {
+    "name": "Handbags",
+    "parent": "womens-fashion",
+    "slug": "handbags",
+    "sort_order": 170
+  },
+  {
+    "name": "Backpacks",
+    "parent": "womens-fashion",
+    "slug": "backpacks",
+    "sort_order": 180
+  },
+  {
+    "name": "Wallets \u0026 Purses",
+    "parent": "womens-fashion",
+    "slug": "wallets-purses",
+    "sort_order": 190
+  },
+  {
+    "name": "Belts",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-belts",
+    "sort_order": 200
+  },
+  {
+    "name": "Watches",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-watches",
+    "sort_order": 210
+  },
+  {
+    "name": "Sunglasses",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-sunglasses",
+    "sort_order": 220
+  },
+  {
+    "name": "Hats \u0026 Caps",
+    "parent": "womens-fashion",
+    "slug": "womens-fashion-hats-caps",
+    "sort_order": 230
+  },
+  {
+    "name": "Women's Accessories",
+    "parent": "womens-fashion",
+    "slug": "womens-accessories",
+    "sort_order": 240
+  }
+]

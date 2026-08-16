@@ -1,0 +1,3464 @@
+{
+ "source_sites": [
+  "jumia.com.gh",
+  "melcom.com",
+  "superpricegh.com",
+  "telefongh.com",
+  "fonelabgh.com",
+  "skypowergh.com",
+  "tezeon.com",
+  "reapp.com.gh",
+  "jiji.com.gh",
+  "smarthome.com.gh"
+ ],
+ "products": [
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation 5 Slim Disc Edition Console 1TB",
+   "category": "gaming-consoles",
+   "price": 7900,
+   "price_range": "GHS 7,300 - 8,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1TB Disc Edition",
+     "delta": 0
+    },
+    {
+     "name": "1TB Digital Edition",
+     "delta": -1100
+    }
+   ],
+   "specs": [
+    "Custom AMD Zen 2 8-core CPU, 10.28 TFLOPS GPU",
+    "Supports 4K/120fps output and 8K video passthrough",
+    "825GB-1TB custom NVMe SSD",
+    "DualSense controller included",
+    "Wi-Fi 6 and Bluetooth 5.1"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation 5 Pro Console 2TB",
+   "category": "gaming-consoles",
+   "price": 10500,
+   "price_range": "GHS 9,800 - 11,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2TB Standard",
+     "delta": 0
+    },
+    {
+     "name": "2TB with Disc Drive Add-On",
+     "delta": 1200
+    }
+   ],
+   "specs": [
+    "Upgraded GPU with ray tracing and AI upscaling (PSSR)",
+    "2TB custom NVMe SSD",
+    "4K/120fps and 8K output support",
+    "DualSense controller included",
+    "Backward compatible with PS4 and PS5 titles"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Series X Console 1TB",
+   "category": "gaming-consoles",
+   "price": 8900,
+   "price_range": "GHS 8,200 - 9,600",
+   "sale": 8490,
+   "variants": [
+    {
+     "name": "1TB Carbon Black",
+     "delta": 0
+    },
+    {
+     "name": "1TB Galaxy Black (2TB)",
+     "delta": 1500
+    }
+   ],
+   "specs": [
+    "12 TFLOPS RDNA 2 GPU, 4K/120fps support",
+    "1TB custom NVMe SSD with Velocity Architecture",
+    "Wi-Fi 6, HDMI 2.1",
+    "Xbox Wireless Controller included",
+    "Backward compatible with 4 generations of Xbox games"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Series S Console 512GB",
+   "category": "gaming-consoles",
+   "price": 5200,
+   "price_range": "GHS 4,700 - 5,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB Carbon Black",
+     "delta": 0
+    },
+    {
+     "name": "1TB Carbon Black",
+     "delta": 900
+    }
+   ],
+   "specs": [
+    "4 TFLOPS RDNA 2 GPU, 1440p/120fps support",
+    "512GB custom NVMe SSD",
+    "Digital-only console, no disc drive",
+    "Xbox Wireless Controller included",
+    "Supports Smart Delivery and Quick Resume"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch OLED Model Console 64GB",
+   "category": "gaming-consoles",
+   "price": 4100,
+   "price_range": "GHS 3,900 - 4,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White Joy-Con",
+     "delta": 0
+    },
+    {
+     "name": "Neon Red/Blue Joy-Con",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "7-inch OLED screen with vivid colour",
+    "64GB internal storage",
+    "Upgraded dock with LAN port",
+    "Tabletop, handheld and TV modes",
+    "Joy-Con controllers included"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Console (V2) 32GB",
+   "category": "gaming-consoles",
+   "price": 3300,
+   "price_range": "GHS 3,100 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Neon Red/Blue",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.2-inch LCD touchscreen",
+    "32GB internal storage (expandable via microSD)",
+    "Handheld, tabletop and TV modes",
+    "Improved battery life (V2 model)",
+    "Joy-Con controllers included"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Lite Handheld Console 32GB",
+   "category": "gaming-consoles",
+   "price": 2700,
+   "price_range": "GHS 2,500 - 3,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Turquoise",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    },
+    {
+     "name": "Yellow",
+     "delta": 0
+    },
+    {
+     "name": "Coral",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.5-inch LCD touchscreen, handheld only",
+    "Integrated controls, no detachable Joy-Con",
+    "32GB internal storage",
+    "Plays all Switch games that support handheld mode",
+    "Compact unibody design"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation 5 Disc Edition Console 825GB",
+   "category": "gaming-consoles",
+   "price": 8500,
+   "price_range": "GHS 8,000 - 9,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "825GB Disc Edition",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.28 TFLOPS GPU, 4K/120fps output",
+    "825GB custom SSD",
+    "Ultra HD Blu-ray disc drive",
+    "DualSense controller included",
+    "Wi-Fi 6 and Bluetooth 5.1"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation 4 Slim Console 500GB",
+   "category": "playstation",
+   "price": 2900,
+   "price_range": "GHS 2,600 - 3,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500GB Slim",
+     "delta": 0
+    },
+    {
+     "name": "1TB Slim",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "1.84 TFLOPS GPU, 1080p/60fps output",
+    "500GB HDD",
+    "DualShock 4 controller included",
+    "Supports PSVR and PS Plus games",
+    "Slimmer and quieter design"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation 4 Pro Console 1TB",
+   "category": "playstation",
+   "price": 3800,
+   "price_range": "GHS 3,500 - 4,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1TB Pro",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4.2 TFLOPS GPU with 4K checkerboard rendering",
+    "1TB HDD",
+    "Boost mode for enhanced frame rates",
+    "DualShock 4 controller included",
+    "HDR support"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony DualSense Edge Wireless Controller for PS5",
+   "category": "playstation",
+   "price": 2900,
+   "price_range": "GHS 2,600 - 3,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "DualSense Edge",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Remappable buttons and adjustable trigger stops",
+    "Interchangeable stick caps and paddles",
+    "Haptic feedback and adaptive triggers",
+    "Carrying case with charging cradle included",
+    "Bluetooth and USB-C wired modes"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony PlayStation VR2 Headset",
+   "category": "playstation",
+   "price": 6500,
+   "price_range": "GHS 6,000 - 7,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "PSVR2 Standard",
+     "delta": 0
+    },
+    {
+     "name": "PSVR2 Horizon Call of the Mountain Bundle",
+     "delta": 700
+    }
+   ],
+   "specs": [
+    "4K HDR OLED displays, 110-degree field of view",
+    "Eye tracking with foveated rendering",
+    "Sense controller haptics and adaptive triggers",
+    "Single-cable USB-C connection to PS5",
+    "Requires PlayStation 5 console"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony Pulse 3D Wireless Headset for PS5",
+   "category": "playstation",
+   "price": 1400,
+   "price_range": "GHS 1,250 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Midnight Black",
+     "delta": 0
+    },
+    {
+     "name": "Cosmic Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3D audio via Tempest 3D AudioTech on PS5",
+    "Dual noise-cancelling microphones",
+    "USB-C wireless dongle and 3.5mm wired modes",
+    "Built-in rechargeable battery",
+    "On-ear controls for chat and volume"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony DualShock 4 Wireless Controller for PS4",
+   "category": "playstation",
+   "price": 750,
+   "price_range": "GHS 650 - 900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Jet Black",
+     "delta": 0
+    },
+    {
+     "name": "Midnight Blue",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Built-in touchpad and light bar",
+    "Share button for broadcasting and screenshots",
+    "Built-in speaker and headphone jack",
+    "Bluetooth and USB wired modes",
+    "Works with PS4 and PC"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox One S Console 1TB",
+   "category": "xbox",
+   "price": 2400,
+   "price_range": "GHS 2,200 - 2,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1TB Xbox One S",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4K Ultra HD Blu-ray playback",
+    "HDR10 support",
+    "1TB HDD",
+    "Xbox Wireless Controller included",
+    "Backward compatible with select Xbox 360 titles"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Series X 2TB Galaxy Black Console",
+   "category": "xbox",
+   "price": 9600,
+   "price_range": "GHS 9,200 - 10,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2TB Galaxy Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "12 TFLOPS RDNA 2 GPU",
+    "2TB custom NVMe SSD",
+    "Starlight camouflage finish with green accents",
+    "Xbox Wireless Controller included",
+    "4K/120fps with Variable Refresh Rate support"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Wireless Controller Carbon Black",
+   "category": "xbox",
+   "price": 980,
+   "price_range": "GHS 880 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Carbon Black",
+     "delta": 0
+    },
+    {
+     "name": "Robot White",
+     "delta": 0
+    },
+    {
+     "name": "Shock Blue",
+     "delta": 0
+    },
+    {
+     "name": "Electric Volt",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Textured grips and refined D-pad",
+    "Bluetooth and Xbox wireless connectivity",
+    "Works with Xbox Series X|S, Xbox One, PC and mobile",
+    "Uses 2x AA batteries (included)",
+    "3.5mm headset jack"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Elite Wireless Controller Series 2",
+   "category": "xbox",
+   "price": 2500,
+   "price_range": "GHS 2,300 - 2,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Elite Series 2 Black",
+     "delta": 0
+    },
+    {
+     "name": "Elite Series 2 Core White",
+     "delta": -400
+    }
+   ],
+   "specs": [
+    "Adjustable-tension thumbsticks",
+    "Interchangeable paddles and D-pad",
+    "Wrap-around rubberised grip",
+    "Built-in rechargeable battery (40h)",
+    "Full button mapping via Xbox Accessories app"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Stereo Headset",
+   "category": "xbox",
+   "price": 1100,
+   "price_range": "GHS 950 - 1,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Lightweight over-ear design",
+    "Clear voice chat via 3.5mm jack",
+    "In-line volume and mute controls",
+    "Works with Xbox and PC",
+    "Flexible unidirectional mic"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Rechargeable Battery Pack + USB-C Cable",
+   "category": "xbox",
+   "price": 350,
+   "price_range": "GHS 300 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Play & Charge Kit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Rechargeable 1050mAh battery",
+    "Up to 30 hours of play per charge",
+    "USB-C cable included for charging while playing",
+    "Fits all Xbox Wireless Controllers",
+    "No tools required to install"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Joy-Con Pair (Left + Right)",
+   "category": "nintendo",
+   "price": 850,
+   "price_range": "GHS 750 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Neon Red/Blue",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    },
+    {
+     "name": "Purple/Orange",
+     "delta": 0
+    },
+    {
+     "name": "Pink/Green",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "HD Rumble and motion controls",
+    "Works as two individual controllers in tabletop mode",
+    "IR motion camera on right Joy-Con",
+    "Amiibo NFC touchpoint on right Joy-Con",
+    "Rechargeable via console or charging grip"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Pro Controller",
+   "category": "nintendo",
+   "price": 950,
+   "price_range": "GHS 850 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Splatoon 3 Edition",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "Full-size ergonomic grip",
+    "HD Rumble and motion controls",
+    "Amiibo NFC touchpoint",
+    "Rechargeable battery (approx. 40 hours)",
+    "Wired or wireless play"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch OLED Dock (White)",
+   "category": "nintendo",
+   "price": 900,
+   "price_range": "GHS 800 - 1,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White Dock",
+     "delta": 0
+    },
+    {
+     "name": "Black Dock",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Outputs up to 1080p to TV in docked mode",
+    "Built-in gigabit LAN port",
+    "Two USB 2.0 ports",
+    "HDMI and USB-C connections",
+    "Works with Switch OLED and Switch"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Carrying Case with Screen Protector",
+   "category": "nintendo",
+   "price": 200,
+   "price_range": "GHS 150 - 250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Animal Crossing Edition",
+     "delta": 50
+    }
+   ],
+   "specs": [
+    "Hard-shell protective case",
+    "Moulded compartments for console and games",
+    "Includes screen protector",
+    "Game card storage slots",
+    "Fits Switch and Switch OLED"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Game Card Case (24 Slots)",
+   "category": "nintendo",
+   "price": 150,
+   "price_range": "GHS 100 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Mario Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Stores up to 24 game cards",
+    "Shock-resistant hard case",
+    "Compact pocket-size design",
+    "Anti-scratch soft lining"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony DualSense Wireless Controller for PS5",
+   "category": "gaming-controllers",
+   "price": 1390,
+   "price_range": "GHS 1,250 - 1,500",
+   "sale": 1290,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Midnight Black",
+     "delta": 0
+    },
+    {
+     "name": "Cosmic Red",
+     "delta": 0
+    },
+    {
+     "name": "Starlight Blue",
+     "delta": 0
+    },
+    {
+     "name": "Galactic Purple",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Haptic feedback and adaptive triggers",
+    "Built-in microphone and speaker",
+    "USB-C charging",
+    "Works with PS5 and PC",
+    "Rechargeable battery (approx. 12 hours)"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Elite Wireless Controller Series 2 Core",
+   "category": "gaming-controllers",
+   "price": 2100,
+   "price_range": "GHS 1,900 - 2,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Core White",
+     "delta": 0
+    },
+    {
+     "name": "Core Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Adjustable-tension thumbsticks",
+    "Textured grip",
+    "Interchangeable D-pad and paddles (paddles sold separately)",
+    "Bluetooth and Xbox wireless",
+    "40-hour rechargeable battery"
+   ]
+  },
+  {
+   "brand": "Nintendo",
+   "name": "Nintendo Switch Pro Controller (Standard)",
+   "category": "gaming-controllers",
+   "price": 950,
+   "price_range": "GHS 850 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Full-size ergonomic layout",
+    "HD Rumble and motion controls",
+    "Amiibo NFC support",
+    "Rechargeable battery (approx. 40 hours)",
+    "Wired or wireless modes"
+   ]
+  },
+  {
+   "brand": "8BitDo",
+   "name": "8BitDo Pro 2 Bluetooth Controller",
+   "category": "gaming-controllers",
+   "price": 750,
+   "price_range": "GHS 650 - 900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    },
+    {
+     "name": "Pink",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Works with Switch, PC, macOS, Android and iOS",
+    "Customisable rear buttons and profiles",
+    "Gyro motion controls",
+    "USB-C and Bluetooth connectivity",
+    "Rechargeable battery"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer Wolverine V2 Chroma Xbox Controller",
+   "category": "gaming-controllers",
+   "price": 1600,
+   "price_range": "GHS 1,400 - 1,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Officially licensed for Xbox Series X|S",
+    "Mechanical face buttons with 3mm actuation",
+    "Chroma RGB lighting",
+    "Remappable buttons via Razer Controller Setup",
+    "Wired USB-C connection"
+   ]
+  },
+  {
+   "brand": "GameSir",
+   "name": "GameSir T4 Pro Wireless Controller",
+   "category": "gaming-controllers",
+   "price": 650,
+   "price_range": "GHS 550 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Compatible with Switch, PC and mobile",
+    "Bluetooth, 2.4GHz dongle and wired modes",
+    "Turbo function and rumble vibration",
+    "Motion control support",
+    "Rechargeable battery"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony DualShock 4 Wireless Controller for PS4 (2-Colour Pack)",
+   "category": "gaming-controllers",
+   "price": 750,
+   "price_range": "GHS 650 - 900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Jet Black",
+     "delta": 0
+    },
+    {
+     "name": "Slim White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Touchpad and Share button",
+    "Built-in speaker and light bar",
+    "Bluetooth and USB wired modes",
+    "Works with PS4, PS5 (PS4 games) and PC",
+    "Rechargeable battery"
+   ]
+  },
+  {
+   "brand": "PDP",
+   "name": "PDP Wired Controller for Xbox Series X|S",
+   "category": "gaming-controllers",
+   "price": 600,
+   "price_range": "GHS 500 - 750",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Officially licensed by Microsoft",
+    "Wired USB-A connection",
+    "3.5mm headset jack",
+    "Programmable buttons",
+    "Works with Xbox and PC"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony DualSense Wireless Controller - Chroma Indigo",
+   "category": "gaming-controllers",
+   "price": 1450,
+   "price_range": "GHS 1,300 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Chroma Indigo",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Chroma collection iridescent finish",
+    "Haptic feedback and adaptive triggers",
+    "Built-in microphone",
+    "USB-C charging",
+    "Rechargeable battery"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "Sony Pulse 3D Wireless Headset for PS5 (2-Colour Pack)",
+   "category": "gaming-headsets",
+   "price": 1400,
+   "price_range": "GHS 1,250 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Midnight Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3D audio with Tempest 3D AudioTech",
+    "Dual noise-cancelling mics",
+    "Wireless via USB dongle",
+    "Built-in rechargeable battery",
+    "On-ear volume and mute controls"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft Xbox Wireless Headset",
+   "category": "gaming-headsets",
+   "price": 1500,
+   "price_range": "GHS 1,350 - 1,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Direct pairing to Xbox Series X|S and Xbox One",
+    "Auto-mute and voice isolation",
+    "Windows Sonic, Dolby Atmos and DTS support",
+    "Bluetooth for mobile and PC",
+    "Rechargeable battery with USB-C"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer BlackShark V2 X Wired Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 1150,
+   "price_range": "GHS 1,000 - 1,350",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "50mm Razer TriForce drivers",
+    "Detachable Razer HyperClear cardioid mic",
+    "THX Spatial Audio on PC",
+    "Lightweight 240g design",
+    "3.5mm and USB connectivity"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer BlackShark V2 Pro Wireless Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 3200,
+   "price_range": "GHS 2,900 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "50mm Razer TriForce Titanium drivers",
+    "Razer HyperClear Super Wideband mic",
+    "2.4GHz wireless with up to 24 hours battery",
+    "THX Spatial Audio",
+    "Works with PC, PS5, PS4, Switch and mobile"
+   ]
+  },
+  {
+   "brand": "SteelSeries",
+   "name": "SteelSeries Arctis Nova 7 Wireless Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 4500,
+   "price_range": "GHS 4,100 - 5,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Arctis Nova 7P (PlayStation)",
+     "delta": 0
+    },
+    {
+     "name": "Arctis Nova 7X (Xbox)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz lossless wireless plus Bluetooth",
+    "ClearCast Gen 2 noise-cancelling mic",
+    "ComfortMAX system with flexible headband",
+    "38-hour battery life",
+    "Works with PC, console and mobile"
+   ]
+  },
+  {
+   "brand": "SteelSeries",
+   "name": "SteelSeries Arctis Nova Pro Wireless System",
+   "category": "gaming-headsets",
+   "price": 6200,
+   "price_range": "GHS 5,700 - 6,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nova Pro Wireless",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Dual hot-swappable batteries",
+    "Active noise cancellation",
+    "Sonar audio software suite",
+    "2.4GHz wireless plus Bluetooth",
+    "Xbox and PlayStation-compatible versions"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech G435 LIGHTSPEED Wireless Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 2100,
+   "price_range": "GHS 1,900 - 2,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "LIGHTSPEED wireless and Bluetooth",
+    "Ultra-lightweight 165g design",
+    "Built-in dual beamforming mics",
+    "18-hour battery life",
+    "Works with PC, PlayStation and mobile"
+   ]
+  },
+  {
+   "brand": "HyperX",
+   "name": "HyperX Cloud Stinger Core Wireless Headset",
+   "category": "gaming-headsets",
+   "price": 900,
+   "price_range": "GHS 750 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wireless for Xbox and PC",
+    "40mm drivers with enhanced bass",
+    "Noise-cancelling swivel mic",
+    "17-hour battery life",
+    "Memory foam ear cushions"
+   ]
+  },
+  {
+   "brand": "Turtle Beach",
+   "name": "Turtle Beach Recon 50 Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 800,
+   "price_range": "GHS 650 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Lightweight over-ear design",
+    "40mm speakers",
+    "Flip-to-mute microphone",
+    "3.5mm connection for consoles, PC and mobile",
+    "Inline volume control"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer Kraken V3 X USB Gaming Headset",
+   "category": "gaming-headsets",
+   "price": 1300,
+   "price_range": "GHS 1,100 - 1,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Razer TriForce 40mm drivers",
+    "HyperClear cardioid mic",
+    "USB sound with THX Spatial Audio",
+    "Memory foam cushions with cooling gel",
+    "Lightweight 285g build"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer DeathAdder Essential Wired Gaming Mouse",
+   "category": "gaming-accessories",
+   "price": 650,
+   "price_range": "GHS 550 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6,400 DPI optical sensor",
+    "5 programmable buttons",
+    "Ergonomic right-handed design",
+    "Mechanical mouse switches (10M clicks)",
+    "Chroma RGB lighting"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer DeathAdder V2 Wired Gaming Mouse",
+   "category": "gaming-accessories",
+   "price": 1100,
+   "price_range": "GHS 950 - 1,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20,000 DPI Focus+ optical sensor",
+    "8 programmable buttons",
+    "Speedflex cable, 82g lightweight",
+    "Optical switches rated for 70M clicks",
+    "Chroma RGB with Chroma Studio support"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer Cynosa Lite Chroma Keyboard",
+   "category": "gaming-accessories",
+   "price": 900,
+   "price_range": "GHS 800 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Spill-resistant membrane design",
+    "Chroma RGB lighting",
+    "Programmable macros",
+    "Quiet cushioned typing",
+    "1000Hz ultrapolling"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+   "category": "gaming-accessories",
+   "price": 2500,
+   "price_range": "GHS 2,200 - 2,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Green Switch",
+     "delta": 0
+    },
+    {
+     "name": "Yellow Switch",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Razer mechanical switches",
+    "Aluminium top case",
+    "Chroma RGB with per-key lighting",
+    "Doubleshot ABS keycaps",
+    "Magnetic plush leatherette wrist rest"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech G502 HERO Gaming Mouse",
+   "category": "gaming-accessories",
+   "price": 1300,
+   "price_range": "GHS 1,100 - 1,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "25,600 DPI HERO 25K sensor",
+    "11 programmable buttons",
+    "Adjustable weights (tunable 2-18g)",
+    "RGB lighting",
+    "Wired USB connection"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech G213 Prodigy Gaming Keyboard",
+   "category": "gaming-accessories",
+   "price": 1600,
+   "price_range": "GHS 1,400 - 1,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Mech-dome key switches",
+    "Per-key RGB lighting",
+    "Spill-resistant design",
+    "Integrated palm rest",
+    "Dedicated media keys"
+   ]
+  },
+  {
+   "brand": "SteelSeries",
+   "name": "SteelSeries QcK Gaming Mouse Pad",
+   "category": "gaming-accessories",
+   "price": 350,
+   "price_range": "GHS 250 - 450",
+   "sale": null,
+   "variants": [
+    {
+     "name": "QcK Medium",
+     "delta": 0
+    },
+    {
+     "name": "QcK Large",
+     "delta": 50
+    }
+   ],
+   "specs": [
+    "Micro-woven cloth surface",
+    "Optimised for low/high DPI tracking",
+    "Non-slip rubber base",
+    "Machine washable"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer Goliathus Chroma Mouse Pad",
+   "category": "gaming-accessories",
+   "price": 300,
+   "price_range": "GHS 250 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Medium",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Chroma RGB edge lighting",
+    "Soft cloth surface with textured weave",
+    "Anti-slip rubber base",
+    "Razer Synapse support"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "RGB Gaming Headset Stand with USB Hub",
+   "category": "gaming-accessories",
+   "price": 250,
+   "price_range": "GHS 180 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black RGB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Universal headset hanger",
+    "RGB lighting effects",
+    "2 USB 3.0 pass-through ports",
+    "3.5mm audio pass-through",
+    "Anti-slip weighted base"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "PS5 Console Stand with Dual Charging Dock",
+   "category": "gaming-accessories",
+   "price": 300,
+   "price_range": "GHS 220 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Stand + Dual Charger",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Charges two DualSense controllers",
+    "LED charging indicators",
+    "Stable console stand for PS5",
+    "USB-C powered",
+    "Anti-slip pads"
+   ]
+  },
+  {
+   "brand": "Sony",
+   "name": "PS5 Console Cover Plates (Custom Colours)",
+   "category": "gaming-accessories",
+   "price": 400,
+   "price_range": "GHS 300 - 500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Midnight Black",
+     "delta": 0
+    },
+    {
+     "name": "Cosmic Red",
+     "delta": 0
+    },
+    {
+     "name": "Nova Pink",
+     "delta": 0
+    },
+    {
+     "name": "Galactic Purple",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Officially licensed snap-on covers",
+    "Easy installation without tools",
+    "Matte finish",
+    "Fits PS5 and PS5 Slim"
+   ]
+  },
+  {
+   "brand": "Seagate",
+   "name": "Seagate 1TB External Hard Drive for Game Storage",
+   "category": "gaming-accessories",
+   "price": 1200,
+   "price_range": "GHS 1,000 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1TB",
+     "delta": 0
+    },
+    {
+     "name": "2TB",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "USB 3.0 connection",
+    "Plug-and-play with PS4, PS5 and Xbox",
+    "Portable bus-powered design",
+    "Compatible with PC and Mac"
+   ]
+  },
+  {
+   "brand": "UGREEN",
+   "name": "UGREEN HDMI 2.1 4K@120Hz Cable 2m",
+   "category": "gaming-accessories",
+   "price": 250,
+   "price_range": "GHS 180 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2m",
+     "delta": 0
+    },
+    {
+     "name": "1.5m",
+     "delta": -30
+    },
+    {
+     "name": "3m",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Supports 4K@120Hz and 8K@60Hz",
+    "HDMI 2.1 certified with 48Gbps bandwidth",
+    "VRR, ALLM and eARC support",
+    "24K gold-plated connectors",
+    "Braided nylon jacket"
+   ]
+  },
+  {
+   "brand": "GTRacing",
+   "name": "GTRacing GT890 Series Racing Gaming Chair",
+   "category": "gaming-chairs",
+   "price": 3500,
+   "price_range": "GHS 3,200 - 4,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Red/Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue/Black",
+     "delta": 0
+    },
+    {
+     "name": "White/Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Reclining backrest up to 180 degrees",
+    "Height-adjustable seat",
+    "PU leather with foam padding",
+    "Adjustable armrests",
+    "Supports up to 150kg"
+   ]
+  },
+  {
+   "brand": "GTRacing",
+   "name": "GTRacing Pro Series Gaming Chair with Footrest",
+   "category": "gaming-chairs",
+   "price": 2800,
+   "price_range": "GHS 2,500 - 3,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black/Green",
+     "delta": 0
+    },
+    {
+     "name": "Black/Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Retractable footrest",
+    "Lumbar and headrest cushions included",
+    "Multi-directional armrests",
+    "Reclines to 160 degrees",
+    "Smooth-rolling caster wheels"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Racing Style Gaming Chair with Lumbar Support (Red/Black)",
+   "category": "gaming-chairs",
+   "price": 2200,
+   "price_range": "GHS 1,900 - 2,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Red/Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue/Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "High-back racing design",
+    "PU leather upholstery",
+    "Height and recline adjustment",
+    "Lumbar support cushion",
+    "Max load 120kg"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Ergonomic Gaming Chair with Footrest (Black)",
+   "category": "gaming-chairs",
+   "price": 3000,
+   "price_range": "GHS 2,700 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fold-out footrest",
+    "4D adjustable armrests",
+    "Lumbar and neck pillows",
+    "150-degree recline",
+    "Class-4 gas lift"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "High-Back PU Leather Gaming Chair (Blue/Black)",
+   "category": "gaming-chairs",
+   "price": 2500,
+   "price_range": "GHS 2,200 - 2,900",
+   "sale": 2200,
+   "variants": [
+    {
+     "name": "Blue/Black",
+     "delta": 0
+    },
+    {
+     "name": "Red/Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "High-back ergonomic design",
+    "PU leather upholstery",
+    "Adjustable seat height",
+    "Reclining backrest",
+    "Aluminium base with caster wheels"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Youth Gaming Chair - Racing Design (Pink)",
+   "category": "gaming-chairs",
+   "price": 1500,
+   "price_range": "GHS 1,200 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Pink",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Compact size for kids and teens",
+    "Ergonomic back support",
+    "Height-adjustable seat",
+    "PU leather finish",
+    "Max load 80kg"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Budget Racing Gaming Chair with Headrest",
+   "category": "gaming-chairs",
+   "price": 1800,
+   "price_range": "GHS 1,500 - 2,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black/Red",
+     "delta": 0
+    },
+    {
+     "name": "Black/Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Reclining backrest",
+    "Adjustable armrests",
+    "Headrest cushion included",
+    "Breathable fabric and PU mix",
+    "Sturdy steel frame"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Premium Office-Gaming Chair with Headrest (Black)",
+   "category": "gaming-chairs",
+   "price": 4000,
+   "price_range": "GHS 3,600 - 4,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Full ergonomic lumbar support",
+    "4D armrests and 180-degree recline",
+    "Memory foam cushions",
+    "Heavy-duty 5-star base",
+    "Supports up to 160kg"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Google Nest Hub (2nd Gen) Smart Display",
+   "category": "smart-home-devices",
+   "price": 2400,
+   "price_range": "GHS 2,100 - 2,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Chalk",
+     "delta": 0
+    },
+    {
+     "name": "Charcoal",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "7-inch touchscreen display",
+    "Built-in Google Assistant",
+    "Sleep Sensing feature (requires Fitbit Premium)",
+    "Video calling via Google Meet",
+    "Works with 50,000+ smart home devices"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo Show 5 (3rd Gen) Smart Display",
+   "category": "smart-home-devices",
+   "price": 1700,
+   "price_range": "GHS 1,500 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Charcoal",
+     "delta": 0
+    },
+    {
+     "name": "Deep Sea Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.5-inch HD touchscreen",
+    "Built-in Alexa",
+    "13MP camera with shutter",
+    "Built-in Zigbee smart home hub",
+    "Video calls and photo display"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo C200 Pan/Tilt Home Security Camera",
+   "category": "smart-home-devices",
+   "price": 450,
+   "price_range": "GHS 350 - 550",
+   "sale": null,
+   "variants": [
+    {
+     "name": "C200 360-degree",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1080p Full HD video",
+    "360-degree pan and 114-degree tilt",
+    "Night vision up to 9m",
+    "Two-way audio",
+    "MicroSD card storage (up to 128GB)"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo C100 Home Security Camera",
+   "category": "smart-home-devices",
+   "price": 380,
+   "price_range": "GHS 300 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "C100 Fixed",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1080p Full HD video",
+    "Night vision up to 9m",
+    "Motion detection with alerts",
+    "Two-way audio",
+    "MicroSD card storage (up to 128GB)"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Mi 360\u00b0 Home Security Camera 2K",
+   "category": "smart-home-devices",
+   "price": 500,
+   "price_range": "GHS 400 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2K (2304x1296) video resolution",
+    "360-degree horizontal rotation",
+    "Dual-band Wi-Fi",
+    "AI human motion detection",
+    "MicroSD storage up to 256GB"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo H100 Smart Hub",
+   "category": "smart-home-devices",
+   "price": 500,
+   "price_range": "GHS 400 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Tapo H100 Hub",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Connects Tapo sensors and buttons",
+    "Local automation without internet",
+    "Works with Alexa and Google Assistant",
+    "Up to 64 devices per hub",
+    "USB-powered"
+   ]
+  },
+  {
+   "brand": "Aqara",
+   "name": "Aqara Smart Home Sensor Kit (Motion, Door, Temp)",
+   "category": "smart-home-devices",
+   "price": 600,
+   "price_range": "GHS 500 - 750",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Sensor Kit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Includes motion, door/window and temperature sensors",
+    "Zigbee 3.0 connectivity",
+    "Works with Apple HomeKit, Alexa and Google",
+    "Requires Aqara Hub",
+    "Low-power battery operation"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo C310 Outdoor Security Camera",
+   "category": "smart-home-devices",
+   "price": 600,
+   "price_range": "GHS 500 - 720",
+   "sale": null,
+   "variants": [
+    {
+     "name": "C310 IP66",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2K QHD video",
+    "IP66 weatherproof housing",
+    "Colour night vision",
+    "Motion detection zones",
+    "MicroSD storage up to 256GB"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Smart Video Doorbell 3",
+   "category": "smart-home-devices",
+   "price": 700,
+   "price_range": "GHS 550 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Doorbell 3",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2K video doorbell",
+    "AI human detection",
+    "Two-way talk",
+    "Night vision",
+    "Local or cloud storage options"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo C210 Pan/Tilt 2K Camera",
+   "category": "smart-home-devices",
+   "price": 480,
+   "price_range": "GHS 380 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "C210 2K",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2K QHD video",
+    "360-degree pan and tilt",
+    "AI motion tracking",
+    "Night vision",
+    "MicroSD storage up to 256GB"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo P100 Mini Smart Wi-Fi Plug",
+   "category": "smart-plugs",
+   "price": 220,
+   "price_range": "GHS 180 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Remote on/off control via Tapo app",
+    "Schedule and timer functions",
+    "Voice control with Alexa and Google Assistant",
+    "Away Mode for security",
+    "Max load 16A"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo P110 Energy Monitoring Smart Plug",
+   "category": "smart-plugs",
+   "price": 260,
+   "price_range": "GHS 200 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Real-time energy monitoring",
+    "Remote control via Tapo app",
+    "Schedule and timer",
+    "Voice control via Alexa/Google",
+    "Max load 16A"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Mi Smart Plug WiFi",
+   "category": "smart-plugs",
+   "price": 349,
+   "price_range": "GHS 300 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Mi Smart Plug",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi control via Mi Home app",
+    "Timer and countdown",
+    "Overheat and overcurrent protection",
+    "Works with Google Assistant",
+    "Max load 2200W"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Tuya WiFi Smart Plug 16A (UK Standard)",
+   "category": "smart-plugs",
+   "price": 150,
+   "price_range": "GHS 100 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "16A UK Plug",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi control via Tuya/Smart Life app",
+    "Voice control with Alexa and Google",
+    "Timer and schedule",
+    "Max load 16A / 3680W",
+    "No hub required"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Tuya Mini Smart Plug with Energy Monitoring",
+   "category": "smart-plugs",
+   "price": 129,
+   "price_range": "GHS 100 - 170",
+   "sale": 99,
+   "variants": [
+    {
+     "name": "Mini 13A",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Compact mini design",
+    "Energy monitoring",
+    "Voice control with Alexa and Google",
+    "App remote control",
+    "Max load 13A / 3120W"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo P100 Smart Plug 2-Pack",
+   "category": "smart-plugs",
+   "price": 400,
+   "price_range": "GHS 340 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Two Tapo P100 plugs in one box",
+    "Remote control via Tapo app",
+    "Schedule and timer",
+    "Voice control via Alexa/Google",
+    "Away Mode"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Heavy Duty 16A WiFi Smart Plug (UK Standard)",
+   "category": "smart-plugs",
+   "price": 180,
+   "price_range": "GHS 140 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "16A Heavy Duty",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Heavy-duty 16A rating for appliances",
+    "App remote control",
+    "Voice control with Google Home and Alexa",
+    "No hub required",
+    "UK 3-pin standard"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo L510E Smart Wi-Fi Bulb (Dimmable)",
+   "category": "smart-lights",
+   "price": 220,
+   "price_range": "GHS 170 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Warm White E27",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 180
+    }
+   ],
+   "specs": [
+    "Dimmable from 1% to 100%",
+    "2700K warm white",
+    "8.7W LED, 806 lumens",
+    "Schedule and timer via Tapo app",
+    "Voice control with Alexa and Google"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo L530E RGB Smart Light Bulb",
+   "category": "smart-lights",
+   "price": 320,
+   "price_range": "GHS 250 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "RGBW E27",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "16 million colours plus white",
+    "Dimmable brightness",
+    "8.7W LED, 806 lumens",
+    "Scenes and schedules in Tapo app",
+    "Works with Alexa, Google and SmartThings"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Tapo L900 Smart LED Strip 5m",
+   "category": "smart-lights",
+   "price": 350,
+   "price_range": "GHS 280 - 450",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5m RGB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5m RGB LED strip",
+    "16 million colours",
+    "Music sync mode",
+    "Adhesive backing for easy install",
+    "Voice control via Alexa and Google"
+   ]
+  },
+  {
+   "brand": "Yeelight",
+   "name": "Yeelight Smart LED Bulb (Color) E27",
+   "category": "smart-lights",
+   "price": 250,
+   "price_range": "GHS 200 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "RGB E27",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "16 million RGB colours",
+    "Dimmable white light",
+    "Works with Google Home and Alexa",
+    "Mi Home app control",
+    "9W, 800 lumens"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Tuya WiFi RGB LED Bulb E27",
+   "category": "smart-lights",
+   "price": 180,
+   "price_range": "GHS 130 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "RGB E27",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 140
+    }
+   ],
+   "specs": [
+    "RGB colour changing",
+    "Dimmable",
+    "Voice control via Alexa and Google",
+    "Smart Life/Tuya app",
+    "No hub required"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Smart WiFi LED Strip 10m RGB with Remote",
+   "category": "smart-lights",
+   "price": 300,
+   "price_range": "GHS 240 - 380",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10m RGB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10m RGB strip with remote",
+    "App control via Tuya/Smart Life",
+    "Music sync mode",
+    "Adhesive backing",
+    "IP20 indoor rating"
+   ]
+  },
+  {
+   "brand": "Yeelight",
+   "name": "Yeelight Smart LED Ceiling Light 45cm",
+   "category": "smart-lights",
+   "price": 700,
+   "price_range": "GHS 550 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "45cm White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Brightness adjustable 2700K-6500K",
+    "Remote and app control",
+    "Memory function for last brightness",
+    "Suitable for living rooms and bedrooms",
+    "Works with Google Assistant and Alexa"
+   ]
+  },
+  {
+   "brand": "Tuya",
+   "name": "Smart WiFi Table Lamp with RGB Lighting",
+   "category": "smart-lights",
+   "price": 400,
+   "price_range": "GHS 320 - 500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "RGB Table Lamp",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "RGB and white lighting modes",
+    "Touch and app control",
+    "Timer and schedule",
+    "USB charging port",
+    "Works with Alexa and Google"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Google Nest Mini (2nd Gen) Smart Speaker",
+   "category": "smart-speakers",
+   "price": 1050,
+   "price_range": "GHS 900 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Chalk",
+     "delta": 0
+    },
+    {
+     "name": "Charcoal",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Google Assistant built-in",
+    "40mm driver with stronger bass",
+    "3 far-field microphones",
+    "Voice Match technology",
+    "Chromecast built-in"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Google Nest Audio Smart Speaker",
+   "category": "smart-speakers",
+   "price": 1700,
+   "price_range": "GHS 1,500 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Chalk",
+     "delta": 0
+    },
+    {
+     "name": "Charcoal",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "50% louder and 50% stronger bass than Nest Mini",
+    "Google Assistant built-in",
+    "3 far-field microphones",
+    "Bluetooth and Chromecast built-in",
+    "Fabric finish, recycled materials"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo Dot (5th Gen) Smart Speaker",
+   "category": "smart-speakers",
+   "price": 750,
+   "price_range": "GHS 650 - 900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Charcoal",
+     "delta": 0
+    },
+    {
+     "name": "Deep Sea Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Alexa voice assistant",
+    "Improved audio with deeper bass",
+    "Temperature sensor built-in",
+    "Built-in Eero Wi-Fi extender",
+    "Smart home hub capabilities"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo Dot (5th Gen) with Clock",
+   "category": "smart-speakers",
+   "price": 900,
+   "price_range": "GHS 780 - 1,050",
+   "sale": null,
+   "variants": [
+    {
+     "name": "With Clock - Charcoal",
+     "delta": 0
+    },
+    {
+     "name": "With Clock - Cloud Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "LED display showing time and weather",
+    "Alexa voice assistant",
+    "Tap gestures for snooze and timer",
+    "Temperature sensor",
+    "Eero Wi-Fi extender built-in"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo (4th Gen) Smart Speaker",
+   "category": "smart-speakers",
+   "price": 1600,
+   "price_range": "GHS 1,400 - 1,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Charcoal",
+     "delta": 0
+    },
+    {
+     "name": "Twilight Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "360-degree room-filling audio",
+    "Built-in Zigbee smart home hub",
+    "Alexa voice assistant",
+    "3x passive radiators for deep bass",
+    "Bluetooth and Wi-Fi connectivity"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo Pop Smart Speaker",
+   "category": "smart-speakers",
+   "price": 650,
+   "price_range": "GHS 550 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Lavender Bloom",
+     "delta": 0
+    },
+    {
+     "name": "Charcoal",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Compact half-sphere design",
+    "Alexa voice assistant",
+    "Front-firing speaker",
+    "Privacy mic-off button",
+    "Works with smart home devices"
+   ]
+  },
+  {
+   "brand": "Amazon",
+   "name": "Amazon Echo Studio Smart Speaker",
+   "category": "smart-speakers",
+   "price": 3000,
+   "price_range": "GHS 2,700 - 3,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5-speaker array with Dolby Atmos",
+    "Studio-quality sound",
+    "Built-in Zigbee smart home hub",
+    "Alexa voice assistant",
+    "Fire TV as TV speaker"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Smart Speaker with Google Assistant",
+   "category": "smart-speakers",
+   "price": 900,
+   "price_range": "GHS 750 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Google Assistant built-in",
+    "360-degree sound",
+    "DML display with clock",
+    "Music streaming and smart home control",
+    "Wi-Fi and Bluetooth 5.0"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer AX10 AX1500 Wi-Fi 6 Router",
+   "category": "wi-fi-routers",
+   "price": 1849,
+   "price_range": "GHS 1,700 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX1500 (Archer AX10)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 (802.11ax) up to 1.5Gbps",
+    "Dual-band 2.4GHz + 5GHz",
+    "4x Gigabit LAN ports + 1x WAN",
+    "OFDMA and MU-MIMO",
+    "TP-Link Tether app setup"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer AX23 AX1800 Dual-Band Wi-Fi 6 Router",
+   "category": "wi-fi-routers",
+   "price": 2100,
+   "price_range": "GHS 1,900 - 2,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX1800 (Archer AX23)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 up to 1.8Gbps",
+    "4x external antennas",
+    "4x Gigabit LAN ports",
+    "WPA3 security",
+    "TP-Link HomeShield included"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer AX55 AX3000 Gigabit Wi-Fi 6 Router",
+   "category": "wi-fi-routers",
+   "price": 2800,
+   "price_range": "GHS 2,500 - 3,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX3000 (Archer AX55)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 up to 3.0Gbps",
+    "Gigabit WAN and 4x Gigabit LAN",
+    "USB 3.0 port for media sharing",
+    "OFDMA and MU-MIMO",
+    "WPA3 security"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer AX73 AX5400 Wi-Fi 6 Router",
+   "category": "wi-fi-routers",
+   "price": 3800,
+   "price_range": "GHS 3,400 - 4,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX5400 (Archer AX73)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 up to 5.4Gbps",
+    "6x antennas with Beamforming",
+    "Gigabit WAN + 4x LAN",
+    "USB 3.0 port",
+    "High-power amplifiers for wider coverage"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer AX90 AX6600 Tri-Band Wi-Fi 6 Router",
+   "category": "wi-fi-routers",
+   "price": 5500,
+   "price_range": "GHS 5,000 - 6,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX6600 (Archer AX90)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Tri-band Wi-Fi 6 up to 6.6Gbps",
+    "1x 2.5Gbps + 4x Gigabit LAN ports",
+    "USB 3.0 port",
+    "Gaming mode with low latency",
+    "WPA3 and HomeShield"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer C6 AC1200 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 850,
+   "price_range": "GHS 700 - 1,000",
+   "sale": 750,
+   "variants": [
+    {
+     "name": "AC1200 (Archer C6)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band Wi-Fi",
+    "4x Gigabit LAN ports",
+    "4x external antennas",
+    "MU-MIMO technology",
+    "Supports Alexa voice control"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer C80 AC1900 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 1200,
+   "price_range": "GHS 1,050 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1900 (Archer C80)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1900 dual-band speeds",
+    "4x Gigabit LAN + 1x WAN",
+    "4x external antennas",
+    "MU-MIMO and beamforming",
+    "WPA2/WPA3 encryption"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda AC10 AC1200 Dual-Band Gigabit Router",
+   "category": "wi-fi-routers",
+   "price": 330,
+   "price_range": "GHS 280 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (AC10)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band Wi-Fi",
+    "Gigabit WAN + 3x Gigabit LAN",
+    "4x 5dBi external antennas",
+    "MU-MIMO support",
+    "App-based management"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda AC23 AC2100 Dual-Band Gigabit Router",
+   "category": "wi-fi-routers",
+   "price": 450,
+   "price_range": "GHS 380 - 550",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC2100 (AC23)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC2100 dual-band speeds",
+    "7x high-gain antennas",
+    "Gigabit WAN + 3x Gigabit LAN",
+    "Beamforming technology",
+    "IP-based bandwidth control"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda RX3 AX3000 Wi-Fi 6 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 700,
+   "price_range": "GHS 580 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX3000 (RX3)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 up to 3.0Gbps",
+    "4x Gigabit ports",
+    "OFDMA and MU-MIMO",
+    "WPA3 security",
+    "Tenda app management"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda AC6 AC1200 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 350,
+   "price_range": "GHS 280 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (AC6)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band Wi-Fi",
+    "4x 5dBi external antennas",
+    "2x Gigabit LAN + 1x WAN",
+    "MU-MIMO",
+    "Guest network support"
+   ]
+  },
+  {
+   "brand": "D-Link",
+   "name": "D-Link DIR-825 AC1200 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 500,
+   "price_range": "GHS 420 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (DIR-825)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band Wi-Fi",
+    "4x Gigabit LAN ports",
+    "3x external antennas",
+    "MU-MIMO",
+    "D-Link Wi-Fi app setup"
+   ]
+  },
+  {
+   "brand": "D-Link",
+   "name": "D-Link DIR-1260 AC1300 Dual-Band Router",
+   "category": "wi-fi-routers",
+   "price": 600,
+   "price_range": "GHS 500 - 720",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1300 (DIR-1260)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1300 dual-band Wi-Fi",
+    "4x Gigabit LAN ports",
+    "4x external antennas",
+    "MU-MIMO and SmartConnect",
+    "Parental controls"
+   ]
+  },
+  {
+   "brand": "MikroTik",
+   "name": "MikroTik hEX RB750Gr3 5-Port Gigabit Router",
+   "category": "wi-fi-routers",
+   "price": 1100,
+   "price_range": "GHS 950 - 1,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "hEX RB750Gr3",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5x Gigabit Ethernet ports",
+    "Dual-core 880MHz CPU",
+    "256MB RAM, 16MB flash",
+    "RouterOS Level 4",
+    "PoE-in support"
+   ]
+  },
+  {
+   "brand": "MikroTik",
+   "name": "MikroTik hAP ac2 RB952Ui-5ac2nD Access Point Router",
+   "category": "wi-fi-routers",
+   "price": 900,
+   "price_range": "GHS 750 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "hAP ac2",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Dual-band AC Wi-Fi (2.4GHz + 5GHz)",
+    "5x Gigabit Ethernet ports",
+    "Dual-core 716MHz CPU",
+    "RouterOS Level 4",
+    "Compact desktop design"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer VR2100 VDSL/ADSL Modem Router",
+   "category": "modems",
+   "price": 900,
+   "price_range": "GHS 780 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC2100 VDSL/ADSL",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC2100 dual-band Wi-Fi",
+    "VDSL2/ADSL2+ modem built-in",
+    "4x Gigabit LAN ports",
+    "USB 2.0 port",
+    "IPv6 support"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TD-W9960 300Mbps VDSL/ADSL Modem Router",
+   "category": "modems",
+   "price": 450,
+   "price_range": "GHS 380 - 550",
+   "sale": null,
+   "variants": [
+    {
+     "name": "N300 VDSL/ADSL",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "VDSL2/ADSL2+ modem",
+    "300Mbps Wi-Fi on 2.4GHz",
+    "4x Fast Ethernet LAN ports",
+    "USB port for file sharing",
+    "Easy web-based setup"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TD-W9970 ADSL2+ Modem Router",
+   "category": "modems",
+   "price": 380,
+   "price_range": "GHS 300 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "N300 ADSL2+",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "ADSL2+ / ADSL2 / ADSL compatible",
+    "300Mbps Wi-Fi",
+    "3x Fast Ethernet LAN + 1x WAN",
+    "WPS push-button setup",
+    "IPv6 support"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link M7350 4G LTE Mobile Wi-Fi Hotspot",
+   "category": "modems",
+   "price": 1200,
+   "price_range": "GHS 1,050 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4G LTE Hotspot",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4G LTE Cat4 up to 150Mbps",
+    "Wi-Fi for up to 10 devices",
+    "Built-in 2000mAh battery",
+    "OLED display",
+    "MicroSD card slot"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link Archer MR600 4G LTE Cat6 Router",
+   "category": "modems",
+   "price": 2000,
+   "price_range": "GHS 1,800 - 2,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4G LTE Cat6",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4G LTE Cat6 up to 300Mbps",
+    "AC1200 dual-band Wi-Fi",
+    "4x Gigabit LAN ports",
+    "2x external 4G antennas",
+    "SIM slot for MTN, Vodafone, AirtelTigo"
+   ]
+  },
+  {
+   "brand": "Huawei",
+   "name": "Huawei B310 4G LTE Wi-Fi Router",
+   "category": "modems",
+   "price": 900,
+   "price_range": "GHS 750 - 1,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4G LTE CPE",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4G LTE up to 150Mbps",
+    "Wi-Fi 802.11b/g/n",
+    "4x Ethernet LAN ports",
+    "SIM slot for all Ghanaian networks",
+    "External antenna connectors"
+   ]
+  },
+  {
+   "brand": "ZTE",
+   "name": "ZTE MF283+ 4G LTE Wi-Fi Router",
+   "category": "modems",
+   "price": 850,
+   "price_range": "GHS 700 - 1,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4G LTE CPE",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4G LTE up to 150Mbps",
+    "Dual-band Wi-Fi AC",
+    "4x Gigabit LAN ports",
+    "Phone port (FXS) for landline",
+    "SIM slot for local networks"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG108 8-Port Gigabit Desktop Switch",
+   "category": "network-switches",
+   "price": 450,
+   "price_range": "GHS 350 - 550",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8x 10/100/1000Mbps RJ45 ports",
+    "Auto-MDI/MDIX",
+    "Green Ethernet power saving",
+    "Plug and play, fanless",
+    "Metal housing"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG1008D 8-Port Gigabit Switch",
+   "category": "network-switches",
+   "price": 520,
+   "price_range": "GHS 420 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8x 10/100/1000Mbps ports",
+    "Auto-negotiation on all ports",
+    "Energy-efficient design",
+    "Desktop or wall-mount",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link LS1008G 8-Port Gigabit LiteWave Switch",
+   "category": "network-switches",
+   "price": 385,
+   "price_range": "GHS 300 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8x 10/100/1000Mbps RJ45 ports",
+    "Auto-MDI/MDIX",
+    "Fanless quiet operation",
+    "Plastic housing",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG1005D 5-Port Gigabit Desktop Switch",
+   "category": "network-switches",
+   "price": 250,
+   "price_range": "GHS 190 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5x 10/100/1000Mbps ports",
+    "Auto-negotiation and auto MDI/MDIX",
+    "Compact desktop design",
+    "Fanless",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG1016D 16-Port Gigabit Switch",
+   "category": "network-switches",
+   "price": 700,
+   "price_range": "GHS 580 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "16-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "16x 10/100/1000Mbps ports",
+    "Desktop or rack-mount design",
+    "Green Ethernet technology",
+    "IEEE 802.3x flow control",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG1024D 24-Port Gigabit Switch",
+   "category": "network-switches",
+   "price": 1040,
+   "price_range": "GHS 900 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "24-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "24x 10/100/1000Mbps ports",
+    "Desktop or rack-mount",
+    "Auto-MDI/MDIX",
+    "Green Ethernet power saving",
+    "Fanless design"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch",
+   "category": "network-switches",
+   "price": 700,
+   "price_range": "GHS 580 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5-Port PoE",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5x Gigabit ports, 4x PoE+",
+    "PoE budget 65W",
+    "Powers IP cameras and APs",
+    "Plug and play",
+    "Metal casing"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda SG108 8-Port Gigabit Desktop Switch",
+   "category": "network-switches",
+   "price": 300,
+   "price_range": "GHS 230 - 380",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Port Gigabit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8x 10/100/1000Mbps ports",
+    "Auto-MDI/MDIX",
+    "Fanless and silent",
+    "Plug and play",
+    "Compact design"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE305 AC1200 Dual-Band Wi-Fi Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 480,
+   "price_range": "GHS 380 - 599",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (RE305)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band speeds",
+    "2x external antennas",
+    "Intelligent signal indicator light",
+    "Access Point mode",
+    "OneMesh support"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE200 AC750 Dual-Band Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 400,
+   "price_range": "GHS 320 - 500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC750 (RE200)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC750 dual-band speeds",
+    "2x external antennas",
+    "WPS one-touch setup",
+    "Smart signal indicator",
+    "Wall-plug design"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE300 AC1200 Dual-Band Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 500,
+   "price_range": "GHS 400 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (RE300)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band speeds",
+    "Universal compatibility",
+    "AP mode supported",
+    "Compact wall-plug design",
+    "WPS setup"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE315 AC1200 Mesh Wi-Fi Extender",
+   "category": "wi-fi-extenders",
+   "price": 550,
+   "price_range": "GHS 450 - 680",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (RE315)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band speeds",
+    "OneMesh support",
+    "Gigabit Ethernet port",
+    "Intelligent signal light",
+    "WPS one-touch setup"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE650 AC2600 Dual-Band Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 1000,
+   "price_range": "GHS 850 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC2600 (RE650)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC2600 dual-band speeds",
+    "4x external antennas",
+    "Gigabit Ethernet port",
+    "High-power amplifiers",
+    "Access Point mode"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link RE605X AX1500 Wi-Fi 6 Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 1200,
+   "price_range": "GHS 1,050 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AX1500 (RE605X)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wi-Fi 6 up to 1.5Gbps",
+    "OneMesh support",
+    "Gigabit Ethernet port",
+    "Smart signal indicator",
+    "WPA3 security"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda A9 N300 Wi-Fi Range Extender",
+   "category": "wi-fi-extenders",
+   "price": 250,
+   "price_range": "GHS 180 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "N300 (A9)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "300Mbps on 2.4GHz",
+    "2x external antennas",
+    "WPS one-touch setup",
+    "Wall-plug design",
+    "AP mode"
+   ]
+  },
+  {
+   "brand": "Tenda",
+   "name": "Tenda A18 AC1200 Dual-Band Wi-Fi Extender",
+   "category": "wi-fi-extenders",
+   "price": 380,
+   "price_range": "GHS 300 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "AC1200 (A18)",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "AC1200 dual-band speeds",
+    "3x external antennas",
+    "Signal indicator",
+    "WPS setup",
+    "Wall-plug design"
+   ]
+  },
+  {
+   "brand": "D-Link",
+   "name": "D-Link Cat6 UTP 24AWG Patch Cord 5m (Grey)",
+   "category": "network-cables",
+   "price": 75,
+   "price_range": "GHS 55 - 95",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5m Grey",
+     "delta": 0
+    },
+    {
+     "name": "3m Grey",
+     "delta": -20
+    },
+    {
+     "name": "10m Grey",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Cat6 UTP, 24AWG",
+    "Gigabit Ethernet ready",
+    "Snagless RJ45 connectors",
+    "PVC jacket",
+    "250MHz bandwidth"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat6 Ethernet Cable 1m (White)",
+   "category": "network-cables",
+   "price": 40,
+   "price_range": "GHS 25 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "0.5m",
+     "delta": -10
+    },
+    {
+     "name": "2m",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Cat6 UTP cable",
+    "RJ45 connectors",
+    "Gigabit speed support",
+    "PVC jacket",
+    "For PC, router, switch and console"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat6 Ethernet Cable 10m (Black)",
+   "category": "network-cables",
+   "price": 120,
+   "price_range": "GHS 90 - 150",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10m",
+     "delta": 0
+    },
+    {
+     "name": "15m",
+     "delta": 60
+    },
+    {
+     "name": "20m",
+     "delta": 100
+    }
+   ],
+   "specs": [
+    "Cat6 UTP 4-pair",
+    "RJ45 shielded connectors",
+    "10/100/1000Mbps support",
+    "Durable PVC jacket",
+    "Works with routers, switches and consoles"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat6 UTP Ethernet Cable 20m (Blue)",
+   "category": "network-cables",
+   "price": 200,
+   "price_range": "GHS 150 - 260",
+   "sale": null,
+   "variants": [
+    {
+     "name": "20m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cat6 UTP cable",
+    "Gigabit Ethernet rated",
+    "RJ45 connectors",
+    "Suitable for home and office",
+    "Low signal loss over distance"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat5e Ethernet Cable 5m (Yellow)",
+   "category": "network-cables",
+   "price": 55,
+   "price_range": "GHS 35 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5m",
+     "delta": 0
+    },
+    {
+     "name": "10m",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Cat5e UTP cable",
+    "Fast Ethernet and gigabit compatible",
+    "RJ45 connectors",
+    "PVC jacket",
+    "Snagless boot"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat6 UTP Cable 305m Roll (Box, 23AWG)",
+   "category": "network-cables",
+   "price": 2500,
+   "price_range": "GHS 2,200 - 2,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "305m Box - Pure Copper",
+     "delta": 0
+    },
+    {
+     "name": "305m Box - CCA",
+     "delta": -700
+    }
+   ],
+   "specs": [
+    "305m Cat6 UTP cable",
+    "23AWG 4-pair",
+    "250MHz bandwidth",
+    "Gigabit Ethernet rated",
+    "For structured cabling installations"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Flat Cat6 Ethernet Cable 3m (White)",
+   "category": "network-cables",
+   "price": 60,
+   "price_range": "GHS 40 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3m",
+     "delta": 0
+    },
+    {
+     "name": "5m",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Flat profile for cable routing",
+    "Cat6 gigabit rated",
+    "RJ45 connectors",
+    "Flexible PVC jacket",
+    "Works with routers, PCs and consoles"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "RJ45 Crimping Tool Kit with Stripper",
+   "category": "network-accessories",
+   "price": 250,
+   "price_range": "GHS 180 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard Kit",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8P8C RJ45 crimping tool",
+    "Cable stripper and cutter",
+    "Supports Cat5e/Cat6",
+    "Ergonomic handles",
+    "For LAN cable termination"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Cat6 RJ45 Connectors (100 Pack)",
+   "category": "network-accessories",
+   "price": 120,
+   "price_range": "GHS 80 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Pack - Standard",
+     "delta": 0
+    },
+    {
+     "name": "100 Pack - Shielded",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "8P8C RJ45 plug connectors",
+    "Compatible with Cat6 UTP cable",
+    "Gold-plated contacts",
+    "Reusable packaging box",
+    "For 23-26AWG cable"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Network Wall Plate with RJ45 Keystone (White)",
+   "category": "network-accessories",
+   "price": 80,
+   "price_range": "GHS 50 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single Gang",
+     "delta": 0
+    },
+    {
+     "name": "Double Gang",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Single RJ45 keystone socket",
+    "Tool-free termination (Cat6 rated)",
+    "White ABS faceplate",
+    "Fits standard wall boxes",
+    "Screw fixing included"
+   ]
+  },
+  {
+   "brand": "Generic",
+   "name": "Ethernet Cable Tester (RJ45/RJ11)",
+   "category": "network-accessories",
+   "price": 150,
+   "price_range": "GHS 100 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "LED Tester",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Tests RJ45 and RJ11 cables",
+    "8 LED continuity indicators",
+    "Remote unit for long cables",
+    "Battery powered",
+    "For installers and technicians"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-WN725N 150Mbps Nano USB Wi-Fi Adapter",
+   "category": "network-accessories",
+   "price": 120,
+   "price_range": "GHS 80 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nano 150Mbps",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "150Mbps on 2.4GHz",
+    "Nano size, plug and forget",
+    "USB 2.0",
+    "WPA/WPA2 security",
+    "Windows, macOS and Linux support"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link TL-WN823N 300Mbps USB Wi-Fi Adapter",
+   "category": "network-accessories",
+   "price": 180,
+   "price_range": "GHS 130 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "300Mbps USB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "300Mbps on 2.4GHz",
+    "External 2.5dBi antenna",
+    "USB 2.0",
+    "WPA2/WPA3 security",
+    "Compatible with desktop PCs"
+   ]
+  }
+ ]
+}

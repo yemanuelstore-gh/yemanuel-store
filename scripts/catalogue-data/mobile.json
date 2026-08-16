@@ -1,0 +1,7908 @@
+{
+ "source_sites": [
+  "jumia.com.gh",
+  "compughana.com",
+  "telefonika.africa/ghana",
+  "skypowergh.com",
+  "superpricegh.com",
+  "melcom.com"
+ ],
+ "products": [
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A05 64GB 4GB RAM Dual SIM",
+   "category": "smartphones",
+   "price": 899,
+   "price_range": "GHS 850 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "6.7\" HD+ 90Hz display",
+    "50MP + 2MP dual rear camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A15 128GB 4GB RAM 4G",
+   "category": "smartphones",
+   "price": 1399,
+   "price_range": "GHS 1,350 - 1,450",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.5\" Super AMOLED 90Hz",
+    "50MP triple rear camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A16 128GB 6GB RAM 5G",
+   "category": "smartphones",
+   "price": 1549,
+   "price_range": "GHS 1,500 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.7\" Super AMOLED 90Hz",
+    "50MP triple camera",
+    "5000mAh, 6 years OS updates"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A25 5G 128GB 6GB RAM",
+   "category": "smartphones",
+   "price": 1899,
+   "price_range": "GHS 1,850 - 1,950",
+   "sale": 1699,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "6.5\" Super AMOLED 120Hz",
+    "50MP OIS main camera",
+    "5000mAh with 25W charging"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A35 5G 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2399,
+   "price_range": "GHS 2,300 - 2,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "6.6\" Super AMOLED 120Hz",
+    "50MP OIS + 8MP ultrawide",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy A55 5G 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2999,
+   "price_range": "GHS 2,900 - 3,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "6.6\" Super AMOLED 120Hz",
+    "50MP OIS main camera",
+    "5000mAh, Gorilla Glass Victus+"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy S23 FE 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 4499,
+   "price_range": "GHS 4,300 - 4,700",
+   "sale": 4199,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "6.4\" Dynamic AMOLED 120Hz",
+    "50MP triple camera",
+    "4500mAh, IP68"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy S24 5G 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 8499,
+   "price_range": "GHS 8,000 - 9,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.2\" Dynamic AMOLED 2X 120Hz",
+    "50MP triple camera with Galaxy AI",
+    "4000mAh, 7 years OS updates"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy S24 Ultra 256GB 12GB RAM",
+   "category": "smartphones",
+   "price": 13299,
+   "price_range": "GHS 12,500 - 14,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 800
+    }
+   ],
+   "specs": [
+    "6.8\" QHD+ AMOLED 120Hz with S Pen",
+    "200MP quad camera with 5x zoom",
+    "5000mAh, titanium frame"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Z Flip6 256GB 12GB RAM",
+   "category": "smartphones",
+   "price": 10499,
+   "price_range": "GHS 10,000 - 11,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 700
+    }
+   ],
+   "specs": [
+    "6.7\" foldable AMOLED 120Hz",
+    "50MP dual rear camera",
+    "4000mAh, IP48"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy M15 128GB 6GB RAM",
+   "category": "smartphones",
+   "price": 1649,
+   "price_range": "GHS 1,600 - 1,700",
+   "sale": 1499,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.5\" Super AMOLED 90Hz",
+    "50MP triple camera",
+    "6000mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone SE (2022) 64GB",
+   "category": "smartphones",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "4.7\" Retina HD display",
+    "12MP single camera, A15 Bionic",
+    "5G, Touch ID"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 11 64GB",
+   "category": "smartphones",
+   "price": 2899,
+   "price_range": "GHS 2,700 - 3,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "6.1\" Liquid Retina",
+    "12MP dual camera",
+    "A13 Bionic, 3110mAh"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 12 128GB",
+   "category": "smartphones",
+   "price": 3999,
+   "price_range": "GHS 3,800 - 4,200",
+   "sale": 3699,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera",
+    "5G, MagSafe, A14 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 13 128GB",
+   "category": "smartphones",
+   "price": 4699,
+   "price_range": "GHS 4,500 - 4,900",
+   "sale": 4299,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera with sensor-shift OIS",
+    "A15 Bionic, 5G"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 13 Pro 256GB",
+   "category": "smartphones",
+   "price": 7899,
+   "price_range": "GHS 7,500 - 8,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 700
+    }
+   ],
+   "specs": [
+    "6.1\" ProMotion OLED 120Hz",
+    "12MP triple camera with LiDAR",
+    "A15 Bionic, 3095mAh"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 14 128GB",
+   "category": "smartphones",
+   "price": 8499,
+   "price_range": "GHS 8,000 - 9,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera",
+    "A15 Bionic, Crash Detection"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 15 128GB",
+   "category": "smartphones",
+   "price": 10799,
+   "price_range": "GHS 10,500 - 11,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 700
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED, Dynamic Island",
+    "48MP main camera",
+    "USB-C, A16 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPhone 15 Pro 256GB",
+   "category": "smartphones",
+   "price": 14999,
+   "price_range": "GHS 14,500 - 15,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 1000
+    }
+   ],
+   "specs": [
+    "6.1\" ProMotion OLED, titanium frame",
+    "48MP pro camera system",
+    "A17 Pro, USB-C 3.0"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Spark Go 2024 64GB 3GB RAM",
+   "category": "smartphones",
+   "price": 749,
+   "price_range": "GHS 700 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.6\" 90Hz HD+ display",
+    "13MP dual camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Spark 20 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 1149,
+   "price_range": "GHS 1,100 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.6\" 90Hz IPS display",
+    "50MP dual camera",
+    "5000mAh, Android 13"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Spark 20 Pro 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 1399,
+   "price_range": "GHS 1,350 - 1,450",
+   "sale": 1299,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.78\" 120Hz FHD+ AMOLED",
+    "108MP triple camera",
+    "5000mAh, 33W fast charge"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Camon 30 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2499,
+   "price_range": "GHS 2,400 - 2,600",
+   "sale": 2299,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.78\" FHD+ AMOLED 120Hz",
+    "50MP OIS main + 50MP selfie",
+    "5000mAh, 45W fast charge"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Camon 30 Pro 5G 256GB 12GB RAM",
+   "category": "smartphones",
+   "price": 3299,
+   "price_range": "GHS 3,200 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "6.78\" AMOLED 120Hz",
+    "50MP dual camera, 70W charging",
+    "MediaTek Dimensity 8200, 5G"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Phantom V Flip 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 7999,
+   "price_range": "GHS 7,500 - 8,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.9\" foldable AMOLED 120Hz",
+    "64MP dual rear camera",
+    "4000mAh, 45W charging"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Pova 6 Pro 256GB 12GB RAM",
+   "category": "smartphones",
+   "price": 2899,
+   "price_range": "GHS 2,800 - 3,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.78\" FHD+ AMOLED 120Hz",
+    "108MP main camera",
+    "6000mAh, 70W fast charge"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Smart 8 64GB 3GB RAM",
+   "category": "smartphones",
+   "price": 899,
+   "price_range": "GHS 850 - 950",
+   "sale": 799,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.6\" 90Hz HD+ display",
+    "13MP AI dual camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Hot 40 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "6.78\" FHD+ 120Hz display",
+    "50MP dual camera",
+    "5000mAh, 33W fast charge"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Hot 40 Pro 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 1999,
+   "price_range": "GHS 1,900 - 2,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.78\" FHD+ 120Hz",
+    "108MP triple camera",
+    "5000mAh, 33W charging"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Note 40 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2199,
+   "price_range": "GHS 2,100 - 2,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.74\" AMOLED 120Hz",
+    "108MP OIS main camera",
+    "5000mAh, 70W charging"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Zero 30 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2799,
+   "price_range": "GHS 2,700 - 2,900",
+   "sale": 2499,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.78\" AMOLED 144Hz",
+    "108MP camera, 50MP selfie 4K60",
+    "5000mAh, 68W fast charge"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix GT 10 Pro 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 3299,
+   "price_range": "GHS 3,200 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.67\" AMOLED 120Hz",
+    "108MP triple camera",
+    "5000mAh, 45W charging, Dimensity 8050"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Redmi A3 64GB 3GB RAM",
+   "category": "smartphones",
+   "price": 949,
+   "price_range": "GHS 900 - 1,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 100
+    }
+   ],
+   "specs": [
+    "6.71\" HD+ 90Hz display",
+    "8MP main camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Redmi 13C 128GB 4GB RAM",
+   "category": "smartphones",
+   "price": 1299,
+   "price_range": "GHS 1,250 - 1,350",
+   "sale": 1199,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "6.74\" HD+ 90Hz display",
+    "50MP dual camera",
+    "5000mAh, 18W charging"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Redmi Note 13 128GB 6GB RAM",
+   "category": "smartphones",
+   "price": 1899,
+   "price_range": "GHS 1,850 - 1,950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "6.67\" AMOLED 120Hz",
+    "108MP triple camera",
+    "5000mAh, 33W fast charge"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Redmi Note 13 Pro 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 2699,
+   "price_range": "GHS 2,600 - 2,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.67\" AMOLED 120Hz",
+    "200MP OIS main camera",
+    "5100mAh, 67W turbo charge"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi POCO X6 Pro 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 3199,
+   "price_range": "GHS 3,100 - 3,300",
+   "sale": 2999,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.67\" AMOLED 120Hz",
+    "64MP OIS main camera",
+    "5000mAh, 67W charging, Dimensity 8300"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 13T 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 4999,
+   "price_range": "GHS 4,800 - 5,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.67\" AMOLED 144Hz",
+    "50MP Leica triple camera",
+    "5000mAh, 67W fast charge"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia G42 5G 128GB 6GB RAM",
+   "category": "smartphones",
+   "price": 1999,
+   "price_range": "GHS 1,900 - 2,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.56\" HD+ 90Hz display",
+    "50MP triple camera",
+    "5000mAh, 20W charging, 3yr updates"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia X30 5G 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 3499,
+   "price_range": "GHS 3,400 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.43\" AMOLED 90Hz",
+    "50MP OIS dual camera",
+    "4200mAh, Gorilla Glass Victus"
+   ]
+  },
+  {
+   "brand": "OPPO",
+   "name": "OPPO A18 128GB 4GB RAM",
+   "category": "smartphones",
+   "price": 1249,
+   "price_range": "GHS 1,200 - 1,300",
+   "sale": 1149,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.56\" HD+ 90Hz display",
+    "8MP dual camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "OPPO",
+   "name": "OPPO Reno 11 256GB 8GB RAM",
+   "category": "smartphones",
+   "price": 3499,
+   "price_range": "GHS 3,400 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.7\" AMOLED 120Hz",
+    "50MP portrait camera",
+    "5000mAh, 67W SuperVOOC"
+   ]
+  },
+  {
+   "brand": "Honor",
+   "name": "Honor X7b 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 1849,
+   "price_range": "GHS 1,800 - 1,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "6.8\" 90Hz display",
+    "108MP triple camera",
+    "6000mAh, 35W fast charge"
+   ]
+  },
+  {
+   "brand": "Honor",
+   "name": "Honor 90 5G 256GB 12GB RAM",
+   "category": "smartphones",
+   "price": 4299,
+   "price_range": "GHS 4,200 - 4,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.7\" AMOLED 120Hz, 3840Hz PWM",
+    "200MP triple camera",
+    "5000mAh, 66W fast charge"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Google Pixel 8a 128GB 8GB RAM",
+   "category": "smartphones",
+   "price": 6999,
+   "price_range": "GHS 6,800 - 7,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "6.1\" Actua OLED 120Hz",
+    "64MP dual camera with Google AI",
+    "4492mAh, 7 years updates"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 7 32GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1099,
+   "price_range": "GHS 1,000 - 1,200",
+   "sale": 999,
+   "variants": [
+    {
+     "name": "32GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "4.7\" Retina display",
+    "12MP camera, Touch ID",
+    "UK used, 1960mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 7 Plus 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.5\" Retina display",
+    "12MP dual camera",
+    "UK used, 2900mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 8 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1399,
+   "price_range": "GHS 1,300 - 1,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4.7\" Retina display",
+    "12MP camera, wireless charging",
+    "UK used, A11 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 8 Plus 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "5.5\" Retina display",
+    "12MP dual camera, Portrait mode",
+    "UK used, 2691mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone X 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": 1799,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "5.8\" Super Retina OLED",
+    "12MP dual camera, Face ID",
+    "UK used, 2716mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone XS 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2299,
+   "price_range": "GHS 2,200 - 2,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.8\" Super Retina OLED",
+    "12MP dual camera, IP68",
+    "UK used, A12 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone XS Max 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2399,
+   "price_range": "GHS 2,300 - 2,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "6.5\" Super Retina OLED",
+    "12MP dual camera",
+    "UK used, 3174mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone XR 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2199,
+   "price_range": "GHS 2,100 - 2,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" Liquid Retina LCD",
+    "12MP single camera, Face ID",
+    "UK used, 2942mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 11 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2599,
+   "price_range": "GHS 2,500 - 2,700",
+   "sale": 2399,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "6.1\" Liquid Retina",
+    "12MP dual camera, Night mode",
+    "UK used, A13 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 11 Pro 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.8\" Super Retina XDR OLED",
+    "12MP triple camera",
+    "UK used, stainless steel frame"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 11 Pro Max 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 3799,
+   "price_range": "GHS 3,600 - 4,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "6.5\" Super Retina XDR OLED",
+    "12MP triple camera",
+    "UK used, 3969mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 12 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": 3599,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera, MagSafe",
+    "UK used, 5G, A14 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 12 Pro 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 4999,
+   "price_range": "GHS 4,800 - 5,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP triple camera with LiDAR",
+    "UK used, stainless steel"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 12 Pro Max 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.7\" Super Retina XDR OLED",
+    "12MP triple camera with LiDAR",
+    "UK used, 3687mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 13 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 4999,
+   "price_range": "GHS 4,800 - 5,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera with OIS",
+    "UK used, A15 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 13 Pro 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 6799,
+   "price_range": "GHS 6,500 - 7,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" ProMotion OLED 120Hz",
+    "12MP triple camera with LiDAR",
+    "UK used, A15 Bionic"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 14 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 7499,
+   "price_range": "GHS 7,200 - 7,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "6.1\" Super Retina XDR OLED",
+    "12MP dual camera",
+    "UK used, Crash Detection"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone 6s Plus 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 849,
+   "price_range": "GHS 800 - 900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5.5\" Retina display",
+    "12MP camera, Touch ID",
+    "UK used, 2750mAh battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Refurbished Apple iPhone SE (2020) 64GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": 1549,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4.7\" Retina display",
+    "12MP camera, A13 Bionic",
+    "UK used, Touch ID"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy S10+ 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.4\" Dynamic AMOLED",
+    "12MP triple camera",
+    "UK used, 4100mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy S20 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": 1799,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.2\" Dynamic AMOLED 120Hz",
+    "64MP triple camera",
+    "UK used, 4000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy S21 FE 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2799,
+   "price_range": "GHS 2,700 - 2,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "6.4\" Dynamic AMOLED 120Hz",
+    "12MP triple camera",
+    "UK used, 4500mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy S22 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 3499,
+   "price_range": "GHS 3,400 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" Dynamic AMOLED 120Hz",
+    "50MP triple camera",
+    "UK used, 3700mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy S23 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 4799,
+   "price_range": "GHS 4,600 - 5,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" Dynamic AMOLED 120Hz",
+    "50MP triple camera",
+    "UK used, Snapdragon 8 Gen 2"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy Note 20 Ultra 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 4299,
+   "price_range": "GHS 4,100 - 4,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.9\" Dynamic AMOLED 120Hz",
+    "108MP triple camera with S Pen",
+    "UK used, 4500mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy A54 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 1999,
+   "price_range": "GHS 1,900 - 2,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.4\" Super AMOLED 120Hz",
+    "50MP OIS main camera",
+    "UK used, 5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Refurbished Samsung Galaxy Z Fold 3 256GB UK Used",
+   "category": "refurbished-phones",
+   "price": 6499,
+   "price_range": "GHS 6,300 - 6,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "7.6\" foldable AMOLED 120Hz",
+    "12MP triple camera",
+    "UK used, S Pen support"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Refurbished Google Pixel 6a 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 2099,
+   "price_range": "GHS 2,000 - 2,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.1\" OLED 60Hz",
+    "12.2MP dual camera, Tensor chip",
+    "UK used, 4410mAh battery"
+   ]
+  },
+  {
+   "brand": "Google",
+   "name": "Refurbished Google Pixel 7 128GB UK Used",
+   "category": "refurbished-phones",
+   "price": 3299,
+   "price_range": "GHS 3,200 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6.3\" OLED 90Hz",
+    "50MP dual camera, Tensor G2",
+    "UK used, 4355mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 105 (2023) Dual SIM",
+   "category": "feature-phones",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1.8\" QQVGA display",
+    "FM radio, torch",
+    "1450mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 110 (2023) Dual SIM",
+   "category": "feature-phones",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1.8\" display, 0.08MP camera",
+    "MP3 player, FM radio",
+    "1450mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 225 4G Dual SIM",
+   "category": "feature-phones",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": 349,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Cyan",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.8\" QVGA display",
+    "0.3MP camera, 4G VoLTE",
+    "1150mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 3310 (2017) Dual SIM",
+   "category": "feature-phones",
+   "price": 499,
+   "price_range": "GHS 470 - 530",
+   "sale": 449,
+   "variants": [
+    {
+     "name": "Dark Blue",
+     "delta": 0
+    },
+    {
+     "name": "Yellow",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4\" QVGA display",
+    "2MP camera, Snake game",
+    "1200mAh removable battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 8210 4G Dual SIM",
+   "category": "feature-phones",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Red",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    },
+    {
+     "name": "Sand",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.8\" QVGA display",
+    "4G VoLTE, MP3 player",
+    "1450mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 6300 4G Dual SIM",
+   "category": "feature-phones",
+   "price": 599,
+   "price_range": "GHS 570 - 630",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Charcoal",
+     "delta": 0
+    },
+    {
+     "name": "Cyan",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4\" QVGA display",
+    "KaiOS, WhatsApp support",
+    "1500mAh battery"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 2660 Flip 4G",
+   "category": "feature-phones",
+   "price": 549,
+   "price_range": "GHS 520 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.8\" main + 1.77\" cover display",
+    "0.3MP camera, 4G",
+    "1450mAh battery"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno T432 Dual SIM",
+   "category": "feature-phones",
+   "price": 219,
+   "price_range": "GHS 200 - 240",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Gold",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4\" QVGA display",
+    "VGA camera, torch",
+    "1400mAh battery"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno T450 Dual SIM",
+   "category": "feature-phones",
+   "price": 269,
+   "price_range": "GHS 250 - 290",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4\" QVGA display",
+    "0.3MP camera, MP3 player",
+    "1400mAh battery"
+   ]
+  },
+  {
+   "brand": "itel",
+   "name": "itel 2166 Dual SIM",
+   "category": "feature-phones",
+   "price": 189,
+   "price_range": "GHS 170 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1.8\" display",
+    "Torch, FM radio",
+    "1200mAh battery"
+   ]
+  },
+  {
+   "brand": "itel",
+   "name": "itel Super Guru Dual SIM",
+   "category": "feature-phones",
+   "price": 159,
+   "price_range": "GHS 140 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.0\" display",
+    "Torch, FM radio",
+    "1000mAh battery"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix X1000 Dual SIM",
+   "category": "feature-phones",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Gold",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4\" QVGA display",
+    "VGA camera, torch",
+    "1400mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab A7 Lite 32GB WiFi",
+   "category": "android-tablets",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "32GB",
+     "delta": 0
+    },
+    {
+     "name": "64GB",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "8.7\" TFT display",
+    "8MP rear camera, Dolby Atmos",
+    "5100mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab A8 64GB WiFi",
+   "category": "android-tablets",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": 1749,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "128GB",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "10.5\" TFT display",
+    "8MP rear camera, quad speakers",
+    "7040mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab A9 64GB WiFi",
+   "category": "android-tablets",
+   "price": 1999,
+   "price_range": "GHS 1,900 - 2,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8.7\" TFT display",
+    "8MP rear camera",
+    "5100mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab A9+ 128GB WiFi",
+   "category": "android-tablets",
+   "price": 2499,
+   "price_range": "GHS 2,400 - 2,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "LTE",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "11\" TFT 90Hz display",
+    "8MP rear, quad speakers",
+    "7040mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab S6 Lite (2024) 128GB WiFi",
+   "category": "android-tablets",
+   "price": 3599,
+   "price_range": "GHS 3,400 - 3,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "LTE",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "10.4\" TFT 90Hz display",
+    "8MP rear camera, S Pen included",
+    "7040mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab S9 FE 128GB WiFi",
+   "category": "android-tablets",
+   "price": 5499,
+   "price_range": "GHS 5,200 - 5,800",
+   "sale": 4999,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "10.9\" IPS 90Hz display",
+    "8MP rear, IP68, S Pen included",
+    "8000mAh battery"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Tab S9 256GB WiFi",
+   "category": "android-tablets",
+   "price": 8999,
+   "price_range": "GHS 8,500 - 9,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "11\" Dynamic AMOLED 120Hz",
+    "13MP rear, IP68, S Pen included",
+    "8400mAh battery"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Padmini 2 64GB WiFi",
+   "category": "android-tablets",
+   "price": 899,
+   "price_range": "GHS 850 - 950",
+   "sale": 799,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8.4\" HD display",
+    "5MP rear camera",
+    "5000mAh battery"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Padmini 5 128GB WiFi",
+   "category": "android-tablets",
+   "price": 1299,
+   "price_range": "GHS 1,250 - 1,350",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "11\" FHD+ display",
+    "13MP rear camera, quad speakers",
+    "7000mAh battery"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix XPad 128GB WiFi",
+   "category": "android-tablets",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.61\" FHD+ 90Hz display",
+    "13MP rear camera",
+    "7000mAh battery"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix XPad Pro 256GB WiFi",
+   "category": "android-tablets",
+   "price": 2099,
+   "price_range": "GHS 2,000 - 2,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "11.5\" FHD+ 120Hz display",
+    "13MP rear camera",
+    "8200mAh battery, stylus support"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Redmi Pad SE 128GB WiFi",
+   "category": "android-tablets",
+   "price": 2199,
+   "price_range": "GHS 2,100 - 2,300",
+   "sale": 1999,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "11\" FHD+ 90Hz display",
+    "8MP rear camera, quad speakers",
+    "8000mAh battery"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Pad 6 128GB WiFi",
+   "category": "android-tablets",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "11\" WQHD+ 144Hz display",
+    "13MP rear camera",
+    "8840mAh battery, Snapdragon 870"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Pad 6S Pro 256GB WiFi",
+   "category": "android-tablets",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "12.4\" 3K 144Hz display",
+    "50MP rear camera",
+    "10000mAh battery, 120W charging"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo Tab M10 64GB WiFi",
+   "category": "android-tablets",
+   "price": 1599,
+   "price_range": "GHS 1,500 - 1,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    },
+    {
+     "name": "LTE",
+     "delta": 350
+    }
+   ],
+   "specs": [
+    "10.1\" FHD IPS display",
+    "8MP rear camera",
+    "5100mAh battery"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo Tab M11 128GB WiFi",
+   "category": "android-tablets",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "11\" FHD IPS 90Hz display",
+    "13MP rear camera, stylus support",
+    "7040mAh battery"
+   ]
+  },
+  {
+   "brand": "Huawei",
+   "name": "Huawei MatePad 11 128GB WiFi",
+   "category": "android-tablets",
+   "price": 3999,
+   "price_range": "GHS 3,800 - 4,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "11\" FHD+ 120Hz display",
+    "13MP rear camera",
+    "7250mAh battery, M-Pencil support"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia T21 64GB WiFi",
+   "category": "android-tablets",
+   "price": 2199,
+   "price_range": "GHS 2,100 - 2,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.4\" FHD+ IPS display",
+    "8MP rear camera",
+    "8200mAh battery, 3yr updates"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad 9th Generation 64GB WiFi",
+   "category": "ipads",
+   "price": 4299,
+   "price_range": "GHS 4,100 - 4,500",
+   "sale": 3999,
+   "variants": [
+    {
+     "name": "64GB WiFi",
+     "delta": 0
+    },
+    {
+     "name": "256GB WiFi",
+     "delta": 1200
+    }
+   ],
+   "specs": [
+    "10.2\" Retina display",
+    "8MP rear, 12MP front",
+    "A13 Bionic, Apple Pencil 1 support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad 10th Generation 64GB WiFi",
+   "category": "ipads",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB WiFi",
+     "delta": 0
+    },
+    {
+     "name": "256GB WiFi",
+     "delta": 1500
+    }
+   ],
+   "specs": [
+    "10.9\" Liquid Retina",
+    "12MP rear, 12MP front",
+    "A14 Bionic, USB-C"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Air 5 64GB WiFi",
+   "category": "ipads",
+   "price": 8299,
+   "price_range": "GHS 7,900 - 8,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "64GB WiFi",
+     "delta": 0
+    },
+    {
+     "name": "256GB WiFi",
+     "delta": 1800
+    }
+   ],
+   "specs": [
+    "10.9\" Liquid Retina",
+    "12MP rear, 12MP front",
+    "M1 chip, Apple Pencil 2 support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Air 5 256GB WiFi",
+   "category": "ipads",
+   "price": 9799,
+   "price_range": "GHS 9,500 - 10,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB WiFi",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.9\" Liquid Retina",
+    "12MP rear, 12MP front",
+    "M1 chip, 5G option"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Air 11-inch M2 128GB WiFi",
+   "category": "ipads",
+   "price": 10499,
+   "price_range": "GHS 10,200 - 10,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 1200
+    }
+   ],
+   "specs": [
+    "11\" Liquid Retina display",
+    "12MP rear, landscape front camera",
+    "M2 chip, Apple Pencil Pro support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Mini 6 64GB WiFi",
+   "category": "ipads",
+   "price": 6299,
+   "price_range": "GHS 6,000 - 6,600",
+   "sale": 5999,
+   "variants": [
+    {
+     "name": "64GB WiFi",
+     "delta": 0
+    },
+    {
+     "name": "256GB WiFi",
+     "delta": 1500
+    }
+   ],
+   "specs": [
+    "8.3\" Liquid Retina",
+    "12MP rear, 12MP front",
+    "A15 Bionic, Apple Pencil 2 support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Mini 6 256GB WiFi",
+   "category": "ipads",
+   "price": 7799,
+   "price_range": "GHS 7,500 - 8,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB WiFi",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8.3\" Liquid Retina",
+    "12MP rear camera",
+    "A15 Bionic, 5G option"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Pro 11-inch M2 128GB WiFi",
+   "category": "ipads",
+   "price": 11999,
+   "price_range": "GHS 11,500 - 12,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "128GB",
+     "delta": 0
+    },
+    {
+     "name": "256GB",
+     "delta": 1000
+    }
+   ],
+   "specs": [
+    "11\" Liquid Retina 120Hz ProMotion",
+    "12MP rear with LiDAR",
+    "M2 chip, Thunderbolt/USB-4"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Pro 12.9-inch M2 256GB WiFi",
+   "category": "ipads",
+   "price": 15999,
+   "price_range": "GHS 15,400 - 16,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "12.9\" Liquid Retina XDR",
+    "12MP rear with LiDAR",
+    "M2 chip, Thunderbolt/USB-4"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad Pro 11-inch M4 256GB WiFi",
+   "category": "ipads",
+   "price": 16999,
+   "price_range": "GHS 16,500 - 17,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB",
+     "delta": 0
+    },
+    {
+     "name": "512GB",
+     "delta": 2000
+    }
+   ],
+   "specs": [
+    "11\" Ultra Retina XDR OLED",
+    "12MP rear, LiDAR",
+    "M4 chip, Apple Pencil Pro support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad 10th Generation 256GB WiFi",
+   "category": "ipads",
+   "price": 7499,
+   "price_range": "GHS 7,200 - 7,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB WiFi",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.9\" Liquid Retina",
+    "12MP rear, 12MP front",
+    "A14 Bionic, USB-C"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iPad 9th Generation 256GB WiFi",
+   "category": "ipads",
+   "price": 5499,
+   "price_range": "GHS 5,300 - 5,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB WiFi",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10.2\" Retina display",
+    "8MP rear camera",
+    "A13 Bionic, Home button"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung S Pen (Galaxy Tab S6 Lite / S9 FE)",
+   "category": "tablet-accessories",
+   "price": 549,
+   "price_range": "GHS 520 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Pink",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4096 pressure levels",
+    "Air actions support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Pencil 1st Generation",
+   "category": "tablet-accessories",
+   "price": 1099,
+   "price_range": "GHS 1,000 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Pixel-perfect precision",
+    "Compatible with iPad 9th gen, iPad mini 5"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Pencil 2nd Generation",
+   "category": "tablet-accessories",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": 1399,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Magnetic attach and charge",
+    "Double-tap tool switching"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Stylus Pen for iPad (USB-C)",
+   "category": "tablet-accessories",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Palm rejection",
+    "Fast USB-C charging"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Magnetic Tablet Stand for iPad",
+   "category": "tablet-accessories",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "360-degree rotation",
+    "Folds flat for travel"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Tablet OTG Adapter USB-C to USB-A",
+   "category": "tablet-accessories",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "USB-C",
+     "delta": 0
+    },
+    {
+     "name": "Micro USB",
+     "delta": -10
+    }
+   ],
+   "specs": [
+    "USB 3.0 speeds",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Tablet Cleaning Kit",
+   "category": "tablet-accessories",
+   "price": 59,
+   "price_range": "GHS 50 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Microfibre cloth + cleaning solution",
+    "Safe for screens"
+   ]
+  },
+  {
+   "brand": "Lamicall",
+   "name": "Lamicall Adjustable Tablet Arm Holder",
+   "category": "tablet-accessories",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 4.7\" - 12.9\" devices",
+    "360-degree swivel"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Smart Folio Case for iPad 10.2 (9th/8th/7th Gen)",
+   "category": "tablet-cases",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Green",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Auto wake/sleep",
+    "Apple Pencil holder"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Folio Case for iPad 10th Generation",
+   "category": "tablet-cases",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Magnetic kickstand",
+    "Apple Pencil holder"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen Rugged Case for Samsung Galaxy Tab A8",
+   "category": "tablet-cases",
+   "price": 179,
+   "price_range": "GHS 160 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Shock-absorbing corners",
+    "Precise cutouts"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Book Cover for Galaxy Tab S9 FE",
+   "category": "tablet-cases",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Two viewing angles",
+    "S Pen holder"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Case for iPad Mini 6 with Pencil Holder",
+   "category": "tablet-cases",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Magnetic stand",
+    "Auto wake/sleep"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Slim Cover for Galaxy Tab A9+",
+   "category": "tablet-cases",
+   "price": 189,
+   "price_range": "GHS 170 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Lightweight protection",
+    "Magnetic attachment"
+   ]
+  },
+  {
+   "brand": "ZAGG",
+   "name": "ZAGG Rugged Messenger Keyboard Case for iPad Pro 11",
+   "category": "tablet-cases",
+   "price": 899,
+   "price_range": "GHS 850 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Detachable Bluetooth keyboard",
+    "Shockproof bumpers"
+   ]
+  },
+  {
+   "brand": "Ringke",
+   "name": "Ringke Fusion Case for Xiaomi Pad 6",
+   "category": "tablet-cases",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    },
+    {
+     "name": "Matte Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Transparent back",
+    "Raised bezels"
+   ]
+  },
+  {
+   "brand": "Ringke",
+   "name": "Ringke Clear Case for Samsung Galaxy A15",
+   "category": "phone-cases",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    },
+    {
+     "name": "Matte",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Anti-yellowing TPU",
+    "Precise cutouts"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen Liquid Air Case for Samsung Galaxy S24 Ultra",
+   "category": "phone-cases",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Green",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Flexible TPU with matte finish",
+    "Mil-grade drop protection"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Silicone Case for iPhone 13",
+   "category": "phone-cases",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Sierra Blue",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Soft-touch silicone",
+    "MagSafe compatible"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen Ultra Hybrid MagFit Case for iPhone 15",
+   "category": "phone-cases",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": 269,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "MagSafe magnet ring",
+    "Hybrid shock absorption"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Shockproof Case for Camon 30",
+   "category": "phone-cases",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    },
+    {
+     "name": "Green",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "TPU shockproof design",
+    "Raised camera bezel"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Silicone Case for Hot 40",
+   "category": "phone-cases",
+   "price": 69,
+   "price_range": "GHS 60 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Soft silicone",
+    "Anti-slip texture"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen Tough Armor Case for Samsung Galaxy A55",
+   "category": "phone-cases",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Dual-layer protection",
+    "Built-in kickstand"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Shockproof Case for iPhone 11",
+   "category": "phone-cases",
+   "price": 119,
+   "price_range": "GHS 110 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Air-guard corners",
+    "Raised screen lip"
+   ]
+  },
+  {
+   "brand": "OtterBox",
+   "name": "OtterBox Defender Case for Samsung Galaxy S23 Ultra",
+   "category": "phone-cases",
+   "price": 599,
+   "price_range": "GHS 550 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Multi-layer protection",
+    "Belt clip holster included"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Leather-Style Case for iPhone 14 Pro",
+   "category": "phone-cases",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Brown",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "PU leather finish",
+    "Card slot pocket"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Clear Case for Redmi Note 13",
+   "category": "phone-cases",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Transparent TPU",
+    "Anti-scratch back"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Smart View Wallet Case for Galaxy A05",
+   "category": "phone-cases",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Pink",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Wallet with card slot",
+    "Cover display window"
+   ]
+  },
+  {
+   "brand": "Ringke",
+   "name": "Ringke Clear Case for iPhone XR",
+   "category": "phone-cases",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Anti-yellowing TPU",
+    "Grip edges"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Flip Cover for Galaxy A25",
+   "category": "phone-cases",
+   "price": 119,
+   "price_range": "GHS 110 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Green",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Protective flip cover",
+    "Magnetic closure"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Silicone Case for iPhone 12",
+   "category": "phone-cases",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Soft-touch silicone",
+    "MagSafe compatible"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Clear Gadget Case for Galaxy Z Flip 6",
+   "category": "phone-cases",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Hinge protection",
+    "Ring grip strap"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Matte Case for Spark 20",
+   "category": "phone-cases",
+   "price": 59,
+   "price_range": "GHS 50 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Purple",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Matte finish anti-fingerprint",
+    "Lightweight design"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix Clear Case for Note 40",
+   "category": "phone-cases",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Transparent TPU",
+    "Camera protection ring"
+   ]
+  },
+  {
+   "brand": "UAG",
+   "name": "UAG Monarch Pro Case for iPhone 15 Pro Max",
+   "category": "phone-cases",
+   "price": 549,
+   "price_range": "GHS 500 - 600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Camo",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5-layer protection",
+    "MagSafe compatible"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Silicone Case for POCO X6",
+   "category": "phone-cases",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Yellow",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Soft silicone",
+    "Precise button covers"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Silicone Case for Galaxy S21 FE",
+   "category": "phone-cases",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Soft-touch silicone",
+    "Slim profile"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Classic Case for iPhone 7/8",
+   "category": "phone-cases",
+   "price": 49,
+   "price_range": "GHS 40 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Basic TPU protection",
+    "Easy grip"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Gadget Magnetic Case for Galaxy A35",
+   "category": "phone-cases",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Purple",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Magnetic ring grip",
+    "Slim design"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen Ultra Hybrid Clear Case for iPhone 15 Pro",
+   "category": "phone-cases",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    },
+    {
+     "name": "Frost",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Clear polycarbonate back",
+    "Mil-grade protection"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Crystal Case for Samsung Galaxy S23",
+   "category": "phone-cases",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Anti-yellowing technology",
+    "Military-grade drop test"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Tempered Glass Screen Protector for iPhone 13 (2-Pack)",
+   "category": "screen-protectors",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Easy install frame"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Tempered Glass 9H for iPhone 15 Pro",
+   "category": "screen-protectors",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Oleophobic coating"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Original Screen Protector for Galaxy S24 Ultra",
+   "category": "screen-protectors",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fingerprint reader compatible",
+    "Anti-scratch"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Tempered Glass for Samsung Galaxy A15",
+   "category": "screen-protectors",
+   "price": 49,
+   "price_range": "GHS 40 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "2.5D curved edge"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Tempered Glass for iPhone 14 (2-Pack)",
+   "category": "screen-protectors",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Anti-fingerprint coating"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Tempered Glass for Tecno Camon 30",
+   "category": "screen-protectors",
+   "price": 45,
+   "price_range": "GHS 35 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "High transparency"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Tempered Glass for Infinix Hot 40",
+   "category": "screen-protectors",
+   "price": 45,
+   "price_range": "GHS 35 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Anti-oil coating"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Tempered Glass for Redmi Note 13",
+   "category": "screen-protectors",
+   "price": 55,
+   "price_range": "GHS 45 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 35
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Edge-to-edge coverage"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Screen Protector for Galaxy S23 FE",
+   "category": "screen-protectors",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Anti-scratch film",
+    "Self-healing coating"
+   ]
+  },
+  {
+   "brand": "Paperlike",
+   "name": "Paperlike Matte Screen Protector for iPad 10.2",
+   "category": "screen-protectors",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Paper-feel writing surface",
+    "Anti-glare matte"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Tempered Glass for iPhone 11",
+   "category": "screen-protectors",
+   "price": 49,
+   "price_range": "GHS 40 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "9H hardness",
+    "Anti-shatter"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Screen Protector for Galaxy A55",
+   "category": "screen-protectors",
+   "price": 69,
+   "price_range": "GHS 60 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Original Samsung film",
+    "Fingerprint compatible"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Screen Protector for Galaxy Tab S9 FE",
+   "category": "screen-protectors",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Anti-scratch",
+    "S Pen friendly"
+   ]
+  },
+  {
+   "brand": "ESR",
+   "name": "ESR Privacy Tempered Glass for iPhone 15 Pro Max",
+   "category": "screen-protectors",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Privacy filter from side angles",
+    "9H hardness"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Privacy Screen Protector for Galaxy S24 Ultra",
+   "category": "screen-protectors",
+   "price": 169,
+   "price_range": "GHS 160 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Side-angle privacy",
+    "Original Samsung glass"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 15W Wall Charger USB-C",
+   "category": "chargers",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W USB-C output",
+    "Original Samsung adapter"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple 20W USB-C Power Adapter",
+   "category": "chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20W fast charging",
+    "USB-C port"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 18W USB-C Wall Charger",
+   "category": "chargers",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": 179,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "18W Power Delivery",
+    "Compact design"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 20W USB-C Fast Charger",
+   "category": "chargers",
+   "price": 159,
+   "price_range": "GHS 150 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20W PD fast charge",
+    "Small foldable plug"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 20W Dual USB Wall Charger",
+   "category": "chargers",
+   "price": 179,
+   "price_range": "GHS 160 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "USB-C + USB-A ports",
+    "20W PD output"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno 18W Wall Charger",
+   "category": "chargers",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "18W fast charge",
+    "Original Tecno adapter"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix 18W Wall Charger",
+   "category": "chargers",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "18W fast charge",
+    "Original Infinix adapter"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 33W Wall Charger USB-C",
+   "category": "chargers",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "33W fast charge",
+    "USB-C output"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 65W GaN II Dual Port Charger",
+   "category": "chargers",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": 369,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "GaN II technology",
+    "2x USB-C, 65W total"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 100W GaN 3-Port Charger",
+   "category": "chargers",
+   "price": 499,
+   "price_range": "GHS 470 - 530",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2x USB-C + 1x USB-A",
+    "100W max output"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 25W Super Fast Charger",
+   "category": "chargers",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "25W Super Fast Charging",
+    "USB-C PD"
+   ]
+  },
+  {
+   "brand": "Nokia",
+   "name": "Nokia 10W Wall Charger",
+   "category": "chargers",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10W standard charging",
+    "Micro USB"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 30W GaN Wall Charger",
+   "category": "chargers",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W PD GaN",
+    "Compact travel size"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 735 Charger 65W GaN Prime",
+   "category": "chargers",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "GaN Prime technology",
+    "Foldable plug, 65W"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple 5W USB Power Adapter",
+   "category": "chargers",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5W USB-A output",
+    "For older iPhones/iPods"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 45W Super Fast Charger 2.0",
+   "category": "fast-chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "45W USB-C PD 3.0",
+    "Super Fast Charging 2.0"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple 30W USB-C Power Adapter",
+   "category": "fast-chargers",
+   "price": 549,
+   "price_range": "GHS 520 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W USB-C PD",
+    "For iPad and MacBook Air"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker Nano 30W GaN Charger",
+   "category": "fast-chargers",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": 269,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W PD GaN",
+    "Palm-sized design"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus GaN 65W 2-in-1 Charger",
+   "category": "fast-chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "GaN 65W",
+    "USB-C + USB-A ports"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 65W GaN 3-Port Fast Charger",
+   "category": "fast-chargers",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "65W GaN, 3 ports",
+    "PD 3.0 + QC 3.0"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 67W Fast Charger",
+   "category": "fast-chargers",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "67W turbo charge",
+    "USB-C output"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno 45W Fast Charger",
+   "category": "fast-chargers",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "45W fast charge",
+    "USB-C output"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix 45W Fast Charger",
+   "category": "fast-chargers",
+   "price": 189,
+   "price_range": "GHS 170 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "45W fast charge",
+    "USB-C output"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker Prime 100W GaN Charger",
+   "category": "fast-chargers",
+   "price": 799,
+   "price_range": "GHS 750 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "100W GaN",
+    "USB-C x2 + USB-A"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 100W GaN 4-Port Charger",
+   "category": "fast-chargers",
+   "price": 599,
+   "price_range": "GHS 550 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "100W GaN, 4 ports",
+    "Charges laptop + phone"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen 30W Dual USB-C Fast Charger",
+   "category": "fast-chargers",
+   "price": 279,
+   "price_range": "GHS 260 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W per port",
+    "PD 3.0"
+   ]
+  },
+  {
+   "brand": "OPPO",
+   "name": "OPPO 80W SuperVOOC Charger",
+   "category": "fast-chargers",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "80W SuperVOOC",
+    "USB-C output"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerLine USB-C to USB-C Cable 1m",
+   "category": "usb-cables",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m Black",
+     "delta": 0
+    },
+    {
+     "name": "2m Black",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "60W power delivery",
+    "Durable braided nylon"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerLine Lightning Cable 1m",
+   "category": "usb-cables",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "MFi certified",
+    "Reinforced stress points"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus USB-C 60W Cable 1.5m",
+   "category": "usb-cables",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1.5m",
+     "delta": 0
+    },
+    {
+     "name": "3m",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "60W PD",
+    "Braided design"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen USB-C to USB-C 100W Cable 1m",
+   "category": "usb-cables",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 50
+    }
+   ],
+   "specs": [
+    "100W PD, E-marker chip",
+    "USB 3.2 data transfer"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung USB-C Cable 1m",
+   "category": "usb-cables",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Original Samsung cable",
+    "25W fast charge support"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple USB-C to Lightning Cable 1m",
+   "category": "usb-cables",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "MFi certified",
+    "Braided durability"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 33W USB-A to USB-C Cable",
+   "category": "usb-cables",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "33W fast charge",
+    "TPE outer"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Braided USB-C Cable 3m",
+   "category": "usb-cables",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Nylon braided",
+    "60W PD"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Lightning Cable 2m",
+   "category": "usb-cables",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "MFi certified",
+    "Reinforced connector"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerLine III 100W USB-C Cable 2m",
+   "category": "usb-cables",
+   "price": 179,
+   "price_range": "GHS 160 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2m",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "100W PD",
+    "30,000-bend durability"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Micro USB Cable 1m",
+   "category": "usb-cables",
+   "price": 49,
+   "price_range": "GHS 40 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Micro USB",
+    "For older devices"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen USB-A to USB-C 3-Pack Cables",
+   "category": "usb-cables",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3x 1m cables",
+    "Quick charge support"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerLine II USB-C 3-Pack",
+   "category": "usb-cables",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3x cables, 2 lengths",
+    "60W PD"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus USB-C 240W Cable 1m",
+   "category": "usb-cables",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "240W PD 3.1",
+    "E-marker chip"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen USB-A to USB-C Braided Cable 1m",
+   "category": "usb-cables",
+   "price": 59,
+   "price_range": "GHS 50 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1m",
+     "delta": 0
+    },
+    {
+     "name": "2m",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Braided nylon",
+    "Fast charge support"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerCore 10000mAh Power Bank",
+   "category": "power-banks",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": 369,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh capacity",
+    "12W output, USB-A + USB-C"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker PowerCore 20000mAh Power Bank",
+   "category": "power-banks",
+   "price": 649,
+   "price_range": "GHS 620 - 680",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20000mAh capacity",
+    "2x USB-A + USB-C, 20W"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 737 PowerCore 24K 140W Power Bank",
+   "category": "power-banks",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "24000mAh, 140W output",
+    "Smart digital display"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 10000mAh 22.5W Power Bank",
+   "category": "power-banks",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh, 22.5W fast charge",
+    "LED digital display"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 20000mAh 65W Power Bank",
+   "category": "power-banks",
+   "price": 649,
+   "price_range": "GHS 620 - 680",
+   "sale": 599,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20000mAh, 65W PD",
+    "Charges laptops"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 10000mAh 25W Power Bank",
+   "category": "power-banks",
+   "price": 549,
+   "price_range": "GHS 520 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh, 25W super fast",
+    "USB-C + USB-A"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 20000mAh Power Bank",
+   "category": "power-banks",
+   "price": 799,
+   "price_range": "GHS 750 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20000mAh capacity",
+    "25W fast charge output"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 10000mAh Power Bank 22.5W",
+   "category": "power-banks",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": 319,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh, 22.5W",
+    "Dual USB output"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 20000mAh 33W Power Bank",
+   "category": "power-banks",
+   "price": 549,
+   "price_range": "GHS 520 - 580",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20000mAh, 33W",
+    "USB-C bidirectional"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno 10000mAh Power Bank",
+   "category": "power-banks",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh capacity",
+    "10W output"
+   ]
+  },
+  {
+   "brand": "Infinix",
+   "name": "Infinix 5000mAh Mini Power Bank",
+   "category": "power-banks",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "5000mAh pocket size",
+    "Micro USB input"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 10000mAh Power Bank",
+   "category": "power-banks",
+   "price": 279,
+   "price_range": "GHS 260 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10000mAh, 20W PD",
+    "USB-C + USB-A"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker MagGo 5000mAh Magnetic Power Bank",
+   "category": "power-banks",
+   "price": 749,
+   "price_range": "GHS 700 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "MagSafe magnetic alignment",
+    "5000mAh, 15W wireless"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 30000mAh 65W Power Bank",
+   "category": "power-banks",
+   "price": 899,
+   "price_range": "GHS 850 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30000mAh, 65W PD",
+    "3 output ports"
+   ]
+  },
+  {
+   "brand": "Romoss",
+   "name": "Romoss 20000mAh Power Bank 22.5W",
+   "category": "power-banks",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20000mAh, 22.5W",
+    "Dual USB + USB-C"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 15W Wireless Charger Pad",
+   "category": "wireless-chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W fast wireless charging",
+    "Original Samsung pad"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MagSafe Charger",
+   "category": "wireless-chargers",
+   "price": 699,
+   "price_range": "GHS 650 - 750",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W magnetic wireless charging",
+    "For iPhone 12 and newer"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 15W Wireless Charger",
+   "category": "wireless-chargers",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W max output",
+    "Qi certified"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 15W Wireless Charger",
+   "category": "wireless-chargers",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": 269,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W Qi charging",
+    "LED indicator"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 3-in-1 Wireless Charging Stand",
+   "category": "wireless-chargers",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Charges phone, watch, earbuds",
+    "15W phone output"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 3-in-1 Cube MagSafe Charging Station",
+   "category": "wireless-chargers",
+   "price": 1099,
+   "price_range": "GHS 1,000 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "MagSafe 15W + watch + earbuds",
+    "Foldable cube design"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 50W Wireless Charger Pro",
+   "category": "wireless-chargers",
+   "price": 499,
+   "price_range": "GHS 470 - 530",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "50W fast wireless charging",
+    "Built-in cooling fan"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen 15W Wireless Charging Pad",
+   "category": "wireless-chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15W Qi charging",
+    "Anti-slip surface"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Car Phone Mount Dashboard Holder",
+   "category": "phone-holders",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "360-degree rotation",
+    "Dashboard/vent mount"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Magnetic Car Phone Mount",
+   "category": "phone-holders",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Strong magnetic grip",
+    "One-hand release"
+   ]
+  },
+  {
+   "brand": "Spigen",
+   "name": "Spigen OneTap Dashboard Car Mount",
+   "category": "phone-holders",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "One-tap release",
+    "Adhesive dashboard base"
+   ]
+  },
+  {
+   "brand": "Ringke",
+   "name": "Ringke Desk Phone Stand",
+   "category": "phone-holders",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Aluminium desk stand",
+    "Adjustable angle"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker Car Phone Mount",
+   "category": "phone-holders",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cradle car mount",
+    "360-degree ball joint"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 20W Wireless Car Charger",
+   "category": "phone-holders",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20W wireless charging",
+    "Auto clamp open/close"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Desk Phone Stand Aluminium",
+   "category": "phone-holders",
+   "price": 69,
+   "price_range": "GHS 60 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Compact foldable stand",
+    "Fits most phones"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Ring Light Phone Holder with Tripod",
+   "category": "phone-holders",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "LED ring light",
+    "Adjustable tripod"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 20W USB-C Car Charger",
+   "category": "car-chargers",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20W PD output",
+    "Single USB-C port"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 45W Dual Port Car Charger",
+   "category": "car-chargers",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "USB-C + USB-A",
+    "45W total output"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 30W Car Charger",
+   "category": "car-chargers",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W PD + QC",
+    "Dual ports"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 25W Car Charger",
+   "category": "car-chargers",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "25W super fast charging",
+    "USB-C port"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 30W Car Charger",
+   "category": "car-chargers",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "30W max output",
+    "Dual USB-C + USB-A"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 65W Car Charger",
+   "category": "car-chargers",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "65W PD, charges laptops",
+    "USB-C + USB-A"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 100W Car Charger",
+   "category": "car-chargers",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "100W total output",
+    "2x USB-C + USB-A"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno 18W Car Charger",
+   "category": "car-chargers",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "18W fast charge",
+    "Dual ports"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Bluetooth 5.0 USB Adapter",
+   "category": "bluetooth-adapters",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bluetooth 5.0",
+    "For desktop PCs"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Bluetooth 5.3 USB Adapter",
+   "category": "bluetooth-adapters",
+   "price": 169,
+   "price_range": "GHS 160 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bluetooth 5.3",
+    "Dual mode"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker Bluetooth 5.0 USB Adapter",
+   "category": "bluetooth-adapters",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plug and play",
+    "10m range"
+   ]
+  },
+  {
+   "brand": "TP-Link",
+   "name": "TP-Link UB400 USB Bluetooth Adapter",
+   "category": "bluetooth-adapters",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bluetooth 4.0",
+    "Mini USB dongle"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen AUX Bluetooth 5.0 Receiver",
+   "category": "bluetooth-adapters",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3.5mm AUX output",
+    "For car stereo and speakers"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus AUX Bluetooth 5.0 Receiver",
+   "category": "bluetooth-adapters",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bluetooth 5.0",
+    "Hands-free calling"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 15.6\" Laptop Backpack",
+   "category": "laptop-bags",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 15.6\" laptops",
+    "Padded laptop compartment"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell 15.6\" Essential Backpack",
+   "category": "laptop-bags",
+   "price": 219,
+   "price_range": "GHS 200 - 240",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 15.6\" laptops",
+    "Water-resistant fabric"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo 15.6\" Urban Backpack",
+   "category": "laptop-bags",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 15.6\" laptops",
+    "Multiple compartments"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus 15.6\" Laptop Sleeve",
+   "category": "laptop-bags",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 15.6\" laptops",
+    "Soft inner lining"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 15.6\" Laptop Backpack",
+   "category": "laptop-bags",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": 269,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "USB charging port",
+    "Anti-theft pocket"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 14\" Laptop Sleeve",
+   "category": "laptop-bags",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Grey",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 14\" laptops",
+    "Neoprene padding"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MacBook Sleeve 13\"",
+   "category": "laptop-bags",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 13\" MacBook",
+    "Microfibre lining"
+   ]
+  },
+  {
+   "brand": "Targus",
+   "name": "Targus 15.6\" CityGear Backpack",
+   "category": "laptop-bags",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Fits 15.6\" laptops",
+    "Padded shoulder straps"
+   ]
+  },
+  {
+   "brand": "Nulaxy",
+   "name": "Nulaxy Aluminum Laptop Stand",
+   "category": "laptop-stands",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver",
+     "delta": 0
+    },
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6 adjustable heights",
+    "Fits 10\" - 17\" laptops"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Adjustable Aluminum Laptop Stand",
+   "category": "laptop-stands",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Ergonomic height angles",
+    "Heat dissipation design"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Aluminum Laptop Stand",
+   "category": "laptop-stands",
+   "price": 279,
+   "price_range": "GHS 260 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Stable 5-point support",
+    "Folds for travel"
+   ]
+  },
+  {
+   "brand": "Cooler Master",
+   "name": "Cooler Master Laptop Cooling Pad",
+   "category": "laptop-stands",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2x 120mm fans",
+    "USB-powered"
+   ]
+  },
+  {
+   "brand": "Lamicall",
+   "name": "Lamicall Portable Laptop Stand Foldable",
+   "category": "laptop-stands",
+   "price": 159,
+   "price_range": "GHS 150 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "10 position angles",
+    "Folds flat"
+   ]
+  },
+  {
+   "brand": "Soundance",
+   "name": "Soundance Double-Layer Ergonomic Laptop Stand",
+   "category": "laptop-stands",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Dual-layer ventilation",
+    "Supports up to 17.3\" laptops"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 250 G8 Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3199,
+   "price_range": "GHS 3,100 - 3,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "15.6\" HD display",
+    "Intel Core i3, Windows 11"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 240 G8 Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3149,
+   "price_range": "GHS 3,050 - 3,250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" HD display",
+    "Intel Core i3, Windows 11"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 255 G8 Ryzen 3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3449,
+   "price_range": "GHS 3,350 - 3,550",
+   "sale": 3249,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "15.6\" HD display",
+    "AMD Ryzen 3, Windows 11"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 15 Core i5 11th Gen 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4499,
+   "price_range": "GHS 4,300 - 4,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Intel Core i5 11th Gen"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Pavilion 15 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5499,
+   "price_range": "GHS 5,300 - 5,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "15.6\" FHD IPS display",
+    "Intel Core i5, 16GB RAM"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteBook 840 G5 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3299,
+   "price_range": "GHS 3,200 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteBook 840 G6 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": 3699,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteBook 840 G8 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5499,
+   "price_range": "GHS 5,300 - 5,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Thunderbolt 4"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteBook 850 G8 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 6499,
+   "price_range": "GHS 6,300 - 6,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "UK used, Intel Core i7 11th Gen"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteBook x360 1030 G2 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4899,
+   "price_range": "GHS 4,700 - 5,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.3\" FHD touch display",
+    "UK used, convertible design"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Envy x360 13 Ryzen 5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.3\" FHD touch",
+    "UK used, AMD Ryzen 5"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP ProBook 450 G8 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4599,
+   "price_range": "GHS 4,400 - 4,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Intel Core i5 11th Gen"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Spectre x360 13 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 8999,
+   "price_range": "GHS 8,500 - 9,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.3\" 4K AMOLED touch",
+    "UK used, convertible"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 14s Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 2899,
+   "price_range": "GHS 2,800 - 3,000",
+   "sale": 2699,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" HD display",
+    "Intel Core i3 12th Gen"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Latitude 5490 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Latitude 7400 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5299,
+   "price_range": "GHS 5,000 - 5,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, long battery life"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Latitude 5400 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3799,
+   "price_range": "GHS 3,600 - 4,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, business class"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Precision 3540 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 6799,
+   "price_range": "GHS 6,500 - 7,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "UK used, workstation GPU"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Inspiron 15 3520 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5599,
+   "price_range": "GHS 5,300 - 5,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "16GB RAM",
+     "delta": 500
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Intel Core i5 12th Gen"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell XPS 13 9310 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 8999,
+   "price_range": "GHS 8,500 - 9,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.4\" FHD+ InfinityEdge",
+    "UK used, Intel Evo"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell Latitude 5520 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "UK used, Intel 11th Gen"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad T480 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3199,
+   "price_range": "GHS 3,000 - 3,400",
+   "sale": 2999,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, durable business build"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad T490 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4199,
+   "price_range": "GHS 4,000 - 4,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, TrackPoint"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad X1 Carbon Gen 6 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 5499,
+   "price_range": "GHS 5,200 - 5,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, 1.13kg ultrabook"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad T14 Gen 1 Core i5 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Intel 10th Gen"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo IdeaPad 3 Core i5 11th Gen 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4799,
+   "price_range": "GHS 4,500 - 5,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Windows 11, backlit keyboard"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo V15 Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3199,
+   "price_range": "GHS 3,100 - 3,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Intel Core i3 11th Gen"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad L470 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 2799,
+   "price_range": "GHS 2,700 - 2,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" HD display",
+    "UK used, entry business"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkPad X280 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3299,
+   "price_range": "GHS 3,100 - 3,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "12.5\" FHD display",
+    "UK used, ultraportable"
+   ]
+  },
+  {
+   "brand": "Acer",
+   "name": "Acer Aspire 3 Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3299,
+   "price_range": "GHS 3,100 - 3,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Windows 11"
+   ]
+  },
+  {
+   "brand": "Acer",
+   "name": "Acer Aspire 5 Core i5 12th Gen 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5299,
+   "price_range": "GHS 5,000 - 5,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 400
+    }
+   ],
+   "specs": [
+    "15.6\" FHD IPS display",
+    "Intel Core i5 12th Gen"
+   ]
+  },
+  {
+   "brand": "Acer",
+   "name": "Acer Swift 3 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD IPS display",
+    "Aluminium body, 1.19kg"
+   ]
+  },
+  {
+   "brand": "Acer",
+   "name": "Acer TravelMate Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 4199,
+   "price_range": "GHS 4,000 - 4,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 300
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, business series"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus VivoBook 15 Core i3 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Windows 11"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus VivoBook 15 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 4899,
+   "price_range": "GHS 4,700 - 5,100",
+   "sale": 4599,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Intel Core i5 11th Gen"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus VivoBook S15 Core i7 16GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 7299,
+   "price_range": "GHS 7,000 - 7,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" OLED FHD display",
+    "Intel Core i7, slim design"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus ExpertBook B1500 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5499,
+   "price_range": "GHS 5,200 - 5,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "15.6\" FHD display",
+    "Business grade, MIL-STD tested"
+   ]
+  },
+  {
+   "brand": "Asus",
+   "name": "Asus TUF Gaming F15 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 7999,
+   "price_range": "GHS 7,500 - 8,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "15.6\" FHD 144Hz display",
+    "GTX 1650 / RTX graphics"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MacBook Air M1 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 9499,
+   "price_range": "GHS 9,000 - 10,000",
+   "sale": 8999,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 2000
+    }
+   ],
+   "specs": [
+    "13.3\" Retina display",
+    "Apple M1 chip, macOS"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MacBook Air M2 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 11999,
+   "price_range": "GHS 11,500 - 12,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 2500
+    }
+   ],
+   "specs": [
+    "13.6\" Liquid Retina display",
+    "Apple M2 chip, MagSafe"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MacBook Pro 13-inch M2 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 13999,
+   "price_range": "GHS 13,500 - 14,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.3\" Retina display",
+    "Apple M2 chip, Touch Bar"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple MacBook Pro 14-inch M3 512GB SSD",
+   "category": "laptops",
+   "price": 18999,
+   "price_range": "GHS 18,000 - 20,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "1TB SSD",
+     "delta": 3000
+    }
+   ],
+   "specs": [
+    "14.2\" Liquid Retina XDR",
+    "Apple M3 chip, 18hr battery"
+   ]
+  },
+  {
+   "brand": "Toshiba",
+   "name": "Toshiba Dynabook Tecra A40 Core i5 8GB RAM 256GB SSD",
+   "category": "laptops",
+   "price": 3399,
+   "price_range": "GHS 3,200 - 3,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung Galaxy Book2 360 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 7499,
+   "price_range": "GHS 7,100 - 7,900",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "13.3\" FHD AMOLED touch",
+    "Convertible, S Pen support"
+   ]
+  },
+  {
+   "brand": "MSI",
+   "name": "MSI Modern 14 Core i5 8GB RAM 512GB SSD",
+   "category": "laptops",
+   "price": 5899,
+   "price_range": "GHS 5,600 - 6,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "14\" FHD display",
+    "Intel Core i5 12th Gen"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteDesk 800 G3 SFF Core i5 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 3299,
+   "price_range": "GHS 3,100 - 3,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "Small form factor",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP EliteDesk 800 G4 Core i5 16GB RAM 512GB SSD",
+   "category": "desktop-computers",
+   "price": 4199,
+   "price_range": "GHS 4,000 - 4,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "SFF business desktop",
+    "UK used, 8th Gen i5"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP ProDesk 600 G2 Core i5 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 3199,
+   "price_range": "GHS 3,000 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "SFF desktop",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Z240 Workstation Xeon 16GB RAM 512GB SSD",
+   "category": "desktop-computers",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Intel Xeon, workstation GPU",
+    "UK used, ECC RAM"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell OptiPlex 7040 Core i5 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "SFF business desktop",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell OptiPlex 7070 Core i7 16GB RAM 512GB SSD",
+   "category": "desktop-computers",
+   "price": 5499,
+   "price_range": "GHS 5,200 - 5,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "SFF desktop",
+    "UK used, 9th Gen i7"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell OptiPlex 9020 Core i5 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 2899,
+   "price_range": "GHS 2,700 - 3,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "SFF desktop",
+    "UK used, entry business"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkCentre M720 Core i5 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "SFF business desktop",
+    "UK used, Windows 11 Pro"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo ThinkCentre M900 Core i7 16GB RAM 512GB SSD",
+   "category": "desktop-computers",
+   "price": 4799,
+   "price_range": "GHS 4,500 - 5,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "SFF desktop",
+    "UK used, 6th Gen i7"
+   ]
+  },
+  {
+   "brand": "Lenovo",
+   "name": "Lenovo IdeaCentre AIO Core i3 8GB RAM 512GB SSD",
+   "category": "desktop-computers",
+   "price": 4999,
+   "price_range": "GHS 4,700 - 5,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "512GB SSD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "23.8\" FHD all-in-one",
+    "Windows 11"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Mac Mini M1 8GB RAM 256GB SSD",
+   "category": "desktop-computers",
+   "price": 5999,
+   "price_range": "GHS 5,700 - 6,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "256GB SSD",
+     "delta": 0
+    },
+    {
+     "name": "512GB SSD",
+     "delta": 1500
+    }
+   ],
+   "specs": [
+    "Apple M1 chip",
+    "Compact desktop, macOS"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple iMac 21.5-inch Core i5 8GB RAM 1TB HDD",
+   "category": "desktop-computers",
+   "price": 6499,
+   "price_range": "GHS 6,200 - 6,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1TB HDD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "21.5\" Retina 4K display",
+    "UK used, all-in-one"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 22\" F22T450 Business Monitor",
+   "category": "monitors",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "22\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 FHD",
+    "HDMI + VGA ports"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 24\" F24T350 Monitor",
+   "category": "monitors",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": 1799,
+   "variants": [
+    {
+     "name": "24\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, HDMI + VGA"
+   ]
+  },
+  {
+   "brand": "Samsung",
+   "name": "Samsung 27\" S27A400 Monitor",
+   "category": "monitors",
+   "price": 2799,
+   "price_range": "GHS 2,600 - 3,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "27\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, slim bezels"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell 24\" E2422H Monitor",
+   "category": "monitors",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "24\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 VA",
+    "HDMI + VGA"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell 27\" S2721HN Monitor",
+   "category": "monitors",
+   "price": 3199,
+   "price_range": "GHS 3,000 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "27\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, HDMI x2"
+   ]
+  },
+  {
+   "brand": "LG",
+   "name": "LG 24\" 24MP400 Monitor",
+   "category": "monitors",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "24\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, slim design"
+   ]
+  },
+  {
+   "brand": "LG",
+   "name": "LG 27\" 27MP400 Monitor",
+   "category": "monitors",
+   "price": 2399,
+   "price_range": "GHS 2,300 - 2,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "27\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, HDMI + VGA"
+   ]
+  },
+  {
+   "brand": "AOC",
+   "name": "AOC 21.5\" 22E1H Monitor",
+   "category": "monitors",
+   "price": 1299,
+   "price_range": "GHS 1,200 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "21.5\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 VA",
+    "HDMI + VGA"
+   ]
+  },
+  {
+   "brand": "AOC",
+   "name": "AOC 27\" Q27V3 2K Monitor",
+   "category": "monitors",
+   "price": 2899,
+   "price_range": "GHS 2,700 - 3,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "27\" QHD",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2560x1440 IPS",
+    "75Hz"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP 22\" V22v Monitor",
+   "category": "monitors",
+   "price": 1399,
+   "price_range": "GHS 1,300 - 1,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "22\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080",
+    "HDMI + VGA"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi 27\" 4K Monitor",
+   "category": "monitors",
+   "price": 3999,
+   "price_range": "GHS 3,800 - 4,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "27\" 4K",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3840x2160 IPS",
+    "DCI-P3 95%"
+   ]
+  },
+  {
+   "brand": "ViewSonic",
+   "name": "ViewSonic 24\" VA2447-MH Monitor",
+   "category": "monitors",
+   "price": 1599,
+   "price_range": "GHS 1,500 - 1,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "24\"",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1920x1080 IPS",
+    "75Hz, built-in speakers"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech K120 Wired Keyboard",
+   "category": "keyboards",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Full-size layout",
+    "Spill-resistant"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech K380 Multi-Device Bluetooth Keyboard",
+   "category": "keyboards",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Graphite",
+     "delta": 0
+    },
+    {
+     "name": "Rose",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Connect 3 devices",
+    "Type on any OS"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech MX Keys Wireless Keyboard",
+   "category": "keyboards",
+   "price": 1299,
+   "price_range": "GHS 1,200 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Backlit keys",
+    "USB-C rechargeable"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell KB216 Wired Keyboard",
+   "category": "keyboards",
+   "price": 129,
+   "price_range": "GHS 120 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Full-size layout",
+    "Quiet keys"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP K1500 Wired Keyboard",
+   "category": "keyboards",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Full-size layout",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer DeathStalker V2 TKL Keyboard",
+   "category": "keyboards",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Low-profile mechanical",
+    "RGB lighting"
+   ]
+  },
+  {
+   "brand": "A4Tech",
+   "name": "A4Tech B314 Wireless Keyboard",
+   "category": "keyboards",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless",
+    "Multimedia keys"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Wireless Bluetooth Keyboard",
+   "category": "keyboards",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bluetooth 5.0",
+    "Rechargeable battery"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Magic Keyboard",
+   "category": "keyboards",
+   "price": 1499,
+   "price_range": "GHS 1,400 - 1,600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Slim aluminium design",
+    "Rechargeable, Bluetooth"
+   ]
+  },
+  {
+   "brand": "Tecno",
+   "name": "Tecno Wireless Keyboard",
+   "category": "keyboards",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless",
+    "Quiet membrane keys"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Wireless Keyboard Mouse Combo",
+   "category": "keyboards",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless combo",
+    "Full-size keyboard"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 87-Key Mechanical Keyboard",
+   "category": "keyboards",
+   "price": 699,
+   "price_range": "GHS 650 - 750",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black Red Switch",
+     "delta": 0
+    },
+    {
+     "name": "White Blue Switch",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Hot-swappable switches",
+    "RGB backlight"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech M90 Wired Mouse",
+   "category": "mice",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1000 DPI",
+    "Plug and play"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech M170 Wireless Mouse",
+   "category": "mice",
+   "price": 179,
+   "price_range": "GHS 160 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blue",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless",
+    "12-month battery"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech M185 Wireless Mouse",
+   "category": "mice",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1000 DPI",
+    "USB nano receiver"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech MX Master 3S Mouse",
+   "category": "mice",
+   "price": 1599,
+   "price_range": "GHS 1,500 - 1,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Graphite",
+     "delta": 0
+    },
+    {
+     "name": "Pale Grey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "8000 DPI sensor",
+    "Magspeed scrolling"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell MS116 Wired Mouse",
+   "category": "mice",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1000 DPI",
+    "Optical tracking"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP X5000 Wireless Mouse",
+   "category": "mice",
+   "price": 179,
+   "price_range": "GHS 160 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless",
+    "Ergonomic design"
+   ]
+  },
+  {
+   "brand": "Razer",
+   "name": "Razer DeathAdder Essential Mouse",
+   "category": "mice",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "6400 DPI optical",
+    "Gaming-grade switches"
+   ]
+  },
+  {
+   "brand": "A4Tech",
+   "name": "A4Tech OP-720 Wired Mouse",
+   "category": "mice",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1000 DPI",
+    "Ambi-friendly shape"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus Vertical Ergonomic Mouse",
+   "category": "mice",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Vertical grip design",
+    "2.4GHz + Bluetooth"
+   ]
+  },
+  {
+   "brand": "Xiaomi",
+   "name": "Xiaomi Mi Wireless Mouse 2",
+   "category": "mice",
+   "price": 249,
+   "price_range": "GHS 230 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "2.4GHz wireless",
+    "Silent click"
+   ]
+  },
+  {
+   "brand": "Apple",
+   "name": "Apple Magic Mouse",
+   "category": "mice",
+   "price": 1299,
+   "price_range": "GHS 1,200 - 1,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Multi-touch surface",
+    "Bluetooth, rechargeable"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen Silent Wireless Mouse",
+   "category": "mice",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Silent clicks",
+    "1600 DPI"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech C270 HD Webcam",
+   "category": "webcams",
+   "price": 449,
+   "price_range": "GHS 420 - 480",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "720p HD video",
+    "Built-in noise-reducing mic"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech C310 HD Webcam",
+   "category": "webcams",
+   "price": 599,
+   "price_range": "GHS 550 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "720p HD video",
+    "Autofocus"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech C920 HD Pro Webcam",
+   "category": "webcams",
+   "price": 1099,
+   "price_range": "GHS 1,000 - 1,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1080p Full HD video",
+    "Glass lens, dual mics"
+   ]
+  },
+  {
+   "brand": "Microsoft",
+   "name": "Microsoft LifeCam HD-3000 Webcam",
+   "category": "webcams",
+   "price": 599,
+   "price_range": "GHS 550 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "720p HD video",
+    "Universal attachment"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus 1080P Webcam",
+   "category": "webcams",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1080p video",
+    "Built-in mic, privacy cover"
+   ]
+  },
+  {
+   "brand": "A4Tech",
+   "name": "A4Tech PK-910H Webcam",
+   "category": "webcams",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "1080p video",
+    "Clip for monitor/laptop"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen HDMI Cable 2m",
+   "category": "computer-accessories",
+   "price": 89,
+   "price_range": "GHS 80 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2m",
+     "delta": 0
+    },
+    {
+     "name": "5m",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "4K HDMI 2.0",
+    "Gold-plated connectors"
+   ]
+  },
+  {
+   "brand": "Anker",
+   "name": "Anker 4-Port USB 3.0 Hub",
+   "category": "computer-accessories",
+   "price": 199,
+   "price_range": "GHS 180 - 220",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4x USB-A 3.0",
+    "5Gbps transfer"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen SD/TF Card Reader",
+   "category": "computer-accessories",
+   "price": 99,
+   "price_range": "GHS 90 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "USB-A",
+     "delta": 0
+    },
+    {
+     "name": "USB-C",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "SD + microSD slots",
+    "USB 3.0 speeds"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Laptop Charger 19.5V 3.33A 65W",
+   "category": "computer-accessories",
+   "price": 299,
+   "price_range": "GHS 280 - 320",
+   "sale": null,
+   "variants": [
+    {
+     "name": "65W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "65W original spec",
+    "For HP laptops"
+   ]
+  },
+  {
+   "brand": "Dell",
+   "name": "Dell 65W Laptop Adapter",
+   "category": "computer-accessories",
+   "price": 349,
+   "price_range": "GHS 330 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "65W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "65W USB-C / barrel",
+    "For Dell Latitude series"
+   ]
+  },
+  {
+   "brand": "Ugreen",
+   "name": "Ugreen 7-in-1 USB-C Hub",
+   "category": "computer-accessories",
+   "price": 599,
+   "price_range": "GHS 550 - 650",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Grey",
+     "delta": 0
+    },
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "HDMI 4K + USB-A x3 + USB-C PD",
+    "SD/TF readers"
+   ]
+  },
+  {
+   "brand": "A4Tech",
+   "name": "A4Tech Gaming Mouse Pad XL",
+   "category": "computer-accessories",
+   "price": 79,
+   "price_range": "GHS 70 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cloth surface",
+    "Anti-slip base"
+   ]
+  },
+  {
+   "brand": "Logitech",
+   "name": "Logitech H340 USB Headset",
+   "category": "computer-accessories",
+   "price": 399,
+   "price_range": "GHS 380 - 420",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "USB plug and play",
+    "Noise-cancelling mic"
+   ]
+  },
+  {
+   "brand": "Nillkin",
+   "name": "Nillkin Webcam Privacy Cover",
+   "category": "computer-accessories",
+   "price": 25,
+   "price_range": "GHS 20 - 30",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Slider cover",
+    "Adhesive mount"
+   ]
+  },
+  {
+   "brand": "Baseus",
+   "name": "Baseus LED Desk Lamp",
+   "category": "computer-accessories",
+   "price": 149,
+   "price_range": "GHS 140 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "3 colour modes",
+    "USB powered"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Deskjet 2722 All-in-One Printer",
+   "category": "computer-accessories",
+   "price": 1399,
+   "price_range": "GHS 1,300 - 1,500",
+   "sale": 1299,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy",
+    "Wireless + mobile printing"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Deskjet 4120e All-in-One Printer",
+   "category": "computer-accessories",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy, fax",
+    "3 months Instant Ink included"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP LaserJet M111w Mono Laser Printer",
+   "category": "computer-accessories",
+   "price": 3499,
+   "price_range": "GHS 3,300 - 3,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "20ppm mono laser",
+    "WiFi printing"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP Neverstop Laser 1000 Printer",
+   "category": "computer-accessories",
+   "price": 4499,
+   "price_range": "GHS 4,300 - 4,700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Refillable toner system",
+    "20ppm mono laser"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP LaserJet Pro M404dn Printer",
+   "category": "computer-accessories",
+   "price": 7999,
+   "price_range": "GHS 7,500 - 8,500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "38ppm mono laser",
+    "Duplex + network"
+   ]
+  },
+  {
+   "brand": "Canon",
+   "name": "Canon PIXMA G2030 Ink Tank Printer",
+   "category": "computer-accessories",
+   "price": 3199,
+   "price_range": "GHS 3,000 - 3,400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy",
+    "High-yield ink tanks"
+   ]
+  },
+  {
+   "brand": "Canon",
+   "name": "Canon PIXMA G3411 Ink Tank Printer",
+   "category": "computer-accessories",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy, WiFi",
+    "Refillable ink tanks"
+   ]
+  },
+  {
+   "brand": "Epson",
+   "name": "Epson EcoTank L3210 Printer",
+   "category": "computer-accessories",
+   "price": 3299,
+   "price_range": "GHS 3,100 - 3,500",
+   "sale": 3099,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy",
+    "Low-cost refillable ink"
+   ]
+  },
+  {
+   "brand": "Epson",
+   "name": "Epson EcoTank L3250 WiFi Printer",
+   "category": "computer-accessories",
+   "price": 3599,
+   "price_range": "GHS 3,400 - 3,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy, WiFi",
+    "Mobile printing"
+   ]
+  },
+  {
+   "brand": "Brother",
+   "name": "Brother DCP-T220 Ink Tank Printer",
+   "category": "computer-accessories",
+   "price": 3899,
+   "price_range": "GHS 3,700 - 4,100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Print, scan, copy",
+    "Refillable ink system"
+   ]
+  },
+  {
+   "brand": "Canon",
+   "name": "Canon CanoScan LiDE 300 Scanner",
+   "category": "computer-accessories",
+   "price": 1699,
+   "price_range": "GHS 1,600 - 1,800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4800dpi flatbed",
+    "USB powered"
+   ]
+  },
+  {
+   "brand": "Epson",
+   "name": "Epson Perfection V39 Scanner",
+   "category": "computer-accessories",
+   "price": 1899,
+   "price_range": "GHS 1,800 - 2,000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "4800dpi flatbed",
+    "USB powered"
+   ]
+  },
+  {
+   "brand": "HP",
+   "name": "HP ScanJet Pro 2500 Scanner",
+   "category": "computer-accessories",
+   "price": 2999,
+   "price_range": "GHS 2,800 - 3,200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Flatbed + ADF",
+    "35ppm duplex scan"
+   ]
+  },
+  {
+   "brand": "Brother",
+   "name": "Brother ADS-1250W Scanner",
+   "category": "computer-accessories",
+   "price": 4999,
+   "price_range": "GHS 4,700 - 5,300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Sheet-fed ADF",
+    "Wireless scanning"
+   ]
+  }
+ ]
+}

@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yemanuel Store
 
-## Getting Started
+Modern Ghanaian e-commerce website and integrated store management application.
 
-First, run the development server:
+One application operates the complete retail business:
+
+- **Customer storefront** — public shopping experience
+- **Customer accounts** — order history, tracking and addresses
+- **Store management** — a compact ERP-style admin application
+
+## Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript (strict)
+- Tailwind CSS v4
+- Supabase / PostgreSQL
+- Supabase Authentication (Phase 2)
+- Deployed on Vercel
+
+Primary currency: Ghanaian Cedi (GHS / GH₵).
+
+## Getting started
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Supabase setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create a Supabase project (or use an existing one) at
+   [supabase.com](https://supabase.com).
+2. Copy the project URL and the anon key from **Project Settings → API** into
+   `.env.local`:
 
-## Learn More
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon-key>
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. The service role key is optional for now — it is used for privileged
+   server-side operations in later phases:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   SUPABASE_SERVICE_ROLE_KEY=<service-role-key>   # server only
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Rules:
 
-## Deploy on Vercel
+- `NEXT_PUBLIC_*` variables are inlined at build time. Restart `npm run dev`
+  (or rebuild) after changing them.
+- The anon key is safe in browser code; it is not a secret.
+- `SUPABASE_SERVICE_ROLE_KEY` must never be used in browser code or exposed
+  through the API.
+- The app works without Supabase variables: the session-refresh proxy simply
+  passes requests through, and pages that do not use Supabase are unaffected.
+- A developer-facing status page is available at `/dev/supabase` (masked
+  values only, no secrets rendered).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Command              | Purpose                                   |
+| -------------------- | ----------------------------------------- |
+| `npm run dev`        | Start the development server              |
+| `npm run build`      | Production build                          |
+| `npm run start`      | Serve the production build                |
+| `npm run lint`       | Run ESLint                                |
+| `npm run typecheck`  | Type-check the project (`tsc --noEmit`)   |
+
+## Structure
+
+```
+src/app/(storefront)/   Public storefront (home, shop)
+src/app/(auth)/         Sign in / create account
+src/app/account/        Customer account
+src/app/admin/          Store management application
+src/app/dev/            Developer-facing utilities (Supabase setup check)
+src/components/ui/      Reusable UI primitives (Button, Input, Badge, Card)
+src/components/admin/   Admin application shell
+src/lib/                Shared utilities (formatting, currency, phones)
+src/lib/supabase/       Supabase clients (browser, server, env validation)
+src/proxy.ts            Session-refresh proxy (Next.js proxy convention)
+supabase/migrations/    Versioned database migrations (Phase 2)
+```
+
+## Status
+
+Phase 1A: application foundation, route structure, admin shell and shared
+utilities. Phase 1B: Supabase infrastructure (browser/server clients,
+session-refresh proxy, env validation). Storefront modules, customer
+accounts, authentication and the management modules (products, inventory,
+orders, sales, payments, suppliers, purchases, expenses, reports, staff,
+settings) arrive in later phases.
+
+See `PROJECT_SPEC.md` and `docs/ARCHITECTURE.md` for the full specification.

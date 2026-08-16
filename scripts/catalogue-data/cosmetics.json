@@ -1,0 +1,10294 @@
+{
+ "source_sites": [
+  "jumia.com.gh",
+  "melcom.com",
+  "superpricegh.com",
+  "glam.com.gh",
+  "meltinpotgh.com",
+  "lookalyfe.com",
+  "myfragrancegh.com",
+  "scentopia.com"
+ ],
+ "products": [
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Foaming Facial Cleanser 236ml",
+   "category": "face-wash",
+   "price": 185,
+   "price_range": "GHS 150 - 230",
+   "sale": 150,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "473ml",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Skin Type: Normal to Oily",
+    "Key Ingredients: Ceramides, Niacinamide",
+    "Format: Foaming Gel"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Hydrating Facial Cleanser 236ml",
+   "category": "face-wash",
+   "price": 210,
+   "price_range": "GHS 180 - 260",
+   "sale": null,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "473ml",
+     "delta": 65
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Skin Type: Normal to Dry",
+    "Key Ingredients: Ceramides, Hyaluronic Acid",
+    "Format: Cream Cleanser"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Oil-Free Acne Wash Pink Grapefruit 177ml",
+   "category": "face-wash",
+   "price": 145,
+   "price_range": "GHS 120 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "177ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 177ml",
+    "Key Ingredient: Salicylic Acid 2%",
+    "Skin Type: Acne-Prone",
+    "Fragrance: Pink Grapefruit"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Deep Clean Facial Cleanser 200ml",
+   "category": "face-wash",
+   "price": 130,
+   "price_range": "GHS 110 - 160",
+   "sale": 105,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Normal to Oily",
+    "Key Ingredients: Salicylic Acid, Glycerin",
+    "Removes Dirt, Oil and Makeup"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Effaclar Purifying Foaming Gel 200ml",
+   "category": "face-wash",
+   "price": 295,
+   "price_range": "GHS 260 - 340",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "400ml",
+     "delta": 95
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Oily, Acne-Prone",
+    "Key Ingredients: Zinc PCA, Glycerin",
+    "Soap-Free Formula"
+   ]
+  },
+  {
+   "brand": "Cetaphil",
+   "name": "Cetaphil Gentle Skin Cleanser 236ml",
+   "category": "face-wash",
+   "price": 240,
+   "price_range": "GHS 210 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "125ml",
+     "delta": -60
+    },
+    {
+     "name": "473ml",
+     "delta": 70
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Glycerin, Cetyl Alcohol",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier Men TurboBright 3-in-1 Face Wash 100ml",
+   "category": "face-wash",
+   "price": 75,
+   "price_range": "GHS 60 - 95",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "150ml",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredient: Vitamin C",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe SA Smoothing Cleanser 236ml",
+   "category": "cleansers",
+   "price": 140,
+   "price_range": "GHS 110 - 170",
+   "sale": 110,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "473ml",
+     "delta": 55
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Key Ingredient: Salicylic Acid 2%",
+    "Skin Type: Dry, Rough, Bumpy Skin",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Clear & Radiant Face Wash 200ml",
+   "category": "cleansers",
+   "price": 120,
+   "price_range": "GHS 100 - 150",
+   "sale": 95,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Key Ingredient: Turmeric",
+    "Skin Type: Dull, Uneven Tone",
+    "Daily Use Formula"
+   ]
+  },
+  {
+   "brand": "Cetaphil",
+   "name": "Cetaphil Daily Facial Cleanser 125ml",
+   "category": "cleansers",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "125ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": 55
+    }
+   ],
+   "specs": [
+    "Size: 125ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Glycerin, Niacinamide",
+    "Suitable for Sensitive Skin"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Toleriane Hydrating Gentle Cleanser 200ml",
+   "category": "cleansers",
+   "price": 285,
+   "price_range": "GHS 250 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "400ml",
+     "delta": 90
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Sensitive, Dry",
+    "Key Ingredients: Niacinamide, Ceramide-3",
+    "Micellar Action"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier SkinActive Micellar Cleansing Water 400ml",
+   "category": "cleansers",
+   "price": 95,
+   "price_range": "GHS 80 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "125ml",
+     "delta": -35
+    },
+    {
+     "name": "700ml",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Skin Type: All Skin Types",
+    "Format: Micellar Water",
+    "No Rinse Needed"
+   ]
+  },
+  {
+   "brand": "Simple",
+   "name": "Simple Kind to Skin Refreshing Facial Wash Gel 150ml",
+   "category": "cleansers",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Skin Type: Sensitive Skin",
+    "Key Ingredients: Pro-Vitamin B5, Glycerin",
+    "No Artificial Perfume"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Squalane Cleanser 50ml",
+   "category": "cleansers",
+   "price": 155,
+   "price_range": "GHS 130 - 185",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    },
+    {
+     "name": "150ml",
+     "delta": 110
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Squalane, Glycerin",
+    "Format: Balm-to-Milk Cleanser"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Hydrating Facial Toner 200ml",
+   "category": "toners",
+   "price": 115,
+   "price_range": "GHS 95 - 140",
+   "sale": 100,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "355ml",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Ceramides, Niacinamide",
+    "Alcohol-Free"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Alcohol-Free Toner 250ml",
+   "category": "toners",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": 88,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Skin Type: All Skin Types",
+    "Format: Alcohol-Free",
+    "Non-Comedogenic"
+   ]
+  },
+  {
+   "brand": "Thayers",
+   "name": "Thayers Witch Hazel Rose Petal Toner 355ml",
+   "category": "toners",
+   "price": 190,
+   "price_range": "GHS 160 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Key Ingredient: Witch Hazel",
+    "Fragrance: Rose Petal",
+    "Alcohol-Free, Cruelty-Free"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Glycolic Acid 7% Toning Solution 240ml",
+   "category": "toners",
+   "price": 165,
+   "price_range": "GHS 140 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "240ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 240ml",
+    "Key Ingredient: Glycolic Acid 7%",
+    "Skin Type: All Skin Types",
+    "Use: Evenings Only"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Gentle Toner 200ml",
+   "category": "toners",
+   "price": 65,
+   "price_range": "GHS 50 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Glycerin, Chamomile",
+    "Alcohol-Free"
+   ]
+  },
+  {
+   "brand": "Simple",
+   "name": "Simple Kind to Skin Soothing Toner 200ml",
+   "category": "toners",
+   "price": 60,
+   "price_range": "GHS 45 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Sensitive Skin",
+    "Key Ingredients: Witch Hazel, Pro-Vitamin B5",
+    "No Artificial Perfume"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Effaclar Clarifying Toner 200ml",
+   "category": "toners",
+   "price": 240,
+   "price_range": "GHS 210 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Oily, Acne-Prone",
+    "Key Ingredients: Salicylic Acid, LHA",
+    "Tightens Pores"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Daily Moisturizing Lotion 236ml",
+   "category": "moisturizers",
+   "price": 135,
+   "price_range": "GHS 115 - 160",
+   "sale": 115,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "88ml",
+     "delta": -60
+    },
+    {
+     "name": "473ml",
+     "delta": 55
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Skin Type: Normal to Dry",
+    "Key Ingredients: Ceramides, Hyaluronic Acid",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Hydro Boost Water Gel 50ml",
+   "category": "moisturizers",
+   "price": 285,
+   "price_range": "GHS 250 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Normal to Combination",
+    "Key Ingredient: Hyaluronic Acid",
+    "Oil-Free"
+   ]
+  },
+  {
+   "brand": "Cetaphil",
+   "name": "Cetaphil Moisturizing Cream 453g",
+   "category": "moisturizers",
+   "price": 265,
+   "price_range": "GHS 230 - 310",
+   "sale": null,
+   "variants": [
+    {
+     "name": "453g",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -70
+    }
+   ],
+   "specs": [
+    "Size: 453g",
+    "Skin Type: Dry to Very Dry",
+    "Key Ingredients: Glycerin, Avocado Oil",
+    "Non-Greasy"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Soft Moisturising Cream 200ml",
+   "category": "moisturizers",
+   "price": 75,
+   "price_range": "GHS 60 - 95",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "75ml",
+     "delta": -25
+    },
+    {
+     "name": "400ml",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Glycerin, Vitamin E",
+    "Quick-Absorbing"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Toleriane Double Repair Moisturizer 75ml",
+   "category": "moisturizers",
+   "price": 315,
+   "price_range": "GHS 280 - 360",
+   "sale": null,
+   "variants": [
+    {
+     "name": "75ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 75ml",
+    "Skin Type: Sensitive Skin",
+    "Key Ingredients: Ceramide-3, Niacinamide, Glycerin",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Natural Moisturizing Factors + HA 100ml",
+   "category": "moisturizers",
+   "price": 145,
+   "price_range": "GHS 120 - 175",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "30ml",
+     "delta": -55
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Amino Acids, Hyaluronic Acid",
+    "Daily Moisturiser"
+   ]
+  },
+  {
+   "brand": "Simple",
+   "name": "Simple Water Boost Hydrating Gel Cream 50ml",
+   "category": "moisturizers",
+   "price": 85,
+   "price_range": "GHS 65 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Dry Skin",
+    "Key Ingredients: Glycerin, Vitamin B5",
+    "Lightweight Gel Cream"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Creme Original 150ml",
+   "category": "face-creams",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": 45,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    },
+    {
+     "name": "60ml",
+     "delta": -15
+    },
+    {
+     "name": "300ml",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Skin Type: Dry Skin",
+    "Key Ingredients: Eucerit, Glycerin",
+    "Classic Rich Formula"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Soft Light Moisturising Cream 100ml",
+   "category": "face-creams",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Glycerin, Jojoba Oil",
+    "Lightweight"
+   ]
+  },
+  {
+   "brand": "Olay",
+   "name": "Olay Total Effects 7-in-1 Day Cream SPF 15 50ml",
+   "category": "face-creams",
+   "price": 190,
+   "price_range": "GHS 160 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Mature Skin",
+    "Key Ingredients: Vitamin B3, Vitamin E",
+    "With SPF 15"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Revitalift Day Cream SPF 20 50ml",
+   "category": "face-creams",
+   "price": 235,
+   "price_range": "GHS 200 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Mature Skin",
+    "Key Ingredients: Pro-Retinol, Vitamin C",
+    "With SPF 20"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier SkinActive Vitamin C Glow Boosting Cream 50ml",
+   "category": "face-creams",
+   "price": 120,
+   "price_range": "GHS 100 - 150",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Dull Skin",
+    "Key Ingredient: Vitamin C",
+    "Brightening Formula"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Moisturizing Cream 340g",
+   "category": "face-creams",
+   "price": 230,
+   "price_range": "GHS 200 - 270",
+   "sale": 195,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Skin Type: Dry to Very Dry",
+    "Key Ingredients: Ceramides, Hyaluronic Acid",
+    "Body and Face Cream"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Skin Renewal Face Cream 50ml",
+   "category": "face-creams",
+   "price": 260,
+   "price_range": "GHS 220 - 300",
+   "sale": 210,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    },
+    {
+     "name": "100ml",
+     "delta": 90
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Uneven Tone",
+    "Key Ingredients: Vitamin C, Shea Butter",
+    "Made for Melanin-Rich Skin"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Niacinamide 10% + Zinc 1% 30ml",
+   "category": "serums",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": 105,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    },
+    {
+     "name": "60ml",
+     "delta": 65
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Niacinamide 10%, Zinc PCA 1%",
+    "Skin Type: Oily, Blemish-Prone",
+    "Use: AM and PM"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Hyaluronic Acid 2% + B5 30ml",
+   "category": "serums",
+   "price": 125,
+   "price_range": "GHS 105 - 150",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    },
+    {
+     "name": "60ml",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Hyaluronic Acid 2%, Vitamin B5",
+    "Skin Type: All Skin Types",
+    "Hydration Serum"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Retinol 0.5% in Squalane 30ml",
+   "category": "serums",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredient: Retinol 0.5%",
+    "Skin Type: All Skin Types",
+    "Use: Evenings Only"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Resurfacing Retinol Serum 30ml",
+   "category": "serums",
+   "price": 420,
+   "price_range": "GHS 380 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Retinol, Ceramides, Licorice Root",
+    "Skin Type: Uneven Texture",
+    "Use: Evenings Only"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Revitalift Filler Vitamin C Serum 30ml",
+   "category": "serums",
+   "price": 265,
+   "price_range": "GHS 230 - 310",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredient: Vitamin C",
+    "Skin Type: Mature Skin",
+    "Plumping Serum"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Hydro Boost Hydrating Serum 30ml",
+   "category": "serums",
+   "price": 195,
+   "price_range": "GHS 165 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredient: Hyaluronic Acid",
+    "Skin Type: Dry Skin",
+    "Fast-Absorbing"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier SkinActive Vitamin C Serum 30ml",
+   "category": "serums",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": 85,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredient: Vitamin C",
+    "Skin Type: Dull Skin",
+    "Brightening Serum"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier SkinActive Hydrating Sheet Mask 3-Pack",
+   "category": "face-masks",
+   "price": 45,
+   "price_range": "GHS 35 - 60",
+   "sale": 35,
+   "variants": [
+    {
+     "name": "3-Pack",
+     "delta": 0
+    },
+    {
+     "name": "6-Pack",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Format: Sheet Mask",
+    "Skin Type: Dry Skin",
+    "Key Ingredient: Hyaluronic Acid",
+    "Use: 15 Minutes"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Pure Clay Detoxify & Brighten Mask 50ml",
+   "category": "face-masks",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Key Ingredients: Charcoal, Kaolin Clay",
+    "Skin Type: Dull, Impure Skin",
+    "Use: Twice a Week"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Hydro Boost Hydrogel Mask 1-Pack",
+   "category": "face-masks",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1-Pack",
+     "delta": 0
+    },
+    {
+     "name": "3-Pack",
+     "delta": 90
+    }
+   ],
+   "specs": [
+    "Format: Hydrogel Sheet",
+    "Skin Type: Dry Skin",
+    "Key Ingredient: Hyaluronic Acid",
+    "Use: 15 Minutes"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary AHA 30% + BHA 2% Peeling Solution 30ml",
+   "category": "face-masks",
+   "price": 155,
+   "price_range": "GHS 130 - 185",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: AHA 30%, BHA 2%",
+    "Skin Type: All Skin Types",
+    "Use: 10 Minutes, Evenings"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Dead Sea Mud Face Mask 100ml",
+   "category": "face-masks",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": 55
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredient: Dead Sea Mud",
+    "Skin Type: Oily, Impure Skin",
+    "Use: Twice a Week"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Detoxifying Clay Face Mask 100ml",
+   "category": "face-masks",
+   "price": 170,
+   "price_range": "GHS 140 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredients: Kaolin Clay, Shea Butter",
+    "Skin Type: All Skin Types",
+    "Use: Twice a Week"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Cellular Expert Youth Night Face Mask 50ml",
+   "category": "face-masks",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: Mature Skin",
+    "Key Ingredients: Q10, Glycerin",
+    "Use: 2-3 Times a Week"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Ultra Sheer Dry Touch SPF 50+ 88ml",
+   "category": "sunscreen",
+   "price": 235,
+   "price_range": "GHS 200 - 280",
+   "sale": 195,
+   "variants": [
+    {
+     "name": "88ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 88ml",
+    "SPF: 50+",
+    "Skin Type: All Skin Types",
+    "Water Resistant"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Anthelios Invisible Fluid SPF 50+ 50ml",
+   "category": "sunscreen",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "SPF: 50+",
+    "Skin Type: Sensitive Skin",
+    "Broad Spectrum UVA/UVB"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Sun Protect & Moisture SPF 50 200ml",
+   "category": "sunscreen",
+   "price": 165,
+   "price_range": "GHS 135 - 200",
+   "sale": 135,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "SPF: 50",
+    "Skin Type: All Skin Types",
+    "Water Resistant"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Hydrating Mineral Sunscreen SPF 30 60ml",
+   "category": "sunscreen",
+   "price": 290,
+   "price_range": "GHS 255 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60ml",
+    "SPF: 30",
+    "Key Ingredients: Zinc Oxide, Ceramides",
+    "Mineral Filter"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier Ambre Solaire Sensitive Advanced SPF 50 200ml",
+   "category": "sunscreen",
+   "price": 175,
+   "price_range": "GHS 145 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "SPF: 50",
+    "Skin Type: Sensitive Skin",
+    "Water Resistant"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Sun Protection SPF 30 100ml",
+   "category": "sunscreen",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": 120,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "SPF: 30",
+    "Skin Type: All Skin Types",
+    "Non-Greasy Finish"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Zinc Oxide Sunscreen Lotion SPF 45 150ml",
+   "category": "sunscreen",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "SPF: 45",
+    "Skin Type: All Skin Types",
+    "Broad Spectrum"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Oil-Free Acne Wash 177ml",
+   "category": "acne-care",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": 135,
+   "variants": [
+    {
+     "name": "177ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 177ml",
+    "Key Ingredient: Salicylic Acid 2%",
+    "Skin Type: Acne-Prone",
+    "Soap-Free"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Acne Control Cleanser 237ml",
+   "category": "acne-care",
+   "price": 175,
+   "price_range": "GHS 145 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "237ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 237ml",
+    "Key Ingredients: Salicylic Acid 2%, Glycolic Acid",
+    "Skin Type: Acne-Prone",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "La Roche-Posay",
+   "name": "La Roche-Posay Effaclar Duo+ Anti-Blemish Gel 40ml",
+   "category": "acne-care",
+   "price": 315,
+   "price_range": "GHS 275 - 360",
+   "sale": null,
+   "variants": [
+    {
+     "name": "40ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 40ml",
+    "Key Ingredients: Niacinamide, Salicylic Acid",
+    "Skin Type: Acne-Prone",
+    "Unclogs Pores"
+   ]
+  },
+  {
+   "brand": "The Ordinary",
+   "name": "The Ordinary Salicylic Acid 2% Solution 30ml",
+   "category": "acne-care",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredient: Salicylic Acid 2%",
+    "Skin Type: Oily, Blemish-Prone",
+    "Use: Evenings"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Men Protect & Care Anti-Acne Face Wash 100ml",
+   "category": "acne-care",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredient: Salicylic Acid",
+    "Skin Type: Acne-Prone",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Spot Gel with Salicylic Acid 20g",
+   "category": "acne-care",
+   "price": 45,
+   "price_range": "GHS 35 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "20g",
+     "delta": 0
+    },
+    {
+     "name": "40g",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Size: 20g",
+    "Key Ingredient: Salicylic Acid",
+    "Skin Type: Acne-Prone",
+    "Targeted Spot Treatment"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Body Love Glowing Ritual Body Lotion 400ml",
+   "category": "body-care",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": 95,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Key Ingredients: Lotus Flower Extract, Rice Milk",
+    "Skin Type: All Skin Types",
+    "Lightweight"
+   ]
+  },
+  {
+   "brand": "Vaseline",
+   "name": "Vaseline Intensive Care Advanced Repair Lotion 400ml",
+   "category": "body-care",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": 85,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "725ml",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Key Ingredients: Glycerin, Petroleum Jelly",
+    "Skin Type: Dry Skin",
+    "Repairs Dry Skin"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Rich Nourishing Body Lotion 400ml",
+   "category": "body-care",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Key Ingredients: Almond Oil, Glycerin",
+    "Skin Type: Dry Skin",
+    "48-Hour Hydration"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Cocoa Butter Formula Body Lotion 400ml",
+   "category": "body-care",
+   "price": 145,
+   "price_range": "GHS 120 - 175",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Key Ingredients: Cocoa Butter, Vitamin E",
+    "Skin Type: Dry Skin",
+    "Smooths Marks"
+   ]
+  },
+  {
+   "brand": "Cetaphil",
+   "name": "Cetaphil Restoraderm Body Lotion 295ml",
+   "category": "body-care",
+   "price": 295,
+   "price_range": "GHS 260 - 340",
+   "sale": null,
+   "variants": [
+    {
+     "name": "295ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 295ml",
+    "Skin Type: Dry, Sensitive Skin",
+    "Key Ingredients: Ceramides, Niacinamide",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Eucerin",
+   "name": "Eucerin Intensive Repair Body Lotion 500ml",
+   "category": "body-care",
+   "price": 260,
+   "price_range": "GHS 225 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Skin Type: Very Dry Skin",
+    "Key Ingredients: Urea 10%, Ceramide-3",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Head & Shoulders",
+   "name": "Head & Shoulders Classic Clean Shampoo 400ml",
+   "category": "shampoos",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": -30
+    },
+    {
+     "name": "750ml",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: All Hair Types",
+    "Key Ingredient: Zinc Pyrithione",
+    "Anti-Dandruff"
+   ]
+  },
+  {
+   "brand": "Pantene",
+   "name": "Pantene Pro-V Total Damage Care Shampoo 400ml",
+   "category": "shampoos",
+   "price": 100,
+   "price_range": "GHS 80 - 125",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": -30
+    },
+    {
+     "name": "700ml",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: Damaged Hair",
+    "Key Ingredients: Pro-V, Keratin",
+    "Rebuilds Strength"
+   ]
+  },
+  {
+   "brand": "Herbal Essences",
+   "name": "Herbal Essences Coconut Milk Shampoo 400ml",
+   "category": "shampoos",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: All Hair Types",
+    "Fragrance: Coconut Milk",
+    "Sulfate-Free"
+   ]
+  },
+  {
+   "brand": "Shea Moisture",
+   "name": "Shea Moisture Coconut & Hibiscus Curl & Shine Shampoo 384ml",
+   "category": "shampoos",
+   "price": 330,
+   "price_range": "GHS 290 - 380",
+   "sale": null,
+   "variants": [
+    {
+     "name": "384ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 384ml",
+    "Hair Type: Curly, Coily Hair",
+    "Key Ingredients: Coconut Oil, Hibiscus Extract",
+    "Sulfate-Free"
+   ]
+  },
+  {
+   "brand": "Carol's Daughter",
+   "name": "Carol's Daughter Black Vanilla Sulfate-Free Shampoo 355ml",
+   "category": "shampoos",
+   "price": 350,
+   "price_range": "GHS 310 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Hair Type: Curly, Coily Hair",
+    "Key Ingredients: Black Vanilla, Shea Butter",
+    "Sulfate-Free"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Elvive Total Repair 5 Shampoo 400ml",
+   "category": "shampoos",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "700ml",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: Damaged Hair",
+    "Key Ingredients: Ceramide, Protein",
+    "Repairs 5 Damage Signs"
+   ]
+  },
+  {
+   "brand": "KeraCare",
+   "name": "KeraCare Hydrating Detangling Shampoo 1L",
+   "category": "shampoos",
+   "price": 280,
+   "price_range": "GHS 240 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1L",
+     "delta": 0
+    },
+    {
+     "name": "355ml",
+     "delta": -120
+    }
+   ],
+   "specs": [
+    "Size: 1L",
+    "Hair Type: Dry, Natural Hair",
+    "Key Ingredient: Glycerin",
+    "Salon Size"
+   ]
+  },
+  {
+   "brand": "Pantene",
+   "name": "Pantene Pro-V Total Damage Care Conditioner 400ml",
+   "category": "conditioners",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": -30
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: Damaged Hair",
+    "Key Ingredients: Pro-V, Keratin",
+    "Daily Use"
+   ]
+  },
+  {
+   "brand": "Herbal Essences",
+   "name": "Herbal Essences Coconut Milk Conditioner 400ml",
+   "category": "conditioners",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: All Hair Types",
+    "Fragrance: Coconut Milk",
+    "Sulfate-Free"
+   ]
+  },
+  {
+   "brand": "Shea Moisture",
+   "name": "Shea Moisture Coconut & Hibiscus Curl & Shine Conditioner 384ml",
+   "category": "conditioners",
+   "price": 330,
+   "price_range": "GHS 290 - 380",
+   "sale": 230,
+   "variants": [
+    {
+     "name": "384ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 384ml",
+    "Hair Type: Curly, Coily Hair",
+    "Key Ingredients: Coconut Oil, Hibiscus Extract",
+    "Sulfate-Free"
+   ]
+  },
+  {
+   "brand": "Carol's Daughter",
+   "name": "Carol's Daughter Black Vanilla Hydrating Conditioner 355ml",
+   "category": "conditioners",
+   "price": 345,
+   "price_range": "GHS 305 - 395",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Hair Type: Curly, Coily Hair",
+    "Key Ingredients: Black Vanilla, Shea Butter",
+    "Moisture & Shine"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Elvive Total Repair 5 Conditioner 400ml",
+   "category": "conditioners",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: Damaged Hair",
+    "Key Ingredients: Ceramide, Protein",
+    "Detangles Hair"
+   ]
+  },
+  {
+   "brand": "KeraCare",
+   "name": "KeraCare Daily Rinse Conditioner 1L",
+   "category": "conditioners",
+   "price": 265,
+   "price_range": "GHS 225 - 310",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1L",
+     "delta": 0
+    },
+    {
+     "name": "355ml",
+     "delta": -115
+    }
+   ],
+   "specs": [
+    "Size: 1L",
+    "Hair Type: All Hair Types",
+    "Key Ingredient: Protein",
+    "Salon Size"
+   ]
+  },
+  {
+   "brand": "TRESemmé",
+   "name": "TRESemmé Moisture Rich Conditioner 400ml",
+   "category": "conditioners",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Hair Type: Dry Hair",
+    "Key Ingredients: Aloe Vera, Vitamin E",
+    "Silicone-Free"
+   ]
+  },
+  {
+   "brand": "Shea Moisture",
+   "name": "Shea Moisture Jamaican Black Castor Oil Strengthen & Restore 150ml",
+   "category": "hair-oils",
+   "price": 285,
+   "price_range": "GHS 250 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    },
+    {
+     "name": "384ml",
+     "delta": 120
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Hair Type: Dry, Damaged Hair",
+    "Key Ingredient: Jamaican Black Castor Oil",
+    "Strengthens Roots"
+   ]
+  },
+  {
+   "brand": "Carol's Daughter",
+   "name": "Carol's Daughter Monoi Repairing Hair Oil 120ml",
+   "category": "hair-oils",
+   "price": 300,
+   "price_range": "GHS 260 - 345",
+   "sale": null,
+   "variants": [
+    {
+     "name": "120ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 120ml",
+    "Hair Type: Dry, Damaged Hair",
+    "Key Ingredient: Monoi Oil",
+    "Adds Shine"
+   ]
+  },
+  {
+   "brand": "ORS",
+   "name": "ORS Olive Oil Hair Lotion 237ml",
+   "category": "hair-oils",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": 105,
+   "variants": [
+    {
+     "name": "237ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 237ml",
+    "Hair Type: All Hair Types",
+    "Key Ingredients: Olive Oil, Shea Butter",
+    "Daily Moisturiser"
+   ]
+  },
+  {
+   "brand": "African Pride",
+   "name": "African Pride Olive Miracle Growth Oil 155ml",
+   "category": "hair-oils",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "155ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 155ml",
+    "Hair Type: Natural Hair",
+    "Key Ingredients: Olive Oil, Coconut Oil",
+    "Promotes Healthy Hair"
+   ]
+  },
+  {
+   "brand": "Cantu",
+   "name": "Cantu Shea Butter Grow Strong Strengthening Oil 150ml",
+   "category": "hair-oils",
+   "price": 145,
+   "price_range": "GHS 120 - 175",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Hair Type: Natural Hair",
+    "Key Ingredients: Shea Butter, Argan Oil",
+    "Scalp and Hair Oil"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "100% Pure Argan Oil Hair Treatment 100ml",
+   "category": "hair-oils",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredient: Argan Oil",
+    "Hair Type: Frizzy, Dry Hair",
+    "Cold-Pressed"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Natural Coconut Oil Hair & Body 250ml",
+   "category": "hair-oils",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    },
+    {
+     "name": "500ml",
+     "delta": 35
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Key Ingredient: Coconut Oil",
+    "Hair Type: All Hair Types",
+    "Multi-Use Oil"
+   ]
+  },
+  {
+   "brand": "Cantu",
+   "name": "Cantu Shea Butter Leave-In Conditioning Cream 340g",
+   "category": "hair-creams",
+   "price": 165,
+   "price_range": "GHS 135 - 200",
+   "sale": null,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hair Type: Natural Hair",
+    "Key Ingredients: Shea Butter, Argan Oil",
+    "Leave-In"
+   ]
+  },
+  {
+   "brand": "ORS",
+   "name": "ORS Olive Oil Cream & Shea Butter Hair Lotion 85g",
+   "category": "hair-creams",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "85g",
+     "delta": 0
+    },
+    {
+     "name": "170g",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Size: 85g",
+    "Hair Type: All Hair Types",
+    "Key Ingredients: Olive Oil, Shea Butter",
+    "Daily Moisturiser"
+   ]
+  },
+  {
+   "brand": "Eco Styler",
+   "name": "Eco Styler Olive Oil Styling Gel 340g",
+   "category": "hair-creams",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": 85,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    },
+    {
+     "name": "170g",
+     "delta": -25
+    },
+    {
+     "name": "1kg",
+     "delta": 70
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hair Type: All Hair Types",
+    "Key Ingredient: Olive Oil",
+    "Strong Hold Gel"
+   ]
+  },
+  {
+   "brand": "SoftSheen-Carson",
+   "name": "SoftSheen-Carson Optimum Care Salon Hairdressing 340g",
+   "category": "hair-creams",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hair Type: Relaxed, Natural Hair",
+    "Key Ingredients: Shea Butter, Glycerin",
+    "Daily Dressing"
+   ]
+  },
+  {
+   "brand": "Shea Moisture",
+   "name": "Shea Moisture Manuka Honey & Mafura Oil Deep Moisturizer 384ml",
+   "category": "hair-creams",
+   "price": 340,
+   "price_range": "GHS 300 - 390",
+   "sale": null,
+   "variants": [
+    {
+     "name": "384ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 384ml",
+    "Hair Type: Dry, Thirsty Hair",
+    "Key Ingredients: Manuka Honey, Mafura Oil",
+    "Daily Moisturiser"
+   ]
+  },
+  {
+   "brand": "Carol's Daughter",
+   "name": "Carol's Daughter Hair Milk Original Leave-In Moisturizer 237ml",
+   "category": "hair-creams",
+   "price": 320,
+   "price_range": "GHS 280 - 365",
+   "sale": null,
+   "variants": [
+    {
+     "name": "237ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 237ml",
+    "Hair Type: Curly, Coily Hair",
+    "Key Ingredients: Shea Butter, Agave Nectar",
+    "Leave-In"
+   ]
+  },
+  {
+   "brand": "Mielle Organics",
+   "name": "Mielle Organics Pomegranate & Honey Leave-In Conditioner 355ml",
+   "category": "hair-creams",
+   "price": 215,
+   "price_range": "GHS 180 - 255",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Hair Type: Natural Hair",
+    "Key Ingredients: Pomegranate Extract, Honey",
+    "Leave-In"
+   ]
+  },
+  {
+   "brand": "ORS",
+   "name": "ORS Olive Oil Hair Mayonnaise 340g",
+   "category": "hair-treatments",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hair Type: Dry, Damaged Hair",
+    "Key Ingredients: Olive Oil, Egg Protein",
+    "Deep Conditioner"
+   ]
+  },
+  {
+   "brand": "Shea Moisture",
+   "name": "Shea Moisture Manuka Honey & Mafura Oil Hair Masque 355ml",
+   "category": "hair-treatments",
+   "price": 335,
+   "price_range": "GHS 295 - 385",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Hair Type: Dry, Damaged Hair",
+    "Key Ingredients: Manuka Honey, Mafura Oil",
+    "Weekly Masque"
+   ]
+  },
+  {
+   "brand": "Carol's Daughter",
+   "name": "Carol's Daughter Born to Repair 60-Second Treatment 177ml",
+   "category": "hair-treatments",
+   "price": 305,
+   "price_range": "GHS 265 - 350",
+   "sale": 230,
+   "variants": [
+    {
+     "name": "177ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 177ml",
+    "Hair Type: Dry, Damaged Hair",
+    "Key Ingredients: Shea Butter, Coconut Oil",
+    "In-Shower Treatment"
+   ]
+  },
+  {
+   "brand": "Mielle Organics",
+   "name": "Mielle Organics Rosemary Mint Strengthening Masque 355ml",
+   "category": "hair-treatments",
+   "price": 260,
+   "price_range": "GHS 225 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "355ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 355ml",
+    "Hair Type: Thinning, Brittle Hair",
+    "Key Ingredients: Rosemary Oil, Mint, Biotin",
+    "Weekly Masque"
+   ]
+  },
+  {
+   "brand": "Cantu",
+   "name": "Cantu Deep Treatment Masque 340g",
+   "category": "hair-treatments",
+   "price": 135,
+   "price_range": "GHS 110 - 165",
+   "sale": null,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hair Type: Dry, Curly Hair",
+    "Key Ingredients: Shea Butter, Coconut Oil",
+    "Deep Conditioning"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Elvive Total Repair 5 Damage Erasing Balm 300ml",
+   "category": "hair-treatments",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "300ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 300ml",
+    "Hair Type: Damaged Hair",
+    "Key Ingredients: Ceramide, Protein",
+    "5-Minute Treatment"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Keratin Deep Repair Hair Treatment 250ml",
+   "category": "hair-treatments",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Hair Type: Chemically Treated Hair",
+    "Key Ingredient: Keratin",
+    "In-Shower Treatment"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Excellence Creme Permanent Colour — Natural Black 1.0",
+   "category": "hair-colour",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1.0 Natural Black",
+     "delta": 0
+    },
+    {
+     "name": "1.1 Jet Black",
+     "delta": 0
+    },
+    {
+     "name": "3.0 Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 1 Kit (Colour + Developer)",
+    "Shade: Natural Black",
+    "Ammonia-Free Option: No",
+    "Lasts Up to 8 Weeks"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Casting Creme Gloss — Espresso 300",
+   "category": "hair-colour",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "300 Espresso",
+     "delta": 0
+    },
+    {
+     "name": "316 Champagne",
+     "delta": 0
+    },
+    {
+     "name": "330 Moka",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 1 Kit (Colour + Developer)",
+    "Shade: Espresso",
+    "Ammonia-Free",
+    "Glossy Finish"
+   ]
+  },
+  {
+   "brand": "Dark & Lovely",
+   "name": "Dark & Lovely Radiant Red Permanent Hair Colour — Auburn",
+   "category": "hair-colour",
+   "price": 125,
+   "price_range": "GHS 100 - 155",
+   "sale": 105,
+   "variants": [
+    {
+     "name": "Auburn",
+     "delta": 0
+    },
+    {
+     "name": "Copper",
+     "delta": 0
+    },
+    {
+     "name": "Deep Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 1 Kit (Colour + Developer)",
+    "Shade: Auburn",
+    "Made for Dark Hair",
+    "Rich Colour Deposit"
+   ]
+  },
+  {
+   "brand": "Clairol",
+   "name": "Clairol Nice'n Easy Permanent Hair Colour — Natural Black",
+   "category": "hair-colour",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Natural Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    },
+    {
+     "name": "Medium Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 1 Kit (Colour + Developer)",
+    "Shade: Natural Black",
+    "Grey Coverage",
+    "Ammonia-Free Option: No"
+   ]
+  },
+  {
+   "brand": "Schwarzkopf",
+   "name": "Schwarzkopf Palette Permanent Hair Colour — Deep Black",
+   "category": "hair-colour",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Deep Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    },
+    {
+     "name": "Mahogany",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 1 Kit (Colour + Developer)",
+    "Shade: Deep Black",
+    "Grey Coverage",
+    "Lasts Up to 6 Weeks"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Henna Natural Hair Colour Powder 200g",
+   "category": "hair-colour",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200g",
+     "delta": 0
+    },
+    {
+     "name": "500g",
+     "delta": 70
+    }
+   ],
+   "specs": [
+    "Size: 200g",
+    "Shade: Natural Red-Brown",
+    "100% Plant Based",
+    "Mixes with Water"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Virgin Brazilian Straight Human Hair Bundle 100g",
+   "category": "hair-extensions",
+   "price": 950,
+   "price_range": "GHS 850 - 1100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "14 inch",
+     "delta": 0
+    },
+    {
+     "name": "12 inch",
+     "delta": -150
+    },
+    {
+     "name": "16 inch",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "Weight: 100g per Bundle",
+    "Length: 14 inch",
+    "Hair Type: 100% Human Hair",
+    "Double Wefted"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Remy Malaysian Curly Weave Bundle 100g",
+   "category": "hair-extensions",
+   "price": 850,
+   "price_range": "GHS 750 - 1000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "14 inch",
+     "delta": 0
+    },
+    {
+     "name": "16 inch",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "Weight: 100g per Bundle",
+    "Length: 14 inch",
+    "Hair Type: 100% Remy Human Hair",
+    "Curly Texture"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Peruvian Body Wave Human Hair Bundle 100g",
+   "category": "hair-extensions",
+   "price": 900,
+   "price_range": "GHS 800 - 1050",
+   "sale": null,
+   "variants": [
+    {
+     "name": "14 inch",
+     "delta": 0
+    },
+    {
+     "name": "16 inch",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "Weight: 100g per Bundle",
+    "Length: 14 inch",
+    "Hair Type: 100% Human Hair",
+    "Body Wave Texture"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Micro Braid Hair Extensions Pack 60cm",
+   "category": "hair-extensions",
+   "price": 120,
+   "price_range": "GHS 95 - 150",
+   "sale": 110,
+   "variants": [
+    {
+     "name": "1 Pack",
+     "delta": 0
+    },
+    {
+     "name": "3 Pack",
+     "delta": 200
+    }
+   ],
+   "specs": [
+    "Length: 60cm",
+    "Format: Pre-Braided Micro Braids",
+    "Colour: Black",
+    "Synthetic Fibre"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Clip-In Hair Extensions Set 12 Pieces",
+   "category": "hair-extensions",
+   "price": 260,
+   "price_range": "GHS 220 - 310",
+   "sale": null,
+   "variants": [
+    {
+     "name": "12 Pieces",
+     "delta": 0
+    },
+    {
+     "name": "20 Pieces",
+     "delta": 140
+    }
+   ],
+   "specs": [
+    "Format: Clip-In Set",
+    "Length: 45cm",
+    "Colour: Black",
+    "Human Hair Blend"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Bulk Straight Human Hair Weave 22 inch",
+   "category": "hair-extensions",
+   "price": 1100,
+   "price_range": "GHS 980 - 1250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "22 inch",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Length: 22 inch",
+    "Hair Type: 100% Human Hair",
+    "Format: Bulk Weave",
+    "Natural Black"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "13x4 Lace Front Wig Straight — Natural Black",
+   "category": "wigs",
+   "price": 800,
+   "price_range": "GHS 700 - 950",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Natural Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    },
+    {
+     "name": "Honey Blonde",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "Cap Type: 13x4 Lace Front",
+    "Hair Type: Human Hair Blend",
+    "Length: 20 inch",
+    "Pre-Plucked Hairline"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "360 Full Lace Wig Curly — Dark Brown",
+   "category": "wigs",
+   "price": 1400,
+   "price_range": "GHS 1250 - 1600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    },
+    {
+     "name": "Natural Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cap Type: 360 Full Lace",
+    "Hair Type: 100% Human Hair",
+    "Length: 22 inch",
+    "Glueless Cap"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "HD Lace Front Bob Wig — Deep Black",
+   "category": "wigs",
+   "price": 650,
+   "price_range": "GHS 550 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Deep Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cap Type: HD Lace Front",
+    "Hair Type: Human Hair Blend",
+    "Length: 12 inch",
+    "Bob Cut Style"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Half Wig Drawstring Ponytail — Natural Black",
+   "category": "wigs",
+   "price": 280,
+   "price_range": "GHS 230 - 340",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Natural Black",
+     "delta": 0
+    },
+    {
+     "name": "Burgundy",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Format: Half Wig",
+    "Hair Type: Synthetic Blend",
+    "Length: 24 inch",
+    "Drawstring Cap"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Curly Lace Front Wig — Honey Blonde",
+   "category": "wigs",
+   "price": 750,
+   "price_range": "GHS 650 - 900",
+   "sale": 585,
+   "variants": [
+    {
+     "name": "Honey Blonde",
+     "delta": 0
+    },
+    {
+     "name": "Natural Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cap Type: Lace Front",
+    "Hair Type: Human Hair Blend",
+    "Length: 18 inch",
+    "Curl Pattern: Deep Curl"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Short Pixie Cut Wig — Jet Black",
+   "category": "wigs",
+   "price": 220,
+   "price_range": "GHS 180 - 270",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Jet Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Cap Type: Basic Cap",
+    "Hair Type: Synthetic",
+    "Length: 6 inch",
+    "Pixie Cut Style"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Pre-Stretched Braids 24 inch — Black",
+   "category": "braids",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Length: 24 inch",
+    "Format: 8 Packs",
+    "Synthetic Fibre",
+    "Pre-Stretched"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Passion Twists 20 inch — Dark Brown",
+   "category": "braids",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    },
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Burgundy",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Length: 20 inch",
+    "Format: 6 Packs",
+    "Synthetic Fibre",
+    "Twist-Out Style"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Knotless Braid Pack 24 inch — Black",
+   "category": "braids",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Honey Blonde",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Length: 24 inch",
+    "Format: 8 Packs",
+    "Synthetic Fibre",
+    "For Knotless Braids"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Crochet Braids 18 inch — Natural Black",
+   "category": "braids",
+   "price": 70,
+   "price_range": "GHS 50 - 95",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Natural Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Length: 18 inch",
+    "Format: 6 Packs",
+    "Synthetic Fibre",
+    "Crochet Installation"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Senegal Twist Pack 20 inch — Black",
+   "category": "braids",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Dark Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Length: 20 inch",
+    "Format: 8 Packs",
+    "Synthetic Fibre",
+    "Senegal Twist Style"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Ombre Braid Pack 30 inch — Brown to Blonde",
+   "category": "braids",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": 90,
+   "variants": [
+    {
+     "name": "Brown to Blonde",
+     "delta": 0
+    },
+    {
+     "name": "Black to Burgundy",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Length: 30 inch",
+    "Format: 6 Packs",
+    "Synthetic Fibre",
+    "Ombre Colour Blend"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Edge Control Brush 2-Pack",
+   "category": "hair-care-hair-accessories",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Dual-Sided Edge Brush",
+    "Material: Boar Bristle + Nylon",
+    "For Edges and Baby Hairs",
+    "Reusable"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Wide Tooth Detangling Comb",
+   "category": "hair-care-hair-accessories",
+   "price": 30,
+   "price_range": "GHS 20 - 45",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Large",
+     "delta": 0
+    },
+    {
+     "name": "Medium",
+     "delta": -8
+    }
+   ],
+   "specs": [
+    "Material: Durable Plastic",
+    "Wide Tooth Design",
+    "For Natural Hair",
+    "Detangles Wet Hair"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Satin Bonnet Sleep Cap",
+   "category": "hair-care-hair-accessories",
+   "price": 40,
+   "price_range": "GHS 25 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Satin Black",
+     "delta": 0
+    },
+    {
+     "name": "Satin Brown",
+     "delta": 0
+    },
+    {
+     "name": "Satin Gold",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Satin",
+    "Size: One Size",
+    "Protects Hair Overnight",
+    "Adjustable Band"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Silk Scrunchies Set 6-Pack",
+   "category": "hair-care-hair-accessories",
+   "price": 35,
+   "price_range": "GHS 20 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "6-Pack Black",
+     "delta": 0
+    },
+    {
+     "name": "6-Pack Pastel",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Silk Blend",
+    "Format: 6 Scrunchies",
+    "Gentle on Hair",
+    "No Snagging"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Hair Claw Clips Set 4-Pack",
+   "category": "hair-care-hair-accessories",
+   "price": 45,
+   "price_range": "GHS 30 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4-Pack Black",
+     "delta": 0
+    },
+    {
+     "name": "4-Pack Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Plastic",
+    "Format: 4 Clips",
+    "Sizes: Small to Large",
+    "Strong Grip"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Rattail Comb for Styling",
+   "category": "hair-care-hair-accessories",
+   "price": 20,
+   "price_range": "GHS 12 - 30",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Plastic",
+    "Metal Rattail Tip",
+    "For Parting and Styling",
+    "Pocket Size"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Fit Me Matte + Poreless Foundation 30ml",
+   "category": "foundation",
+   "price": 185,
+   "price_range": "GHS 155 - 220",
+   "sale": 130,
+   "variants": [
+    {
+     "name": "120 Classic Ivory",
+     "delta": 0
+    },
+    {
+     "name": "220 Natural Beige",
+     "delta": 0
+    },
+    {
+     "name": "330 Toffee",
+     "delta": 0
+    },
+    {
+     "name": "360 Cappuccino",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Matte",
+    "Skin Type: Normal to Oily",
+    "Shade Range: 40 Shades"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Super Stay 24H Skin Tint Foundation 30ml",
+   "category": "foundation",
+   "price": 220,
+   "price_range": "GHS 185 - 260",
+   "sale": 185,
+   "variants": [
+    {
+     "name": "03 Light",
+     "delta": 0
+    },
+    {
+     "name": "06 Medium",
+     "delta": 0
+    },
+    {
+     "name": "09 Deep",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Natural",
+    "Coverage: Buildable",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Infallible 24H Matte Foundation 35ml",
+   "category": "foundation",
+   "price": 235,
+   "price_range": "GHS 200 - 275",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10 Porcelain",
+     "delta": 0
+    },
+    {
+     "name": "105 Golden Beige",
+     "delta": 0
+    },
+    {
+     "name": "130 True Beige",
+     "delta": 0
+    },
+    {
+     "name": "500 Caramel",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 35ml",
+    "Finish: Matte",
+    "Coverage: Full",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Liquid Foundation 30ml",
+   "category": "foundation",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Beautiful Bronze",
+     "delta": 0
+    },
+    {
+     "name": "Soft Sable",
+     "delta": 0
+    },
+    {
+     "name": "Rich Mahogany",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Natural",
+    "Skin Type: All Skin Types",
+    "Shades for Melanin-Rich Skin"
+   ]
+  },
+  {
+   "brand": "Fenty Beauty",
+   "name": "Fenty Beauty Pro Filt'r Soft Matte Foundation 30ml",
+   "category": "foundation",
+   "price": 480,
+   "price_range": "GHS 430 - 540",
+   "sale": null,
+   "variants": [
+    {
+     "name": "120 Ivory",
+     "delta": 0
+    },
+    {
+     "name": "290 Warm Honey",
+     "delta": 0
+    },
+    {
+     "name": "420 Caramel",
+     "delta": 0
+    },
+    {
+     "name": "480 Mahogany",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Soft Matte",
+    "Coverage: Full",
+    "50 Shade Range"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon ColorStay Longwear Foundation 30ml",
+   "category": "foundation",
+   "price": 190,
+   "price_range": "GHS 160 - 225",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150 Buff",
+     "delta": 0
+    },
+    {
+     "name": "240 Natural Tan",
+     "delta": 0
+    },
+    {
+     "name": "350 Rich Sable",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Matte",
+    "Skin Type: Combination to Oily",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris True Match Liquid Foundation 30ml",
+   "category": "foundation",
+   "price": 210,
+   "price_range": "GHS 175 - 250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1N Ivory",
+     "delta": 0
+    },
+    {
+     "name": "4N Golden Beige",
+     "delta": 0
+    },
+    {
+     "name": "6N Copper",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Finish: Natural",
+    "Skin Type: All Skin Types",
+    "Undertone Range: Cool, Neutral, Warm"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Fit Me Concealer 6.8ml",
+   "category": "concealer",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "10 Fair",
+     "delta": 0
+    },
+    {
+     "name": "20 Sand",
+     "delta": 0
+    },
+    {
+     "name": "35 Medium",
+     "delta": 0
+    },
+    {
+     "name": "45 Rich",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6.8ml",
+    "Finish: Natural",
+    "Coverage: Medium",
+    "For Dark Circles and Blemishes"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Super Stay Active Wear Concealer 10ml",
+   "category": "concealer",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10 Light",
+     "delta": 0
+    },
+    {
+     "name": "20 Medium",
+     "delta": 0
+    },
+    {
+     "name": "40 Deep",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10ml",
+    "Finish: Matte",
+    "Coverage: Full",
+    "Long-Wear"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Infallible Full Wear Concealer 7ml",
+   "category": "concealer",
+   "price": 125,
+   "price_range": "GHS 105 - 150",
+   "sale": null,
+   "variants": [
+    {
+     "name": "310 Golden Beige",
+     "delta": 0
+    },
+    {
+     "name": "320 True Beige",
+     "delta": 0
+    },
+    {
+     "name": "330 Honey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 7ml",
+    "Finish: Matte",
+    "Coverage: Full",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Concealer Stick 6g",
+   "category": "concealer",
+   "price": 80,
+   "price_range": "GHS 60 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Honey",
+     "delta": 0
+    },
+    {
+     "name": "Bronze",
+     "delta": 0
+    },
+    {
+     "name": "Ebony",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6g",
+    "Format: Stick",
+    "Coverage: Medium",
+    "Blendable Formula"
+   ]
+  },
+  {
+   "brand": "NARS",
+   "name": "NARS Radiant Creamy Concealer 6ml",
+   "category": "concealer",
+   "price": 340,
+   "price_range": "GHS 300 - 390",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Light 1 Vanilla",
+     "delta": 0
+    },
+    {
+     "name": "Medium 1 Custard",
+     "delta": 0
+    },
+    {
+     "name": "Deep 2 Nougat",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6ml",
+    "Finish: Radiant",
+    "Coverage: Full",
+    "Non-Creasing"
+   ]
+  },
+  {
+   "brand": "LA Girl",
+   "name": "LA Girl Pro Conceal HD Concealer 8g",
+   "category": "concealer",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "GC966 Natural",
+     "delta": 0
+    },
+    {
+     "name": "GC969 Medium Beige",
+     "delta": 0
+    },
+    {
+     "name": "GC973 Toffee",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8g",
+    "Finish: Matte",
+    "Coverage: High",
+    "HD Formula"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon ColorStay Concealer 8ml",
+   "category": "concealer",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Light Medium",
+     "delta": 0
+    },
+    {
+     "name": "Medium",
+     "delta": 0
+    },
+    {
+     "name": "Deep",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8ml",
+    "Finish: Matte",
+    "Coverage: Full",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Fit Me Matte + Poreless Powder 9g",
+   "category": "powder",
+   "price": 135,
+   "price_range": "GHS 110 - 165",
+   "sale": 120,
+   "variants": [
+    {
+     "name": "120 Classic Ivory",
+     "delta": 0
+    },
+    {
+     "name": "220 Natural Beige",
+     "delta": 0
+    },
+    {
+     "name": "330 Toffee",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9g",
+    "Finish: Matte",
+    "Skin Type: Normal to Oily",
+    "Pore Blurring"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel Stay Matte Pressed Powder 14g",
+   "category": "powder",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "001 Transparent",
+     "delta": 0
+    },
+    {
+     "name": "005 Silky Beige",
+     "delta": 0
+    },
+    {
+     "name": "009 Sand",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 14g",
+    "Finish: Matte",
+    "Skin Type: All Skin Types",
+    "Oil Control"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Oil Control Pressed Powder 10g",
+   "category": "powder",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Honey",
+     "delta": 0
+    },
+    {
+     "name": "Bronze",
+     "delta": 0
+    },
+    {
+     "name": "Deep Sable",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10g",
+    "Finish: Matte",
+    "Skin Type: Oily Skin",
+    "Oil Control"
+   ]
+  },
+  {
+   "brand": "Sacha",
+   "name": "Sacha Buttercup Translucent Powder 22g",
+   "category": "powder",
+   "price": 160,
+   "price_range": "GHS 130 - 195",
+   "sale": null,
+   "variants": [
+    {
+     "name": "22g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 22g",
+    "Finish: Matte",
+    "Shade: Translucent",
+    "Colourless Setting Powder"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Infallible Pressed Powder 9g",
+   "category": "powder",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 Porcelain",
+     "delta": 0
+    },
+    {
+     "name": "05 Sand",
+     "delta": 0
+    },
+    {
+     "name": "08 Golden Beige",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9g",
+    "Finish: Matte",
+    "Skin Type: All Skin Types",
+    "24-Hour Wear"
+   ]
+  },
+  {
+   "brand": "Ben Nye",
+   "name": "Ben Nye Luxury Powder 42g",
+   "category": "powder",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Neutral Set",
+     "delta": 0
+    },
+    {
+     "name": "Banana",
+     "delta": 0
+    },
+    {
+     "name": "Topaz",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 42g",
+    "Finish: Matte",
+    "Professional Grade",
+    "Long-Lasting"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Can't Stop Won't Stop Powder 12g",
+   "category": "powder",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Light",
+     "delta": 0
+    },
+    {
+     "name": "Medium",
+     "delta": 0
+    },
+    {
+     "name": "Deep",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 12g",
+    "Finish: Matte",
+    "Full Coverage",
+    "Blurring Effect"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Fit Me Blush 4.5g",
+   "category": "blush",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 65,
+   "variants": [
+    {
+     "name": "10 Peach",
+     "delta": 0
+    },
+    {
+     "name": "15 Nude",
+     "delta": 0
+    },
+    {
+     "name": "30 Berry",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.5g",
+    "Finish: Powder",
+    "Shades: 6",
+    "Buildable Colour"
+   ]
+  },
+  {
+   "brand": "NARS",
+   "name": "NARS Blush Orgasm 4.8g",
+   "category": "blush",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Orgasm",
+     "delta": 0
+    },
+    {
+     "name": "Deep Throat",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.8g",
+    "Finish: Powder with Shimmer",
+    "Iconic Peachy Pink",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Blush On 5g",
+   "category": "blush",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Rosy Glow",
+     "delta": 0
+    },
+    {
+     "name": "Warm Berry",
+     "delta": 0
+    },
+    {
+     "name": "Copper",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 5g",
+    "Finish: Powder",
+    "Skin Tone: Melanin-Rich",
+    "Silky Texture"
+   ]
+  },
+  {
+   "brand": "Milani",
+   "name": "Milani Baked Blush 3.5g",
+   "category": "blush",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 Dolce Pink",
+     "delta": 0
+    },
+    {
+     "name": "05 Luminoso",
+     "delta": 0
+    },
+    {
+     "name": "08 Berry Amore",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 3.5g",
+    "Finish: Baked Powder",
+    "Infused with Vitamin E",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Powder Blush 7g",
+   "category": "blush",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "001 Rose Glow",
+     "delta": 0
+    },
+    {
+     "name": "003 Peach Parfait",
+     "delta": 0
+    },
+    {
+     "name": "005 Berry Flush",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 7g",
+    "Finish: Powder",
+    "Soft-Matte",
+    "Blendable"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Sweet Cheeks Blush 7g",
+   "category": "blush",
+   "price": 115,
+   "price_range": "GHS 95 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "So Taupe",
+     "delta": 0
+    },
+    {
+     "name": "Peach Cute",
+     "delta": 0
+    },
+    {
+     "name": "Berry Flush",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 7g",
+    "Finish: Powder",
+    "Buttery Texture",
+    "High Pigment"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline City Bronzer 6g",
+   "category": "bronzer",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Sun Kissed",
+     "delta": 0
+    },
+    {
+     "name": "200 Medium Cool",
+     "delta": 0
+    },
+    {
+     "name": "300 Deep Bronze",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6g",
+    "Finish: Powder",
+    "Shades: 6",
+    "Matte Finish"
+   ]
+  },
+  {
+   "brand": "NARS",
+   "name": "NARS Bronzing Powder Laguna 8g",
+   "category": "bronzer",
+   "price": 400,
+   "price_range": "GHS 355 - 450",
+   "sale": 330,
+   "variants": [
+    {
+     "name": "Laguna",
+     "delta": 0
+    },
+    {
+     "name": "Laguna 02",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8g",
+    "Finish: Satin",
+    "Warm Brown Tone",
+    "Buildable Colour"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Matte Bronzer 9g",
+   "category": "bronzer",
+   "price": 100,
+   "price_range": "GHS 80 - 125",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 In My Element",
+     "delta": 0
+    },
+    {
+     "name": "03 My Soulmate",
+     "delta": 0
+    },
+    {
+     "name": "05 Deep Tan",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9g",
+    "Finish: Matte",
+    "Shades: 6",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Bronzing Powder 8g",
+   "category": "bronzer",
+   "price": 80,
+   "price_range": "GHS 60 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Warm Tan",
+     "delta": 0
+    },
+    {
+     "name": "Deep Bronze",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8g",
+    "Finish: Powder",
+    "For Melanin-Rich Skin",
+    "Matte Finish"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel Sun Shimmer Bronzer 14g",
+   "category": "bronzer",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "021 Sun Glow",
+     "delta": 0
+    },
+    {
+     "name": "023 Light Matte",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 14g",
+    "Finish: Powder",
+    "Sun-Kissed Look",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Glow Mon Amour Bronzer 10g",
+   "category": "bronzer",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Light",
+     "delta": 0
+    },
+    {
+     "name": "300 Medium",
+     "delta": 0
+    },
+    {
+     "name": "500 Deep",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10g",
+    "Finish: Luminous",
+    "Buildable Glow",
+    "Shades: 6"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Master Chrome Highlighter 4g",
+   "category": "highlighter",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Molten Gold",
+     "delta": 0
+    },
+    {
+     "name": "250 Molten Rose",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4g",
+    "Finish: Metallic",
+    "Intense Shine",
+    "Chrome Effect"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Duo Chromatic Highlighter 7g",
+   "category": "highlighter",
+   "price": 115,
+   "price_range": "GHS 95 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 Lavender Steel",
+     "delta": 0
+    },
+    {
+     "name": "03 Rose Gold",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 7g",
+    "Finish: Duo-Chrome",
+    "Shifts Colour",
+    "High Pigment"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Liquid Highlighter 10ml",
+   "category": "highlighter",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "Golden Glow",
+     "delta": 0
+    },
+    {
+     "name": "Rose Pearl",
+     "delta": 0
+    },
+    {
+     "name": "Bronze Shimmer",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10ml",
+    "Finish: Liquid",
+    "Mix with Foundation",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "Milani",
+   "name": "Milani Hypnotic Light Highlighter 8.5g",
+   "category": "highlighter",
+   "price": 135,
+   "price_range": "GHS 110 - 165",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 Afterglow",
+     "delta": 0
+    },
+    {
+     "name": "03 Shimmering Rose",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8.5g",
+    "Finish: Baked Powder",
+    "Soft-Focus Glow",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris True Match Lumi Glow Highlighter 8g",
+   "category": "highlighter",
+   "price": 145,
+   "price_range": "GHS 120 - 175",
+   "sale": null,
+   "variants": [
+    {
+     "name": "01 Ice",
+     "delta": 0
+    },
+    {
+     "name": "03 Rose",
+     "delta": 0
+    },
+    {
+     "name": "05 Gold",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8g",
+    "Finish: Luminous",
+    "Blendable Cream",
+    "Matches Skin Tone"
+   ]
+  },
+  {
+   "brand": "Sacha",
+   "name": "Sacha Buttercup Strobe Highlighter 10g",
+   "category": "highlighter",
+   "price": 170,
+   "price_range": "GHS 140 - 205",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10g",
+    "Finish: Strobe",
+    "Shade: Champagne",
+    "Intense Glow"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Color Sensational Creamy Matte Lipstick 4.2g",
+   "category": "lipstick",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "690 Wine & Dine",
+     "delta": 0
+    },
+    {
+     "name": "915 Raw Chocolate",
+     "delta": 0
+    },
+    {
+     "name": "135 Gone Greige",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.2g",
+    "Finish: Creamy Matte",
+    "Shades: 30",
+    "Enriched with Honey Nectar"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Super Stay Matte Ink Liquid Lipstick 5ml",
+   "category": "lipstick",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "05 Voyager",
+     "delta": 0
+    },
+    {
+     "name": "15 Lover",
+     "delta": 0
+    },
+    {
+     "name": "20 Pioneer",
+     "delta": 0
+    },
+    {
+     "name": "25 Dreamer",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 5ml",
+    "Finish: Matte",
+    "16-Hour Wear",
+    "Liquid Lipstick"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Colour Riche Lipstick 4.2g",
+   "category": "lipstick",
+   "price": 135,
+   "price_range": "GHS 110 - 165",
+   "sale": null,
+   "variants": [
+    {
+     "name": "233 Golden Cocoon",
+     "delta": 0
+    },
+    {
+     "name": "400 Fire Engine Red",
+     "delta": 0
+    },
+    {
+     "name": "612 Rose Red",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.2g",
+    "Finish: Satin",
+    "With Argan Oil",
+    "Hydrating Formula"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Creamy Lipstick 4g",
+   "category": "lipstick",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": 55,
+   "variants": [
+    {
+     "name": "Ruby Red",
+     "delta": 0
+    },
+    {
+     "name": "Chocolate Kiss",
+     "delta": 0
+    },
+    {
+     "name": "Mauve",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4g",
+    "Finish: Cream",
+    "Moisturising",
+    "Deep Pigment"
+   ]
+  },
+  {
+   "brand": "MAC",
+   "name": "MAC Matte Lipstick 3g",
+   "category": "lipstick",
+   "price": 420,
+   "price_range": "GHS 375 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Ruby Woo",
+     "delta": 0
+    },
+    {
+     "name": "Velvet Teddy",
+     "delta": 0
+    },
+    {
+     "name": "Chili",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 3g",
+    "Finish: Matte",
+    "Full Coverage",
+    "Iconic Shade Range"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Super Lustrous Lipstick 4.2g",
+   "category": "lipstick",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "007 Rose Velvet",
+     "delta": 0
+    },
+    {
+     "name": "415 Pink in the Afternoon",
+     "delta": 0
+    },
+    {
+     "name": "725 Wine With Everything",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.2g",
+    "Finish: Creme",
+    "With Vitamin E",
+    "Buttery Formula"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel Lasting Finish Lipstick 4.3g",
+   "category": "lipstick",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "009 Rose Blush",
+     "delta": 0
+    },
+    {
+     "name": "030 Deliciously Berry",
+     "delta": 0
+    },
+    {
+     "name": "200 Bordeaux",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 4.3g",
+    "Finish: Satin",
+    "8-Hour Wear",
+    "Moisture-Rich"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Lifter Gloss 7ml",
+   "category": "lip-gloss",
+   "price": 115,
+   "price_range": "GHS 95 - 140",
+   "sale": null,
+   "variants": [
+    {
+     "name": "003 Petal",
+     "delta": 0
+    },
+    {
+     "name": "007 Moon",
+     "delta": 0
+    },
+    {
+     "name": "010 Topaz",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 7ml",
+    "Finish: High Shine",
+    "With Hyaluronic Acid",
+    "Plumping Effect"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Butter Gloss 8ml",
+   "category": "lip-gloss",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "BLG06 Creme Brulee",
+     "delta": 0
+    },
+    {
+     "name": "BLG10 Angel Food Cake",
+     "delta": 0
+    },
+    {
+     "name": "BLG16 Fortune Cookie",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8ml",
+    "Finish: Butter Shine",
+    "Non-Sticky",
+    "Sheer to Medium Colour"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Lip Gloss 5ml",
+   "category": "lip-gloss",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clear Shine",
+     "delta": 0
+    },
+    {
+     "name": "Pink Pearl",
+     "delta": 0
+    },
+    {
+     "name": "Chocolate Glaze",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 5ml",
+    "Finish: Shine",
+    "Non-Sticky",
+    "Moisturising"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Super Lustrous Lip Gloss 5.5ml",
+   "category": "lip-gloss",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "001 Super Natural",
+     "delta": 0
+    },
+    {
+     "name": "130 Pink Pop",
+     "delta": 0
+    },
+    {
+     "name": "204 Wine",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 5.5ml",
+    "Finish: Glass Shine",
+    "With Vitamin E",
+    "Non-Sticky"
+   ]
+  },
+  {
+   "brand": "Fenty Beauty",
+   "name": "Fenty Beauty Gloss Bomb Universal Lip Luminizer 9ml",
+   "category": "lip-gloss",
+   "price": 385,
+   "price_range": "GHS 345 - 435",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Fenty Glow",
+     "delta": 0
+    },
+    {
+     "name": "Hot Chocolit",
+     "delta": 0
+    },
+    {
+     "name": "Fu$$y",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9ml",
+    "Finish: High Shine",
+    "Universal Shades",
+    "Non-Sticky"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Glow Paradise Lip Balm-in-Gloss 6.8ml",
+   "category": "lip-gloss",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "101 Rose",
+     "delta": 0
+    },
+    {
+     "name": "104 Cherry",
+     "delta": 0
+    },
+    {
+     "name": "110 Honey",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6.8ml",
+    "Finish: Glossy",
+    "With Pomegranate Oil",
+    "Balm + Gloss Hybrid"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Color Sensational Shaping Lip Liner 1.2g",
+   "category": "lip-liner",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "210 Clear",
+     "delta": 0
+    },
+    {
+     "name": "630 Espresso",
+     "delta": 0
+    },
+    {
+     "name": "650 Wine",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.2g",
+    "Format: Retractable Pencil",
+    "Prevents Feathering",
+    "Sharpener Free"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Slim Lip Pencil 1.3g",
+   "category": "lip-liner",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "829 Natural",
+     "delta": 0
+    },
+    {
+     "name": "840 Deep Red",
+     "delta": 0
+    },
+    {
+     "name": "863 Cocoa",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.3g",
+    "Format: Wood Pencil",
+    "Long-Wearing",
+    "Creamy Formula"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Lip Liner Pencil 1.2g",
+   "category": "lip-liner",
+   "price": 40,
+   "price_range": "GHS 28 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Brown",
+     "delta": 0
+    },
+    {
+     "name": "Red",
+     "delta": 0
+    },
+    {
+     "name": "Nude",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.2g",
+    "Format: Wood Pencil",
+    "Creamy Texture",
+    "Defines Lips"
+   ]
+  },
+  {
+   "brand": "MAC",
+   "name": "MAC Lip Pencil 1.45g",
+   "category": "lip-liner",
+   "price": 260,
+   "price_range": "GHS 225 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Whirl",
+     "delta": 0
+    },
+    {
+     "name": "Spice",
+     "delta": 0
+    },
+    {
+     "name": "Chestnut",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.45g",
+    "Format: Wood Pencil",
+    "Long-Wearing",
+    "Rich Pigment"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel Exaggerate Lip Liner 1.2g",
+   "category": "lip-liner",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": 40,
+   "variants": [
+    {
+     "name": "006 Divine",
+     "delta": 0
+    },
+    {
+     "name": "030 Berry Kiss",
+     "delta": 0
+    },
+    {
+     "name": "063 Airy Fairy",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.2g",
+    "Format: Retractable",
+    "Waterproof",
+    "Built-In Smudger"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Color Riche Lip Liner 1.2g",
+   "category": "lip-liner",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "103 Nude Rose",
+     "delta": 0
+    },
+    {
+     "name": "130 Bordeaux",
+     "delta": 0
+    },
+    {
+     "name": "144 Burgundy",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.2g",
+    "Format: Wood Pencil",
+    "Creamy",
+    "12-Hour Hold"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Eyestudio Master Precise Liquid Eyeliner 1.3ml",
+   "category": "eyeliner",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.3ml",
+    "Format: Pen Liner",
+    "Felt Tip",
+    "Waterproof"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Hyper Sharp Liquid Eyeliner 1ml",
+   "category": "eyeliner",
+   "price": 80,
+   "price_range": "GHS 60 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1ml",
+    "Format: Liquid Pen",
+    "Ultra-Fine Tip",
+    "Smudge-Proof"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Epic Ink Liner 1ml",
+   "category": "eyeliner",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Brown",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1ml",
+    "Format: Pen Liner",
+    "Waterproof",
+    "High Pigment"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Liquid Eyeliner 5ml",
+   "category": "eyeliner",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 5ml",
+    "Format: Brush Bottle",
+    "Waterproof",
+    "Deep Black"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel ScandalEyes Waterproof Eyeliner 1.2g",
+   "category": "eyeliner",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "001 Black",
+     "delta": 0
+    },
+    {
+     "name": "009 Brown",
+     "delta": 0
+    },
+    {
+     "name": "013 Nude",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 1.2g",
+    "Format: Khol Pencil",
+    "Waterproof",
+    "Smudge Blendable"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Superliner Gel Intenza 2.5ml",
+   "category": "eyeliner",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": 85,
+   "variants": [
+    {
+     "name": "01 Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 2.5ml",
+    "Format: Gel Pot",
+    "24-Hour Wear",
+    "Waterproof"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Lash Sensational Sky High Mascara 9.2ml",
+   "category": "mascara",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Brownish Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9.2ml",
+    "Finish: Volume + Length",
+    "Washable Formula",
+    "Flexible Wand"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline Great Lash Mascara 11ml",
+   "category": "mascara",
+   "price": 80,
+   "price_range": "GHS 60 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Very Black",
+     "delta": 0
+    },
+    {
+     "name": "Brownish Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 11ml",
+    "Finish: Definition",
+    "Classic Formula",
+    "Dual-Use Brush"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Voluminous Lash Paradise Mascara 9ml",
+   "category": "mascara",
+   "price": 155,
+   "price_range": "GHS 130 - 185",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    },
+    {
+     "name": "Blackest Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9ml",
+    "Finish: Volume + Length",
+    "With Castor Oil",
+    "Butter-Soft Formula"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Volumising Mascara 8ml",
+   "category": "mascara",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8ml",
+    "Finish: Volume",
+    "Smudge-Resistant",
+    "Clump-Free"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel ScandalEyes Reloaded Mascara 12ml",
+   "category": "mascara",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "001 Black",
+     "delta": 0
+    },
+    {
+     "name": "002 Extreme Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 12ml",
+    "Finish: Volume",
+    "Fiber Brush",
+    "Clump-Free"
+   ]
+  },
+  {
+   "brand": "MAC",
+   "name": "MAC In Extreme Dimension 3D Black Lash Mascara 9.7g",
+   "category": "mascara",
+   "price": 320,
+   "price_range": "GHS 280 - 365",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9.7g",
+    "Finish: Extreme Volume",
+    "3D Fibers",
+    "Buildable"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Worth the Hype Mascara 8.5ml",
+   "category": "mascara",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": 95,
+   "variants": [
+    {
+     "name": "Black",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 8.5ml",
+    "Finish: Volume + Length",
+    "Cone-Shaped Brush",
+    "Washable"
+   ]
+  },
+  {
+   "brand": "Maybelline",
+   "name": "Maybelline The Nudes Eyeshadow Palette 9.6g",
+   "category": "eyeshadow",
+   "price": 145,
+   "price_range": "GHS 120 - 175",
+   "sale": null,
+   "variants": [
+    {
+     "name": "The Nudes",
+     "delta": 0
+    },
+    {
+     "name": "The Blushed Nudes",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 9.6g",
+    "Format: 12 Shades",
+    "Finish: Matte + Shimmer",
+    "Blendable"
+   ]
+  },
+  {
+   "brand": "NYX",
+   "name": "NYX Professional Makeup Ultimate Shadow Palette 16g",
+   "category": "eyeshadow",
+   "price": 170,
+   "price_range": "GHS 140 - 205",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Warm Neutrals",
+     "delta": 0
+    },
+    {
+     "name": "Brights",
+     "delta": 0
+    },
+    {
+     "name": "Phoenix",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 16g",
+    "Format: 16 Shades",
+    "Finish: Matte + Shimmer",
+    "High Pigment"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Eyeshadow Palette 12g",
+   "category": "eyeshadow",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nude Glow",
+     "delta": 0
+    },
+    {
+     "name": "Smoky Chic",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 12g",
+    "Format: 8 Shades",
+    "Finish: Matte + Shimmer",
+    "Long-Wearing"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Color Riche La Palette Nude 1 14.5g",
+   "category": "eyeshadow",
+   "price": 155,
+   "price_range": "GHS 130 - 185",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nude 1",
+     "delta": 0
+    },
+    {
+     "name": "Nude Rose",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 14.5g",
+    "Format: 10 Shades",
+    "Finish: Matte + Shimmer",
+    "With Vitamin E"
+   ]
+  },
+  {
+   "brand": "MAC",
+   "name": "MAC 9-Pan Eyeshadow Palette 18g",
+   "category": "eyeshadow",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nude Model",
+     "delta": 0
+    },
+    {
+     "name": "Amber Times Nine",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 18g",
+    "Format: 9 Shades",
+    "Finish: Matte + Shimmer",
+    "Professional Grade"
+   ]
+  },
+  {
+   "brand": "Rimmel",
+   "name": "Rimmel Magnif'Eyes Eyeshadow Palette 15.5g",
+   "category": "eyeshadow",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "002 Nude Edition",
+     "delta": 0
+    },
+    {
+     "name": "004 Rose Gold Edition",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 15.5g",
+    "Format: 12 Shades",
+    "Finish: Matte + Shimmer",
+    "Dual-Ended Applicator"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Neutral Eyeshadow Palette 18 Shades",
+   "category": "eyeshadow",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": 135,
+   "variants": [
+    {
+     "name": "18 Shades",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 18 Shades",
+    "Finish: Matte + Shimmer",
+    "Highly Pigmented",
+    "Cruelty-Free"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Foundation Brush 6-Piece Set",
+   "category": "makeup-brushes",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "6-Piece",
+     "delta": 0
+    },
+    {
+     "name": "12-Piece",
+     "delta": 80
+    }
+   ],
+   "specs": [
+    "Format: 6 Brushes",
+    "Bristles: Synthetic",
+    "Includes Foundation and Concealer Brushes",
+    "Soft-Touch"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Powder Brush Large Fluffy",
+   "category": "makeup-brushes",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Large",
+     "delta": 0
+    },
+    {
+     "name": "Medium",
+     "delta": -15
+    }
+   ],
+   "specs": [
+    "Format: Single Brush",
+    "Bristles: Synthetic",
+    "For Powder and Bronzer",
+    "Dense Dome Shape"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Eyeshadow Brush Set 12-Piece",
+   "category": "makeup-brushes",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "12-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 12 Brushes",
+    "Bristles: Synthetic",
+    "Includes Blending and Shader Brushes",
+    "Travel Case Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Makeup Brush Set 24-Piece",
+   "category": "makeup-brushes",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "24-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 24 Brushes",
+    "Bristles: Synthetic",
+    "Face, Eye and Lip Brushes",
+    "Storage Bag Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Concealer Brush Precision Tip",
+   "category": "makeup-brushes",
+   "price": 35,
+   "price_range": "GHS 20 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Format: Single Brush",
+    "Bristles: Synthetic",
+    "Precision Tip",
+    "For Concealer and Corrector"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Blending Brush Set 5-Piece",
+   "category": "makeup-brushes",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 5 Brushes",
+    "Bristles: Synthetic",
+    "For Eyeshadow Blending",
+    "Soft and Dense"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Kabuki Brush",
+   "category": "makeup-brushes",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": 45,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Single Brush",
+    "Bristles: Synthetic",
+    "For Powder and Foundation",
+    "Full Coverage"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Makeup Sponge Blender",
+   "category": "makeup-tools",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Format: Teardrop Sponge",
+    "Material: Latex-Free",
+    "Use Wet or Dry",
+    "Bouncy Texture"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Makeup Sponge Set 4-Piece",
+   "category": "makeup-tools",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 4 Sponges",
+    "Material: Latex-Free",
+    "Mixed Shapes",
+    "For Foundation and Concealer"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Eyelash Curler",
+   "category": "makeup-tools",
+   "price": 35,
+   "price_range": "GHS 20 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Manual Curler",
+    "Material: Metal",
+    "With Replacement Pad",
+    "Comfort Grip"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Eyelash Extension Kit 12-Piece",
+   "category": "makeup-tools",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "12-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 12 Lashes + Glue",
+    "Lash Style: Mixed Curl",
+    "Includes Applicator",
+    "For DIY Use"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Eyebrow Stencils Set 6-Piece",
+   "category": "makeup-tools",
+   "price": 30,
+   "price_range": "GHS 18 - 45",
+   "sale": null,
+   "variants": [
+    {
+     "name": "6-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 6 Stencils",
+    "Styles: Arch, Rounded, Straight",
+    "Reusable",
+    "Washable"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "LED Makeup Mirror 8 inch",
+   "category": "makeup-tools",
+   "price": 250,
+   "price_range": "GHS 210 - 295",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8 inch",
+     "delta": 0
+    },
+    {
+     "name": "10 inch",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Size: 8 inch",
+    "Lighting: LED",
+    "Power: USB",
+    "1x and 3x Magnification"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Oil Blotting Papers 100 Sheets",
+   "category": "makeup-tools",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Sheets",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 100 Sheets",
+    "Material: Rice Paper",
+    "Removes Excess Oil",
+    "Compact Pack"
+   ]
+  },
+  {
+   "brand": "RYZ Parfums",
+   "name": "RYZ Parfums Club Gentlemen Extrait de Parfum 100ml (Inspired by Creed Aventus)",
+   "category": "perfumes",
+   "price": 299,
+   "price_range": "GHS 260 - 360",
+   "sale": 260,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Extrait de Parfum",
+    "Notes: Pineapple, Birch, Musk",
+    "Inspired by Creed Aventus"
+   ]
+  },
+  {
+   "brand": "RYZ Parfums",
+   "name": "RYZ Parfums My Love EDP 100ml (Inspired by Armani My Way)",
+   "category": "perfumes",
+   "price": 275,
+   "price_range": "GHS 240 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Tuberose, Orange Blossom, Vanilla",
+    "Inspired by Armani My Way"
+   ]
+  },
+  {
+   "brand": "RYZ Parfums",
+   "name": "RYZ Parfums Noir Intense Parfum 100ml (Inspired by Bvlgari Man in Black)",
+   "category": "perfumes",
+   "price": 399,
+   "price_range": "GHS 350 - 460",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Parfum",
+    "Notes: Spiced Rum, Tuberose, Tonka",
+    "Inspired by Bvlgari Man in Black"
+   ]
+  },
+  {
+   "brand": "RYZ Parfums",
+   "name": "RYZ Parfums Temptation EDP 100ml (Inspired by Burberry Goddess)",
+   "category": "perfumes",
+   "price": 275,
+   "price_range": "GHS 240 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Vanilla, Ginger, Lavender",
+    "Inspired by Burberry Goddess"
+   ]
+  },
+  {
+   "brand": "Fragrance World",
+   "name": "Fragrance World Inspired EDP 100ml — Dark Oud",
+   "category": "perfumes",
+   "price": 320,
+   "price_range": "GHS 280 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Oud, Rose, Amber",
+    "Long-Lasting"
+   ]
+  },
+  {
+   "brand": "Lattafa",
+   "name": "Lattafa Khamrah EDP 100ml",
+   "category": "perfumes",
+   "price": 450,
+   "price_range": "GHS 400 - 510",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Cinnamon, Dates, Vanilla",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Armaf",
+   "name": "Armaf Club de Nuit Intense Man EDT 100ml",
+   "category": "perfumes",
+   "price": 550,
+   "price_range": "GHS 490 - 620",
+   "sale": 430,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Lemon, Pineapple, Birch",
+    "Men's Fragrance"
+   ]
+  },
+  {
+   "brand": "Lynx",
+   "name": "Lynx Africa Body Spray 150ml",
+   "category": "body-sprays",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Africa",
+     "delta": 0
+    },
+    {
+     "name": "Dark Temptation",
+     "delta": 0
+    },
+    {
+     "name": "Attract",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Spray",
+    "Long-Lasting Freshness",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Enchanteur",
+   "name": "Enchanteur Romantic Body Spray 100ml",
+   "category": "body-sprays",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Romantic",
+     "delta": 0
+    },
+    {
+     "name": "Charming",
+     "delta": 0
+    },
+    {
+     "name": "Fascination",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Body Spray",
+    "Floral Fragrance",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Dove Men+Care",
+   "name": "Dove Men+Care Body Spray 150ml",
+   "category": "body-sprays",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Clean Comfort",
+     "delta": 0
+    },
+    {
+     "name": "Extra Fresh",
+     "delta": 0
+    },
+    {
+     "name": "Cool Fresh",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Spray",
+    "24-Hour Freshness",
+    "Alcohol-Free"
+   ]
+  },
+  {
+   "brand": "Sure",
+   "name": "Sure Men Body Spray 150ml",
+   "category": "body-sprays",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Sport",
+     "delta": 0
+    },
+    {
+     "name": "Original",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Spray",
+    "Active Protection",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Brut",
+   "name": "Brut Original Body Spray 150ml",
+   "category": "body-sprays",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Original",
+     "delta": 0
+    },
+    {
+     "name": "Sport",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Spray",
+    "Classic Scent",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Adidas",
+   "name": "Adidas Sport Body Spray 150ml",
+   "category": "body-sprays",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Ice Dive",
+     "delta": 0
+    },
+    {
+     "name": "Team Five",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Spray",
+    "Sporty Freshness",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Victoria's Secret",
+   "name": "Victoria's Secret Bombshell Body Mist 250ml",
+   "category": "body-mists",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": 325,
+   "variants": [
+    {
+     "name": "Bombshell",
+     "delta": 0
+    },
+    {
+     "name": "Love Spell",
+     "delta": 0
+    },
+    {
+     "name": "Pure Seduction",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Type: Body Mist",
+    "Notes: Purple Passionfruit, Shangri-La Peony",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Bath & Body Works",
+   "name": "Bath & Body Works Fine Fragrance Mist 236ml",
+   "category": "body-mists",
+   "price": 350,
+   "price_range": "GHS 310 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Japanese Cherry Blossom",
+     "delta": 0
+    },
+    {
+     "name": "Gingham",
+     "delta": 0
+    },
+    {
+     "name": "Into the Night",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Type: Fragrance Mist",
+    "Notes: Cherry Blossom, Mandarin, Sandalwood",
+    "Alcohol-Based"
+   ]
+  },
+  {
+   "brand": "Enchanteur",
+   "name": "Enchanteur Love Potion Body Mist 150ml",
+   "category": "body-mists",
+   "price": 40,
+   "price_range": "GHS 28 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Love Potion",
+     "delta": 0
+    },
+    {
+     "name": "Fascination",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Mist",
+    "Floral Scent",
+    "Affordable Everyday Mist"
+   ]
+  },
+  {
+   "brand": "Sol de Janeiro",
+   "name": "Sol de Janeiro Brazilian Crush Cheirosa 62 Body Mist 240ml",
+   "category": "body-mists",
+   "price": 480,
+   "price_range": "GHS 430 - 540",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cheirosa 62",
+     "delta": 0
+    },
+    {
+     "name": "Cheirosa 40",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 240ml",
+    "Type: Body Mist",
+    "Notes: Pistachio, Salted Caramel, Vanilla",
+    "Long-Lasting"
+   ]
+  },
+  {
+   "brand": "Ariana Grande",
+   "name": "Ariana Grande Cloud Body Mist 250ml",
+   "category": "body-mists",
+   "price": 320,
+   "price_range": "GHS 280 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cloud",
+     "delta": 0
+    },
+    {
+     "name": "Sweet Like Candy",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Type: Body Mist",
+    "Notes: Lavender, Pear, Coconut",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "The Body Shop",
+   "name": "The Body Shop Satsuma Body Mist 100ml",
+   "category": "body-mists",
+   "price": 210,
+   "price_range": "GHS 175 - 250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Satsuma",
+     "delta": 0
+    },
+    {
+     "name": "Moringa",
+     "delta": 0
+    },
+    {
+     "name": "Strawberry",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Body Mist",
+    "Notes: Fresh Satsuma Citrus",
+    "Lightweight"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Silver Protect Deodorant Spray 150ml",
+   "category": "fragrance-deodorants",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Silver Protect",
+     "delta": 0
+    },
+    {
+     "name": "Cool Kick",
+     "delta": 0
+    },
+    {
+     "name": "Active Care",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Spray",
+    "48-Hour Protection",
+    "Alcohol-Free"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Invisible Dry Spray Deodorant 150ml",
+   "category": "fragrance-deodorants",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 60,
+   "variants": [
+    {
+     "name": "Original",
+     "delta": 0
+    },
+    {
+     "name": "Fresh",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Dry Spray",
+    "No White Marks",
+    "24-Hour Protection"
+   ]
+  },
+  {
+   "brand": "Rexona",
+   "name": "Rexona Cotton Dry Roll-On Deodorant 50ml",
+   "category": "fragrance-deodorants",
+   "price": 40,
+   "price_range": "GHS 28 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cotton Dry",
+     "delta": 0
+    },
+    {
+     "name": "Women Shower Clean",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "72-Hour Protection",
+    "Antiperspirant"
+   ]
+  },
+  {
+   "brand": "Sure",
+   "name": "Sure White Fresh Roll-On Deodorant 50ml",
+   "category": "fragrance-deodorants",
+   "price": 38,
+   "price_range": "GHS 25 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "White Fresh",
+     "delta": 0
+    },
+    {
+     "name": "Maximum Protection",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "48-Hour Protection",
+    "No Stains"
+   ]
+  },
+  {
+   "brand": "Brut",
+   "name": "Brut Deodorant Spray 150ml",
+   "category": "fragrance-deodorants",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Original",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Spray",
+    "Classic Scent",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Adidas",
+   "name": "Adidas Ice Dive Deodorant Spray 150ml",
+   "category": "fragrance-deodorants",
+   "price": 50,
+   "price_range": "GHS 35 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Ice Dive",
+     "delta": 0
+    },
+    {
+     "name": "Team Five",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Spray",
+    "Sport Freshness",
+    "24-Hour Protection"
+   ]
+  },
+  {
+   "brand": "Al-Rehab",
+   "name": "Al-Rehab Choco Musk Fragrance Oil 10ml",
+   "category": "fragrance-oils",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Choco Musk",
+     "delta": 0
+    },
+    {
+     "name": "Soft",
+     "delta": 0
+    },
+    {
+     "name": "Silver",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10ml",
+    "Type: Oil Roll-On",
+    "Notes: Chocolate, Musk, Vanilla",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Al-Rehab",
+   "name": "Al-Rehab Soft Roll-On Oil 6ml",
+   "category": "fragrance-oils",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Soft",
+     "delta": 0
+    },
+    {
+     "name": "Rose",
+     "delta": 0
+    },
+    {
+     "name": "White Musk",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 6ml",
+    "Type: Oil Roll-On",
+    "Notes: Rose, Musk",
+    "Long-Lasting"
+   ]
+  },
+  {
+   "brand": "Al Haramain",
+   "name": "Al Haramain Amber Oud Oil 12ml",
+   "category": "fragrance-oils",
+   "price": 160,
+   "price_range": "GHS 130 - 195",
+   "sale": 130,
+   "variants": [
+    {
+     "name": "Amber Oud",
+     "delta": 0
+    },
+    {
+     "name": "Oud Musk",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 12ml",
+    "Type: Attar Oil",
+    "Notes: Amber, Oud, Musk",
+    "Concentrated"
+   ]
+  },
+  {
+   "brand": "Ajmal",
+   "name": "Ajmal Amber Wood Attar Oil 12ml",
+   "category": "fragrance-oils",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Amber Wood",
+     "delta": 0
+    },
+    {
+     "name": "Oudh",
+     "delta": 0
+    },
+    {
+     "name": "Musk",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 12ml",
+    "Type: Attar Oil",
+    "Notes: Amber, Sandalwood",
+    "Traditional Attar"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Swirl Fragrance Oil 10ml",
+   "category": "fragrance-oils",
+   "price": 35,
+   "price_range": "GHS 20 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Vanilla",
+     "delta": 0
+    },
+    {
+     "name": "Rose",
+     "delta": 0
+    },
+    {
+     "name": "Musk",
+     "delta": 0
+    },
+    {
+     "name": "Lavender",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 10ml",
+    "Type: Oil Roll-On",
+    "Long-Lasting",
+    "Pocket Size"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Attar Oud Oil 6ml",
+   "category": "fragrance-oils",
+   "price": 50,
+   "price_range": "GHS 35 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "6ml",
+     "delta": 0
+    },
+    {
+     "name": "12ml",
+     "delta": 35
+    }
+   ],
+   "specs": [
+    "Size: 6ml",
+    "Type: Attar Oil",
+    "Notes: Pure Oud",
+    "Concentrated"
+   ]
+  },
+  {
+   "brand": "Armani",
+   "name": "Armani Code EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 1350,
+   "price_range": "GHS 1200 - 1550",
+   "sale": 1150,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -450
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Bergamot, Olive Blossom, Tonka Bean",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Dior",
+   "name": "Dior Sauvage EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 2200,
+   "price_range": "GHS 2000 - 2500",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "60ml",
+     "delta": -700
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Bergamot, Sichuan Pepper, Ambroxan",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Versace",
+   "name": "Versace Eros EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 1400,
+   "price_range": "GHS 1250 - 1600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Mint, Green Apple, Vanilla",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Hugo Boss",
+   "name": "Hugo Boss Bottled EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 950,
+   "price_range": "GHS 850 - 1100",
+   "sale": 835,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -350
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Apple, Geranium, Sandalwood",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Paco Rabanne",
+   "name": "Paco Rabanne Invictus EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 1600,
+   "price_range": "GHS 1450 - 1800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Grapefruit, Bay Leaf, Amber",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Calvin Klein",
+   "name": "Calvin Klein Eternity for Men EDT 100ml",
+   "category": "mens-fragrance",
+   "price": 700,
+   "price_range": "GHS 620 - 800",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -250
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Lavender, Sage, Sandalwood",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Zara",
+   "name": "Zara Man EDP 100ml",
+   "category": "mens-fragrance",
+   "price": 350,
+   "price_range": "GHS 300 - 410",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Citrus, Wood, Musk",
+    "Affordable Designer Alternative"
+   ]
+  },
+  {
+   "brand": "Elizabeth Arden",
+   "name": "Elizabeth Arden Red Door EDP 100ml",
+   "category": "womens-fragrance",
+   "price": 750,
+   "price_range": "GHS 670 - 850",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -250
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Rose, Jasmine, Amber",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Armani",
+   "name": "Armani My Way EDP 90ml",
+   "category": "womens-fragrance",
+   "price": 1800,
+   "price_range": "GHS 1650 - 2000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "90ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -700
+    }
+   ],
+   "specs": [
+    "Size: 90ml",
+    "Type: Eau de Parfum",
+    "Notes: Orange Blossom, Tuberose, Vanilla",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Dior",
+   "name": "Dior J'adore EDP 100ml",
+   "category": "womens-fragrance",
+   "price": 2400,
+   "price_range": "GHS 2200 - 2700",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -800
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Ylang-Ylang, Jasmine, Rose",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Zara",
+   "name": "Zara Woman EDP 100ml",
+   "category": "womens-fragrance",
+   "price": 350,
+   "price_range": "GHS 300 - 410",
+   "sale": 260,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Peony, Woody Notes",
+    "Affordable Designer Alternative"
+   ]
+  },
+  {
+   "brand": "Lancôme",
+   "name": "Lancôme La Vie Est Belle EDP 75ml",
+   "category": "womens-fragrance",
+   "price": 1900,
+   "price_range": "GHS 1750 - 2100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "75ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -600
+    }
+   ],
+   "specs": [
+    "Size: 75ml",
+    "Type: Eau de Parfum",
+    "Notes: Iris, Praline, Vanilla",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Gucci",
+   "name": "Gucci Bloom EDP 50ml",
+   "category": "womens-fragrance",
+   "price": 2100,
+   "price_range": "GHS 1950 - 2300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    },
+    {
+     "name": "100ml",
+     "delta": 900
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Eau de Parfum",
+    "Notes: Tuberose, Jasmine, Rangoon Creeper",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Elizabeth Arden",
+   "name": "Elizabeth Arden White Tea EDP 100ml",
+   "category": "womens-fragrance",
+   "price": 680,
+   "price_range": "GHS 600 - 770",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -230
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: White Tea, Bergamot, Musk",
+    "For Women"
+   ]
+  },
+  {
+   "brand": "Tom Ford",
+   "name": "Tom Ford Black Orchid EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 2300,
+   "price_range": "GHS 2100 - 2600",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -800
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Black Orchid, Truffle, Patchouli",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Zara",
+   "name": "Zara Rich Warm Addictive EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 380,
+   "price_range": "GHS 330 - 440",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Vanilla, Amber, Spices",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Lattafa",
+   "name": "Lattafa Khamrah Qahwa EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 470,
+   "price_range": "GHS 420 - 530",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Coffee, Cardamom, Vanilla",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Calvin Klein",
+   "name": "Calvin Klein CK One EDT 100ml",
+   "category": "unisex-fragrance",
+   "price": 650,
+   "price_range": "GHS 570 - 740",
+   "sale": 535,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -230
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Toilette",
+    "Notes: Green Tea, Bergamot, Musk",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Maison Alhambra",
+   "name": "Maison Alhambra Jean Lowe Immortel EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 350,
+   "price_range": "GHS 300 - 410",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Lemon, Sage, Vetiver",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Afnan",
+   "name": "Afnan 9PM EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 480,
+   "price_range": "GHS 430 - 540",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Apple, Cinnamon, Vanilla",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Armaf",
+   "name": "Armaf Club de Nuit Untold EDP 100ml",
+   "category": "unisex-fragrance",
+   "price": 520,
+   "price_range": "GHS 460 - 590",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Type: Eau de Parfum",
+    "Notes: Saffron, Rose, Amber",
+    "Unisex"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Deep Moisture Body Wash 600ml",
+   "category": "body-wash",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "600ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -40
+    }
+   ],
+   "specs": [
+    "Size: 600ml",
+    "Skin Type: Dry Skin",
+    "Formula: Cream Wash",
+    "With NutriumMoisture"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Shower Cream Care & Protect 250ml",
+   "category": "body-wash",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    },
+    {
+     "name": "500ml",
+     "delta": 35
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Skin Type: All Skin Types",
+    "Formula: Shower Cream",
+    "Refreshing Scent"
+   ]
+  },
+  {
+   "brand": "Palmolive",
+   "name": "Palmolive Naturals Body Wash 500ml",
+   "category": "body-wash",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Skin Type: All Skin Types",
+    "Extract: Milk & Honey",
+    "Creamy Lather"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Hydrating Body Wash 236ml",
+   "category": "body-wash",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": 115,
+   "variants": [
+    {
+     "name": "236ml",
+     "delta": 0
+    },
+    {
+     "name": "473ml",
+     "delta": 60
+    }
+   ],
+   "specs": [
+    "Size: 236ml",
+    "Skin Type: Dry Skin",
+    "Key Ingredients: Ceramides, Hyaluronic Acid",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Imperial Leather",
+   "name": "Imperial Leather Body Wash 500ml",
+   "category": "body-wash",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -20
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Skin Type: All Skin Types",
+    "Fragrance: Classic",
+    "Rich Lather"
+   ]
+  },
+  {
+   "brand": "Lynx",
+   "name": "Lynx Apollo Body Wash 250ml",
+   "category": "body-wash",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Skin Type: All Skin Types",
+    "For Men",
+    "Fresh Scent"
+   ]
+  },
+  {
+   "brand": "Palmolive",
+   "name": "Palmolive Aroma Sensations Body Wash 500ml",
+   "category": "body-wash",
+   "price": 75,
+   "price_range": "GHS 55 - 95",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Skin Type: All Skin Types",
+    "Fragrance: Coconut & Shea",
+    "Moisturising"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Beauty Bar Soap 4 x 135g",
+   "category": "bath-soaps",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4 x 135g",
+     "delta": 0
+    },
+    {
+     "name": "8 x 135g",
+     "delta": 90
+    }
+   ],
+   "specs": [
+    "Format: 4 Bars",
+    "Size: 135g Each",
+    "Skin Type: All Skin Types",
+    "1/4 Moisturising Cream"
+   ]
+  },
+  {
+   "brand": "Imperial Leather",
+   "name": "Imperial Leather Original Soap 3 x 150g",
+   "category": "bath-soaps",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3 x 150g",
+     "delta": 0
+    },
+    {
+     "name": "6 x 150g",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Format: 3 Bars",
+    "Size: 150g Each",
+    "Classic Fragrance",
+    "Creamy Lather"
+   ]
+  },
+  {
+   "brand": "Lux",
+   "name": "Lux Soft Touch Soap 150g",
+   "category": "bath-soaps",
+   "price": 12,
+   "price_range": "GHS 8 - 18",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150g",
+     "delta": 0
+    },
+    {
+     "name": "3-Pack",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 150g",
+    "Fragrance: Soft Touch",
+    "Silky Lather",
+    "Single Bar"
+   ]
+  },
+  {
+   "brand": "Palmolive",
+   "name": "Palmolive Original Bar Soap 3 x 125g",
+   "category": "bath-soaps",
+   "price": 35,
+   "price_range": "GHS 22 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3 x 125g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 3 Bars",
+    "Size: 125g Each",
+    "Classic Green Bar",
+    "Refreshing Clean"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Cream Care Bar Soap 150g",
+   "category": "bath-soaps",
+   "price": 20,
+   "price_range": "GHS 12 - 30",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150g",
+     "delta": 0
+    },
+    {
+     "name": "3-Pack",
+     "delta": 35
+    }
+   ],
+   "specs": [
+    "Size: 150g",
+    "Key Ingredient: Shea Butter",
+    "Gentle Formula",
+    "Moisturising"
+   ]
+  },
+  {
+   "brand": "Johnson's",
+   "name": "Johnson's Baby Soap 125g",
+   "category": "bath-soaps",
+   "price": 18,
+   "price_range": "GHS 10 - 28",
+   "sale": null,
+   "variants": [
+    {
+     "name": "125g",
+     "delta": 0
+    },
+    {
+     "name": "3-Pack",
+     "delta": 32
+    }
+   ],
+   "specs": [
+    "Size: 125g",
+    "Skin Type: Baby and Sensitive Skin",
+    "Mild Formula",
+    "pH Balanced"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Exfoliating Body Polish Crushed Macadamia 225ml",
+   "category": "body-scrubs",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "225ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 225ml",
+    "Scrub Type: Sugar Crystals",
+    "Key Ingredients: Macadamia Oil",
+    "Skin Type: All Skin Types"
+   ]
+  },
+  {
+   "brand": "St Ives",
+   "name": "St Ives Apricot Face & Body Scrub 170g",
+   "category": "body-scrubs",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "170g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 170g",
+    "Scrub Type: Apricot Kernels",
+    "Key Ingredient: Apricot Extract",
+    "100% Natural Exfoliants"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Cocoa Butter Sugar Scrub 200ml",
+   "category": "body-scrubs",
+   "price": 160,
+   "price_range": "GHS 130 - 195",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Scrub Type: Brown Sugar",
+    "Key Ingredient: Cocoa Butter",
+    "Smooths Marks"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Express Care Body Scrub 200ml",
+   "category": "body-scrubs",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Scrub Type: Micro-Pearls",
+    "Key Ingredient: Sea Minerals",
+    "Skin Type: All Skin Types"
+   ]
+  },
+  {
+   "brand": "Fashion Fair",
+   "name": "Fashion Fair Body Polish Scrub 250ml",
+   "category": "body-scrubs",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": 95,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Scrub Type: Shea Granules",
+    "Key Ingredient: Shea Butter",
+    "For Melanin-Rich Skin"
+   ]
+  },
+  {
+   "brand": "Tree Hut",
+   "name": "Tree Hut Shea Sugar Scrub 510g",
+   "category": "body-scrubs",
+   "price": 190,
+   "price_range": "GHS 160 - 225",
+   "sale": null,
+   "variants": [
+    {
+     "name": "510g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 510g",
+    "Scrub Type: Shea Sugar",
+    "Fragrance: Moroccan Rose",
+    "Skin Type: All Skin Types"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Essential Nourishment Body Lotion 400ml",
+   "category": "body-lotions",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": 90,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": -35
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Skin Type: Dry Skin",
+    "Key Ingredients: Glycerin, Sunflower Oil",
+    "Nourishes Skin"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Radiant & Beauty Body Lotion 400ml",
+   "category": "body-lotions",
+   "price": 105,
+   "price_range": "GHS 85 - 130",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Q10, Lotus Extract",
+    "Radiant Glow"
+   ]
+  },
+  {
+   "brand": "Vaseline",
+   "name": "Vaseline Intensive Care Essential Healing Lotion 400ml",
+   "category": "body-lotions",
+   "price": 100,
+   "price_range": "GHS 80 - 125",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    },
+    {
+     "name": "200ml",
+     "delta": -35
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Skin Type: Dry Skin",
+    "Key Ingredients: Petroleum Jelly, Glycerin",
+    "Fast Absorption"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Cocoa Butter Formula Skin Therapy Lotion 400ml",
+   "category": "body-lotions",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "400ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 400ml",
+    "Key Ingredient: Cocoa Butter",
+    "Skin Type: Dry, Uneven Skin",
+    "Improves Marks"
+   ]
+  },
+  {
+   "brand": "Cetaphil",
+   "name": "Cetaphil Moisturizing Lotion 591ml",
+   "category": "body-lotions",
+   "price": 320,
+   "price_range": "GHS 280 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "591ml",
+     "delta": 0
+    },
+    {
+     "name": "237ml",
+     "delta": -130
+    }
+   ],
+   "specs": [
+    "Size: 591ml",
+    "Skin Type: Sensitive, Dry Skin",
+    "Key Ingredients: Glycerin, Sweet Almond Oil",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Jergens",
+   "name": "Jergens Ultra Healing Lotion 300ml",
+   "category": "body-lotions",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": 90,
+   "variants": [
+    {
+     "name": "300ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 300ml",
+    "Skin Type: Extra Dry Skin",
+    "Key Ingredients: Vitamin E, Glycerin",
+    "Restores Moisture"
+   ]
+  },
+  {
+   "brand": "CeraVe",
+   "name": "CeraVe Daily Moisturizing Lotion 473ml",
+   "category": "body-lotions",
+   "price": 195,
+   "price_range": "GHS 165 - 230",
+   "sale": null,
+   "variants": [
+    {
+     "name": "473ml",
+     "delta": 0
+    },
+    {
+     "name": "236ml",
+     "delta": -60
+    }
+   ],
+   "specs": [
+    "Size: 473ml",
+    "Skin Type: Normal to Dry",
+    "Key Ingredients: Ceramides, Hyaluronic Acid",
+    "Fragrance-Free"
+   ]
+  },
+  {
+   "brand": "Bio-Oil",
+   "name": "Bio-Oil Skincare Oil 60ml",
+   "category": "body-oils",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60ml",
+     "delta": 0
+    },
+    {
+     "name": "125ml",
+     "delta": 90
+    },
+    {
+     "name": "200ml",
+     "delta": 160
+    }
+   ],
+   "specs": [
+    "Size: 60ml",
+    "Key Ingredients: PurCellin Oil, Vitamin A, E",
+    "Use: Face and Body",
+    "Improves Scars and Stretch Marks"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Cocoa Butter Formula Body Oil 200ml",
+   "category": "body-oils",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Key Ingredient: Cocoa Butter",
+    "Use: Body",
+    "Smooths and Softens"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Body Oil Light Sesame 250ml",
+   "category": "body-oils",
+   "price": 175,
+   "price_range": "GHS 145 - 210",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Key Ingredient: Sesame Oil",
+    "Use: After Shower",
+    "Lightweight Formula"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Nourishing Body Oil 200ml",
+   "category": "body-oils",
+   "price": 110,
+   "price_range": "GHS 90 - 135",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Key Ingredients: Almond Oil, Jojoba Oil",
+    "Use: Body",
+    "Fast Absorbing"
+   ]
+  },
+  {
+   "brand": "Johnson's",
+   "name": "Johnson's Baby Oil 200ml",
+   "category": "body-oils",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "500ml",
+     "delta": 50
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Key Ingredient: Mineral Oil",
+    "Use: Body and Massage",
+    "Hypoallergenic"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Natural Shea Butter Body Oil 250ml",
+   "category": "body-oils",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": 55,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    },
+    {
+     "name": "500ml",
+     "delta": 45
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Key Ingredient: Shea Butter",
+    "Use: Body",
+    "No Artificial Fragrance"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Soft Hand Cream 2 x 50ml",
+   "category": "hand-foot-care",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2 x 50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 2 Tubes",
+    "Size: 50ml Each",
+    "Key Ingredients: Glycerin, Almond Oil",
+    "Quick Absorption"
+   ]
+  },
+  {
+   "brand": "Vaseline",
+   "name": "Vaseline Intensive Care Hand Cream 50ml",
+   "category": "hand-foot-care",
+   "price": 35,
+   "price_range": "GHS 22 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    },
+    {
+     "name": "100ml",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Key Ingredient: Petroleum Jelly",
+    "Skin Type: Dry Hands",
+    "Pocket Size"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Cocoa Butter Hand Cream 60g",
+   "category": "hand-foot-care",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60g",
+    "Key Ingredient: Cocoa Butter",
+    "Skin Type: Dry Hands",
+    "Non-Greasy"
+   ]
+  },
+  {
+   "brand": "O'Keeffe's",
+   "name": "O'Keeffe's Working Hands Cream 85g",
+   "category": "hand-foot-care",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "85g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 85g",
+    "Skin Type: Severely Dry Hands",
+    "Key Ingredients: Glycerin, Paraffin",
+    "Unscented"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Hand & Foot Care Gift Set 5-Piece",
+   "category": "hand-foot-care",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 5 Pieces",
+    "Includes: Cream, File, Scrub, Cuticle Oil",
+    "Ideal Gift Set",
+    "For Hands and Feet"
+   ]
+  },
+  {
+   "brand": "Dermal Therapy",
+   "name": "Dermal Therapy Foot Cream 100g",
+   "category": "hand-foot-care",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100g",
+    "Key Ingredient: Urea 10%",
+    "Skin Type: Cracked Feet",
+    "Rapid Absorption"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Bath Sponge Set 3-Piece",
+   "category": "bath-accessories",
+   "price": 35,
+   "price_range": "GHS 20 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Piece",
+     "delta": 0
+    },
+    {
+     "name": "6-Piece",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Format: 3 Sponges",
+    "Material: Foam",
+    "Soft and Gentle",
+    "For Body Washing"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Natural Loofah",
+   "category": "bath-accessories",
+   "price": 20,
+   "price_range": "GHS 12 - 32",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Material: Natural Plant Fibre",
+    "Creates Rich Lather",
+    "Exfoliates Skin",
+    "Hang Loop Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Long Handle Bath Brush",
+   "category": "bath-accessories",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Bamboo Handle, Synthetic Bristles",
+    "Length: 40cm",
+    "Reaches Back and Shoulders",
+    "Hang Loop Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Shower Cap 2-Pack",
+   "category": "bath-accessories",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: PVC Lined",
+    "Size: One Size",
+    "Protects Hair in Shower",
+    "Elasticated Edge"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Non-Slip Bath Mat",
+   "category": "bath-accessories",
+   "price": 80,
+   "price_range": "GHS 60 - 105",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60 x 45cm",
+     "delta": 0
+    },
+    {
+     "name": "75 x 45cm",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 60 x 45cm",
+    "Material: Cotton with Rubber Backing",
+    "Non-Slip Base",
+    "Machine Washable"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Epsom Bath Salts 1kg",
+   "category": "bath-accessories",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1kg",
+     "delta": 0
+    },
+    {
+     "name": "3kg",
+     "delta": 100
+    }
+   ],
+   "specs": [
+    "Size: 1kg",
+    "Key Ingredient: Magnesium Sulphate",
+    "For Soaking and Recovery",
+    "Unscented"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette Fusion5 Razor with 2 Blades",
+   "category": "shaving",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Razor + 2 Blades",
+     "delta": 0
+    },
+    {
+     "name": "Razor + 8 Blades",
+     "delta": 180
+    }
+   ],
+   "specs": [
+    "Format: Handle + Cartridges",
+    "5-Blade System",
+    "Lubrastrip",
+    "Ergonomic Handle"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette Mach3 Razor with 2 Blades",
+   "category": "shaving",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": 105,
+   "variants": [
+    {
+     "name": "Razor + 2 Blades",
+     "delta": 0
+    },
+    {
+     "name": "Razor + 6 Blades",
+     "delta": 130
+    }
+   ],
+   "specs": [
+    "Format: Handle + Cartridges",
+    "3-Blade System",
+    "Lubrastrip",
+    "Classic Mach3 Design"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette Series Shaving Gel 200ml",
+   "category": "shaving",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Format: Gel",
+    "Clear Formula",
+    "For a Smooth Shave"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Sensitive Shaving Gel 200ml",
+   "category": "shaving",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Format: Gel",
+    "With Chamomile and Witch Hazel",
+    "Skin Type: Sensitive Skin"
+   ]
+  },
+  {
+   "brand": "Dorco",
+   "name": "Dorco Pace 6 Razor with 3 Blades",
+   "category": "shaving",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Razor + 3 Blades",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Handle + Cartridges",
+    "6-Blade System",
+    "Flexible Head",
+    "With Lubricating Strip"
+   ]
+  },
+  {
+   "brand": "Wilkinson Sword",
+   "name": "Wilkinson Sword Quattro Titanium Razor",
+   "category": "shaving",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Razor + 4 Blades",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Handle + Cartridges",
+    "4-Blade System",
+    "Titanium Coated Blades",
+    "Precision Trimmer"
+   ]
+  },
+  {
+   "brand": "King C. Gillette",
+   "name": "King C. Gillette Beard Softening Oil 30ml",
+   "category": "beard-care",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Argan Oil, Jojoba Oil",
+    "Softens Beard",
+    "Reduces Itch"
+   ]
+  },
+  {
+   "brand": "King C. Gillette",
+   "name": "King C. Gillette Beard Shampoo 100ml",
+   "category": "beard-care",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Daily Wash",
+    "Cleanses Beard and Skin",
+    "With Aloe Vera"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Beard Care Balm 100ml",
+   "category": "beard-care",
+   "price": 85,
+   "price_range": "GHS 65 - 110",
+   "sale": 70,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Balm",
+    "Tames and Shapes Beard",
+    "With Shea Butter"
+   ]
+  },
+  {
+   "brand": "Beardo",
+   "name": "Beardo Beard Growth Oil 30ml",
+   "category": "beard-care",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Castor Oil, Almond Oil",
+    "Nourishes Beard Roots",
+    "Lightweight"
+   ]
+  },
+  {
+   "brand": "Cremo",
+   "name": "Cremo Beard Balm 92ml",
+   "category": "beard-care",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "92ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 92ml",
+    "Format: Balm",
+    "Moisturises and Styles",
+    "Scent: Forest Blend"
+   ]
+  },
+  {
+   "brand": "House of Tarik",
+   "name": "House of Tarik Beard Grooming Cream 100ml",
+   "category": "beard-care",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Cream",
+    "Softens and Conditions Beard",
+    "Made in Ghana"
+   ]
+  },
+  {
+   "brand": "House of Tarik",
+   "name": "House of Tarik Black Beard Oil 30ml",
+   "category": "beard-oils",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Jojoba, Argan, Castor Oils",
+    "Scent: Dark Woody",
+    "Made in Ghana"
+   ]
+  },
+  {
+   "brand": "House of Tarik",
+   "name": "House of Tarik Cedarwood Beard Oil 30ml",
+   "category": "beard-oils",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Cedarwood, Jojoba Oil",
+    "Scent: Cedarwood",
+    "Made in Ghana"
+   ]
+  },
+  {
+   "brand": "King C. Gillette",
+   "name": "King C. Gillette Beard Oil 30ml",
+   "category": "beard-oils",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Argan Oil, Jojoba Oil",
+    "Hydrates Skin Under Beard",
+    "Fast Absorbing"
+   ]
+  },
+  {
+   "brand": "Beardo",
+   "name": "Beardo Beard Oil Whiskey Smoke 30ml",
+   "category": "beard-oils",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": 80,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Almond Oil, Vitamin E",
+    "Scent: Whiskey Smoke",
+    "For All Beard Lengths"
+   ]
+  },
+  {
+   "brand": "Jack Black",
+   "name": "Jack Black Beard Oil 30ml",
+   "category": "beard-oils",
+   "price": 240,
+   "price_range": "GHS 205 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "30ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 30ml",
+    "Key Ingredients: Kalahari Melon Seed Oil, Jojoba",
+    "Scent: Citrus and Cedar",
+    "Softens and Shines"
+   ]
+  },
+  {
+   "brand": "Honest Amish",
+   "name": "Honest Amish Classic Beard Oil 60ml",
+   "category": "beard-oils",
+   "price": 210,
+   "price_range": "GHS 175 - 250",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60ml",
+    "Key Ingredients: Avocado, Argan, Sweet Almond Oils",
+    "Organic Blend",
+    "Handcrafted"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Sensitive Aftershave Balm 100ml",
+   "category": "aftershave",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Balm",
+    "With Chamomile and Vitamin E",
+    "Skin Type: Sensitive Skin"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette Aftershave Lotion 100ml",
+   "category": "aftershave",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Lotion",
+    "Cooling Formula",
+    "Refreshes Skin"
+   ]
+  },
+  {
+   "brand": "Brut",
+   "name": "Brut Aftershave Lotion 100ml",
+   "category": "aftershave",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Lotion",
+    "Classic Brut Scent",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Old Spice",
+   "name": "Old Spice Aftershave 100ml",
+   "category": "aftershave",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Lotion",
+    "Classic Spice Scent",
+    "Cools and Soothes"
+   ]
+  },
+  {
+   "brand": "Denim",
+   "name": "Denim Aftershave 100ml",
+   "category": "aftershave",
+   "price": 50,
+   "price_range": "GHS 35 - 70",
+   "sale": 40,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Lotion",
+    "Bold Fragrance",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "House of Tarik",
+   "name": "House of Tarik Aftershave Splash 100ml",
+   "category": "aftershave",
+   "price": 130,
+   "price_range": "GHS 105 - 160",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Format: Splash",
+    "Alcohol-Based",
+    "Made in Ghana"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Active Energy Face Wash 100ml",
+   "category": "mens-skincare",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "150ml",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Ginseng, Guarana",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Oil Control Face Wash 100ml",
+   "category": "mens-skincare",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: Oily Skin",
+    "Key Ingredient: Charcoal",
+    "Removes Excess Oil"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Men Expert Hydra Energetic Moisturiser 50ml",
+   "category": "mens-skincare",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredients: Vitamin C, Glycerin",
+    "24-Hour Hydration"
+   ]
+  },
+  {
+   "brand": "Garnier",
+   "name": "Garnier Men Power White Face Wash 100ml",
+   "category": "mens-skincare",
+   "price": 50,
+   "price_range": "GHS 35 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredient: Lemon Extract",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Neutrogena",
+   "name": "Neutrogena Men Face Wash Deep Clean 200ml",
+   "category": "mens-skincare",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Skin Type: Oily Skin",
+    "Key Ingredients: Salicylic Acid, Glycerin",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette Men Face Wash 100ml",
+   "category": "mens-skincare",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": 60,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Skin Type: All Skin Types",
+    "Key Ingredient: Aloe Vera",
+    "Daily Cleanser"
+   ]
+  },
+  {
+   "brand": "Got2b",
+   "name": "Got2b Glued Styling Gel 200ml",
+   "category": "hair-styling",
+   "price": 65,
+   "price_range": "GHS 50 - 85",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    },
+    {
+     "name": "400ml",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "Hold: Strong",
+    "Finish: Wet Look",
+    "For All Hair Types"
+   ]
+  },
+  {
+   "brand": "Eco Styler",
+   "name": "Eco Styler Argan Oil Styling Gel 340g",
+   "category": "hair-styling",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "340g",
+     "delta": 0
+    },
+    {
+     "name": "1kg",
+     "delta": 70
+    }
+   ],
+   "specs": [
+    "Size: 340g",
+    "Hold: Strong",
+    "Key Ingredient: Argan Oil",
+    "For All Hair Types"
+   ]
+  },
+  {
+   "brand": "Murray's",
+   "name": "Murray's Superior Hair Dressing Pomade 120g",
+   "category": "hair-styling",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "120g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 120g",
+    "Hold: Heavy",
+    "Finish: Shine",
+    "Classic Pomade"
+   ]
+  },
+  {
+   "brand": "Gatsby",
+   "name": "Gatsby Moving Rubber Styling Wax 120g",
+   "category": "hair-styling",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "120g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 120g",
+    "Hold: Medium",
+    "Finish: Natural",
+    "Repositionable"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Hair Wax Stick 60g",
+   "category": "hair-styling",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60g",
+    "Hold: Strong",
+    "For Edges and Flyaways",
+    "Quick Touch-Ups"
+   ]
+  },
+  {
+   "brand": "L'Oréal Paris",
+   "name": "L'Oréal Paris Studio Line Clean Gel 150ml",
+   "category": "hair-styling",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Hold: Strong",
+    "Finish: Wet",
+    "No Flaking"
+   ]
+  },
+  {
+   "brand": "Gillette",
+   "name": "Gillette All Purpose Grooming Kit 7-Piece",
+   "category": "grooming-kits",
+   "price": 250,
+   "price_range": "GHS 210 - 295",
+   "sale": 175,
+   "variants": [
+    {
+     "name": "7-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 7 Pieces",
+    "Includes: Razor, Blades, Comb, Brush",
+    "Travel Case Included",
+    "For Men"
+   ]
+  },
+  {
+   "brand": "Nivea Men",
+   "name": "Nivea Men Complete Grooming Kit 5-Piece",
+   "category": "grooming-kits",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "5-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 5 Pieces",
+    "Includes: Face Wash, Balm, Shower Gel",
+    "For Men",
+    "Skin Care Set"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Multi Grooming Kit Series 3000",
+   "category": "grooming-kits",
+   "price": 450,
+   "price_range": "GHS 400 - 510",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 3000",
+     "delta": 0
+    },
+    {
+     "name": "Series 5000",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "Format: Trimmer + Attachments",
+    "Attachments: 13",
+    "Battery: Rechargeable",
+    "Cordless Use"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Travel Grooming Kit 8-Piece",
+   "category": "grooming-kits",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 8 Pieces",
+    "Includes: Brush, Comb, Nail Tools",
+    "Compact Pouch",
+    "For Travel"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington Grooming Kit 10-Piece",
+   "category": "grooming-kits",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "10-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 10 Pieces",
+    "Includes: Trimmer, 6 Combs",
+    "Battery: Rechargeable",
+    "Cordless Use"
+   ]
+  },
+  {
+   "brand": "King C. Gillette",
+   "name": "King C. Gillette Ultimate Grooming Set 4-Piece",
+   "category": "grooming-kits",
+   "price": 220,
+   "price_range": "GHS 185 - 260",
+   "sale": null,
+   "variants": [
+    {
+     "name": "4-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 4 Pieces",
+    "Includes: Razor, Comb, Brush, Balm",
+    "For Beard and Face",
+    "Gift Box Included"
+   ]
+  },
+  {
+   "brand": "Wahl",
+   "name": "Wahl Complete Grooming Kit 15-Piece",
+   "category": "grooming-kits",
+   "price": 520,
+   "price_range": "GHS 460 - 590",
+   "sale": null,
+   "variants": [
+    {
+     "name": "15-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 15 Pieces",
+    "Includes: Clipper, Scissors, Combs",
+    "Battery: Rechargeable",
+    "For Hair and Beard"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Hair Dryer 2100W Thermoprotect",
+   "category": "hair-dryers",
+   "price": 350,
+   "price_range": "GHS 310 - 400",
+   "sale": 280,
+   "variants": [
+    {
+     "name": "2100W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 2100W",
+    "Settings: 6",
+    "Technology: Thermoprotect",
+    "With Concentrator Nozzle"
+   ]
+  },
+  {
+   "brand": "BaByliss",
+   "name": "BaByliss Pro 2400W Hair Dryer",
+   "category": "hair-dryers",
+   "price": 550,
+   "price_range": "GHS 490 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2400W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 2400W",
+    "Ionic Technology",
+    "Professional Motor",
+    "Cool Shot Button"
+   ]
+  },
+  {
+   "brand": "Braun",
+   "name": "Braun Satin Hair Dryer 2200W",
+   "category": "hair-dryers",
+   "price": 480,
+   "price_range": "GHS 430 - 540",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2200W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 2200W",
+    "Ionic Conditioning",
+    "2 Speed + Cold Setting",
+    "Detachable Nozzle"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Salon One-Step Hair Dryer & Volumizer",
+   "category": "hair-dryers",
+   "price": 600,
+   "price_range": "GHS 540 - 670",
+   "sale": null,
+   "variants": [
+    {
+     "name": "One-Step",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 1100W",
+    "Format: Dryer + Round Brush",
+    "Adds Volume",
+    "Ionic Technology"
+   ]
+  },
+  {
+   "brand": "Conair",
+   "name": "Conair Hair Dryer 1875W",
+   "category": "hair-dryers",
+   "price": 280,
+   "price_range": "GHS 240 - 330",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1875W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 1875W",
+    "Settings: 2 Heat + 2 Speed",
+    "Cool Shot Button",
+    "Hanging Loop"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Travel Hair Dryer 1000W",
+   "category": "hair-dryers",
+   "price": 150,
+   "price_range": "GHS 125 - 180",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1000W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 1000W",
+    "Compact Folding Design",
+    "Dual Voltage",
+    "Travel Pouch Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Professional Ionic Hair Dryer 2200W",
+   "category": "hair-dryers",
+   "price": 320,
+   "price_range": "GHS 280 - 370",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2200W",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: 2200W",
+    "Ionic Technology",
+    "Includes Diffuser and Nozzle",
+    "Cool Shot Button"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Kerashine Straightener 2000 Series",
+   "category": "hair-straighteners",
+   "price": 420,
+   "price_range": "GHS 375 - 470",
+   "sale": 370,
+   "variants": [
+    {
+     "name": "2000 Series",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Kerashine Ceramic",
+    "Max Temp: 230C",
+    "Heat Up: 30 Seconds",
+    "Auto Shut-Off"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington S5500 Pro Hair Straightener",
+   "category": "hair-straighteners",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "S5500",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Ceramic",
+    "Max Temp: 230C",
+    "Heat Up: 60 Seconds",
+    "Floating Plates"
+   ]
+  },
+  {
+   "brand": "BaByliss",
+   "name": "BaByliss Pro Nano Titanium Straightener",
+   "category": "hair-straighteners",
+   "price": 900,
+   "price_range": "GHS 810 - 1000",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nano Titanium",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Nano Titanium",
+    "Max Temp: 235C",
+    "Professional Grade",
+    "1 Inch Plates"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Perfect Heat Ceramic Straightener",
+   "category": "hair-straighteners",
+   "price": 350,
+   "price_range": "GHS 310 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Perfect Heat",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Ceramic",
+    "Max Temp: 230C",
+    "Even Heat Distribution",
+    "Heat-Resistant Mat"
+   ]
+  },
+  {
+   "brand": "Conair",
+   "name": "Conair Ceramic Flat Iron",
+   "category": "hair-straighteners",
+   "price": 300,
+   "price_range": "GHS 260 - 350",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Ceramic",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Ceramic",
+    "Max Temp: 210C",
+    "Swivel Cord",
+    "Auto Shut-Off"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Ceramic Flat Iron 1 Inch",
+   "category": "hair-straighteners",
+   "price": 220,
+   "price_range": "GHS 185 - 260",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1 Inch",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Ceramic",
+    "Max Temp: 200C",
+    "Adjustable Heat",
+    "Worldwide Voltage"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington Wet 2 Straight Straightener",
+   "category": "hair-straighteners",
+   "price": 330,
+   "price_range": "GHS 290 - 380",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Wet 2 Straight",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Plate: Ceramic",
+    "Max Temp: 230C",
+    "Use on Wet or Dry Hair",
+    "Steam Technology"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Salon Curl Active 38mm",
+   "category": "curling-irons",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": 285,
+   "variants": [
+    {
+     "name": "38mm",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Barrel: 38mm",
+    "Plate: Ceramic",
+    "Max Temp: 200C",
+    "Heat-Resistant Glove"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington Curling Wand 32mm",
+   "category": "curling-irons",
+   "price": 330,
+   "price_range": "GHS 290 - 380",
+   "sale": null,
+   "variants": [
+    {
+     "name": "32mm",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Barrel: 32mm",
+    "Plate: Ceramic",
+    "Max Temp: 230C",
+    "No-Clamp Wand"
+   ]
+  },
+  {
+   "brand": "BaByliss",
+   "name": "BaByliss Pro Curling Iron 32mm",
+   "category": "curling-irons",
+   "price": 650,
+   "price_range": "GHS 580 - 730",
+   "sale": null,
+   "variants": [
+    {
+     "name": "32mm",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Barrel: 32mm",
+    "Plate: Ceramic",
+    "Professional Grade",
+    "60-Second Heat Up"
+   ]
+  },
+  {
+   "brand": "Revlon",
+   "name": "Revlon Curling Iron 25mm",
+   "category": "curling-irons",
+   "price": 300,
+   "price_range": "GHS 260 - 350",
+   "sale": null,
+   "variants": [
+    {
+     "name": "25mm",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Barrel: 25mm",
+    "Plate: Ceramic",
+    "Max Temp: 210C",
+    "Swivel Cord"
+   ]
+  },
+  {
+   "brand": "Conair",
+   "name": "Conair Instant Heat Curler 19mm",
+   "category": "curling-irons",
+   "price": 260,
+   "price_range": "GHS 225 - 300",
+   "sale": null,
+   "variants": [
+    {
+     "name": "19mm",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Barrel: 19mm",
+    "Plate: Ceramic",
+    "Instant Heat Up",
+    "Tangle-Free Swivel Cord"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Ceramic Curling Wand 25mm",
+   "category": "curling-irons",
+   "price": 240,
+   "price_range": "GHS 205 - 280",
+   "sale": null,
+   "variants": [
+    {
+     "name": "25mm",
+     "delta": 0
+    },
+    {
+     "name": "32mm",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Barrel: 25mm",
+    "Plate: Ceramic",
+    "Max Temp: 200C",
+    "Heat-Resistant Glove"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Hair Clipper Series 5000",
+   "category": "hair-clippers",
+   "price": 450,
+   "price_range": "GHS 400 - 510",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 5000",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 120 Minutes",
+    "Blade: Self-Sharpening",
+    "Cordless Use"
+   ]
+  },
+  {
+   "brand": "Wahl",
+   "name": "Wahl Color Pro Hair Clipper",
+   "category": "hair-clippers",
+   "price": 520,
+   "price_range": "GHS 460 - 590",
+   "sale": 425,
+   "variants": [
+    {
+     "name": "Color Pro",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Corded",
+    "Blade: Precision Ground",
+    "Combs: 12 Colour-Coded",
+    "Attachment Guide Included"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington HC4250 Hair Clipper",
+   "category": "hair-clippers",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "HC4250",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 60 Minutes",
+    "Blade: Titanium",
+    "Combs: 9 Included"
+   ]
+  },
+  {
+   "brand": "Moser",
+   "name": "Moser Hair Clipper 1400",
+   "category": "hair-clippers",
+   "price": 600,
+   "price_range": "GHS 540 - 670",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1400",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Corded",
+    "Blade: Chrome Steel",
+    "Professional Grade",
+    "Low Noise Motor"
+   ]
+  },
+  {
+   "brand": "Oster",
+   "name": "Oster Classic 76 Hair Clipper",
+   "category": "hair-clippers",
+   "price": 750,
+   "price_range": "GHS 670 - 840",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Classic 76",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: Corded",
+    "Blade: Adjustable",
+    "Professional Grade",
+    "Universal Motor"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Cordless Hair Clipper with 4 Combs",
+   "category": "hair-clippers",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cordless",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 90 Minutes",
+    "Combs: 4 Included",
+    "For Home Use"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Multigroom Series 3000 Beard Trimmer",
+   "category": "trimmers",
+   "price": 350,
+   "price_range": "GHS 310 - 400",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 3000",
+     "delta": 0
+    },
+    {
+     "name": "Series 5000",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 60 Minutes",
+    "Combs: 13 Included",
+    "Washable Head"
+   ]
+  },
+  {
+   "brand": "Wahl",
+   "name": "Wahl Rechargeable Beard Trimmer",
+   "category": "trimmers",
+   "price": 300,
+   "price_range": "GHS 260 - 350",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Rechargeable",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 60 Minutes",
+    "Blade: Precision",
+    "Combs: 6 Included"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington Beard & Detail Trimmer",
+   "category": "trimmers",
+   "price": 260,
+   "price_range": "GHS 225 - 300",
+   "sale": 235,
+   "variants": [
+    {
+     "name": "Beard & Detail",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 45 Minutes",
+    "Detail Attachments",
+    "Washable Head"
+   ]
+  },
+  {
+   "brand": "Panasonic",
+   "name": "Panasonic Beard Trimmer ER-GB40",
+   "category": "trimmers",
+   "price": 420,
+   "price_range": "GHS 375 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "ER-GB40",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: Rechargeable",
+    "Runtime: 50 Minutes",
+    "39 Adjustable Settings",
+    "Waterproof"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Nose & Ear Trimmer",
+   "category": "trimmers",
+   "price": 180,
+   "price_range": "GHS 150 - 215",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Nose & Ear",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: AA (2 Included)",
+    "Blade: Protective System",
+    "Compact Design",
+    "Easy to Clean"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Battery Powered Beard Trimmer",
+   "category": "trimmers",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Battery",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Battery: AA",
+    "Combs: 2 Included",
+    "Compact Size",
+    "For Light Trimming"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Series 3000 Electric Shaver",
+   "category": "electric-shavers",
+   "price": 550,
+   "price_range": "GHS 490 - 620",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 3000",
+     "delta": 0
+    },
+    {
+     "name": "Series 5000",
+     "delta": 250
+    }
+   ],
+   "specs": [
+    "Type: Rotary",
+    "Battery: Rechargeable",
+    "Runtime: 45 Minutes",
+    "Wet & Dry Use"
+   ]
+  },
+  {
+   "brand": "Remington",
+   "name": "Remington F5 Foil Shaver",
+   "category": "electric-shavers",
+   "price": 420,
+   "price_range": "GHS 375 - 470",
+   "sale": null,
+   "variants": [
+    {
+     "name": "F5",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Type: Foil",
+    "Battery: Rechargeable",
+    "Runtime: 45 Minutes",
+    "Wet & Dry Use"
+   ]
+  },
+  {
+   "brand": "Braun",
+   "name": "Braun Series 3 Shaver",
+   "category": "electric-shavers",
+   "price": 650,
+   "price_range": "GHS 580 - 730",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 3",
+     "delta": 0
+    },
+    {
+     "name": "Series 5",
+     "delta": 600
+    }
+   ],
+   "specs": [
+    "Type: Foil",
+    "Battery: Rechargeable",
+    "Runtime: 45 Minutes",
+    "Wet & Dry Use"
+   ]
+  },
+  {
+   "brand": "Philips",
+   "name": "Philips Series 5000 Shaver",
+   "category": "electric-shavers",
+   "price": 800,
+   "price_range": "GHS 720 - 890",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Series 5000",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Type: Rotary",
+    "Battery: Rechargeable",
+    "Runtime: 50 Minutes",
+    "SkinProtect Blades"
+   ]
+  },
+  {
+   "brand": "Panasonic",
+   "name": "Panasonic ES-RT37 Wet & Dry Shaver",
+   "category": "electric-shavers",
+   "price": 590,
+   "price_range": "GHS 530 - 660",
+   "sale": null,
+   "variants": [
+    {
+     "name": "ES-RT37",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Type: Foil",
+    "Battery: Rechargeable",
+    "Runtime: 45 Minutes",
+    "Pivoting Head"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Rechargeable Rotary Shaver",
+   "category": "electric-shavers",
+   "price": 200,
+   "price_range": "GHS 165 - 240",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Rotary",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Type: Rotary",
+    "Battery: Rechargeable",
+    "Runtime: 30 Minutes",
+    "With Trimmer"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Jade Roller Facial Massager",
+   "category": "facial-tools",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Jade",
+     "delta": 0
+    },
+    {
+     "name": "Rose Quartz",
+     "delta": 10
+    }
+   ],
+   "specs": [
+    "Material: Natural Jade Stone",
+    "Dual-Sided Roller",
+    "Reduces Puffiness",
+    "With Gua Sha Attachment"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Gua Sha Stone",
+   "category": "facial-tools",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Rose Quartz",
+     "delta": 0
+    },
+    {
+     "name": "Jade",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Natural Stone",
+    "Shape: Heart",
+    "Facial Sculpting",
+    "For Face and Neck"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Facial Cleansing Brush",
+   "category": "facial-tools",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Manual",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Bristles: Soft Silicone",
+    "Dual-Sided",
+    "Deep Cleansing",
+    "For All Skin Types"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Ice Roller for Face",
+   "category": "facial-tools",
+   "price": 70,
+   "price_range": "GHS 55 - 90",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Standard",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Material: Stainless Steel + Gel",
+    "Cold Therapy",
+    "Reduces Puffiness",
+    "Refillable Head"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Blackhead Remover Tool Set 3-Piece",
+   "category": "facial-tools",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 3 Tools",
+    "Material: Stainless Steel",
+    "Extractor Loops",
+    "With Storage Case"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Microcurrent Face Device",
+   "category": "facial-tools",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Microcurrent",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Power: USB Rechargeable",
+    "Modes: 3",
+    "For Facial Toning",
+    "With Conductive Gel"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Manicure Set 8-Piece",
+   "category": "manicure-pedicure-tools",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "8-Piece",
+     "delta": 0
+    },
+    {
+     "name": "12-Piece",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Format: 8 Tools",
+    "Material: Stainless Steel",
+    "Includes Clippers, Files, Cuticle Tools",
+    "Storage Case Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Nail Clipper Set 3-Piece",
+   "category": "manicure-pedicure-tools",
+   "price": 30,
+   "price_range": "GHS 18 - 45",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 3 Clippers",
+    "Sizes: Small, Medium, Large",
+    "Material: Stainless Steel",
+    "Sharp Blades"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Cuticle Pusher & Trimmer",
+   "category": "manicure-pedicure-tools",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Material: Stainless Steel",
+    "Dual-Ended",
+    "Pusher and Trimmer",
+    "Comfort Grip"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Nail File Set 12-Piece",
+   "category": "manicure-pedicure-tools",
+   "price": 35,
+   "price_range": "GHS 20 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "12-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 12 Files",
+    "Grit: Mixed",
+    "Double-Sided",
+    "For Natural and Acrylic Nails"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Pedicure Spa Set 6-Piece",
+   "category": "manicure-pedicure-tools",
+   "price": 90,
+   "price_range": "GHS 70 - 115",
+   "sale": null,
+   "variants": [
+    {
+     "name": "6-Piece",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 6 Tools",
+    "Material: Stainless Steel",
+    "Includes Callus Remover, Toe Separators",
+    "Storage Pouch Included"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Callus Remover Foot File",
+   "category": "manicure-pedicure-tools",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "Material: Stainless Steel + Ceramic",
+    "Dual-Sided",
+    "Removes Hard Skin",
+    "Ergonomic Handle"
+   ]
+  },
+  {
+   "brand": "Oral-B",
+   "name": "Oral-B Pro 2 Electric Toothbrush",
+   "category": "oral-care",
+   "price": 380,
+   "price_range": "GHS 340 - 430",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Pro 2",
+     "delta": 0
+    },
+    {
+     "name": "Pro 3",
+     "delta": 150
+    }
+   ],
+   "specs": [
+    "Type: Electric",
+    "Modes: 2",
+    "Battery: Rechargeable",
+    "Timer: 2 Minutes"
+   ]
+  },
+  {
+   "brand": "Colgate",
+   "name": "Colgate Total Toothpaste 2 x 100ml",
+   "category": "oral-care",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "2 x 100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 2 Tubes",
+    "Size: 100ml Each",
+    "Protection: 12-Hour",
+    "Fluoride Formula"
+   ]
+  },
+  {
+   "brand": "Oral-B",
+   "name": "Oral-B CrossAction Toothbrush 3-Pack",
+   "category": "oral-care",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "3-Pack",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Format: 3 Brushes",
+    "Bristles: CrossAction",
+    "Cleans Hard-to-Reach Areas",
+    "Ergonomic Grip"
+   ]
+  },
+  {
+   "brand": "Listerine",
+   "name": "Listerine Cool Mint Mouthwash 500ml",
+   "category": "oral-care",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -35
+    },
+    {
+     "name": "1L",
+     "delta": 55
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Kills 99.9% of Germs",
+    "Mint Flavour",
+    "Use: Twice Daily"
+   ]
+  },
+  {
+   "brand": "Colgate",
+   "name": "Colgate Whitening Toothpaste 75ml",
+   "category": "oral-care",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "75ml",
+     "delta": 0
+    },
+    {
+     "name": "150ml",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 75ml",
+    "Whitening Formula",
+    "Fluoride Protection",
+    "Fresh Mint Flavour"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Dental Floss 50m",
+   "category": "oral-care",
+   "price": 30,
+   "price_range": "GHS 18 - 45",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50m",
+     "delta": 0
+    },
+    {
+     "name": "100m",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Length: 50m",
+    "Waxed Floss",
+    "Smooth Glide",
+    "Pocket Case"
+   ]
+  },
+  {
+   "brand": "Always",
+   "name": "Always Ultra Thin Pads Regular 14s",
+   "category": "feminine-care",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Regular 14s",
+     "delta": 0
+    },
+    {
+     "name": "Extra 12s",
+     "delta": 5
+    },
+    {
+     "name": "Super 10s",
+     "delta": 10
+    }
+   ],
+   "specs": [
+    "Format: 14 Pads",
+    "Absorbency: Regular",
+    "Dri-Weave Layer",
+    "Wings"
+   ]
+  },
+  {
+   "brand": "Lil-lets",
+   "name": "Lil-lets Regular Tampons 16s",
+   "category": "feminine-care",
+   "price": 60,
+   "price_range": "GHS 45 - 80",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Regular 16s",
+     "delta": 0
+    },
+    {
+     "name": "Super 14s",
+     "delta": 5
+    }
+   ],
+   "specs": [
+    "Format: 16 Tampons",
+    "Absorbency: Regular",
+    "Cardboard Applicator",
+    "Rounded Tip"
+   ]
+  },
+  {
+   "brand": "Stayfree",
+   "name": "Stayfree Maxi Pads Overnight 16s",
+   "category": "feminine-care",
+   "price": 50,
+   "price_range": "GHS 35 - 70",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Overnight 16s",
+     "delta": 0
+    },
+    {
+     "name": "Regular 16s",
+     "delta": -5
+    }
+   ],
+   "specs": [
+    "Format: 16 Pads",
+    "Absorbency: Overnight",
+    "Extra Coverage",
+    "Wings"
+   ]
+  },
+  {
+   "brand": "Carefree",
+   "name": "Carefree Panty Liners 20s",
+   "category": "feminine-care",
+   "price": 35,
+   "price_range": "GHS 22 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "20s",
+     "delta": 0
+    },
+    {
+     "name": "40s",
+     "delta": 25
+    }
+   ],
+   "specs": [
+    "Format: 20 Liners",
+    "Ultra Thin",
+    "Daily Protection",
+    "Individually Wrapped"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Feminine Wash 250ml",
+   "category": "feminine-care",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "pH Balanced",
+    "Soothing Formula",
+    "Daily Use"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Intimate Hygiene Lotion 200ml",
+   "category": "feminine-care",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "200ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 200ml",
+    "pH Balanced",
+    "Gentle Cleanser",
+    "Mild Fragrance"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Original Roll-On Deodorant 50ml",
+   "category": "personal-care-deodorants",
+   "price": 35,
+   "price_range": "GHS 22 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Original",
+     "delta": 0
+    },
+    {
+     "name": "Fresh",
+     "delta": 0
+    },
+    {
+     "name": "Pink",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "24-Hour Protection",
+    "Skin Friendly"
+   ]
+  },
+  {
+   "brand": "Rexona",
+   "name": "Rexona Women Cotton Dry Roll-On 50ml",
+   "category": "personal-care-deodorants",
+   "price": 38,
+   "price_range": "GHS 25 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cotton Dry",
+     "delta": 0
+    },
+    {
+     "name": "Shower Clean",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "72-Hour Protection",
+    "Antiperspirant"
+   ]
+  },
+  {
+   "brand": "Sure",
+   "name": "Sure Maximum Protection Roll-On 50ml",
+   "category": "personal-care-deodorants",
+   "price": 40,
+   "price_range": "GHS 28 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Maximum Protection",
+     "delta": 0
+    },
+    {
+     "name": "Original",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "48-Hour Protection",
+    "No Stains"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Pearl & Beauty Roll-On 50ml",
+   "category": "personal-care-deodorants",
+   "price": 42,
+   "price_range": "GHS 28 - 58",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Pearl & Beauty",
+     "delta": 0
+    },
+    {
+     "name": "Invisible Black & White",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "24-Hour Protection",
+    "Gentle on Skin"
+   ]
+  },
+  {
+   "brand": "Adidas",
+   "name": "Adidas Cotton Dry Roll-On 50ml",
+   "category": "personal-care-deodorants",
+   "price": 35,
+   "price_range": "GHS 22 - 50",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Cotton Dry",
+     "delta": 0
+    },
+    {
+     "name": "Ice Dive",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "Sport Protection",
+    "Fresh Scent"
+   ]
+  },
+  {
+   "brand": "Enchanteur",
+   "name": "Enchanteur Women Roll-On 50ml",
+   "category": "personal-care-deodorants",
+   "price": 32,
+   "price_range": "GHS 20 - 48",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Romantic",
+     "delta": 0
+    },
+    {
+     "name": "Charming",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Type: Roll-On",
+    "24-Hour Protection",
+    "Floral Fragrance"
+   ]
+  },
+  {
+   "brand": "Vaseline",
+   "name": "Vaseline Intensive Care Hand Cream 100ml",
+   "category": "hand-care",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    },
+    {
+     "name": "50ml",
+     "delta": -10
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredient: Petroleum Jelly",
+    "Skin Type: Dry Hands",
+    "Fast Absorption"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Hand Creme 50ml",
+   "category": "hand-care",
+   "price": 30,
+   "price_range": "GHS 18 - 48",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    },
+    {
+     "name": "100ml",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Key Ingredients: Glycerin, Vitamin E",
+    "Skin Type: Dry Hands",
+    "Pocket Size"
+   ]
+  },
+  {
+   "brand": "Dove",
+   "name": "Dove Hand Cream 75ml",
+   "category": "hand-care",
+   "price": 35,
+   "price_range": "GHS 22 - 52",
+   "sale": null,
+   "variants": [
+    {
+     "name": "75ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 75ml",
+    "Key Ingredient: NutriumMoisture",
+    "Skin Type: Dry Hands",
+    "Non-Greasy"
+   ]
+  },
+  {
+   "brand": "Palmer's",
+   "name": "Palmer's Shea Butter Hand Cream 60g",
+   "category": "hand-care",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60g",
+    "Key Ingredient: Shea Butter",
+    "Skin Type: Very Dry Hands",
+    "Rich Formula"
+   ]
+  },
+  {
+   "brand": "Jergens",
+   "name": "Jergens Shea Hand Cream 75ml",
+   "category": "hand-care",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "75ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 75ml",
+    "Key Ingredient: Shea Butter",
+    "Skin Type: Dry Hands",
+    "Long-Lasting Moisture"
+   ]
+  },
+  {
+   "brand": "O'Keeffe's",
+   "name": "O'Keeffe's Working Hands Night Treatment 60g",
+   "category": "hand-care",
+   "price": 120,
+   "price_range": "GHS 100 - 145",
+   "sale": null,
+   "variants": [
+    {
+     "name": "60g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 60g",
+    "Skin Type: Severely Dry Hands",
+    "Overnight Treatment",
+    "Unscented"
+   ]
+  },
+  {
+   "brand": "O'Keeffe's",
+   "name": "O'Keeffe's Healthy Feet Foot Cream 90g",
+   "category": "foot-care",
+   "price": 140,
+   "price_range": "GHS 115 - 170",
+   "sale": null,
+   "variants": [
+    {
+     "name": "90g",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 90g",
+    "Key Ingredient: Glycerin",
+    "Skin Type: Severely Dry Feet",
+    "Fast Absorption"
+   ]
+  },
+  {
+   "brand": "Scholl",
+   "name": "Scholl Cracked Heel Repair Balm 50ml",
+   "category": "foot-care",
+   "price": 95,
+   "price_range": "GHS 75 - 120",
+   "sale": null,
+   "variants": [
+    {
+     "name": "50ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 50ml",
+    "Key Ingredient: Urea",
+    "Skin Type: Cracked Heels",
+    "8-Day Visible Repair"
+   ]
+  },
+  {
+   "brand": "Nivea",
+   "name": "Nivea Foot Cream 100ml",
+   "category": "foot-care",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Key Ingredients: Urea, Chamomile",
+    "Skin Type: Dry Feet",
+    "Refreshing Formula"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Aroma Foot Massage Cream 100ml",
+   "category": "foot-care",
+   "price": 35,
+   "price_range": "GHS 20 - 55",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 100ml",
+    "Fragrance: Lavender and Mint",
+    "Cooling Effect",
+    "For Tired Feet"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Foot Peel Mask Socks 1-Pair",
+   "category": "foot-care",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "1-Pair",
+     "delta": 0
+    },
+    {
+     "name": "2-Pair",
+     "delta": 40
+    }
+   ],
+   "specs": [
+    "Format: 1 Pair",
+    "Exfoliating Fruit Acids",
+    "Use: 60-90 Minutes",
+    "Results in 5-7 Days"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Pumice Stone",
+   "category": "foot-care",
+   "price": 25,
+   "price_range": "GHS 15 - 40",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Single",
+     "delta": 0
+    },
+    {
+     "name": "2-Pack",
+     "delta": 15
+    }
+   ],
+   "specs": [
+    "Material: Natural Volcanic Stone",
+    "Removes Hard Skin",
+    "For Feet",
+    "Ergonomic Shape"
+   ]
+  },
+  {
+   "brand": "Rexona",
+   "name": "Rexona Invisible Dry Spray 150ml",
+   "category": "personal-hygiene",
+   "price": 75,
+   "price_range": "GHS 55 - 100",
+   "sale": null,
+   "variants": [
+    {
+     "name": "Invisible Dry",
+     "delta": 0
+    },
+    {
+     "name": "Men Cotton Dry",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Spray",
+    "No White Marks",
+    "24-Hour Protection"
+   ]
+  },
+  {
+   "brand": "Imperial Leather",
+   "name": "Imperial Leather Hand Wash 250ml",
+   "category": "personal-hygiene",
+   "price": 35,
+   "price_range": "GHS 22 - 52",
+   "sale": null,
+   "variants": [
+    {
+     "name": "250ml",
+     "delta": 0
+    },
+    {
+     "name": "500ml",
+     "delta": 20
+    }
+   ],
+   "specs": [
+    "Size: 250ml",
+    "Format: Pump",
+    "Classic Scent",
+    "Gentle on Hands"
+   ]
+  },
+  {
+   "brand": "Dettol",
+   "name": "Dettol Antibacterial Liquid Soap 500ml",
+   "category": "personal-hygiene",
+   "price": 55,
+   "price_range": "GHS 40 - 75",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -20
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Format: Pump",
+    "Antibacterial Protection",
+    "For Family Use"
+   ]
+  },
+  {
+   "brand": "Lifebuoy",
+   "name": "Lifebuoy Hand Wash 500ml",
+   "category": "personal-hygiene",
+   "price": 45,
+   "price_range": "GHS 30 - 65",
+   "sale": null,
+   "variants": [
+    {
+     "name": "500ml",
+     "delta": 0
+    },
+    {
+     "name": "250ml",
+     "delta": -15
+    }
+   ],
+   "specs": [
+    "Size: 500ml",
+    "Format: Pump",
+    "Kills 99.9% of Germs",
+    "Refill Size"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Wet Wipes 100 Sheets",
+   "category": "personal-hygiene",
+   "price": 40,
+   "price_range": "GHS 25 - 60",
+   "sale": null,
+   "variants": [
+    {
+     "name": "100 Sheets",
+     "delta": 0
+    },
+    {
+     "name": "200 Sheets",
+     "delta": 30
+    }
+   ],
+   "specs": [
+    "Format: 100 Sheets",
+    "Aloe Vera Enriched",
+    "Flushable: No",
+    "For Hands and Face"
+   ]
+  },
+  {
+   "brand": "",
+   "name": "Hygiene Body Mist 150ml",
+   "category": "personal-hygiene",
+   "price": 30,
+   "price_range": "GHS 18 - 48",
+   "sale": null,
+   "variants": [
+    {
+     "name": "150ml",
+     "delta": 0
+    }
+   ],
+   "specs": [
+    "Size: 150ml",
+    "Type: Body Mist",
+    "Freshens Body",
+    "Light Scent"
+   ]
+  }
+ ]
+}

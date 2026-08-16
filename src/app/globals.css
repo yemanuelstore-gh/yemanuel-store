@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f6f1;
+  --foreground: #111827;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-navy: #0b1f33;
+  --color-navy-dark: #071829;
+  --color-navy-soft: #edf1f6;
+  --color-navy-mist: #d7e0ea;
+  --color-gold: #c9a227;
+  --color-gold-dark: #8a6e16;
+  --color-gold-soft: #f6f0dd;
+  --color-ivory: #f8f6f1;
+  --color-paper: #ffffff;
+  --color-ink: #111827;
+  --color-ink-soft: #667085;
+  --color-ink-faint: #98a2b3;
+  --color-line: #e5e1d8;
+  --color-line-strong: #d3cdbf;
+  --color-danger: #b42318;
+  --color-danger-dark: #912018;
+  --color-danger-soft: #fef3f2;
+  --shadow-soft: 0 1px 2px rgb(17 24 39 / 0.04), 0 4px 16px rgb(17 24 39 / 0.06);
+  --shadow-card: 0 1px 2px rgb(17 24 39 / 0.05), 0 8px 24px -8px rgb(11 31 51 / 0.14);
+  --shadow-lifted: 0 2px 4px rgb(17 24 39 / 0.06), 0 18px 36px -12px rgb(11 31 51 / 0.22);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-display);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Arial, "Helvetica Neue", sans-serif;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-ivory);
+}
+
+@keyframes announcement-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes image-shine {
+  0% {
+    transform: translateX(-130%) skewX(-18deg);
+  }
+  60%,
+  100% {
+    transform: translateX(230%) skewX(-18deg);
+  }
+}
+
+/* Diagonal gold sheen that sweeps across imagery on card hover. */
+.image-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-shine::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgb(248 246 241 / 0.16) 50%,
+    transparent 60%
+  );
+  transform: translateX(-130%) skewX(-18deg);
+  pointer-events: none;
+}
+
+.group:hover .image-shine::after,
+.group:focus-within .image-shine::after {
+  animation: image-shine 0.9s ease-out;
 }
