@@ -9,6 +9,7 @@ import {
   roundMoney,
   type PriceRow,
 } from "@/lib/pricing";
+import { FREE_DELIVERY_THRESHOLD } from "@/lib/delivery";
 import { clampQuantity, type CartItem } from "@/lib/cart";
 
 export type CheckoutContact = {
@@ -290,6 +291,9 @@ export async function createOrder(
   const subtotal = roundMoney(
     lines.reduce((total, line) => total + line.lineTotal, 0),
   );
+  if (!isPickup && subtotal >= FREE_DELIVERY_THRESHOLD) {
+    deliveryFee = 0;
+  }
   const totalAmount = roundMoney(subtotal + deliveryFee);
 
   const orderInsert = {

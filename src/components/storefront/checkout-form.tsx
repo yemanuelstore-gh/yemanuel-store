@@ -8,6 +8,7 @@ import { ProductImage } from "@/components/storefront/product-image";
 import { placeOrderAction, type PlaceOrderState } from "@/lib/checkout-actions";
 import { formatGHS } from "@/lib/format";
 import { cn } from "@/lib/cn";
+import { freeDeliveryApplies, FREE_DELIVERY_THRESHOLD } from "@/lib/delivery";
 import type {
   DeliveryMethod,
   DeliveryRate,
@@ -139,15 +140,18 @@ export function CheckoutForm({
   }, [deliveryRates, selectedMethod, regionId]);
 
   const isPickup = selectedMethod?.kind === "pickup";
+  const regionUnavailable =
+    !isPickup && selectedMethod !== undefined && selectedRate === null;
+  const freeDelivery = !isPickup && freeDeliveryApplies(subtotal);
   const deliveryFee =
     selectedMethod === undefined
       ? 0
       : isPickup
         ? 0
-        : (selectedRate?.fee ?? null);
+        : freeDelivery
+          ? 0
+          : (selectedRate?.fee ?? null);
   const total = subtotal + (deliveryFee ?? 0);
-  const regionUnavailable =
-    !isPickup && selectedMethod !== undefined && deliveryFee === null;
 
   const regionCities = useMemo(
     () => cities.filter((city) => city.regionId === regionId),
@@ -318,7 +322,9 @@ export function CheckoutForm({
                             {methodIsPickup
                               ? "Free"
                               : rate
-                                ? formatGHS(rate.fee)
+                                ? freeDeliveryApplies(subtotal)
+                                  ? "Free"
+                                  : formatGHS(rate.fee)
                                 : "—"}
                           </span>
                         </label>
@@ -326,6 +332,33 @@ export function CheckoutForm({
                     })}
                   </div>
                 </fieldset>
+
+                {!isPickup && (
+                  <p
+                    className={cn(
+                      "mt-2.5 flex items-center gap-1.5 text-xs",
+                      freeDelivery
+                        ? "font-semibold text-gold-dark"
+                        : "text-ink-faint",
+                    )}
+                  >
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-3.5 w-3.5"
+                    >
+                      <path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4L12 2z" />
+                    </svg>
+                    {freeDelivery
+                      ? "You've unlocked FREE delivery on this order."
+                      : `Free delivery on orders over GH₵${FREE_DELIVERY_THRESHOLD.toLocaleString()}.`}
+                  </p>
+                )}
 
                 {isPickup ? (
                   <div className="mt-5 space-y-4">
@@ -728,7 +761,7 @@ export function CheckoutForm({
                 <dd className="font-semibold text-ink">
                   {deliveryMethods.length === 0
                     ? "Available soon"
-                    : isPickup
+                    : isPickup || freeDelivery
                       ? "Free"
                       : deliveryFee === null
                         ? "Not available"

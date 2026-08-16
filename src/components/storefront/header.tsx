@@ -23,10 +23,10 @@ const mobileNavLinks = [
 ];
 
 const announcementItems = [
-  "Fashion · Electronics · Beauty · Home",
-  "Ghana · Prices in GHS",
-  "Delivered across Ghana",
-  "Easy returns",
+  "10,000+ products · 300+ brands — Ghana's marketplace",
+  "Quality-checked products · Delivered across all 16 regions",
+  "Genuine brands · Prices in GHS · Easy returns",
+  "Shop fashion, electronics, beauty & home in one place",
 ];
 
 const linkClasses =
@@ -400,14 +400,27 @@ export function StoreHeader({
 
   return (
     <header className="sticky top-0 z-40">
-      <div className="border-b border-navy-dark/60 bg-navy">
-        <div className="relative mx-auto flex h-6 max-w-6xl items-center justify-center overflow-hidden px-4 text-[11px] font-medium tracking-wide text-ivory/75">
+      <div className="relative overflow-hidden border-b border-navy-dark/60 bg-gradient-to-r from-navy-dark via-navy to-navy-dark">
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-y-0 left-0 w-2/5 bg-gradient-to-r from-transparent via-ivory/10 to-transparent animate-[image-shine_6s_ease-in-out_infinite] motion-reduce:animate-none"
+        />
+        <div className="relative mx-auto flex h-7 max-w-6xl items-center justify-center overflow-hidden px-4">
           <span
             key={announcementIndex}
-            className="flex items-center gap-2 animate-[announcement-fade_0.5s_ease-out] motion-reduce:animate-none"
+            className="flex items-center gap-2.5 animate-[announcement-fade_0.5s_ease-out] motion-reduce:animate-none"
           >
-            <span aria-hidden="true" className="h-1 w-1 rounded-full bg-gold" />
-            {announcementItems[announcementIndex]}
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              className="h-2.5 w-2.5 shrink-0 text-gold"
+              fill="currentColor"
+            >
+              <path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4L12 2z" />
+            </svg>
+            <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-ivory/85">
+              {announcementItems[announcementIndex]}
+            </span>
           </span>
         </div>
       </div>
@@ -418,7 +431,7 @@ export function StoreHeader({
             href="/"
             className="shrink-0 font-display text-xl font-semibold tracking-tight text-navy focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy"
           >
-            Yemanuel<span className="text-gold">.</span>
+            Yemanuel <span className="text-gold">Store</span>
             <span className="sr-only">Yemanuel Store — home</span>
           </Link>
 
