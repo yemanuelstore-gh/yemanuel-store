@@ -142,7 +142,9 @@ export function CheckoutForm({
   const isPickup = selectedMethod?.kind === "pickup";
   const regionUnavailable =
     !isPickup && selectedMethod !== undefined && selectedRate === null;
-  const freeDelivery = !isPickup && freeDeliveryApplies(subtotal);
+  const selectedRegion = regions.find((region) => region.id === regionId);
+  const freeDelivery =
+    !isPickup && freeDeliveryApplies(subtotal, selectedRegion?.name ?? null);
   const deliveryFee =
     selectedMethod === undefined
       ? 0
@@ -322,7 +324,12 @@ export function CheckoutForm({
                             {methodIsPickup
                               ? "Free"
                               : rate
-                                ? freeDeliveryApplies(subtotal)
+                                ? freeDeliveryApplies(
+                                    subtotal,
+                                    regions.find(
+                                      (region) => region.id === regionId,
+                                    )?.name ?? null,
+                                  )
                                   ? "Free"
                                   : formatGHS(rate.fee)
                                 : "—"}
@@ -356,7 +363,7 @@ export function CheckoutForm({
                     </svg>
                     {freeDelivery
                       ? "You've unlocked FREE delivery on this order."
-                      : `Free delivery on orders over GH₵${FREE_DELIVERY_THRESHOLD.toLocaleString()}.`}
+                      : `Free delivery within Accra on orders over GH₵${FREE_DELIVERY_THRESHOLD.toLocaleString()}.`}
                   </p>
                 )}
 
