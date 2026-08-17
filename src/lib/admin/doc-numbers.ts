@@ -9,7 +9,7 @@ export async function nextDocumentNumber(prefix: string): Promise<string> {
     return `${prefix.toUpperCase()}-${Date.now()}`;
   }
   const service = createServiceClient();
-  const { data } = await service.rpc("next_document_number", { p_prefix: prefix });
+  const { data } = await service.schema("app").rpc("next_document_number", { p_prefix: prefix });
   return typeof data === "string" && data.length > 0
     ? data
     : `${prefix.toUpperCase()}-${Date.now()}`;

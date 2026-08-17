@@ -16,7 +16,7 @@ export async function writeAuditLog(
   if (!isServiceConfigured()) return;
   try {
     const service = createServiceClient();
-    await service.rpc("write_audit_log", {
+    await service.schema("app").rpc("write_audit_log", {
       p_action: action,
       p_entity_type: entityType,
       p_entity_id: entityId,

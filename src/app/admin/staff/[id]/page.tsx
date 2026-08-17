@@ -5,7 +5,7 @@ import { AdminBadge } from "@/components/admin/admin-badge";
 import { StaffForm, StaffRolesForm } from "@/components/admin/staff-forms";
 import { DataRow, PageHeader } from "@/components/admin/ui";
 import { UnauthorizedPage } from "@/components/admin/unauthorized";
-import { getRoleById, getRoles, getStaffById } from "@/lib/admin/staff";
+import { getRoles, getStaffById } from "@/lib/admin/staff";
 import { hasPermission, getAdminSession } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
 import { staffStatusTone, statusLabel } from "@/lib/admin/labels";
