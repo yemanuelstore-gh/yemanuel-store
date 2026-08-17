@@ -1,8 +1,8 @@
 import { redirect } from "next/navigation";
 import { AdminShell, type AdminNotification } from "@/components/admin/app-shell";
 import { navigationForPermissions } from "@/components/admin/navigation";
-import { UnauthorizedPage } from "@/components/admin/unauthorized";
-import { hasPermission, getAdminSession } from "@/lib/admin/session";
+import { NotStaffPage, UnauthorizedPage } from "@/components/admin/unauthorized";
+import { getAuthUser, hasPermission, getAdminSession } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
 import { isSupabaseConfigured } from "@/lib/supabase/env";
 import { createClient } from "@/lib/supabase/server";
@@ -17,7 +17,11 @@ export default async function AdminLayout({
   const session = await getAdminSession();
 
   if (!isSupabaseConfigured() || session === null) {
-    redirect("/login?next=/admin");
+    const user = await getAuthUser();
+    if (!user) {
+      redirect("/admin/login");
+    }
+    return <NotStaffPage />;
   }
 
   if (session.staff.status !== "active") {

@@ -6,6 +6,11 @@ import { writeAuditLog } from "@/lib/admin/audit";
 import { nextDocumentNumber, parseAmount, parseQuantity } from "@/lib/admin/doc-numbers";
 import { hasPermission, getAdminSession } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
+import {
+  findOrCreateInventoryItem,
+  recordStockMovement,
+  weightedAverageCost,
+} from "@/lib/admin/stock-ledger";
 import { createClient } from "@/lib/supabase/server";
 
 const VALID_PO_STATUS = ["sent", "partially_received", "received", "cancelled"];
@@ -234,6 +239,77 @@ export async function updateGoodsReceiptStatusAction(
   }
 
   const client = await createClient();
+
+  if (status === "completed") {
+    const { data: receipt, error: receiptError } = await client
+      .from("goods_receipts")
+      .select("id, receipt_number, status, location_id")
+      .eq("id", receiptId)
+      .maybeSingle();
+    if (receiptError || !receipt) {
+      return { ok: false, message: "Receipt not found." };
+    }
+    if (receipt.status !== "draft") {
+      return {
+        ok: false,
+        message: `This receipt is already ${receipt.status} and cannot be completed.`,
+      };
+    }
+
+    const { data: items, error: itemsError } = await client
+      .from("goods_receipt_items")
+      .select("id, variant_id, quantity_received, unit_cost_actual")
+      .eq("goods_receipt_id", receiptId);
+    if (itemsError) {
+      return { ok: false, message: message(itemsError, "Could not load receipt items.") };
+    }
+    if ((items ?? []).length === 0) {
+      return { ok: false, message: "This receipt has no items to complete." };
+    }
+
+    for (const item of items ?? []) {
+      const quantity = Number(item.quantity_received);
+      const unitCost = Number(item.unit_cost_actual);
+      const inventory = await findOrCreateInventoryItem(
+        client,
+        receipt.location_id,
+        item.variant_id,
+      );
+      if (inventory.error || !inventory.item) {
+        return { ok: false, message: "Could not prepare the inventory record." };
+      }
+
+      const currentQuantity = Number(inventory.item.quantity_on_hand);
+      const currentCost = Number(inventory.item.average_cost ?? 0);
+      const nextCost = weightedAverageCost(currentQuantity, currentCost, quantity, unitCost);
+
+      const { error: updateError } = await client
+        .from("inventory_items")
+        .update({
+          quantity_on_hand: currentQuantity + quantity,
+          average_cost: nextCost,
+        })
+        .eq("id", inventory.item.id);
+      if (updateError) {
+        return { ok: false, message: "Could not update the inventory quantity." };
+      }
+
+      const movement = await recordStockMovement(client, {
+        inventoryItemId: inventory.item.id,
+        movementType: "purchase_receipt",
+        quantityChange: quantity,
+        unitCost,
+        sourceType: "goods_receipt",
+        sourceId: receipt.id,
+        note: receipt.receipt_number,
+        createdBy: session.userId,
+      });
+      if (!movement.ok) {
+        return { ok: false, message: "Could not record the receipt movement." };
+      }
+    }
+  }
+
   const { error } = await client.from("goods_receipts").update({ status }).eq("id", receiptId);
 
   if (error) {

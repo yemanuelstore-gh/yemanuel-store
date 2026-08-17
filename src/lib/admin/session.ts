@@ -38,6 +38,21 @@ type PermissionRow = {
 };
 
 /**
+ * Resolve the currently signed-in auth user (if any). Used by the admin
+ * layout to tell "not signed in" apart from "signed in but not staff".
+ */
+export const getAuthUser = cache(
+  async (): Promise<{ id: string; email: string } | null> => {
+    if (!isSupabaseConfigured()) return null;
+    const client = await createClient();
+    const { data } = await client.auth.getUser();
+    const user = data.user;
+    if (!user) return null;
+    return { id: user.id, email: user.email ?? "" };
+  },
+);
+
+/**
  * Resolve the signed-in user's staff record, roles and permission codes.
  *
  * The `staff` table is only readable by staff managers, so the staff record
@@ -47,12 +62,8 @@ type PermissionRow = {
  */
 export const getAdminSession = cache(
   async (): Promise<AdminSession | null> => {
-    if (!isSupabaseConfigured()) return null;
-
-    const client = await createClient();
-    const { data: authData } = await client.auth.getUser();
-    const user = authData.user;
-    if (!user) return null;
+    const authUser = await getAuthUser();
+    if (!authUser) return null;
 
     const service = createServiceClient();
 
@@ -60,12 +71,12 @@ export const getAdminSession = cache(
       service
         .from("profiles")
         .select("full_name")
-        .eq("id", user.id)
+        .eq("id", authUser.id)
         .maybeSingle(),
       service
         .from("staff")
         .select("id, employee_code, position, status, staff_roles(role_id)")
-        .eq("profile_id", user.id)
+        .eq("profile_id", authUser.id)
         .maybeSingle(),
     ]);
 
@@ -99,8 +110,8 @@ export const getAdminSession = cache(
     );
 
     return {
-      userId: user.id,
-      email: user.email ?? "",
+      userId: authUser.id,
+      email: authUser.email,
       fullName:
         profileResult.data && !profileResult.error
           ? ((profileResult.data as { full_name: string }).full_name ?? null)

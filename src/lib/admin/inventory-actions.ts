@@ -4,6 +4,11 @@ import { redirect } from "next/navigation";
 import type { ActionResult } from "@/components/admin/ui";
 import { writeAuditLog } from "@/lib/admin/audit";
 import { nextDocumentNumber, parseQuantity } from "@/lib/admin/doc-numbers";
+import {
+  applyQuantityDelta,
+  findOrCreateInventoryItem,
+  recordStockMovement,
+} from "@/lib/admin/stock-ledger";
 import { hasPermission, getAdminSession } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
 import { createClient } from "@/lib/supabase/server";
@@ -125,6 +130,119 @@ export async function updateTransferStatusAction(
   }
 
   const client = await createClient();
+
+  if (status === "received") {
+    const { data: transfer, error: transferError } = await client
+      .from("stock_transfers")
+      .select("id, transfer_number, status, from_location_id, to_location_id")
+      .eq("id", transferId)
+      .maybeSingle();
+    if (transferError || !transfer) {
+      return { ok: false, message: "Transfer not found." };
+    }
+    if (transfer.status !== "draft" && transfer.status !== "in_transit") {
+      return {
+        ok: false,
+        message: `This transfer is already ${transfer.status} and cannot be received.`,
+      };
+    }
+
+    const { data: items, error: itemsError } = await client
+      .from("stock_transfer_items")
+      .select("id, variant_id, quantity, status")
+      .eq("transfer_id", transferId);
+    if (itemsError) {
+      return { ok: false, message: message(itemsError, "Could not load transfer items.") };
+    }
+    const pendingItems = (items ?? []).filter((item) => item.status !== "received");
+    if (pendingItems.length === 0) {
+      return { ok: false, message: "There are no items left to receive on this transfer." };
+    }
+
+    for (const item of pendingItems) {
+      const source = await findOrCreateInventoryItem(
+        client,
+        transfer.from_location_id,
+        item.variant_id,
+      );
+      if (source.error || !source.item) {
+        return { ok: false, message: `Could not load source stock for ${item.variant_id}.` };
+      }
+      if (Number(source.item.quantity_on_hand) < Number(item.quantity)) {
+        return {
+          ok: false,
+          message: `Not enough stock at the source location to transfer this quantity.`,
+        };
+      }
+
+      const destination = await findOrCreateInventoryItem(
+        client,
+        transfer.to_location_id,
+        item.variant_id,
+      );
+      if (destination.error || !destination.item) {
+        return { ok: false, message: "Could not prepare the destination stock record." };
+      }
+
+      const quantity = Number(item.quantity);
+      const unitCost = Number(source.item.average_cost ?? 0);
+
+      const sourceDelta = await applyQuantityDelta(
+        client,
+        source.item.id,
+        -quantity,
+      );
+      if (!sourceDelta.ok) {
+        return { ok: false, message: sourceDelta.error ?? "Could not reduce source stock." };
+      }
+      const destinationDelta = await applyQuantityDelta(
+        client,
+        destination.item.id,
+        quantity,
+      );
+      if (!destinationDelta.ok) {
+        return {
+          ok: false,
+          message: destinationDelta.error ?? "Could not increase destination stock.",
+        };
+      }
+
+      const [outMovement, inMovement] = await Promise.all([
+        recordStockMovement(client, {
+          inventoryItemId: source.item.id,
+          movementType: "transfer_out",
+          quantityChange: -quantity,
+          unitCost,
+          sourceType: "stock_transfer",
+          sourceId: transfer.id,
+          note: transfer.transfer_number,
+          createdBy: session.userId,
+        }),
+        recordStockMovement(client, {
+          inventoryItemId: destination.item.id,
+          movementType: "transfer_in",
+          quantityChange: quantity,
+          unitCost,
+          sourceType: "stock_transfer",
+          sourceId: transfer.id,
+          note: transfer.transfer_number,
+          createdBy: session.userId,
+        }),
+      ]);
+      if (!outMovement.ok || !inMovement.ok) {
+        return { ok: false, message: "Could not record the transfer movements." };
+      }
+
+      const { error: itemStatusError } = await client
+        .from("stock_transfer_items")
+        .update({ status: "received" })
+        .eq("id", item.id);
+      if (itemStatusError) {
+        return { ok: false, message: "Could not mark the transfer item as received." };
+      }
+    }
+  }
+
   const { error } = await client
     .from("stock_transfers")
     .update({ status })
@@ -274,6 +392,64 @@ export async function updateAdjustmentStatusAction(
   }
 
   const client = await createClient();
+
+  if (status === "applied") {
+    const { data: adjustment, error: adjustmentError } = await client
+      .from("stock_adjustments")
+      .select("id, adjustment_number, status")
+      .eq("id", adjustmentId)
+      .maybeSingle();
+    if (adjustmentError || !adjustment) {
+      return { ok: false, message: "Adjustment not found." };
+    }
+    if (adjustment.status !== "draft") {
+      return {
+        ok: false,
+        message: `This adjustment is already ${adjustment.status} and cannot be applied.`,
+      };
+    }
+
+    const { data: items, error: itemsError } = await client
+      .from("stock_adjustment_items")
+      .select("id, inventory_item_id, quantity_change, reason")
+      .eq("adjustment_id", adjustmentId);
+    if (itemsError) {
+      return { ok: false, message: message(itemsError, "Could not load adjustment items.") };
+    }
+    if ((items ?? []).length === 0) {
+      return { ok: false, message: "This adjustment has no items to apply." };
+    }
+
+    for (const item of items ?? []) {
+      const delta = Number(item.quantity_change);
+      const applied = await applyQuantityDelta(client, item.inventory_item_id, delta);
+      if (!applied.ok) {
+        return { ok: false, message: applied.error ?? "Could not apply the adjustment." };
+      }
+    }
+
+    for (const item of items ?? []) {
+      const { data: inventoryRow } = await client
+        .from("inventory_items")
+        .select("average_cost")
+        .eq("id", item.inventory_item_id)
+        .maybeSingle();
+      const movement = await recordStockMovement(client, {
+        inventoryItemId: item.inventory_item_id,
+        movementType: "adjustment",
+        quantityChange: Number(item.quantity_change),
+        unitCost: inventoryRow ? Number(inventoryRow.average_cost ?? 0) : null,
+        sourceType: "stock_adjustment",
+        sourceId: adjustment.id,
+        note: item.reason ?? adjustment.adjustment_number,
+        createdBy: session.userId,
+      });
+      if (!movement.ok) {
+        return { ok: false, message: "Could not record the adjustment movement." };
+      }
+    }
+  }
+
   const { error } = await client
     .from("stock_adjustments")
     .update({ status })
