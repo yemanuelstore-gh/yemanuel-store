@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import type { ActionResult } from "@/components/admin/ui";
 import { writeAuditLog } from "@/lib/admin/audit";
@@ -7,6 +8,7 @@ import { parseAmount, parseOptionalAmount, slugify } from "@/lib/admin/doc-numbe
 import { hasPermission, getAdminSession } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
 import { createClient } from "@/lib/supabase/server";
+import { createServiceClient, isServiceConfigured } from "@/lib/supabase/service";
 
 const VALID_PRODUCT_STATUS = ["draft", "active", "inactive", "archived"];
 const VALID_VARIANT_STATUS = ["active", "inactive"];
@@ -146,6 +148,47 @@ export async function updateProductAction(
   return { ok: true, message: "Product saved." };
 }
 
+function parseVariantOptions(raw: unknown): {
+  options: Record<string, unknown> | null;
+  error?: string;
+} {
+  if (typeof raw !== "string" || raw.trim() === "") return { options: null };
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
+      return {
+        options: null,
+        error: 'Options must be a JSON object, e.g. {"colour": "Red"}.',
+      };
+    }
+    return { options: parsed as Record<string, unknown> };
+  } catch {
+    return {
+      options: null,
+      error: 'Options must be valid JSON, e.g. {"colour": "Red"}.',
+    };
+  }
+}
+
+async function validateVariantUniqueness(
+  client: Awaited<ReturnType<typeof createClient>>,
+  sku: string,
+  barcode: string | null,
+  excludeVariantId?: string,
+): Promise<string | null> {
+  const parts = [`sku.eq.${sku}`];
+  if (barcode) parts.push(`barcode.eq.${barcode}`);
+  let query = client.from("product_variants").select("id").or(parts.join(","));
+  if (excludeVariantId) {
+    query = query.neq("id", excludeVariantId);
+  }
+  const { data } = await query.limit(2);
+  if ((data ?? []).length === 0) return null;
+  return barcode
+    ? "That SKU or barcode is already assigned to another variant."
+    : "That SKU is already in use.";
+}
+
 export async function createVariantAction(
   prev: ActionResult,
   formData: FormData,
@@ -175,28 +218,41 @@ export async function createVariantAction(
     return { ok: false, message: "Choose a valid variant status." };
   }
 
-  let options: Record<string, unknown> | null = null;
-  if (typeof rawOptions === "string" && rawOptions.trim() !== "") {
-    try {
-      const parsed = JSON.parse(rawOptions);
-      if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
-        return { ok: false, message: "Options must be a JSON object, e.g. {\"colour\": \"Red\"}." };
-      }
-      options = parsed as Record<string, unknown>;
-    } catch {
-      return { ok: false, message: "Options must be valid JSON, e.g. {\"colour\": \"Red\"}." };
-    }
+  const normalizedSku = sku.trim().toUpperCase();
+  const normalizedBarcode =
+    typeof barcode === "string" && barcode.trim() !== "" ? barcode.trim() : null;
+  const parsedOptions = parseVariantOptions(rawOptions);
+  if (parsedOptions.error) {
+    return { ok: false, message: parsedOptions.error };
   }
 
   const client = await createClient();
+  const productResult = await client
+    .from("products")
+    .select("id")
+    .eq("id", productId)
+    .maybeSingle();
+  if (!productResult.data) {
+    return { ok: false, message: "The selected product does not exist." };
+  }
+
+  const conflict = await validateVariantUniqueness(
+    client,
+    normalizedSku,
+    normalizedBarcode,
+  );
+  if (conflict) {
+    return { ok: false, message: conflict };
+  }
+
   const { data, error } = await client
     .from("product_variants")
     .insert({
       product_id: productId,
       name: name.trim(),
-      sku: sku.trim().toUpperCase(),
-      barcode: typeof barcode === "string" && barcode.trim() !== "" ? barcode.trim() : null,
-      options,
+      sku: normalizedSku,
+      barcode: normalizedBarcode,
+      options: parsedOptions.options,
       status,
     })
     .select("id")
@@ -208,8 +264,13 @@ export async function createVariantAction(
 
   await writeAuditLog(session.userId, "create", "product_variant", data.id, {
     productId,
-    sku: sku.trim().toUpperCase(),
+    sku: normalizedSku,
+    barcode: normalizedBarcode,
   });
+
+  if (formData.get("redirect") === "detail") {
+    redirect(`/admin/products/variants/${data.id}`);
+  }
 
   return { ok: true, message: "Variant added." };
 }
@@ -228,6 +289,7 @@ export async function updateVariantAction(
   const sku = formData.get("sku");
   const barcode = formData.get("barcode");
   const status = formData.get("status");
+  const rawOptions = formData.get("options");
 
   if (typeof variantId !== "string" || variantId === "") {
     return { ok: false, message: "Missing variant." };
@@ -242,13 +304,32 @@ export async function updateVariantAction(
     return { ok: false, message: "Choose a valid variant status." };
   }
 
+  const normalizedSku = sku.trim().toUpperCase();
+  const normalizedBarcode =
+    typeof barcode === "string" && barcode.trim() !== "" ? barcode.trim() : null;
+  const parsedOptions = parseVariantOptions(rawOptions);
+  if (parsedOptions.error) {
+    return { ok: false, message: parsedOptions.error };
+  }
+
   const client = await createClient();
+  const conflict = await validateVariantUniqueness(
+    client,
+    normalizedSku,
+    normalizedBarcode,
+    variantId,
+  );
+  if (conflict) {
+    return { ok: false, message: conflict };
+  }
+
   const { error } = await client
     .from("product_variants")
     .update({
       name: name.trim(),
-      sku: sku.trim().toUpperCase(),
-      barcode: typeof barcode === "string" && barcode.trim() !== "" ? barcode.trim() : null,
+      sku: normalizedSku,
+      barcode: normalizedBarcode,
+      options: parsedOptions.options,
       status,
     })
     .eq("id", variantId);
@@ -257,9 +338,49 @@ export async function updateVariantAction(
     return { ok: false, message: message(error, "Could not update the variant.") };
   }
 
-  await writeAuditLog(session.userId, "update", "product_variant", variantId);
+  await writeAuditLog(session.userId, "update", "product_variant", variantId, {
+    sku: normalizedSku,
+    barcode: normalizedBarcode,
+  });
 
   return { ok: true, message: "Variant saved." };
+}
+
+function parsePriceWindow(
+  validFrom: FormDataEntryValue | null,
+  validTo: FormDataEntryValue | null,
+): { validFromIso: string; validToIso: string | null; error?: string } {
+  const from =
+    typeof validFrom === "string" && validFrom.trim() !== ""
+      ? new Date(validFrom)
+      : new Date();
+  if (Number.isNaN(from.getTime())) {
+    return { validFromIso: "", validToIso: null, error: "Enter a valid effective-from date." };
+  }
+  const to = typeof validTo === "string" && validTo.trim() !== "" ? new Date(validTo) : null;
+  if (to && Number.isNaN(to.getTime())) {
+    return { validFromIso: "", validToIso: null, error: "Enter a valid effective-to date." };
+  }
+  if (to && from.getTime() > to.getTime()) {
+    return {
+      validFromIso: "",
+      validToIso: null,
+      error: "The effective-to date cannot be before the effective-from date.",
+    };
+  }
+  return { validFromIso: from.toISOString(), validToIso: to ? to.toISOString() : null };
+}
+
+async function validateLocationExists(locationId: string): Promise<string | null> {
+  if (!isServiceConfigured()) return null;
+  const service = createServiceClient();
+  const { data } = await service
+    .from("locations")
+    .select("id")
+    .eq("id", locationId)
+    .maybeSingle();
+  if (!data) return "The selected location does not exist.";
+  return null;
 }
 
 export async function createPriceAction(
@@ -271,16 +392,12 @@ export async function createPriceAction(
     return { ok: false, message: "You do not have permission to add prices." };
   }
 
+  const productId = formData.get("productId");
   const variantId = formData.get("variantId");
   const priceType = formData.get("priceType");
   const amount = parseAmount(formData.get("amount"));
   const locationId = formData.get("locationId");
-  const validFrom = formData.get("validFrom");
-  const validTo = formData.get("validTo");
 
-  if (typeof variantId !== "string" || variantId === "") {
-    return { ok: false, message: "Missing variant." };
-  }
   if (typeof priceType !== "string" || !VALID_PRICE_TYPES.includes(priceType)) {
     return { ok: false, message: "Choose a valid price type." };
   }
@@ -288,23 +405,67 @@ export async function createPriceAction(
     return { ok: false, message: "Enter a valid price amount." };
   }
 
+  const normalizedProductId =
+    typeof productId === "string" && productId !== "" ? productId : null;
+  const normalizedVariantId =
+    typeof variantId === "string" && variantId !== "" ? variantId : null;
+  if (!normalizedProductId && !normalizedVariantId) {
+    return { ok: false, message: "Choose a product or a variant to price." };
+  }
+
+  const window = parsePriceWindow(formData.get("validFrom"), formData.get("validTo"));
+  if (window.error) {
+    return { ok: false, message: window.error };
+  }
+
+  const normalizedLocationId =
+    typeof locationId === "string" && locationId !== "" ? locationId : null;
+  if (normalizedLocationId) {
+    const locationError = await validateLocationExists(normalizedLocationId);
+    if (locationError) return { ok: false, message: locationError };
+  }
+
   const client = await createClient();
+
+  if (normalizedProductId) {
+    const productResult = await client
+      .from("products")
+      .select("id")
+      .eq("id", normalizedProductId)
+      .maybeSingle();
+    if (!productResult.data) {
+      return { ok: false, message: "The selected product does not exist." };
+    }
+  }
+
+  if (normalizedVariantId) {
+    const variantResult = await client
+      .from("product_variants")
+      .select("product_id")
+      .eq("id", normalizedVariantId)
+      .maybeSingle();
+    if (!variantResult.data) {
+      return { ok: false, message: "The selected variant does not exist." };
+    }
+    const variant = variantResult.data as unknown as { product_id: string };
+    if (
+      normalizedProductId &&
+      variant.product_id !== normalizedProductId
+    ) {
+      return { ok: false, message: "The selected variant does not belong to that product." };
+    }
+  }
+
   const { data, error } = await client
     .from("prices")
     .insert({
-      variant_id: variantId,
+      product_id: normalizedProductId,
+      variant_id: normalizedVariantId,
       price_type: priceType,
       amount,
-      location_id:
-        typeof locationId === "string" && locationId !== "" ? locationId : null,
-      valid_from:
-        typeof validFrom === "string" && validFrom !== ""
-          ? new Date(validFrom).toISOString()
-          : new Date().toISOString(),
-      valid_to:
-        typeof validTo === "string" && validTo !== ""
-          ? new Date(validTo).toISOString()
-          : null,
+      location_id: normalizedLocationId,
+      valid_from: window.validFromIso,
+      valid_to: window.validToIso,
       created_by: session.userId,
     })
     .select("id")
@@ -315,12 +476,159 @@ export async function createPriceAction(
   }
 
   await writeAuditLog(session.userId, "create", "price", data.id, {
-    variantId,
+    productId: normalizedProductId,
+    variantId: normalizedVariantId,
     priceType,
     amount,
   });
 
   return { ok: true, message: "Price added." };
+}
+
+export async function updatePriceAction(
+  prev: ActionResult,
+  formData: FormData,
+): Promise<ActionResult> {
+  const session = await getAdminSession();
+  if (!session || !hasPermission(session, PERMISSIONS.products.update)) {
+    return { ok: false, message: "You do not have permission to update prices." };
+  }
+
+  const priceId = formData.get("priceId");
+  if (typeof priceId !== "string" || priceId === "") {
+    return { ok: false, message: "Missing price." };
+  }
+
+  const priceType = formData.get("priceType");
+  const amount = parseAmount(formData.get("amount"));
+  const locationId = formData.get("locationId");
+
+  if (typeof priceType !== "string" || !VALID_PRICE_TYPES.includes(priceType)) {
+    return { ok: false, message: "Choose a valid price type." };
+  }
+  if (amount === null || amount < 0) {
+    return { ok: false, message: "Enter a valid price amount." };
+  }
+
+  const window = parsePriceWindow(formData.get("validFrom"), formData.get("validTo"));
+  if (window.error) {
+    return { ok: false, message: window.error };
+  }
+
+  const normalizedLocationId =
+    typeof locationId === "string" && locationId !== "" ? locationId : null;
+  if (normalizedLocationId) {
+    const locationError = await validateLocationExists(normalizedLocationId);
+    if (locationError) return { ok: false, message: locationError };
+  }
+
+  const client = await createClient();
+  const existing = await client
+    .from("prices")
+    .select("id, product_id, variant_id")
+    .eq("id", priceId)
+    .maybeSingle();
+  if (!existing.data) {
+    return { ok: false, message: "The price no longer exists." };
+  }
+
+  const { error } = await client
+    .from("prices")
+    .update({
+      price_type: priceType,
+      amount,
+      location_id: normalizedLocationId,
+      valid_from: window.validFromIso,
+      valid_to: window.validToIso,
+    })
+    .eq("id", priceId);
+
+  if (error) {
+    return { ok: false, message: message(error, "Could not update the price.") };
+  }
+
+  await writeAuditLog(session.userId, "update", "price", priceId, {
+    priceType,
+    amount,
+  });
+
+  revalidatePath("/admin/products/prices");
+  revalidatePath("/admin/products/variants");
+
+  return { ok: true, message: "Price saved." };
+}
+
+export async function updateVariantBarcodeAction(
+  prev: ActionResult,
+  formData: FormData,
+): Promise<ActionResult> {
+  const session = await getAdminSession();
+  if (!session || !hasPermission(session, PERMISSIONS.products.update)) {
+    return { ok: false, message: "You do not have permission to update barcodes." };
+  }
+
+  const variantId = formData.get("variantId");
+  const rawBarcode = formData.get("barcode");
+
+  if (typeof variantId !== "string" || variantId === "") {
+    return { ok: false, message: "Missing variant." };
+  }
+
+  const barcode =
+    typeof rawBarcode === "string" && rawBarcode.trim() !== ""
+      ? rawBarcode.trim()
+      : null;
+
+  const client = await createClient();
+  const variantResult = await client
+    .from("product_variants")
+    .select("id, barcode")
+    .eq("id", variantId)
+    .maybeSingle();
+  if (!variantResult.data) {
+    return { ok: false, message: "The variant no longer exists." };
+  }
+  const current = variantResult.data as unknown as { barcode: string | null };
+
+  if (current.barcode === barcode) {
+    return { ok: true, message: "No change." };
+  }
+
+  if (barcode) {
+    const duplicate = await client
+      .from("product_variants")
+      .select("id")
+      .eq("barcode", barcode)
+      .neq("id", variantId)
+      .limit(1);
+    if ((duplicate.data ?? []).length > 0) {
+      return { ok: false, message: "That barcode is already assigned to another variant." };
+    }
+  }
+
+  const { error } = await client
+    .from("product_variants")
+    .update({ barcode })
+    .eq("id", variantId);
+
+  if (error) {
+    return { ok: false, message: message(error, "Could not update the barcode.") };
+  }
+
+  const action = barcode
+    ? current.barcode === null
+      ? "barcode_assign"
+      : "barcode_change"
+    : "barcode_clear";
+
+  await writeAuditLog(session.userId, action, "product_variant", variantId, {
+    barcode,
+  });
+
+  revalidatePath("/admin/products/barcodes");
+  revalidatePath("/admin/products/variants");
+
+  return { ok: true, message: barcode ? "Barcode saved." : "Barcode cleared." };
 }
 
 export async function deletePriceAction(
@@ -359,6 +667,7 @@ export async function createImageAction(
   }
 
   const productId = formData.get("productId");
+  const variantId = formData.get("variantId");
   const url = formData.get("url");
   const altText = formData.get("altText");
   const sortOrder = parseOptionalAmount(formData.get("sortOrder"));
@@ -367,6 +676,8 @@ export async function createImageAction(
   if (typeof productId !== "string" || productId === "") {
     return { ok: false, message: "Missing product." };
   }
+  const normalizedVariantId =
+    typeof variantId === "string" && variantId !== "" ? variantId : null;
   if (typeof url !== "string" || url.trim() === "") {
     return { ok: false, message: "Image URL is required." };
   }
@@ -375,6 +686,21 @@ export async function createImageAction(
   }
 
   const client = await createClient();
+
+  if (normalizedVariantId) {
+    const variantResult = await client
+      .from("product_variants")
+      .select("product_id")
+      .eq("id", normalizedVariantId)
+      .maybeSingle();
+    if (!variantResult.data) {
+      return { ok: false, message: "The selected variant does not exist." };
+    }
+    const variant = variantResult.data as unknown as { product_id: string };
+    if (variant.product_id !== productId) {
+      return { ok: false, message: "The selected variant does not belong to that product." };
+    }
+  }
 
   if (isPrimary) {
     const { error: unsetError } = await client
@@ -394,10 +720,11 @@ export async function createImageAction(
     .from("product_images")
     .insert({
       product_id: productId,
+      variant_id: normalizedVariantId,
       url: url.trim(),
       alt_text: typeof altText === "string" && altText.trim() !== "" ? altText.trim() : null,
       sort_order: sortOrder ?? 0,
-      is_primary: isPrimary,
+      is_primary: isPrimary && !normalizedVariantId,
     })
     .select("id")
     .single();
@@ -408,7 +735,8 @@ export async function createImageAction(
 
   await writeAuditLog(session.userId, "create", "product_image", data.id, {
     productId,
-    isPrimary,
+    variantId: normalizedVariantId,
+    isPrimary: isPrimary && !normalizedVariantId,
   });
 
   return { ok: true, message: "Image added." };

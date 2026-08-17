@@ -77,18 +77,18 @@ export const adminNavigation: AdminNavSection[] = [
       },
       {
         label: "Product Variants",
+        href: "/admin/products/variants",
         permission: PERMISSIONS.products.read,
-        planned: true,
       },
       {
         label: "Barcodes",
+        href: "/admin/products/barcodes",
         permission: PERMISSIONS.products.read,
-        planned: true,
       },
       {
         label: "Price Lists",
+        href: "/admin/products/prices",
         permission: PERMISSIONS.products.read,
-        planned: true,
       },
     ],
   },

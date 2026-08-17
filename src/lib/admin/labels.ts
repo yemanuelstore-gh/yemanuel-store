@@ -195,6 +195,18 @@ export function movementTypeTone(value: string): BadgeTone {
   );
 }
 
+export function priceTypeTone(value: string): BadgeTone {
+  return toneFor(value, { selling: "info", sale: "warning" });
+}
+
+export function pricePeriodTone(value: string): BadgeTone {
+  return toneFor(value, { active: "success", future: "info", expired: "muted" });
+}
+
+export function barcodeStatusTone(value: string): BadgeTone {
+  return toneFor(value, { assigned: "success", unassigned: "neutral" });
+}
+
 export function statusLabel(value: string): string {
   return humanize(value);
 }
