@@ -26,6 +26,8 @@ const supportLinks = [
   { href: "/track", label: "Track an order" },
 ];
 
+const businessLinks = [{ href: "/admin", label: "Admin Portal" }];
+
 const linkClasses =
   "text-ivory/65 transition-colors hover:text-ivory focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold";
 
@@ -39,7 +41,7 @@ export async function StoreFooter() {
   return (
     <footer className="border-t border-gold/20 bg-navy-dark">
       <div className="mx-auto max-w-6xl px-4 py-12 lg:py-16">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.9fr_1fr_0.9fr_0.9fr]">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.9fr_1fr_0.9fr_0.9fr_0.9fr]">
           <div>
             <p className="font-display text-xl font-semibold tracking-tight text-ivory">
               Yemanuel<span className="text-gold">.</span>
@@ -154,6 +156,21 @@ export async function StoreFooter() {
             </p>
             <ul className="mt-4 space-y-3">
               {supportLinks.map((link) => (
+                <li key={link.label}>
+                  <Link href={link.href} className={linkClasses}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="Business" className="text-sm">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">
+              Business / Management
+            </p>
+            <ul className="mt-4 space-y-3">
+              {businessLinks.map((link) => (
                 <li key={link.label}>
                   <Link href={link.href} className={linkClasses}>
                     {link.label}
