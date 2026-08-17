@@ -91,6 +91,16 @@ export function invoiceStatusTone(value: string): BadgeTone {
   });
 }
 
+export function quotationStatusTone(value: string): BadgeTone {
+  return toneFor(value, {
+    draft: "neutral",
+    sent: "info",
+    accepted: "success",
+    rejected: "danger",
+    expired: "muted",
+  });
+}
+
 export function orderStatusTone(value: string): BadgeTone {
   return toneFor(value, {
     pending: "warning",

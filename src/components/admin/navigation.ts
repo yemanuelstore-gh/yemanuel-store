@@ -50,8 +50,8 @@ export const adminNavigation: AdminNavSection[] = [
       },
       {
         label: "Quotations",
+        href: "/admin/quotations",
         permission: PERMISSIONS.sales.read,
-        planned: true,
       },
     ],
   },
