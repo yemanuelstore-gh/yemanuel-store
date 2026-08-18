@@ -1,12 +1,12 @@
 export type BadgeTone = "neutral" | "success" | "warning" | "danger" | "info" | "muted";
 
 const toneClasses: Record<BadgeTone, string> = {
-  neutral: "bg-line/60 text-ink-soft",
-  success: "bg-navy-soft text-navy",
-  warning: "bg-gold-soft text-gold-dark",
-  danger: "bg-danger-soft text-danger",
-  info: "bg-navy-mist text-navy-dark",
-  muted: "bg-line/30 text-ink-faint",
+  neutral: "bg-line/60 text-ink-soft ring-1 ring-inset ring-ink/5",
+  success: "bg-navy-soft text-navy ring-1 ring-inset ring-navy/10",
+  warning: "bg-gold-soft text-gold-dark ring-1 ring-inset ring-gold/20",
+  danger: "bg-danger-soft text-danger ring-1 ring-inset ring-danger/10",
+  info: "bg-navy-mist text-navy-dark ring-1 ring-inset ring-navy/10",
+  muted: "bg-line/30 text-ink-faint ring-1 ring-inset ring-ink/5",
 };
 
 export function statusBadgeTone(tone: BadgeTone): string {
@@ -24,6 +24,14 @@ const toneFor = (
 
 export function entityStatusTone(value: string): BadgeTone {
   return toneFor(value, { active: "success", inactive: "neutral" });
+}
+
+export function accountTransactionTypeTone(value: string): BadgeTone {
+  return toneFor(value, {
+    deposit: "success",
+    withdrawal: "danger",
+    transfer: "info",
+  });
 }
 
 export function productStatusTone(value: string): BadgeTone {
@@ -45,6 +53,23 @@ export function customerStatusTone(value: string): BadgeTone {
 
 export function staffStatusTone(value: string): BadgeTone {
   return toneFor(value, { active: "success", inactive: "neutral", suspended: "danger" });
+}
+
+export function employeeStatusTone(value: string): BadgeTone {
+  return toneFor(value, {
+    active: "success",
+    on_leave: "info",
+    inactive: "neutral",
+    terminated: "danger",
+  });
+}
+
+export function salaryComponentTypeTone(value: string): BadgeTone {
+  return toneFor(value, { earning: "success", deduction: "warning" });
+}
+
+export function payrollPeriodStatusTone(value: string): BadgeTone {
+  return toneFor(value, { open: "success", closed: "neutral" });
 }
 
 export function transferStatusTone(value: string): BadgeTone {

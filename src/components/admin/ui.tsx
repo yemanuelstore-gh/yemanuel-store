@@ -6,7 +6,7 @@ import type { ComponentProps, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 const fieldClasses =
-  "h-8 w-full rounded-md border border-line-strong bg-white px-2.5 text-[13px] text-ink placeholder:text-ink-faint transition-colors focus:border-navy focus:outline-2 focus:outline-offset-0 focus:outline-navy/25 disabled:cursor-not-allowed disabled:bg-line/40 disabled:text-ink-faint";
+  "h-8 w-full rounded-md border border-line-strong bg-white px-2.5 text-[13px] text-ink placeholder:text-ink-faint transition-[border-color,box-shadow] focus:border-navy focus:outline-2 focus:outline-offset-0 focus:outline-navy/20 disabled:cursor-not-allowed disabled:bg-line/40 disabled:text-ink-faint";
 
 export function Field({
   label,
@@ -86,14 +86,14 @@ export function FormActions({
       <button
         type="submit"
         disabled={pending}
-        className="inline-flex h-8 items-center rounded-md bg-navy px-3.5 text-xs font-semibold text-white transition-colors hover:bg-navy-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy disabled:cursor-not-allowed disabled:opacity-50"
+        className="inline-flex h-8 items-center rounded-md bg-navy px-3.5 text-xs font-semibold text-white shadow-sm shadow-navy/20 transition-all hover:bg-navy-dark hover:shadow-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-navy disabled:cursor-not-allowed disabled:opacity-50"
       >
         {pending ? pendingLabel : submitLabel}
       </button>
       {cancelHref && (
         <Link
           href={cancelHref}
-          className="inline-flex h-8 items-center rounded-md border border-line-strong bg-white px-3.5 text-xs font-medium text-ink-soft transition-colors hover:bg-line/40 hover:text-ink"
+          className="inline-flex h-8 items-center rounded-md border border-line-strong bg-white px-3.5 text-xs font-medium text-ink-soft transition-colors hover:border-navy/30 hover:bg-navy-soft/40 hover:text-ink"
         >
           Cancel
         </Link>
@@ -141,7 +141,7 @@ export function ActionForm({
           className={cn(
             "mb-3 rounded-md border px-3 py-2 text-xs leading-5",
             state.ok
-              ? "border-line bg-navy-soft/60 text-navy"
+              ? "border-navy/20 bg-navy-soft/60 text-navy"
               : "border-danger/30 bg-danger-soft text-danger",
           )}
         >
@@ -169,11 +169,17 @@ export function PageHeader({
 }) {
   return (
     <div className="flex flex-wrap items-center justify-between gap-3">
-      <div>
-        <h1 className="text-base font-semibold tracking-tight text-ink">{title}</h1>
-        {description && (
-          <p className="mt-0.5 text-xs leading-5 text-ink-soft">{description}</p>
-        )}
+      <div className="flex min-w-0 items-start gap-2.5">
+        <span
+          aria-hidden="true"
+          className="mt-1.5 h-4 w-1 shrink-0 rounded-full bg-gradient-to-b from-gold-bright to-gold-dark"
+        />
+        <div className="min-w-0">
+          <h1 className="text-[15px] font-semibold leading-6 tracking-tight text-ink">{title}</h1>
+          {description && (
+            <p className="mt-0.5 text-xs leading-5 text-ink-soft">{description}</p>
+          )}
+        </div>
       </div>
       {actions && <div className="flex items-center gap-2">{actions}</div>}
     </div>
@@ -193,17 +199,17 @@ export function AdminButtonLink({
 }) {
   const classes = {
     primary:
-      "bg-navy text-white hover:bg-navy-dark focus-visible:outline-navy",
+      "bg-navy text-white shadow-sm shadow-navy/20 hover:bg-navy-dark hover:shadow-none focus-visible:outline-navy",
     secondary:
-      "border border-line-strong bg-white text-ink hover:bg-line/40 focus-visible:outline-navy",
+      "border border-line-strong bg-white text-ink hover:border-navy/30 hover:bg-navy-soft/40 focus-visible:outline-navy",
     danger:
-      "bg-danger text-white hover:bg-danger-dark focus-visible:outline-danger",
+      "bg-danger text-white shadow-sm shadow-danger/20 hover:bg-danger-dark hover:shadow-none focus-visible:outline-danger",
   }[variant];
   return (
     <Link
       href={href}
       className={cn(
-        "inline-flex h-8 items-center rounded-md px-3.5 text-xs font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2",
+        "inline-flex h-8 items-center rounded-md px-3.5 text-xs font-semibold transition-all focus-visible:outline-2 focus-visible:outline-offset-2",
         classes,
         className,
       )}
@@ -239,7 +245,7 @@ export function SearchForm({
       />
       <button
         type="submit"
-        className="inline-flex h-8 items-center rounded-md border border-line-strong bg-white px-3 text-xs font-medium text-ink-soft transition-colors hover:bg-line/40 hover:text-ink"
+        className="inline-flex h-8 items-center rounded-md border border-line-strong bg-white px-3 text-xs font-medium text-ink-soft transition-colors hover:border-navy/30 hover:bg-navy-soft/40 hover:text-navy"
       >
         Search
       </button>
@@ -280,7 +286,7 @@ export function Pagination({
           href={hrefFor(Math.max(1, page - 1))}
           aria-disabled={page <= 1}
           className={cn(
-            "inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:bg-line/40",
+            "inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:border-navy/30 hover:bg-navy-soft/40 hover:text-navy",
             page <= 1 && "pointer-events-none opacity-40",
           )}
         >
@@ -293,7 +299,7 @@ export function Pagination({
           href={hrefFor(Math.min(totalPages, page + 1))}
           aria-disabled={page >= totalPages}
           className={cn(
-            "inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:bg-line/40",
+            "inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:border-navy/30 hover:bg-navy-soft/40 hover:text-navy",
             page >= totalPages && "pointer-events-none opacity-40",
           )}
         >
@@ -316,7 +322,24 @@ export function AdminEmptyState({
   actionLabel?: string;
 }) {
   return (
-    <div className="flex flex-col items-center justify-center px-6 py-12 text-center">
+    <div className="m-4 flex flex-col items-center justify-center rounded-md border border-dashed border-line-strong bg-canvas/60 px-6 py-10 text-center">
+      <span
+        aria-hidden="true"
+        className="mb-2.5 flex h-8 w-8 items-center justify-center rounded-full border border-line-strong bg-white text-ink-faint"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="h-4 w-4"
+        >
+          <path d="M22 12h-6l-2 3h-4l-2-3H2" />
+          <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11Z" />
+        </svg>
+      </span>
       <p className="text-sm font-semibold text-ink">{title}</p>
       <p className="mt-1 max-w-sm text-xs leading-5 text-ink-soft">{message}</p>
       {actionHref && actionLabel && (
@@ -343,9 +366,9 @@ export function InlineSubmitForm({
 }) {
   const [state, formAction, pending] = useActionState(action, { ok: true, message: "" });
   const classes = {
-    primary: "bg-navy text-white hover:bg-navy-dark",
+    primary: "bg-navy text-white shadow-sm shadow-navy/20 hover:bg-navy-dark",
     secondary:
-      "border border-line-strong bg-white text-ink-soft hover:bg-line/40 hover:text-ink",
+      "border border-line-strong bg-white text-ink-soft hover:border-navy/30 hover:bg-navy-soft/40 hover:text-ink",
     danger: "border border-danger/30 bg-white text-danger hover:bg-danger-soft",
   }[variant];
   return (
@@ -384,7 +407,7 @@ export function AdminTable({
     <div className="overflow-x-auto">
       <table className="w-full border-collapse text-left text-[13px]">
         <thead>
-          <tr className="border-b border-line-strong bg-line/30">{head}</tr>
+          <tr className="border-b border-line-strong bg-line/40">{head}</tr>
         </thead>
         <tbody className="divide-y divide-line">{children}</tbody>
       </table>
@@ -397,7 +420,7 @@ export function Th({ children, className }: { children?: ReactNode; className?: 
     <th
       scope="col"
       className={cn(
-        "whitespace-nowrap px-3 py-2 text-[10px] font-semibold uppercase tracking-wider text-ink-soft",
+        "whitespace-nowrap px-3 py-2 text-[10px] font-bold uppercase tracking-wider text-ink-soft",
         className,
       )}
     >
@@ -432,7 +455,45 @@ export function DataRow({
   return (
     <div className="flex flex-wrap items-start justify-between gap-3 py-1.5">
       <dt className="text-xs font-medium text-ink-faint">{label}</dt>
-      <dd className="text-right text-[13px] font-medium text-ink">{value}</dd>
+      <dd className="text-right text-[13px] font-medium tabular-nums text-ink">{value}</dd>
     </div>
+  );
+}
+
+/**
+ * Standard list-page card with a gold-dot uppercase header. Keeps section
+ * titles consistent across the admin without duplicating header markup.
+ */
+export function AdminCardSection({
+  title,
+  description,
+  headerExtra,
+  children,
+  className,
+  bodyClassName,
+}: {
+  title: string;
+  description?: string;
+  headerExtra?: ReactNode;
+  children: ReactNode;
+  className?: string;
+  bodyClassName?: string;
+}) {
+  return (
+    <section className={cn("overflow-hidden rounded-lg border border-line bg-white", className)}>
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line bg-canvas/40 px-4 py-2.5">
+        <div className="flex min-w-0 items-center gap-1.5">
+          <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+          <div className="min-w-0">
+            <h2 className="text-[11px] font-bold uppercase tracking-wider text-ink">{title}</h2>
+            {description && (
+              <p className="mt-0.5 text-[11px] text-ink-faint">{description}</p>
+            )}
+          </div>
+        </div>
+        {headerExtra}
+      </div>
+      <div className={bodyClassName}>{children}</div>
+    </section>
   );
 }

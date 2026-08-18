@@ -8,6 +8,7 @@ import { getOrders } from "@/lib/admin/sales";
 import { getStockMovements } from "@/lib/admin/inventory";
 import { getPurchaseOrders, getGoodsReceipts } from "@/lib/admin/purchasing";
 import { getAdminPayments } from "@/lib/admin/payments";
+import { getBankAccountSummary, getMobileMoneyAccountSummary } from "@/lib/admin/accounts";
 import { DateRangePicker } from "@/components/admin/dashboard/date-range-picker";
 import {
   AlertsStrip,
@@ -56,8 +57,13 @@ export default async function AdminDashboardPage({
 
   const client = await createClient();
 
-  const [ordersResult, movementsResult, lowStockResult, paymentsResult, posResult, receiptsResult] =
+  const [cashSummaries, ordersResult, movementsResult, lowStockResult, paymentsResult, posResult, receiptsResult] =
     await Promise.all([
+      perms.expenses
+        ? Promise.all([getBankAccountSummary(), getMobileMoneyAccountSummary()]).then(
+            ([bank, mobileMoney]) => ({ bank: bank.totalBalance, mobileMoney: mobileMoney.totalBalance }),
+          )
+        : Promise.resolve(null),
       perms.sales
         ? getOrders({ page: 1, pageSize: 8 })
         : Promise.resolve({ orders: [], total: 0 }),
@@ -175,7 +181,7 @@ export default async function AdminDashboardPage({
       )}
 
       <AlertsStrip data={data} perms={perms} />
-      <TopKpiGrid data={data} perms={perms} />
+      <TopKpiGrid data={data} perms={perms} cashPosition={cashSummaries} />
 
       {perms.sales && <SalesAnalyticsSection data={data} />}
       {(perms.sales || perms.expenses) && <PerformanceSection data={data} perms={perms} />}

@@ -72,6 +72,14 @@ const MODULE_ICONS: Record<string, ReactNode> = {
       <path d="M16 7h6v6" />
     </>
   ),
+  customers: (
+    <>
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" />
+      <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </>
+  ),
   products: (
     <>
       <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
@@ -123,12 +131,122 @@ const MODULE_ICONS: Record<string, ReactNode> = {
   ),
 };
 
+const NAV_ITEM_ICONS: Record<string, ReactNode> = {
+  payments: (
+    <>
+      <rect width="20" height="14" x="2" y="5" rx="2" />
+      <line x1="2" x2="22" y1="10" y2="10" />
+    </>
+  ),
+  expenses: (
+    <>
+      <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2 1Z" />
+      <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+      <path d="M12 17.5v-11" />
+    </>
+  ),
+  "expense-categories": (
+    <>
+      <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+      <circle cx="7.5" cy="7.5" r=".5" />
+    </>
+  ),
+  "bank-accounts": (
+    <>
+      <line x1="3" x2="21" y1="22" y2="22" />
+      <line x1="6" x2="6" y1="18" y2="11" />
+      <line x1="10" x2="10" y1="18" y2="11" />
+      <line x1="14" x2="14" y1="18" y2="11" />
+      <line x1="18" x2="18" y1="18" y2="11" />
+      <polygon points="12 2 20 7 4 7" />
+    </>
+  ),
+  "mobile-money": (
+    <>
+      <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+      <path d="M12 18h.01" />
+    </>
+  ),
+  employees: (
+    <>
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+      <circle cx="9" cy="7" r="4" />
+      <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </>
+  ),
+  departments: (
+    <>
+      <path d="M3 21h18" />
+      <path d="M5 21V7l7-4 7 4v14" />
+      <path d="M9 9h1" />
+      <path d="M14 9h1" />
+      <path d="M9 12h1" />
+      <path d="M14 12h1" />
+      <path d="M9 15h1" />
+      <path d="M14 15h1" />
+      <path d="M9 18h1" />
+      <path d="M14 18h1" />
+    </>
+  ),
+  "salary-components": (
+    <>
+      <path d="M12 22V6a4 4 0 0 0-4-4H4v20h8Z" />
+      <path d="M12 6a4 4 0 0 1 4-4h4v20h-8" />
+      <path d="M16 10h.01" />
+    </>
+  ),
+  "salary-structures": (
+    <>
+      <path d="M12 2v20" />
+      <path d="M12 8a4 4 0 0 0-4-4H3v16h5a4 4 0 0 1 4 4" />
+      <path d="M12 8a4 4 0 0 1 4-4h5v16h-5a4 4 0 0 1-4-4" />
+    </>
+  ),
+  "payroll-periods": (
+    <>
+      <rect width="18" height="18" x="3" y="4" rx="2" />
+      <path d="M16 2v4" />
+      <path d="M8 2v4" />
+      <path d="M3 10h18" />
+      <path d="M8 15h.01" />
+      <path d="M12 15h.01" />
+      <path d="M16 15h.01" />
+    </>
+  ),
+  "tax-slabs": (
+    <>
+      <path d="M2 20h20" />
+      <path d="M4 20 10 5a2 2 0 0 1 3.9 0l6 15" />
+      <path d="M6.4 14h11.2" />
+      <path d="M8 8h8" />
+    </>
+  ),
+};
+
 function ChevronIcon({ className }: { className?: string }) {
   return (
     <Icon
       path={<path d="m6 9 6 6 6-6" />}
       className={className}
     />
+  );
+}
+
+function BreadcrumbSeparator({ className }: { className?: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={cn("h-3 w-3 shrink-0", className)}
+    >
+      <path d="m9 6 6 6-6 6" />
+    </svg>
   );
 }
 
@@ -157,6 +275,39 @@ function SearchIcon({ className }: { className?: string }) {
       }
       className={className}
     />
+  );
+}
+
+function BellIcon({ className }: { className?: string }) {
+  return (
+    <Icon
+      path={
+        <>
+          <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+          <path d="M13.7 21a2 2 0 0 1-3.4 0" />
+        </>
+      }
+      className={className}
+    />
+  );
+}
+
+function MenuIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      className={className}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"
+      />
+    </svg>
   );
 }
 
@@ -266,16 +417,16 @@ function Sidebar({
 
   return (
     <>
-      <div className="flex h-12 shrink-0 items-center gap-2 border-b border-navy-dark bg-navy px-4">
-        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded bg-gold text-[11px] font-bold text-navy">
+      <div className="flex h-12 shrink-0 items-center gap-2.5 border-b border-white/10 bg-midnight-deep px-3.5">
+        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-gradient-to-br from-gold-bright via-gold to-gold-dark text-[13px] font-bold text-midnight shadow-sm">
           Y
         </span>
         {!collapsed && (
           <>
-            <span className="truncate text-sm font-semibold tracking-tight text-ivory">
+            <span className="truncate text-[13px] font-semibold tracking-tight text-white">
               Yemanuel Store
             </span>
-            <span className="ml-auto rounded bg-gold/20 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gold">
+            <span className="ml-auto rounded border border-gold/25 bg-gold/15 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-[0.14em] text-gold-bright">
               Admin
             </span>
           </>
@@ -283,7 +434,7 @@ function Sidebar({
       </div>
 
       <nav
-        className="flex-1 overflow-y-auto px-2 py-2"
+        className="admin-scroll-dark flex-1 overflow-y-auto px-2 py-2"
         aria-label="Admin modules"
       >
         {collapsed ? (
@@ -292,22 +443,28 @@ function Sidebar({
               const isActive = active?.section.id === section.id;
               const count = sectionBadgeCount(section, badges);
               return (
-                <li key={section.id}>
+                <li key={section.id} className="relative">
+                  {isActive && (
+                    <span
+                      aria-hidden="true"
+                      className="absolute -left-2 top-1/2 h-4 w-0.5 -translate-y-1/2 rounded-full bg-gold"
+                    />
+                  )}
                   <button
                     type="button"
                     onClick={() => handleModuleClick(section)}
                     title={section.title}
                     aria-label={section.title}
                     className={cn(
-                      "relative flex h-9 w-full items-center justify-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-navy",
+                      "relative flex h-9 w-full items-center justify-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-bright",
                       isActive
-                        ? "bg-navy text-ivory"
-                        : "text-ink-soft hover:bg-navy-soft hover:text-navy",
+                        ? "bg-white/[0.07] text-gold-bright"
+                        : "text-slate-400 hover:bg-white/5 hover:text-white",
                     )}
                   >
                     <Icon path={MODULE_ICONS[section.icon]} className="h-[18px] w-[18px]" />
                     {count > 0 && (
-                      <span className="absolute right-0.5 top-0.5 flex h-3.5 min-w-3.5 items-center justify-center rounded-full bg-gold px-0.5 text-[8px] font-bold text-navy">
+                      <span className="absolute right-0.5 top-0.5 flex h-3.5 min-w-3.5 items-center justify-center rounded-full bg-gold px-0.5 text-[8px] font-bold text-midnight">
                         {count > 9 ? "9+" : count}
                       </span>
                     )}
@@ -328,30 +485,36 @@ function Sidebar({
                   onClick={() => handleModuleClick(section)}
                   aria-expanded={isOpen}
                   className={cn(
-                    "flex h-8 w-full items-center gap-2 rounded-md px-2 text-left transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-navy",
+                    "relative flex h-8 w-full items-center gap-2.5 rounded-md px-2.5 text-left transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-bright",
                     isActiveModule
-                      ? "bg-navy-soft text-navy"
-                      : "text-ink hover:bg-navy-soft/60 hover:text-navy",
+                      ? "bg-white/[0.07] text-white"
+                      : "text-slate-300 hover:bg-white/5 hover:text-white",
                   )}
                 >
+                  {isActiveModule && (
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-0 top-1/2 h-4 w-0.5 -translate-y-1/2 rounded-full bg-gold"
+                    />
+                  )}
                   <Icon
                     path={MODULE_ICONS[section.icon]}
                     className={cn(
                       "h-4 w-4 shrink-0",
-                      isActiveModule ? "text-navy" : "text-ink-faint",
+                      isActiveModule ? "text-gold-bright" : "text-slate-400",
                     )}
                   />
                   <span className="min-w-0 flex-1 truncate text-xs font-semibold tracking-tight">
                     {section.title}
                   </span>
                   {count > 0 && (
-                    <span className="flex h-4 min-w-4 items-center justify-center rounded-full bg-navy px-1 text-[9px] font-bold text-ivory">
+                    <span className="flex h-4 min-w-4 items-center justify-center rounded-full bg-gold px-1 text-[9px] font-bold text-midnight">
                       {count > 9 ? "9+" : count}
                     </span>
                   )}
                   <ChevronIcon
                     className={cn(
-                      "h-3.5 w-3.5 shrink-0 text-ink-faint transition-transform duration-150",
+                      "h-3.5 w-3.5 shrink-0 text-slate-500 transition-transform duration-150",
                       isOpen && "rotate-180",
                     )}
                   />
@@ -367,12 +530,12 @@ function Sidebar({
                           <li key={item.label}>
                             <span
                               title="Planned module — coming soon"
-                              className="flex h-7 cursor-default items-center gap-2 rounded-md pl-8 pr-2 text-[13px] text-ink-faint"
+                              className="flex h-7 cursor-default items-center gap-2 rounded-md pl-8 pr-2 text-[13px] text-slate-500"
                             >
                               <span className="truncate">{item.label}</span>
                               <Badge
                                 variant="neutral"
-                                className="ml-auto px-1.5 py-px text-[9px] font-semibold uppercase tracking-wider"
+                                className="ml-auto border border-white/10 bg-white/5 px-1.5 py-px text-[9px] font-semibold uppercase tracking-wider text-slate-400"
                               >
                                 Soon
                               </Badge>
@@ -381,24 +544,41 @@ function Sidebar({
                         );
                       }
                       return (
-                        <li key={item.href}>
+                        <li key={item.href} className="relative">
+                          {isActive && (
+                            <span
+                              aria-hidden="true"
+                              className="absolute left-2 top-1/2 h-3 w-0.5 -translate-y-1/2 rounded-full bg-gold"
+                            />
+                          )}
                           <Link
                             href={item.href}
                             onClick={onNavigate}
                             aria-current={isActive ? "page" : undefined}
                             className={cn(
-                              "flex h-7 items-center gap-2 rounded-md pl-8 pr-2 text-[13px] font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-navy",
+                              "flex h-7 items-center gap-2 rounded-md py-1 text-[13px] font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-bright",
                               isActive
-                                ? "bg-navy text-ivory"
-                                : "text-ink-soft hover:bg-navy-soft hover:text-navy",
+                                ? "bg-gold/10 text-gold-bright pl-8"
+                                : "pl-8 pr-2 text-slate-400 hover:bg-white/5 hover:text-slate-100",
                             )}
                           >
+                            {item.icon && (
+                              <Icon
+                                path={NAV_ITEM_ICONS[item.icon]}
+                                className={cn(
+                                  "h-3.5 w-3.5 shrink-0",
+                                  isActive ? "text-gold-bright" : "text-slate-500",
+                                )}
+                              />
+                            )}
                             <span className="truncate">{item.label}</span>
                             {itemCount > 0 && (
                               <span
                                 className={cn(
                                   "ml-auto flex h-4 min-w-4 shrink-0 items-center justify-center rounded-full px-1 text-[9px] font-bold",
-                                  isActive ? "bg-ivory/20 text-ivory" : "bg-navy/10 text-navy",
+                                  isActive
+                                    ? "bg-gold text-midnight"
+                                    : "bg-white/10 text-slate-300",
                                 )}
                               >
                                 {itemCount > 9 ? "9+" : itemCount}
@@ -416,13 +596,13 @@ function Sidebar({
         )}
       </nav>
 
-      <div className="border-t border-line">
+      <div className="border-t border-white/10 bg-midnight-deep/60">
         <button
           type="button"
           onClick={() => onCollapsedChange(!collapsed)}
           className={cn(
-            "flex w-full items-center gap-2 rounded-md px-2 text-[11px] font-medium text-ink-faint transition-colors hover:text-navy focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-navy",
-            collapsed ? "mx-auto mt-2 h-8 justify-center" : "mx-2 my-2 h-7",
+            "flex w-full items-center gap-2 rounded-md text-[11px] font-medium text-slate-500 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-gold-bright",
+            collapsed ? "mx-auto mt-2 h-8 justify-center" : "mx-2 my-2 h-7 px-1",
           )}
           title={collapsed ? "Expand sidebar" : "Collapse sidebar"}
           aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
@@ -431,7 +611,7 @@ function Sidebar({
           {!collapsed && <span>Collapse</span>}
         </button>
         {!collapsed && (
-          <p className="border-t border-line px-4 py-2.5 text-[10px] text-ink-faint">
+          <p className="border-t border-white/10 px-4 py-2.5 text-[10px] tracking-wide text-slate-500">
             Yemanuel Store · Accra, Ghana
           </p>
         )}
@@ -522,17 +702,17 @@ export function AdminShell({
   const totalNotifications = notifications.reduce((sum, n) => sum + n.count, 0);
 
   return (
-    <div className="min-h-screen bg-ivory text-ink">
+    <div className="min-h-screen bg-canvas text-ink">
       {sidebarOpen && (
         <div
-          className="fixed inset-0 z-30 bg-navy/50 lg:hidden"
+          className="fixed inset-0 z-30 bg-midnight/60 backdrop-blur-[2px] lg:hidden"
           onClick={() => setSidebarOpen(false)}
           aria-hidden="true"
         />
       )}
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-line bg-white transition-[width] duration-200 lg:translate-x-0",
+          "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-white/10 bg-midnight transition-[width] duration-200 lg:translate-x-0",
           collapsed ? "w-[52px]" : "w-60",
           sidebarOpen ? "translate-x-0" : "-translate-x-full",
         )}
@@ -558,54 +738,41 @@ export function AdminShell({
             <button
               type="button"
               onClick={() => setSidebarOpen(true)}
-              className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-line/50 hover:text-ink lg:hidden"
+              className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-navy-soft/60 hover:text-ink lg:hidden"
               aria-label="Open navigation"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                className="h-5 w-5"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"
-                />
-              </svg>
+              <MenuIcon className="h-5 w-5" />
             </button>
             <nav aria-label="Breadcrumb" className="flex min-w-0 items-center gap-1.5 text-[13px]">
               <Link
                 href="/admin"
-                className="shrink-0 text-ink-faint transition-colors hover:text-navy"
+                className="shrink-0 text-[12px] font-medium text-ink-faint transition-colors hover:text-navy"
               >
                 Admin
               </Link>
               {!isDashboard && crumb.section && (
                 <>
-                  <span aria-hidden="true" className="text-ink-faint">/</span>
-                  <span className="truncate text-ink-soft">{crumb.section.title}</span>
+                  <BreadcrumbSeparator className="text-ink-faint/70" />
+                  <span className="truncate text-[12px] text-ink-soft">{crumb.section.title}</span>
                 </>
               )}
               {crumb.item && (
                 <>
-                  <span aria-hidden="true" className="text-ink-faint">/</span>
-                  <span className="truncate font-semibold text-ink">{title}</span>
+                  <BreadcrumbSeparator className="text-ink-faint/70" />
+                  <span className="truncate text-[12px] font-semibold text-ink">{title}</span>
                 </>
               )}
             </nav>
           </div>
 
-          <div className="flex shrink-0 items-center gap-1.5">
+          <div className="flex shrink-0 items-center gap-1">
             <Link
               href="/admin/search"
-              className="inline-flex h-8 w-8 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-line/50 hover:text-ink"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-navy-soft/60 hover:text-ink"
               aria-label="Search admin records"
               title="Search"
             >
-              <SearchIcon className="h-[18px] w-[18px]" />
+              <SearchIcon className="h-[17px] w-[17px]" />
             </Link>
 
             <div ref={notificationsRef} className="relative">
@@ -614,24 +781,12 @@ export function AdminShell({
                 onClick={() => setNotificationsOpen((open) => !open)}
                 aria-expanded={notificationsOpen}
                 aria-haspopup="menu"
-                className="relative inline-flex h-8 w-8 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-line/50 hover:text-ink"
+                className="relative inline-flex h-8 w-8 items-center justify-center rounded-md text-ink-soft transition-colors hover:bg-navy-soft/60 hover:text-ink"
                 aria-label="Notifications"
               >
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="h-[18px] w-[18px]"
-                >
-                  <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
-                  <path d="M13.7 21a2 2 0 0 1-3.4 0" />
-                </svg>
+                <BellIcon className="h-[17px] w-[17px]" />
                 {totalNotifications > 0 && (
-                  <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-danger px-1 text-[9px] font-bold text-white">
+                  <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-danger px-1 text-[9px] font-bold text-white ring-2 ring-white">
                     {totalNotifications > 9 ? "9+" : totalNotifications}
                   </span>
                 )}
@@ -639,7 +794,7 @@ export function AdminShell({
               {notificationsOpen && (
                 <div
                   role="menu"
-                  className="absolute right-0 top-10 z-50 w-72 rounded-lg border border-line bg-white p-1.5 shadow-soft"
+                  className="absolute right-0 top-10 z-50 w-72 rounded-lg border border-line bg-white p-1.5 shadow-lifted"
                 >
                   <p className="px-2.5 pb-1.5 pt-1 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
                     Needs attention
@@ -655,10 +810,10 @@ export function AdminShell({
                           <Link
                             href={notification.href}
                             onClick={() => setNotificationsOpen(false)}
-                            className="flex items-center justify-between gap-3 rounded px-2.5 py-2 text-xs text-ink transition-colors hover:bg-navy-soft/60"
+                            className="flex items-center justify-between gap-3 rounded px-2.5 py-2 text-xs text-ink transition-colors hover:bg-navy-soft/50"
                           >
                             <span>{notification.label}</span>
-                            <span className="rounded bg-navy px-1.5 py-0.5 text-[10px] font-bold text-ivory">
+                            <span className="rounded bg-navy px-1.5 py-0.5 text-[10px] font-bold text-white">
                               {notification.count}
                             </span>
                           </Link>
@@ -676,9 +831,9 @@ export function AdminShell({
                 onClick={() => setAccountOpen((open) => !open)}
                 aria-expanded={accountOpen}
                 aria-haspopup="menu"
-                className="flex items-center gap-2 rounded-md px-1.5 py-1 transition-colors hover:bg-line/50"
+                className="flex items-center gap-2 rounded-md px-1.5 py-1 transition-colors hover:bg-navy-soft/60"
               >
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-navy text-[11px] font-bold text-ivory">
+                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-br from-navy to-midnight text-[11px] font-bold text-gold-bright ring-1 ring-inset ring-white/40">
                   {initialsOf(session.fullName ?? session.email)}
                 </span>
                 <span className="hidden max-w-36 truncate text-left sm:block">
@@ -694,7 +849,7 @@ export function AdminShell({
               {accountOpen && (
                 <div
                   role="menu"
-                  className="absolute right-0 top-10 z-50 w-64 rounded-lg border border-line bg-white p-1.5 shadow-soft"
+                  className="absolute right-0 top-10 z-50 w-64 rounded-lg border border-line bg-white p-1.5 shadow-lifted"
                 >
                   <div className="border-b border-line px-2.5 pb-2 pt-1">
                     <p className="text-xs font-semibold text-ink">
@@ -711,7 +866,7 @@ export function AdminShell({
                     <Link
                       href="/"
                       onClick={() => setAccountOpen(false)}
-                      className="block rounded px-2.5 py-1.5 text-xs font-medium text-ink-soft transition-colors hover:bg-navy-soft/60 hover:text-navy"
+                      className="block rounded px-2.5 py-1.5 text-xs font-medium text-ink-soft transition-colors hover:bg-navy-soft/50 hover:text-navy"
                     >
                       View storefront
                     </Link>
@@ -730,7 +885,7 @@ export function AdminShell({
           </div>
         </header>
 
-        <main className="flex-1 p-4 lg:p-6">{children}</main>
+        <main className="flex-1 p-4 lg:p-5">{children}</main>
       </div>
     </div>
   );

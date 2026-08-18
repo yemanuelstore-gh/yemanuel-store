@@ -22,6 +22,7 @@ export function BarChart({
   color = DEFAULT_BAR,
   className,
   valueLabels = false,
+  gradient = true,
 }: {
   data: ChartPoint[];
   formatValue: (value: number) => string;
@@ -29,6 +30,7 @@ export function BarChart({
   color?: string;
   className?: string;
   valueLabels?: boolean;
+  gradient?: boolean;
 }) {
   if (data.length === 0) {
     return <EmptyChart note="No data for this period yet." />;
@@ -56,10 +58,14 @@ export function BarChart({
                 </span>
               )}
               <div
-                className="w-full rounded-t-[2px] transition-colors"
+                className={cn(
+                  "w-full rounded-t-[2px] transition-opacity group-hover:opacity-80",
+                  gradient &&
+                    "bg-[linear-gradient(to_top,color-mix(in_srgb,var(--color-midnight)_85%,var(--color-navy)),var(--color-navy))]",
+                )}
                 style={{
                   height: `${heightPct}%`,
-                  backgroundColor: point.value > 0 ? color : "rgba(17, 24, 39, 0.08)",
+                  backgroundColor: gradient ? undefined : point.value > 0 ? color : "rgba(15, 23, 42, 0.08)",
                   minHeight: point.value > 0 ? 3 : 2,
                 }}
                 title={`${point.label}: ${formatValue(point.value)}`}
@@ -110,7 +116,7 @@ export function HBarList({
 
   return (
     <ul className={cn("space-y-2", className)}>
-      {rows.map((row) => (
+      {rows.map((row, index) => (
         <li key={row.label}>
           <div className="flex items-baseline justify-between gap-2">
             <span className="truncate text-[11px] font-medium text-ink" title={row.label}>
@@ -122,7 +128,12 @@ export function HBarList({
           </div>
           <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-line/50">
             <div
-              className="h-full rounded-full bg-navy"
+              className={cn(
+                "h-full rounded-full",
+                index === 0
+                  ? "bg-gradient-to-r from-gold-bright to-gold-dark"
+                  : "bg-gradient-to-r from-navy to-midnight",
+              )}
               style={{ width: `${Math.max((row.value / max) * 100, row.value > 0 ? 3 : 0)}%` }}
               title={`${row.label}: ${formatValue(row.value)}`}
             />
@@ -139,7 +150,7 @@ export function HBarList({
 export function ShareDonut({
   data,
   formatValue,
-  colors = [DEFAULT_BAR, GOLD_BAR, "#667085", "#8a6e16", "#98a2b3", "#d7e0ea"],
+  colors = [DEFAULT_BAR, GOLD_BAR, "#56637a", "#8a6e16", "#8b97a9", "#d6dfec"],
   size = 96,
 }: {
   data: { label: string; value: number }[];
@@ -172,7 +183,7 @@ export function ShareDonut({
   return (
     <div className="flex items-center gap-4">
       <div
-        className="relative shrink-0 rounded-full"
+        className="relative shrink-0 rounded-full ring-1 ring-inset ring-line-strong"
         style={{
           width: size,
           height: size,
@@ -188,7 +199,7 @@ export function ShareDonut({
             <span className="flex min-w-0 items-center gap-1.5">
               <span
                 aria-hidden="true"
-                className="h-2 w-2 shrink-0 rounded-sm"
+                className="h-2 w-2 shrink-0 rounded-sm ring-1 ring-inset ring-black/5"
                 style={{ backgroundColor: segment.color }}
               />
               <span className="truncate text-[11px] text-ink">{segment.label}</span>
@@ -208,7 +219,7 @@ export function ShareDonut({
 
 export function EmptyChart({ note }: { note: string }) {
   return (
-    <div className="flex h-24 items-center justify-center rounded-md border border-dashed border-line bg-line/20 px-4 text-center text-[11px] leading-5 text-ink-faint">
+    <div className="flex h-24 items-center justify-center rounded-md border border-dashed border-line-strong bg-canvas/60 px-4 text-center text-[11px] leading-5 text-ink-faint">
       {note}
     </div>
   );

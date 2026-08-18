@@ -21,8 +21,9 @@ import {
 import { AdminBadge } from "@/components/admin/admin-badge";
 import { movementTypeTone, orderStatusTone, paymentStatusTone, statusLabel } from "@/lib/admin/labels";
 import { BarChart, HBarList, ShareDonut, type ChartPoint } from "@/components/admin/dashboard/charts";
-import { KpiCard, StatStrip, DeltaBadge } from "@/components/admin/dashboard/kpi";
+import { KpiCard, HeroCard, StatStrip, DeltaBadge } from "@/components/admin/dashboard/kpi";
 import { DashboardSection, PanelGrid, Panel } from "@/components/admin/dashboard/section";
+import { cn } from "@/lib/cn";
 
 // ---------------------------------------------------------------------------
 // Small helpers
@@ -46,6 +47,20 @@ function sumOf(rows: { outstanding: number }[] | null): number {
   return (rows ?? []).reduce((sum, row) => sum + Number(row.outstanding), 0);
 }
 
+function BandLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-center gap-2">
+      <span
+        aria-hidden="true"
+        className="h-3 w-0.5 rounded-full bg-gradient-to-b from-gold-bright to-gold-dark"
+      />
+      <h2 className="text-[10px] font-bold uppercase tracking-[0.14em] text-ink-faint">
+        {children}
+      </h2>
+    </div>
+  );
+}
+
 // ---------------------------------------------------------------------------
 // Quick actions
 // ---------------------------------------------------------------------------
@@ -53,15 +68,16 @@ function sumOf(rows: { outstanding: number }[] | null): number {
 export function QuickActions({ actions }: { actions: { label: string; href: string }[] }) {
   if (actions.length === 0) return null;
   return (
-    <div className="flex flex-wrap items-center gap-x-1 gap-y-2 rounded-lg border border-line bg-white px-3 py-2">
-      <span className="mr-1.5 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+    <div className="flex flex-wrap items-center gap-x-1.5 gap-y-2 rounded-lg border border-line bg-white px-3 py-2 shadow-[0_1px_0_rgb(15_23_42/0.02)]">
+      <span className="mr-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.14em] text-ink-faint">
+        <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
         Quick actions
       </span>
       {actions.map((action) => (
         <Link
           key={action.label}
           href={action.href}
-          className="inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:border-navy/30 hover:bg-navy-soft/50 hover:text-navy"
+          className="inline-flex h-7 items-center rounded-md border border-line-strong bg-white px-2.5 text-xs font-medium text-ink-soft transition-colors hover:border-gold/40 hover:bg-gold-soft/50 hover:text-gold-dark"
         >
           {action.label}
         </Link>
@@ -158,14 +174,20 @@ export function AlertsStrip({
         <Link
           key={alert.label}
           href={alert.href}
-          className={`flex items-center justify-between gap-2 rounded-lg border bg-white px-3 py-2 transition-colors hover:bg-navy-soft/30 ${
-            alert.tone === "danger" ? "border-danger/30" : "border-gold/30"
-          }`}
+          className={cn(
+            "group flex items-center justify-between gap-2 rounded-lg border bg-white px-3 py-2 transition-all hover:shadow-soft",
+            alert.tone === "danger"
+              ? "border-danger/25 hover:border-danger/40"
+              : "border-gold/30 hover:border-gold/50",
+          )}
         >
           <span className="flex items-center gap-2 text-[11px] font-medium text-ink-soft">
             <span
               aria-hidden="true"
-              className={`h-1.5 w-1.5 rounded-full ${alert.tone === "danger" ? "bg-danger" : "bg-gold"}`}
+              className={cn(
+                "h-1.5 w-1.5 rounded-full",
+                alert.tone === "danger" ? "bg-danger" : "bg-gold",
+              )}
             />
             {alert.label}
           </span>
@@ -179,18 +201,92 @@ export function AlertsStrip({
 }
 
 // ---------------------------------------------------------------------------
-// Top KPI grid
+// Top KPI bands
 // ---------------------------------------------------------------------------
 
-export function TopKpiGrid({ data, perms }: { data: DashboardData; perms: DashboardPerms }) {
-  const kpis: { label: string; value: string; note: string; href: string; tone?: "danger" | "gold" }[] = [];
+export type CashPosition = {
+  bank: number;
+  mobileMoney: number;
+};
 
+export function TopKpiGrid({
+  data,
+  perms,
+  cashPosition = null,
+}: {
+  data: DashboardData;
+  perms: DashboardPerms;
+  cashPosition?: CashPosition | null;
+}) {
+  const sales = data.sales;
+  const revenue = sales?.revenue ?? 0;
+  const heroSubStats: { label: string; value: string }[] = [];
+
+  if (sales) {
+    heroSubStats.push(
+      { label: "Gross profit", value: formatGHS(sales.gross_profit) },
+      { label: "Gross margin", value: percent(sales.gross_margin) },
+      { label: "Orders", value: formatNumber(sales.order_count) },
+      { label: "Avg order", value: formatGHS(sales.average_order_value) },
+    );
+  }
+
+  const financialKpis: { label: string; value: string; note: string; href: string; tone?: "danger" | "gold" }[] = [];
+  if (perms.sales && data.receivables) {
+    const receivables = sumOf(data.receivables);
+    financialKpis.push({
+      label: "Receivables",
+      value: formatGHS(receivables),
+      note: "Unpaid customer orders",
+      href: "/admin/receivables",
+      tone: receivables > 0 ? "danger" : undefined,
+    });
+  }
+  if (perms.purchases && data.payables) {
+    const payables = sumOf(data.payables);
+    financialKpis.push({
+      label: "Payables",
+      value: formatGHS(payables),
+      note: "Outstanding supplier invoices",
+      href: "/admin/payables",
+      tone: payables > 0 ? "gold" : undefined,
+    });
+  }
+  if (perms.expenses) {
+    financialKpis.push({
+      label: "Expenses",
+      value: data.expensesSelected ? formatGHS(data.expensesSelected.total) : "—",
+      note: `Selected range: ${data.range.label}`,
+      href: "/admin/expenses",
+    });
+  }
+  if (cashPosition) {
+    financialKpis.push({
+      label: "Cash & Bank",
+      value: formatGHS(cashPosition.bank + cashPosition.mobileMoney),
+      note: `${formatCompactGHS(cashPosition.bank)} bank · ${formatCompactGHS(cashPosition.mobileMoney)} mobile money`,
+      href: "/admin/bank-accounts",
+    });
+  }
+  if (perms.inventory && data.inventory) {
+    financialKpis.push({
+      label: "Inventory Value",
+      value: formatGHS(data.inventory.total_value),
+      note: `${formatNumber(data.inventory.sku_count)} SKUs · ${formatNumber(data.inventory.total_units)} units`,
+      href: "/admin/inventory/valuation",
+    });
+  }
+
+  const operationsKpis: { label: string; value: string; note: string; href: string; tone?: "danger" | "gold" }[] = [];
   if (perms.sales) {
     const today = data.todaySales;
-    const month = data.month;
-    const year = data.year;
-    const sales = data.sales;
-    kpis.push(
+    operationsKpis.push(
+      {
+        label: "Orders",
+        value: sales ? formatNumber(sales.order_count) : "—",
+        note: `Selected range: ${data.range.label}`,
+        href: "/admin/orders",
+      },
       {
         label: "Today's Sales",
         value: today ? formatGHS(today.revenue) : "—",
@@ -209,109 +305,92 @@ export function TopKpiGrid({ data, perms }: { data: DashboardData; perms: Dashbo
         note: today ? `${percent(today.gross_margin)} margin` : "",
         href: "/admin/orders",
       },
-      {
-        label: "Month-to-Date Sales",
-        value: month ? formatGHS(month.revenue) : "—",
-        note: "This business month",
-        href: "/admin/orders",
-      },
-      {
-        label: "Month-to-Date Profit",
-        value: month ? formatGHS(month.gross_profit) : "—",
-        note: month ? `${percent(month.gross_margin)} margin` : "",
-        href: "/admin/orders",
-      },
-      {
-        label: "Year-to-Date Sales",
-        value: year ? formatGHS(year.revenue) : "—",
-        note: "This calendar year",
-        href: "/admin/orders",
-      },
-      {
-        label: "Year-to-Date Profit",
-        value: year ? formatGHS(year.gross_profit) : "—",
-        note: year ? `${percent(year.gross_margin)} margin` : "",
-        href: "/admin/orders",
-      },
-      {
-        label: "Average Order Value",
-        value: sales ? formatGHS(sales.average_order_value) : "—",
-        note: `Selected range: ${data.range.label}`,
-        href: "/admin/orders",
-      },
     );
   }
-
   if (perms.customers && data.customers) {
-    kpis.push({
-      label: "Total Customers",
+    operationsKpis.push({
+      label: "Customers",
       value: formatNumber(data.customers.total_customers),
-      note: `${formatNumber(data.customers.repeat_customers)} repeat · ${formatNumber(data.customers.orders_per_customer)} orders each`,
+      note: `${formatNumber(data.customers.repeat_customers)} repeat · ${formatNumber(data.customers.new_this_month)} new this month`,
       href: "/admin/customers",
     });
   }
-
   if (perms.inventory && data.inventory) {
-    kpis.push(
-      {
-        label: "Inventory Value",
-        value: formatGHS(data.inventory.total_value),
-        note: `${formatNumber(data.inventory.sku_count)} SKUs · ${formatNumber(data.inventory.total_units)} units`,
-        href: "/admin/inventory",
-      },
-      {
-        label: "Low Stock Items",
-        value: formatNumber(data.inventory.low_stock_count),
-        note: `${formatNumber(data.inventory.out_of_stock_count)} out of stock`,
-        href: "/admin/inventory",
-        tone: data.inventory.low_stock_count > 0 ? "danger" : undefined,
-      },
-    );
-  }
-
-  if (perms.sales && data.receivables) {
-    const receivables = sumOf(data.receivables);
-    kpis.push({
-      label: "Outstanding Receivables",
-      value: formatGHS(receivables),
-      note: "Unpaid customer orders",
-      href: "/admin/customers",
-      tone: receivables > 0 ? "danger" : undefined,
+    operationsKpis.push({
+      label: "Low Stock Items",
+      value: formatNumber(data.inventory.low_stock_count),
+      note: `${formatNumber(data.inventory.out_of_stock_count)} out of stock`,
+      href: "/admin/inventory/low-stock",
+      tone: data.inventory.low_stock_count > 0 ? "danger" : undefined,
     });
   }
 
-  if (perms.purchases && data.payables) {
-    const payables = sumOf(data.payables);
-    kpis.push({
-      label: "Supplier Payables",
-      value: formatGHS(payables),
-      note: "Outstanding supplier invoices",
-      href: "/admin/purchases/invoices",
-      tone: payables > 0 ? "gold" : undefined,
-    });
-  }
-
-  if (kpis.length === 0) {
-    return (
-      <div className="rounded-lg border border-line bg-white p-4 text-xs text-ink-soft">
-        No metrics to show — your account does not have view permission for any
-        data modules yet.
-      </div>
-    );
-  }
+  const hasSalesHero = perms.sales && sales;
 
   return (
-    <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7">
-      {kpis.map((kpi) => (
-        <KpiCard
-          key={kpi.label}
-          label={kpi.label}
-          value={kpi.value}
-          note={kpi.note}
-          href={kpi.href}
-          tone={kpi.tone}
+    <div className="space-y-4">
+      {hasSalesHero && (
+        <HeroCard
+          eyebrow="Revenue"
+          label={`Sales revenue · ${data.range.label}`}
+          value={formatGHS(revenue)}
+          note={
+            data.year && data.lastYear ? (
+              <span className="inline-flex items-center gap-1.5">
+                vs {formatGHS(data.lastYear.revenue)} in the same window last year
+                <DeltaBadge current={data.year.revenue} previous={data.lastYear.revenue} onDark />
+              </span>
+            ) : (
+              "Current period sales invoiced"
+            )
+          }
+          subStats={heroSubStats}
+          href="/admin/orders"
         />
-      ))}
+      )}
+
+      {financialKpis.length > 0 && (
+        <div className="space-y-1.5">
+          <BandLabel>Financial position</BandLabel>
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 xl:grid-cols-5">
+            {financialKpis.map((kpi) => (
+              <KpiCard
+                key={kpi.label}
+                label={kpi.label}
+                value={kpi.value}
+                note={kpi.note}
+                href={kpi.href}
+                tone={kpi.tone}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {operationsKpis.length > 0 && (
+        <div className="space-y-1.5">
+          <BandLabel>Operations</BandLabel>
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+            {operationsKpis.map((kpi) => (
+              <KpiCard
+                key={kpi.label}
+                label={kpi.label}
+                value={kpi.value}
+                note={kpi.note}
+                href={kpi.href}
+                tone={kpi.tone}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {!hasSalesHero && financialKpis.length === 0 && operationsKpis.length === 0 && (
+        <div className="rounded-lg border border-line bg-white p-4 text-xs text-ink-soft">
+          No metrics to show — your account does not have view permission for any
+          data modules yet.
+        </div>
+      )}
     </div>
   );
 }
@@ -364,18 +443,22 @@ export function SalesAnalyticsSection({ data }: { data: DashboardData }) {
       actionHref="/admin/orders"
       actionLabel="All orders"
     >
-      <div className="mb-4 rounded-md border border-line bg-line/20 px-3 py-2.5">
-        <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-          {stats.map((stat) => (
-            <div key={stat.label} className="flex items-center gap-1.5">
-              <span className="text-[10px] font-semibold uppercase tracking-wider text-ink-faint">
-                {stat.label}
-              </span>
-              <span className="text-[13px] font-semibold tabular-nums text-ink">{stat.value}</span>
-              {"extra" in stat && stat.extra}
-            </div>
-          ))}
-        </div>
+      <div className="mb-4">
+        <StatStrip
+          columns={5}
+          stats={stats.map((stat) => ({ label: stat.label, value: stat.value }))}
+        />
+        {stats.some((stat) => "extra" in stat && stat.extra) && (
+          <div className="mt-2 flex flex-wrap gap-2 text-[10px] text-ink-faint">
+            {stats
+              .filter((stat) => "extra" in stat && stat.extra)
+              .map((stat) => (
+                <span key={stat.label} className="flex items-center gap-1.5">
+                  {stat.label}: {stat.extra}
+                </span>
+              ))}
+          </div>
+        )}
       </div>
 
       <PanelGrid>
@@ -473,11 +556,12 @@ export function PerformanceSection({ data, perms }: { data: DashboardData; perms
                 </Td>
                 <Td className="text-right">
                   <span
-                    className={`font-semibold tabular-nums ${
+                    className={cn(
+                      "font-semibold tabular-nums",
                       row.value < 0 || (row.label === "Net Operating Result" && row.value < 0)
                         ? "text-danger"
-                        : "text-ink"
-                    }`}
+                        : "text-ink",
+                    )}
                   >
                     {row.value < 0 ? "−" : ""}
                     {formatGHS(Math.abs(row.value))}
@@ -567,7 +651,7 @@ export function InventorySection({ data }: { data: DashboardData }) {
           <HBarList data={categories} formatValue={formatCompactGHS} />
         </Panel>
         <Panel title="Inventory valuation trend (last 30 days)">
-          <BarChart data={trend} formatValue={formatCompactGHS} color="#8a6e16" />
+          <BarChart data={trend} formatValue={formatCompactGHS} color="#8a6e16" gradient={false} />
         </Panel>
       </PanelGrid>
     </DashboardSection>
@@ -771,7 +855,7 @@ export function ExpensesSection({ data }: { data: DashboardData }) {
           <HBarList data={categories} formatValue={formatCompactGHS} />
         </Panel>
         <Panel title="Monthly expense trend (this year)">
-          <BarChart data={monthly} formatValue={formatCompactGHS} color="#667085" />
+          <BarChart data={monthly} formatValue={formatCompactGHS} color="#56637a" gradient={false} />
         </Panel>
       </PanelGrid>
     </DashboardSection>
@@ -884,11 +968,20 @@ export function HistorySection({ data, perms }: { data: DashboardData; perms: Da
     >
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {stats.map((stat) => (
-          <div key={stat.label} className="rounded-md border border-line bg-line/20 px-3 py-2.5">
-            <p className="text-[10px] font-semibold uppercase tracking-wider text-ink-faint">
+          <div
+            key={stat.label}
+            className="relative overflow-hidden rounded-md border border-line bg-canvas/60 px-3 py-2.5"
+          >
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/70 to-transparent"
+            />
+            <p className="text-[10px] font-bold uppercase tracking-wider text-ink-faint">
               {stat.label}
             </p>
-            <p className="mt-1 text-sm font-semibold tracking-tight text-ink">{stat.value}</p>
+            <p className="mt-1 text-sm font-semibold tracking-tight tabular-nums text-ink">
+              {stat.value}
+            </p>
           </div>
         ))}
       </div>
@@ -912,7 +1005,7 @@ function HistoryFact({ label, value }: { label: string; value: string | null }) 
   return (
     <div className="flex items-baseline justify-between gap-2 border-b border-dashed border-line py-1.5">
       <span className="text-[11px] text-ink-soft">{label}</span>
-      <span className="whitespace-nowrap text-[12px] font-semibold text-ink">
+      <span className="whitespace-nowrap text-[12px] font-semibold tabular-nums text-ink">
         {value ?? "No data yet"}
       </span>
     </div>
@@ -1038,9 +1131,10 @@ export function RecentMovementsPanel({ movements }: { movements: RecentMovementR
                 {new Date(movement.createdAt).toLocaleDateString("en-GB")}
               </Td>
               <Td
-                className={`text-right font-semibold tabular-nums ${
-                  Number(movement.quantityChange) < 0 ? "text-danger" : "text-ink"
-                }`}
+                className={cn(
+                  "text-right font-semibold tabular-nums",
+                  Number(movement.quantityChange) < 0 ? "text-danger" : "text-ink",
+                )}
               >
                 {Number(movement.quantityChange) > 0 ? "+" : ""}
                 {Number(movement.quantityChange)}
@@ -1065,7 +1159,7 @@ export function LowStockPanel({ items, totalCount }: { items: LowStockRow[]; tot
   return (
     <DashboardSection
       title={`Low stock (${totalCount} items at or below reorder level)`}
-      actionHref="/admin/inventory"
+      actionHref="/admin/inventory/low-stock"
       actionLabel="Manage inventory"
       bodyClassName="p-0"
     >
@@ -1192,7 +1286,8 @@ export function RecentPurchasesPanel({
       bodyClassName="p-0"
     >
       <div className="p-4">
-        <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+        <p className="mb-2 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+          <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
           Recent purchase orders
         </p>
         {orders.length === 0 ? (
@@ -1215,7 +1310,8 @@ export function RecentPurchasesPanel({
             ))}
           </ul>
         )}
-        <p className="mb-2 mt-4 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+        <p className="mb-2 mt-4 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+          <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-gold" />
           Recent goods receipts
         </p>
         {receipts.length === 0 ? (

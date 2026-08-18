@@ -36,7 +36,11 @@ export const PERMISSIONS = {
     create: "expenses.create",
     update: "expenses.update",
   },
-  hr: { read: "hr.read" },
+  hr: {
+    read: "hr.read",
+    create: "hr.create",
+    update: "hr.update",
+  },
   settings: { manage: "settings.manage" },
   staff: { manage: "staff.manage" },
   reports: { view: "reports.view" },

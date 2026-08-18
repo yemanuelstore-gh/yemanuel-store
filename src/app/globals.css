@@ -10,24 +10,30 @@
   --color-foreground: var(--foreground);
   --color-navy: #0b1f33;
   --color-navy-dark: #071829;
-  --color-navy-soft: #edf1f6;
-  --color-navy-mist: #d7e0ea;
+  --color-navy-soft: #eef1f7;
+  --color-navy-mist: #d6dfec;
   --color-gold: #c9a227;
+  --color-gold-bright: #dcb94e;
   --color-gold-dark: #8a6e16;
   --color-gold-soft: #f6f0dd;
   --color-ivory: #f8f6f1;
   --color-paper: #ffffff;
-  --color-ink: #111827;
-  --color-ink-soft: #667085;
-  --color-ink-faint: #98a2b3;
-  --color-line: #e5e1d8;
-  --color-line-strong: #d3cdbf;
+  --color-midnight: #0a1626;
+  --color-midnight-deep: #060f1d;
+  --color-midnight-soft: #15243e;
+  --color-graphite: #1f2d45;
+  --color-canvas: #f3f5f9;
+  --color-ink: #0f172a;
+  --color-ink-soft: #56637a;
+  --color-ink-faint: #8b97a9;
+  --color-line: #e3e7ee;
+  --color-line-strong: #cfd6e2;
   --color-danger: #b42318;
   --color-danger-dark: #912018;
   --color-danger-soft: #fef3f2;
-  --shadow-soft: 0 1px 2px rgb(17 24 39 / 0.04), 0 4px 16px rgb(17 24 39 / 0.06);
-  --shadow-card: 0 1px 2px rgb(17 24 39 / 0.05), 0 8px 24px -8px rgb(11 31 51 / 0.14);
-  --shadow-lifted: 0 2px 4px rgb(17 24 39 / 0.06), 0 18px 36px -12px rgb(11 31 51 / 0.22);
+  --shadow-soft: 0 1px 2px rgb(15 23 42 / 0.05), 0 4px 14px rgb(15 23 42 / 0.06);
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.05), 0 10px 24px -10px rgb(10 22 38 / 0.16);
+  --shadow-lifted: 0 2px 4px rgb(15 23 42 / 0.07), 0 18px 36px -12px rgb(10 22 38 / 0.24);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-display);
@@ -88,4 +94,47 @@ body {
 .group:hover .image-shine::after,
 .group:focus-within .image-shine::after {
   animation: image-shine 0.9s ease-out;
+}
+
+/* Slim, refined scrollbars for the admin shell sidebar and panels. */
+.admin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(140 158 186 / 0.45) transparent;
+}
+
+.admin-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.admin-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgb(140 158 186 / 0.45);
+}
+
+.admin-scroll-dark {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(148 163 184 / 0.35) transparent;
+}
+
+.admin-scroll-dark::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.admin-scroll-dark::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.admin-scroll-dark::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgb(148 163 184 / 0.35);
+}
+
+.admin-scroll-dark::-webkit-scrollbar-thumb:hover {
+  background: rgb(148 163 184 / 0.55);
 }

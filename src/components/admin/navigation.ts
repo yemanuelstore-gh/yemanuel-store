@@ -4,6 +4,8 @@ export type AdminNavItem = {
   label: string;
   href?: string;
   permission?: string;
+  /** Icon key resolved by the client shell (see nav-icons in app-shell). */
+  icon?: string;
   /** Module is planned but has no page yet. Rendered as a muted, non-navigable entry. */
   planned?: boolean;
 };
@@ -18,8 +20,8 @@ export type AdminNavSection = {
 
 export const adminNavigation: AdminNavSection[] = [
   {
-    id: "dashboard",
-    title: "Dashboard",
+    id: "overview",
+    title: "Overview",
     icon: "dashboard",
     items: [{ label: "Dashboard", href: "/admin" }],
   },
@@ -39,11 +41,6 @@ export const adminNavigation: AdminNavSection[] = [
         permission: PERMISSIONS.sales.read,
       },
       {
-        label: "Customers",
-        href: "/admin/customers",
-        permission: PERMISSIONS.customers.read,
-      },
-      {
         label: "Returns",
         href: "/admin/returns",
         permission: PERMISSIONS.sales.read,
@@ -56,81 +53,14 @@ export const adminNavigation: AdminNavSection[] = [
     ],
   },
   {
-    id: "products",
-    title: "Products",
-    icon: "products",
+    id: "customers",
+    title: "Customers",
+    icon: "customers",
     items: [
       {
-        label: "Products",
-        href: "/admin/products",
-        permission: PERMISSIONS.products.read,
-      },
-      {
-        label: "Categories",
-        href: "/admin/categories",
-        permission: PERMISSIONS.products.read,
-      },
-      {
-        label: "Brands",
-        href: "/admin/brands",
-        permission: PERMISSIONS.products.read,
-      },
-      {
-        label: "Product Variants",
-        href: "/admin/products/variants",
-        permission: PERMISSIONS.products.read,
-      },
-      {
-        label: "Barcodes",
-        href: "/admin/products/barcodes",
-        permission: PERMISSIONS.products.read,
-      },
-      {
-        label: "Price Lists",
-        href: "/admin/products/prices",
-        permission: PERMISSIONS.products.read,
-      },
-    ],
-  },
-  {
-    id: "inventory",
-    title: "Inventory",
-    icon: "inventory",
-    items: [
-      {
-        label: "Stock Overview",
-        href: "/admin/inventory",
-        permission: PERMISSIONS.inventory.read,
-      },
-      {
-        label: "Stock Ledger",
-        href: "/admin/inventory/movements",
-        permission: PERMISSIONS.inventory.read,
-      },
-      {
-        label: "Stock Transfers",
-        href: "/admin/inventory/transfers",
-        permission: PERMISSIONS.inventory.read,
-      },
-      {
-        label: "Stock Adjustments",
-        href: "/admin/inventory/adjustments",
-        permission: PERMISSIONS.inventory.read,
-      },
-      {
-        label: "Warehouses / Locations",
-        permission: PERMISSIONS.inventory.read,
-        planned: true,
-      },
-      {
-        label: "Low Stock",
-        permission: PERMISSIONS.inventory.read,
-        planned: true,
-      },
-      {
-        label: "Stock Valuation",
-        permission: PERMISSIONS.inventory.read,
-        planned: true,
+        label: "Customers",
+        href: "/admin/customers",
+        permission: PERMISSIONS.customers.read,
       },
     ],
   },
@@ -167,34 +97,74 @@ export const adminNavigation: AdminNavSection[] = [
     ],
   },
   {
-    id: "hr",
-    title: "HR",
-    icon: "hr",
+    id: "inventory",
+    title: "Inventory",
+    icon: "inventory",
     items: [
-      { label: "Employees", permission: PERMISSIONS.hr.read, planned: true },
-      { label: "Departments", permission: PERMISSIONS.hr.read, planned: true },
-      { label: "Attendance", permission: PERMISSIONS.hr.read, planned: true },
-      { label: "Leave", permission: PERMISSIONS.hr.read, planned: true },
-      { label: "Payroll", permission: PERMISSIONS.hr.read, planned: true },
       {
-        label: "Salary Components",
-        permission: PERMISSIONS.hr.read,
-        planned: true,
+        label: "Products",
+        href: "/admin/products",
+        permission: PERMISSIONS.products.read,
       },
       {
-        label: "Salary Structures",
-        permission: PERMISSIONS.hr.read,
-        planned: true,
+        label: "Categories",
+        href: "/admin/categories",
+        permission: PERMISSIONS.products.read,
       },
       {
-        label: "Payroll Periods",
-        permission: PERMISSIONS.hr.read,
-        planned: true,
+        label: "Brands",
+        href: "/admin/brands",
+        permission: PERMISSIONS.products.read,
       },
       {
-        label: "Income Tax Slabs",
-        permission: PERMISSIONS.hr.read,
-        planned: true,
+        label: "Product Variants",
+        href: "/admin/products/variants",
+        permission: PERMISSIONS.products.read,
+      },
+      {
+        label: "Barcodes",
+        href: "/admin/products/barcodes",
+        permission: PERMISSIONS.products.read,
+      },
+      {
+        label: "Price Lists",
+        href: "/admin/products/prices",
+        permission: PERMISSIONS.products.read,
+      },
+      {
+        label: "Stock Overview",
+        href: "/admin/inventory",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Stock Ledger",
+        href: "/admin/inventory/movements",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Stock Transfers",
+        href: "/admin/inventory/transfers",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Stock Adjustments",
+        href: "/admin/inventory/adjustments",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Warehouses / Locations",
+        href: "/admin/inventory/locations",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Low Stock",
+        href: "/admin/inventory/low-stock",
+        permission: PERMISSIONS.inventory.read,
+      },
+      {
+        label: "Stock Valuation",
+        href: "/admin/inventory/valuation",
+        permission: PERMISSIONS.inventory.read,
       },
     ],
   },
@@ -207,32 +177,93 @@ export const adminNavigation: AdminNavSection[] = [
         label: "Payments",
         href: "/admin/payments",
         permission: PERMISSIONS.sales.read,
+        icon: "payments",
       },
       {
         label: "Expenses",
         href: "/admin/expenses",
         permission: PERMISSIONS.expenses.read,
+        icon: "expenses",
       },
       {
         label: "Expense Categories",
         href: "/admin/expenses/categories",
         permission: PERMISSIONS.expenses.read,
+        icon: "expense-categories",
+      },
+      {
+        label: "Bank Accounts",
+        href: "/admin/bank-accounts",
+        permission: PERMISSIONS.expenses.read,
+        icon: "bank-accounts",
+      },
+      {
+        label: "Mobile Money Accounts",
+        href: "/admin/mobile-money",
+        permission: PERMISSIONS.expenses.read,
+        icon: "mobile-money",
       },
       {
         label: "Receivables",
+        href: "/admin/receivables",
         permission: PERMISSIONS.sales.read,
-        planned: true,
       },
       {
         label: "Payables",
+        href: "/admin/payables",
         permission: PERMISSIONS.purchases.read,
-        planned: true,
       },
       {
         label: "Financial Reports",
+        href: "/admin/reports/financial",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
+    ],
+  },
+  {
+    id: "hr",
+    title: "Human Resources",
+    icon: "hr",
+    items: [
+      {
+        label: "Employees",
+        href: "/admin/hr/employees",
+        permission: PERMISSIONS.hr.read,
+        icon: "employees",
+      },
+      {
+        label: "Departments",
+        href: "/admin/hr/departments",
+        permission: PERMISSIONS.hr.read,
+        icon: "departments",
+      },
+      {
+        label: "Salary Components",
+        href: "/admin/hr/salary-components",
+        permission: PERMISSIONS.hr.read,
+        icon: "salary-components",
+      },
+      {
+        label: "Salary Structures",
+        href: "/admin/hr/salary-structures",
+        permission: PERMISSIONS.hr.read,
+        icon: "salary-structures",
+      },
+      {
+        label: "Payroll Periods",
+        href: "/admin/hr/payroll-periods",
+        permission: PERMISSIONS.hr.read,
+        icon: "payroll-periods",
+      },
+      {
+        label: "Income Tax Slabs",
+        href: "/admin/hr/tax-slabs",
+        permission: PERMISSIONS.hr.read,
+        icon: "tax-slabs",
+      },
+      { label: "Attendance", permission: PERMISSIONS.hr.read, planned: true },
+      { label: "Leave", permission: PERMISSIONS.hr.read, planned: true },
+      { label: "Payroll", permission: PERMISSIONS.hr.read, planned: true },
     ],
   },
   {
@@ -247,38 +278,38 @@ export const adminNavigation: AdminNavSection[] = [
       },
       {
         label: "Sales Reports",
+        href: "/admin/reports/sales",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "Product Reports",
+        href: "/admin/reports/products",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "Inventory Reports",
+        href: "/admin/reports/inventory",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "Customer Reports",
+        href: "/admin/reports/customers",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "Purchasing Reports",
+        href: "/admin/reports/purchasing",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "Expense Reports",
+        href: "/admin/reports/expenses",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
       {
         label: "HR Reports",
+        href: "/admin/reports/hr",
         permission: PERMISSIONS.reports.view,
-        planned: true,
       },
     ],
   },
