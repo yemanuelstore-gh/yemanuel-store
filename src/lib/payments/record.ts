@@ -1,4 +1,3 @@
-import { writeAuditLog } from "@/lib/admin/audit";
 import { isServiceConfigured, createServiceClient } from "@/lib/supabase/service";
 import { makePaymentReference } from "@/lib/payments/references";
 import type { PaymentMethod, PaymentStatus } from "@/lib/payments/types";
@@ -187,23 +186,6 @@ export async function applyVerifiedPayment(
 
   const paymentId = (data as unknown as { id: string }).id;
   await recalculateOrderPaymentStatus(input.orderId);
-
-  try {
-    await writeAuditLog(
-      "00000000-0000-0000-0000-000000000000",
-      "create",
-      "payment",
-      paymentId,
-      {
-        orderId: input.orderId,
-        provider: input.provider,
-        providerReference: input.providerReference,
-        amount: money(input.amount),
-      },
-    );
-  } catch {
-    // Best-effort audit logging.
-  }
 
   return { paymentId, reason: "recorded" };
 }

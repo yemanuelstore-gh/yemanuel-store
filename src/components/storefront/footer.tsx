@@ -26,8 +26,6 @@ const supportLinks = [
   { href: "/track", label: "Track an order" },
 ];
 
-const businessLinks = [{ href: "/admin", label: "Admin Portal" }];
-
 const linkClasses =
   "text-ivory/65 transition-colors hover:text-ivory focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold";
 
@@ -165,20 +163,6 @@ export async function StoreFooter() {
             </ul>
           </nav>
 
-          <nav aria-label="Business" className="text-sm">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gold">
-              Business / Management
-            </p>
-            <ul className="mt-4 space-y-3">
-              {businessLinks.map((link) => (
-                <li key={link.label}>
-                  <Link href={link.href} className={linkClasses}>
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
         </div>
 
         <div className="mt-12 flex flex-col gap-3 border-t border-ivory/10 pt-6 text-xs text-ivory/45 sm:flex-row sm:items-center sm:justify-between">

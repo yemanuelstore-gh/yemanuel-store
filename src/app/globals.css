@@ -37,6 +37,36 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-display);
+
+  /* Yemanuel ERP design tokens — Midnight Navy + Signature Gold.
+     ERP components use these tokens exclusively so future modules
+     inherit the Yemanuel identity without hard-coded colours. */
+  --color-erp-navy: #0b1f33;
+  --color-erp-navy-hover: #12304a;
+  --color-erp-navy-deep: #071829;
+  --color-erp-navy-line: rgb(255 255 255 / 0.08);
+  --color-erp-gold: #f4b400;
+  --color-erp-gold-hover: #d99e00;
+  --color-erp-canvas: #f5f7fa;
+  --color-erp-surface: #ffffff;
+  --color-erp-text: #172033;
+  --color-erp-text-secondary: #64748b;
+  --color-erp-text-muted: #94a3b8;
+  --color-erp-border: #e5e7eb;
+  --color-erp-success: #16a34a;
+  --color-erp-success-soft: #f0fdf4;
+  --color-erp-pending: #d97706;
+  --color-erp-pending-soft: #fffbeb;
+  --color-erp-processing: #2563eb;
+  --color-erp-processing-soft: #eff6ff;
+  --color-erp-cancelled: #dc2626;
+  --color-erp-cancelled-soft: #fef2f2;
+  --color-erp-warning: #ea580c;
+  --color-erp-warning-soft: #fff7ed;
+  --color-erp-info: #0891b2;
+  --color-erp-info-soft: #ecfeff;
+  --shadow-erp-card: 0 1px 2px rgb(23 32 51 / 0.04), 0 1px 3px rgb(23 32 51 / 0.06);
+  --shadow-erp-panel: 0 4px 20px -8px rgb(11 31 51 / 0.18);
 }
 
 body {
@@ -171,4 +201,67 @@ body {
 
 .admin-scroll-dark::-webkit-scrollbar-thumb:hover {
   background: rgb(148 163 184 / 0.55);
+}
+
+/* ERP micro-interactions — fast, subtle, purposeful. */
+@keyframes erp-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes erp-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.erp-fade-in {
+  animation: erp-fade-in 0.14s ease-out both;
+}
+
+.erp-pop-in {
+  animation: erp-pop-in 0.16s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.erp-skeleton {
+  position: relative;
+  overflow: hidden;
+  background: rgb(23 32 51 / 0.06);
+}
+
+.erp-skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(255 255 255 / 0.6),
+    transparent
+  );
+  animation: erp-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes erp-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .erp-fade-in,
+  .erp-pop-in,
+  .erp-skeleton::after {
+    animation: none;
+  }
 }

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 
@@ -40,13 +39,7 @@ export default function SupabaseSetupPage() {
 
   return (
     <div className="mx-auto max-w-xl px-4 py-16 text-zinc-900">
-      <Link
-        href="/admin"
-        className="text-sm text-zinc-500 transition-colors hover:text-zinc-900"
-      >
-        ← Back to admin
-      </Link>
-      <h1 className="mt-6 text-2xl font-semibold tracking-tight">
+      <h1 className="text-2xl font-semibold tracking-tight">
         Supabase configuration
       </h1>
       <p className="mt-2 text-sm leading-6 text-zinc-600">

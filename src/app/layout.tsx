@@ -28,7 +28,9 @@ export const metadata: Metadata = {
     "Yemanuel Store — modern Ghanaian e-commerce and integrated store management.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"

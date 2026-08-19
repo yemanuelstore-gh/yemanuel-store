@@ -7,7 +7,7 @@ const ghsFormatter = new Intl.NumberFormat("en-GH", {
 
 /**
  * Format a number as Ghanaian Cedi, e.g. 1250.5 -> "GH₵1,250.50".
- * Non-finite values render as an em dash for dashboard/empty states.
+ * Non-finite values render as an em dash for empty states.
  */
 export function formatGHS(amount: number): string {
   if (!Number.isFinite(amount)) {
