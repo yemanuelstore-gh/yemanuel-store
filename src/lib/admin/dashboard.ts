@@ -314,7 +314,8 @@ export function formatCompactGHS(value: number): string {
   }).format(value);
 }
 
-export function percent(value: number): string {
+export function percent(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "—";
   return `${value.toFixed(1)}%`;
 }
 
