@@ -268,3 +268,66 @@ function formatCompact(value: number): string {
     maximumFractionDigits: 1,
   }).format(value);
 }
+
+/**
+ * Compact area sparkline for hero/KPI cards. A smooth SVG path with a
+ * gradient fill — no axes, just the trend at a glance.
+ */
+export function AreaSparkline({
+  data,
+  width = 260,
+  height = 56,
+  color = "#dcb94e",
+  className,
+}: {
+  data: ChartPoint[];
+  width?: number;
+  height?: number;
+  color?: string;
+  className?: string;
+}) {
+  if (data.length === 0) return null;
+
+  const pad = 3;
+  const max = Math.max(...data.map((point) => point.value), 1);
+  const min = Math.min(...data.map((point) => point.value), 0);
+  const span = max - min || 1;
+  const stepX = (width - pad * 2) / Math.max(data.length - 1, 1);
+
+  const points = data.map((point, index) => {
+    const x = pad + index * stepX;
+    const y = pad + (1 - (point.value - min) / span) * (height - pad * 2);
+    return { x, y };
+  });
+
+  const line = points.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
+  const area = `${pad},${height - pad} ${line} ${(width - pad).toFixed(1)},${height - pad}`;
+  const gradId = `spark-${color.replace("#", "")}`;
+
+  return (
+    <svg
+      viewBox={`0 0 ${width} ${height}`}
+      className={cn("w-full", className)}
+      style={{ height }}
+      preserveAspectRatio="none"
+      aria-hidden="true"
+      role="img"
+    >
+      <defs>
+        <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor={color} stopOpacity="0.35" />
+          <stop offset="100%" stopColor={color} stopOpacity="0.02" />
+        </linearGradient>
+      </defs>
+      <polygon points={area} fill={`url(#${gradId})`} />
+      <polyline
+        points={line}
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

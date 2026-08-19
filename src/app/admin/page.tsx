@@ -4,7 +4,9 @@ import { PageHeader } from "@/components/admin/ui";
 import { DashboardRangeSelector } from "@/components/admin/dashboard/range-selector";
 import { KpiCard, HeroCard, DeltaBadge } from "@/components/admin/dashboard/kpi";
 import { Panel, PanelGrid } from "@/components/admin/dashboard/section";
-import { BarChart, HBarList, ShareDonut } from "@/components/admin/dashboard/charts";
+import { BarChart, HBarList, ShareDonut, AreaSparkline } from "@/components/admin/dashboard/charts";
+import { TrendPanel } from "@/components/admin/dashboard/trend-panel";
+import { CountUp } from "@/components/admin/dashboard/count-up";
 import { BanknoteIcon, AlertTriangleIcon, BoxesIcon, WarehouseIcon } from "@/components/admin/icons";
 import { getAdminSession, hasPermission } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
@@ -20,7 +22,14 @@ import {
   type ReceivableRow,
   type PayableRow,
   type ExpensesRangeData,
+  type SalesRangeData,
 } from "@/lib/admin/dashboard";
+import {
+  startOfDayUtc,
+  endOfDayUtc,
+  previousBusinessDay,
+  businessDayAverage,
+} from "@/lib/business-calendar";
 import { reportRpc, take } from "@/lib/admin/reporting";
 import { getSalesReport } from "@/lib/admin/report-sales";
 import { formatGHS } from "@/lib/format";
@@ -30,6 +39,12 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Store Dashboard — Yemanuel Store Admin",
 };
+
+const WEEKDAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function yoyDelta(current: number, previous: number): number | null {
+  return Number.isFinite(current) && previous > 0 ? ((current - previous) / previous) * 100 : null;
+}
 
 export default async function AdminDashboardPage({
   searchParams,
@@ -46,14 +61,26 @@ export default async function AdminDashboardPage({
   const canCustomers = hasPermission(session, PERMISSIONS.customers.read);
   const canPurchases = hasPermission(session, PERMISSIONS.purchases.read);
 
+  const now = new Date();
+  const todayWindow = {
+    p_start: startOfDayUtc(now).toISOString(),
+    p_end: endOfDayUtc(now).toISOString(),
+  };
+  const prevDay = previousBusinessDay(now);
+  const prevDayWindow = {
+    p_start: startOfDayUtc(prevDay).toISOString(),
+    p_end: endOfDayUtc(prevDay).toISOString(),
+  };
   const dayArgs = {
     p_start: range.start.toISOString().slice(0, 10),
     p_end: range.end.toISOString().slice(0, 10),
   };
 
-  const [salesData, expensesRes, receivablesRes, payablesRes, alertsRes, inventoryRes, topCustomersRes] =
+  const [salesData, todayRes, prevDayRes, expensesRes, receivablesRes, payablesRes, alertsRes, inventoryRes, topCustomersRes] =
     await Promise.all([
       canSales ? getSalesReport(range) : null,
+      canSales ? reportRpc<SalesRangeData>("dashboard_sales_range", todayWindow) : null,
+      canSales ? reportRpc<SalesRangeData>("dashboard_sales_range", prevDayWindow) : null,
       canExpenses ? reportRpc<ExpensesRangeData>("dashboard_expenses_range", dayArgs) : null,
       canSales ? reportRpc<ReceivableRow[]>("dashboard_receivables", {}) : null,
       canPurchases ? reportRpc<PayableRow[]>("dashboard_payables", {}) : null,
@@ -73,6 +100,8 @@ export default async function AdminDashboardPage({
 
   const sales = salesData?.sales ?? null;
   const lastYear = salesData?.lastYear ?? null;
+  const todaySales = todayRes ? take(todayRes) : null;
+  const prevDaySales = prevDayRes ? take(prevDayRes) : null;
   const alerts = alertsRes ? take(alertsRes) : null;
   const inventory = inventoryRes ? take(inventoryRes) : null;
   const expenses = expensesRes ? take(expensesRes) : null;
@@ -80,7 +109,7 @@ export default async function AdminDashboardPage({
   const payables = ((payablesRes ? take(payablesRes) : []) ?? []).slice(0, 5);
   const topCustomers = topCustomersRes ? take(topCustomersRes) ?? [] : [];
 
-  const closedToday = isStoreClosed(new Date());
+  const closedToday = isStoreClosed(now);
 
   const byDay = salesData?.byDay ?? [];
   const bestDay =
@@ -88,16 +117,37 @@ export default async function AdminDashboardPage({
       ? byDay.reduce((best, point) => (point.revenue > best.revenue ? point : best))
       : null;
 
+  const payments = salesData?.payments ?? null;
+  const collectionRate =
+    payments && payments.collected_total + payments.pending_amount > 0
+      ? (payments.collected_total / (payments.collected_total + payments.pending_amount)) * 100
+      : null;
+
+  const dailyAverage = sales ? businessDayAverage(sales.revenue, range.start, range.end) : null;
+
+  const weekdayTotals = byDay.reduce<number[]>((acc, point) => {
+    const date = new Date(`${point.day}T00:00:00Z`);
+    if (!Number.isFinite(date.getTime())) return acc;
+    acc[date.getUTCDay()] = (acc[date.getUTCDay()] ?? 0) + point.revenue;
+    return acc;
+  }, Array(7).fill(0));
+  const maxWeekday = Math.max(...weekdayTotals, 1);
+
   return (
     <div className="space-y-5">
-      <PageHeader
-        title="Store Dashboard"
-        description={`Real-time performance metrics for ${range.label} · all figures in GH₵`}
-        actions={<DashboardRangeSelector />}
-      />
+      <div className="dashboard-ambient" aria-hidden="true" />
+
+      {/* Sticky header */}
+      <div className="sticky top-12 z-10 -mx-4 border-b border-line/70 bg-canvas/85 px-4 py-3 backdrop-blur-md lg:-mx-5 lg:px-5">
+        <PageHeader
+          title="Store Dashboard"
+          description={`${range.label} · ${range.start.toLocaleDateString("en-GB")} – ${range.end.toLocaleDateString("en-GB")}`}
+          actions={<DashboardRangeSelector />}
+        />
+      </div>
 
       {salesData && !salesData.available && (
-        <div className="rounded-lg border border-danger/30 bg-danger-soft px-4 py-2.5 text-xs leading-5 text-danger">
+        <div className="animate-rise rounded-lg border border-danger/30 bg-danger-soft px-4 py-2.5 text-xs leading-5 text-danger">
           <strong>Aggregations are not available yet.</strong> This dashboard reads
           pre-aggregated figures from SQL functions in the{" "}
           <code className="mx-1 rounded bg-white/60 px-1">app</code> schema (migration{" "}
@@ -110,7 +160,7 @@ export default async function AdminDashboardPage({
       )}
 
       {closedToday && (
-        <div className="flex items-center gap-2 rounded-lg border border-gold/30 bg-gold-soft px-4 py-2.5 text-xs font-semibold text-gold-dark">
+        <div className="animate-rise flex items-center gap-2 rounded-lg border border-gold/30 bg-gold-soft px-4 py-2.5 text-xs font-semibold text-gold-dark">
           <span aria-hidden="true" className="h-2 w-2 rounded-full bg-gold" />
           The store is closed today (Sunday). Figures reflect completed operations.
         </div>
@@ -118,23 +168,42 @@ export default async function AdminDashboardPage({
 
       {/* Hero row */}
       {canSales && sales && (
-        <div className="grid grid-cols-1 gap-5 xl:grid-cols-12">
+        <div className="animate-rise grid grid-cols-1 gap-5 xl:grid-cols-12">
           <div className="xl:col-span-7">
             <HeroCard
               eyebrow="Revenue"
               label={`Total revenue · ${range.label}`}
-              value={formatGHS(sales.revenue)}
+              value={<CountUp value={sales.revenue} format={formatGHS} />}
               note={
-                <span className="flex items-center gap-2">
-                  <DeltaBadge current={sales.revenue} previous={lastYear?.revenue ?? 0} onDark />
-                  <span>vs same period last year</span>
+                <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <span className="flex items-center gap-1.5">
+                    <DeltaBadge current={sales.revenue} previous={lastYear?.revenue ?? 0} onDark />
+                    <span>vs last year</span>
+                  </span>
+                  {todaySales && (
+                    <span className="flex items-center gap-1.5">
+                      <DeltaBadge
+                        current={todaySales.revenue}
+                        previous={prevDaySales?.revenue ?? 0}
+                        onDark
+                      />
+                      <span>today vs prev business day</span>
+                    </span>
+                  )}
                 </span>
+              }
+              sparkline={
+                <AreaSparkline
+                  data={byDay.map((point) => ({ label: point.day, value: point.revenue }))}
+                  color="#dcb94e"
+                />
               }
               subStats={[
                 { label: "Orders", value: formatNumber(sales.order_count) },
                 { label: "Items sold", value: formatNumber(sales.units_sold) },
                 { label: "Avg order", value: formatGHS(sales.average_order_value) },
                 { label: "Margin", value: percent(sales.gross_margin) },
+                { label: "Per open day", value: dailyAverage != null ? formatGHS(dailyAverage) : "—" },
               ]}
             />
           </div>
@@ -142,28 +211,44 @@ export default async function AdminDashboardPage({
           <div className="grid grid-cols-2 gap-4 xl:col-span-5">
             <KpiCard
               label="Gross profit"
-              value={formatGHS(sales.gross_profit)}
-              note={`${formatNumber(sales.cancelled_orders)} cancelled orders`}
+              value={<CountUp value={sales.gross_profit} format={formatGHS} />}
+              note={
+                yoyDelta(sales.gross_profit, lastYear?.gross_profit ?? 0) != null ? (
+                  <span className="flex items-center gap-1.5">
+                    <DeltaBadge
+                      current={sales.gross_profit}
+                      previous={lastYear?.gross_profit ?? 0}
+                    />
+                    <span>vs last year</span>
+                  </span>
+                ) : (
+                  `${formatNumber(sales.cancelled_orders)} cancelled orders`
+                )
+              }
               tone={sales.gross_profit > 0 ? "positive" : "default"}
             />
             <KpiCard
               label="Collected"
-              value={formatGHS(salesData?.payments?.collected_total ?? 0)}
-              note={`${salesData?.payments?.collected_count ?? 0} payments`}
+              value={<CountUp value={payments?.collected_total ?? 0} format={formatGHS} />}
+              note={
+                collectionRate != null
+                  ? `${percent(collectionRate)} collection rate · ${payments?.collected_count ?? 0} payments`
+                  : `${payments?.collected_count ?? 0} payments`
+              }
               tone="positive"
               href="/admin/payments"
             />
             <KpiCard
               label="Pending"
-              value={formatGHS(salesData?.payments?.pending_amount ?? 0)}
-              note={`${salesData?.payments?.pending_count ?? 0} payments awaiting collection`}
+              value={<CountUp value={payments?.pending_amount ?? 0} format={formatGHS} />}
+              note={`${payments?.pending_count ?? 0} payments awaiting collection`}
               tone="gold"
               href="/admin/payments"
             />
             <KpiCard
               label="Refunds"
-              value={formatGHS(salesData?.payments?.refunds_total ?? 0)}
-              note={`${salesData?.payments?.refunds_count ?? 0} refunds issued`}
+              value={<CountUp value={payments?.refunds_total ?? 0} format={formatGHS} />}
+              note={`${payments?.refunds_count ?? 0} refunds issued`}
               tone="danger"
             />
           </div>
@@ -172,28 +257,51 @@ export default async function AdminDashboardPage({
 
       {/* Trend + operations */}
       {canSales && (
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
+        <div className="animate-rise grid grid-cols-1 gap-5 lg:grid-cols-12" style={{ animationDelay: "70ms" }}>
           <section className="lg:col-span-8">
             <Panel
-              title={`Daily revenue trend · ${range.label}`}
+              title={`Daily trend · ${range.label}`}
               subtitle={
                 bestDay
                   ? `Best day: ${weekdayLabel(bestDay.day)} · ${formatGHS(bestDay.revenue)}`
                   : "Aggregated server-side from order data"
               }
             >
-              <BarChart
-                data={byDay.map((point) => ({
-                  label: weekdayLabel(point.day),
-                  value: point.revenue,
-                }))}
-                formatValue={formatCompactGHS}
-                height={230}
+              <TrendPanel
+                points={byDay}
+                subtitle={`${byDay.length} operating days in range`}
+                height={210}
               />
+              <div className="mt-5 border-t border-line pt-4">
+                <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-ink-faint">
+                  Revenue by weekday · {range.label}
+                </p>
+                <div className="grid grid-cols-7 gap-1.5">
+                  {WEEKDAY_LABELS.map((label, index) => {
+                    const value = weekdayTotals[index] ?? 0;
+                    const pct = Math.max((value / maxWeekday) * 100, value > 0 ? 4 : 1);
+                    return (
+                      <div key={label} className="flex flex-col items-center gap-1">
+                        <span className="text-[9px] font-semibold text-ink-faint">{label}</span>
+                        <div className="flex h-14 w-full items-end rounded-md bg-navy-soft/40 p-0.5">
+                          <div
+                            className="w-full rounded-sm bg-gradient-to-t from-navy to-navy/70 transition-all duration-500"
+                            style={{ height: `${pct}%` }}
+                            title={`${label}: ${formatGHS(value)}`}
+                          />
+                        </div>
+                        <span className="text-[9px] font-semibold tabular-nums text-ink-soft">
+                          {formatCompactGHS(value)}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </Panel>
           </section>
 
-          <section className="lg:col-span-4">
+          <section className="lg:col-span-4" style={{ animationDelay: "120ms" }}>
             <Panel
               title="Operations & alerts"
               subtitle="Current position — not range-bound"
@@ -241,7 +349,7 @@ export default async function AdminDashboardPage({
 
       {/* Category + top products */}
       {canSales && (
-        <PanelGrid>
+        <div className="animate-rise grid grid-cols-1 gap-5 lg:grid-cols-2" style={{ animationDelay: "160ms" }}>
           <Panel title="Sales by category" subtitle={`Share of revenue · ${range.label}`}>
             <ShareDonut
               data={(salesData?.byCategory ?? []).map((point) => ({
@@ -260,12 +368,12 @@ export default async function AdminDashboardPage({
               formatValue={formatCompactGHS}
             />
           </Panel>
-        </PanelGrid>
+        </div>
       )}
 
       {/* Financial health + customer insights */}
       {(canSales || canPurchases || canExpenses) && (
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-12">
+        <div className="animate-rise grid grid-cols-1 gap-5 lg:grid-cols-12" style={{ animationDelay: "220ms" }}>
           <section className="lg:col-span-8">
             <Panel
               title="Financial health"
@@ -278,7 +386,7 @@ export default async function AdminDashboardPage({
                     Operating expenses · {range.label}
                   </p>
                   <p className="text-lg font-bold tabular-nums text-ink">
-                    {expenses ? formatGHS(expenses.total) : "—"}
+                    {expenses ? <CountUp value={expenses.total} format={formatGHS} /> : "—"}
                   </p>
                   <p className="text-[11px] text-ink-faint">
                     {expenses?.expense_count ?? 0} expense entries

@@ -40,7 +40,7 @@ export function KpiCard({
   className,
 }: {
   label: string;
-  value: string | number;
+  value: ReactNode;
   note?: ReactNode;
   href?: string;
   tone?: KpiTone;
@@ -82,13 +82,15 @@ export function HeroCard({
   label,
   value,
   note,
+  sparkline,
   subStats,
   href,
 }: {
   eyebrow: string;
   label: string;
-  value: string;
+  value: ReactNode;
   note?: ReactNode;
+  sparkline?: ReactNode;
   subStats?: { label: string; value: string }[];
   href?: string;
 }) {
@@ -101,6 +103,7 @@ export function HeroCard({
       <p className="mt-2.5 text-[11px] font-semibold text-slate-200">{label}</p>
       <p className="mt-1 text-3xl font-bold tracking-tight tabular-nums text-white">{value}</p>
       {note && <p className="mt-1.5 text-[11px] leading-4 text-slate-300">{note}</p>}
+      {sparkline && <div className="mt-4">{sparkline}</div>}
       {subStats && subStats.length > 0 && (
         <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-white/10 bg-white/10 sm:grid-cols-3 xl:grid-cols-4">
           {subStats.map((stat) => (

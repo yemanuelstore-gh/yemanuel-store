@@ -71,6 +71,40 @@ body {
   }
 }
 
+/* Card/section entrance — soft rise with fade. Pairs with inline
+   animation-delay for staggered grids. */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Subtle ambient glow behind the dashboard hero. */
+.dashboard-ambient {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 420px at 85% -12%, rgb(201 162 39 / 0.12), transparent 62%),
+    radial-gradient(760px 420px at -8% 8%, rgb(11 31 51 / 0.07), transparent 62%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise {
+    animation: none;
+  }
+}
+
 /* Diagonal gold sheen that sweeps across imagery on card hover. */
 .image-shine {
   position: relative;
