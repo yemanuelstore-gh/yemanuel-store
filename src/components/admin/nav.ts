@@ -53,6 +53,7 @@ export const erpNavGroups: ErpNavGroup[] = [
       { label: "Expenses", href: "/admin/expenses", icon: "expenses" },
       { label: "Receivables", href: "/admin/receivables", icon: "receivables" },
       { label: "Payables", href: "/admin/payables", icon: "payables" },
+      { label: "Financial Accounts", href: "/admin/financial-accounts", icon: "wallet" },
       { label: "Reports", href: "/admin/finance/reports", icon: "reports" },
     ],
   },

@@ -9,11 +9,13 @@ export function ErpShell({
   children,
   breadcrumb,
   user,
+  canAccessAdmin = false,
   defaultCollapsed = false,
 }: {
   children: ReactNode;
   breadcrumb?: ReactNode;
   user?: { name: string; role: string };
+  canAccessAdmin?: boolean;
   defaultCollapsed?: boolean;
 }) {
   const [collapsed, setCollapsed] = useState(defaultCollapsed);
@@ -50,6 +52,7 @@ export function ErpShell({
           onToggleMobile={() => setMobileOpen((value) => !value)}
           breadcrumb={breadcrumb}
           user={user}
+          canAccessAdmin={canAccessAdmin}
         />
         <main className="admin-scroll flex-1 overflow-y-auto">
           {children}

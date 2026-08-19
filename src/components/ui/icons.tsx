@@ -18,6 +18,10 @@ export type IconName =
   | "invoices"
   | "payments"
   | "expenses"
+  | "wallet"
+  | "bank"
+  | "mobile"
+  | "cash"
   | "receivables"
   | "payables"
   | "reports"
@@ -43,12 +47,14 @@ export type IconName =
   | "more-horizontal"
   | "user"
   | "logout"
-  | "alert"
+  |   "alert"
   | "check"
   | "info"
   | "cancel"
   | "sparkle"
-  | "home";
+  | "home"
+  | "eye"
+  | "eye-off";
 
 const paths: Record<IconName, React.ReactNode> = {
   dashboard: (
@@ -170,6 +176,34 @@ const paths: Record<IconName, React.ReactNode> = {
       <path d="M20.5 7.5 12 21H6.5L3 7.5" />
       <path d="m3 7.5 3 4 3.5-5 3.5 5 3.5-6.5" />
       <path d="M20.5 7.5h-2" />
+    </>
+  ),
+wallet: (
+    <>
+      <path d="M3.5 6.5A1.5 1.5 0 0 1 5 5h13a1.5 1.5 0 0 1 1.5 1.5V8" />
+      <path d="M3.5 6.5V17A2 2 0 0 0 5.5 19h13a2 2 0 0 0 2-2v-6.5a2 2 0 0 0-2-2H6" />
+      <path d="M16 13.75h.01" />
+    </>
+  ),
+  bank: (
+    <>
+      <path d="M3 9.5 12 4l9 5.5" />
+      <path d="M5 9.5V17M9.5 9.5V17M14.5 9.5V17M19 9.5V17" />
+      <path d="M3 17.5h18" />
+      <path d="M3 20.5h18" />
+    </>
+  ),
+  mobile: (
+    <>
+      <rect x="7" y="2.5" width="10" height="19" rx="2" />
+      <path d="M11 18h2" />
+    </>
+  ),
+  cash: (
+    <>
+      <rect x="2.5" y="6" width="19" height="12" rx="2" />
+      <circle cx="12" cy="12" r="2.5" />
+      <path d="M6.5 9.5h.01M17.5 14.5h.01" />
     </>
   ),
   receivables: (
@@ -335,6 +369,20 @@ const paths: Record<IconName, React.ReactNode> = {
     <>
       <path d="m3.5 11 8.5-7.5L20.5 11" />
       <path d="M5.5 9.5V20h13V9.5" />
+    </>
+  ),
+  eye: (
+    <>
+      <path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z" />
+      <circle cx="12" cy="12" r="2.8" />
+    </>
+  ),
+  "eye-off": (
+    <>
+      <path d="M4 4.5 20 19.5" />
+      <path d="M10.4 6.1A9.7 9.7 0 0 1 12 6c6 0 9.5 6 9.5 6a17.4 17.4 0 0 1-3 3.9" />
+      <path d="M6.4 8.6A16.9 16.9 0 0 0 2.5 12s3.5 6 9.5 6a9.2 9.2 0 0 0 3.6-.7" />
+      <path d="M9.9 9.9a2.8 2.8 0 0 0 4 4" />
     </>
   ),
 };

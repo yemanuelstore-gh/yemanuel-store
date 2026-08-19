@@ -1,8 +1,14 @@
 "use client";
 
 import type { ReactNode } from "react";
+import { cn } from "@/lib/cn";
 import { Icon } from "@/components/ui/icons";
-import { Dropdown, DropdownItem, DropdownSeparator } from "@/components/ui/dropdown";
+import {
+  Dropdown,
+  DropdownItem,
+  DropdownLink,
+  DropdownSeparator,
+} from "@/components/ui/dropdown";
 import { Tooltip } from "@/components/ui/tooltip";
 
 export function ErpHeader({
@@ -12,6 +18,7 @@ export function ErpHeader({
   onToggleMobile,
   breadcrumb,
   user,
+  canAccessAdmin = false,
 }: {
   collapsed: boolean;
   onToggleSidebar: () => void;
@@ -19,6 +26,7 @@ export function ErpHeader({
   onToggleMobile: () => void;
   breadcrumb?: ReactNode;
   user?: { name: string; role: string };
+  canAccessAdmin?: boolean;
 }) {
   return (
     <header className="sticky top-0 z-30 flex h-14 shrink-0 items-center gap-3 border-b border-erp-border bg-white/95 px-4 backdrop-blur">
@@ -70,6 +78,56 @@ export function ErpHeader({
           />
         </button>
       </Tooltip>
+
+      <div className="h-6 w-px bg-erp-border" aria-hidden="true" />
+
+      {canAccessAdmin && (
+        <Dropdown
+          trigger={({ open, toggle }) => (
+            <Tooltip label="Admin" side="bottom">
+              <button
+                type="button"
+                onClick={toggle}
+                aria-expanded={open}
+                aria-haspopup="menu"
+                aria-label="Admin"
+                className={cn(
+                  "flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-erp-navy",
+                  open
+                    ? "border-erp-gold/40 bg-erp-canvas text-erp-navy"
+                    : "border-erp-border bg-erp-canvas/50 text-erp-text-secondary hover:border-erp-gold/40 hover:bg-erp-canvas hover:text-erp-navy",
+                )}
+              >
+                <Icon name="admin" size={14} className="text-erp-gold" />
+                <span className="hidden sm:inline">Admin</span>
+                <Icon
+                  name="chevron-down"
+                  size={12}
+                  className={open ? "rotate-180 text-erp-text-muted" : "text-erp-text-muted"}
+                />
+              </button>
+            </Tooltip>
+          )}
+        >
+          <DropdownLink href="/admin/users">
+            <Icon name="admin" size={14} className="text-erp-text-muted" />
+            Users
+          </DropdownLink>
+          <DropdownLink href="/admin/roles">
+            <Icon name="roles" size={14} className="text-erp-text-muted" />
+            Roles &amp; Permissions
+          </DropdownLink>
+          <DropdownLink href="/admin/settings">
+            <Icon name="settings" size={14} className="text-erp-text-muted" />
+            Settings
+          </DropdownLink>
+          <DropdownSeparator />
+          <DropdownLink href="/admin/audit">
+            <Icon name="audit" size={14} className="text-erp-text-muted" />
+            Audit Log
+          </DropdownLink>
+        </Dropdown>
+      )}
 
       <div className="h-6 w-px bg-erp-border" aria-hidden="true" />
 

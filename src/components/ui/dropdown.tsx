@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   useCallback,
   useEffect,
@@ -91,6 +92,25 @@ export function DropdownItem({
 
 export function DropdownSeparator() {
   return <div className="my-1 h-px bg-erp-border" role="separator" />;
+}
+
+export function DropdownLink({
+  className,
+  children,
+  ...props
+}: ComponentProps<typeof Link>) {
+  return (
+    <Link
+      role="menuitem"
+      className={cn(
+        "flex w-full items-center gap-2 px-3 py-1.5 text-left text-[13px] text-erp-text transition-colors hover:bg-erp-canvas hover:text-erp-navy",
+        className,
+      )}
+      {...props}
+    >
+      {children}
+    </Link>
+  );
 }
 
 export { Icon as DropdownIcon };
