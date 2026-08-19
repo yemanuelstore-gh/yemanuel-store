@@ -16,7 +16,7 @@ import { listDepartments, PAGE_SIZE } from "@/lib/admin/hr";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Departments — Yemanuel ERP",
+  title: "Departments — Yemanuel Store ERP",
 };
 
 function firstParam(value: string | string[] | undefined): string | undefined {

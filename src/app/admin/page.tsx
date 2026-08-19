@@ -67,11 +67,24 @@ import { formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Dashboard — Yemanuel ERP",
+  title: "Dashboard — Yemanuel Store ERP",
 };
 
 function formatCount(value: number): string {
   return value.toLocaleString("en-GB");
+}
+
+/**
+ * Resolve a dashboard data query. A single failing query (a missing table,
+ * a temporary network issue, an RLS denial) must never take the whole
+ * dashboard down — the section widgets already handle `null`.
+ */
+async function safe<T>(promise: Promise<T>): Promise<T | null> {
+  try {
+    return await promise;
+  } catch {
+    return null;
+  }
 }
 
 type KpiDefinition = {
@@ -194,33 +207,33 @@ export default async function DashboardPage({
     customerGrowth,
     lifetime,
   ] = await Promise.all([
-    canSales ? getSalesRange(client, range) : null,
-    canSales ? getSalesRange(client, previous) : null,
-    canSales ? getSalesTrend(client, range) : null,
-    canSales ? getPaymentsRange(client, range) : null,
-    canInventory ? getInventorySummary(client) : null,
-    canExpenses ? getExpensesRange(client, range) : null,
-    canSales ? getReceivables(client, 4) : null,
-    canPurchases ? getPayables(client, 4) : null,
-    canSales || canPurchases ? getOperationsAlerts(client) : null,
-    canSales ? getTopProducts(client, range, 6) : null,
-    canSales ? getRecentOrders(client, 8) : null,
-    canCustomers ? getCustomerStats(client, range) : null,
-    canSales ? getTopCustomers(client, range, 5) : null,
-    canSales ? getCategorySales(client, range, 6) : null,
-    canFinance ? listFinancialAccounts(client) : null,
-    canInventory ? getInventoryByCategory(client, 6) : null,
-    canInventory || canPurchases ? getGoodsReceivedByMonth(client, currentYear) : null,
-    canExpenses ? getExpenseSnapshot(client) : null,
-    canExpenses ? getExpensesByCategory(client, range, 6) : null,
-    canExpenses ? getExpensesByMonth(client, currentYear) : null,
-    canPurchases ? getPurchasingOverview(client) : null,
-    canSales ? getCollectionsByMethod(client, range) : null,
-    canSales ? getRecentPayments(client, 6) : null,
-    canInventory ? getRecentStockMovements(client, 6) : null,
-    canPurchases ? getRecentPurchaseOrders(client, 6) : null,
-    canCustomers ? getCustomerGrowth(client, 12) : null,
-    canSales || canExpenses || canCustomers ? getBusinessLifetime(client) : null,
+    canSales ? safe(getSalesRange(client, range)) : null,
+    canSales ? safe(getSalesRange(client, previous)) : null,
+    canSales ? safe(getSalesTrend(client, range)) : null,
+    canSales ? safe(getPaymentsRange(client, range)) : null,
+    canInventory ? safe(getInventorySummary(client)) : null,
+    canExpenses ? safe(getExpensesRange(client, range)) : null,
+    canSales ? safe(getReceivables(client, 4)) : null,
+    canPurchases ? safe(getPayables(client, 4)) : null,
+    canSales || canPurchases ? safe(getOperationsAlerts(client)) : null,
+    canSales ? safe(getTopProducts(client, range, 6)) : null,
+    canSales ? safe(getRecentOrders(client, 8)) : null,
+    canCustomers ? safe(getCustomerStats(client, range)) : null,
+    canSales ? safe(getTopCustomers(client, range, 5)) : null,
+    canSales ? safe(getCategorySales(client, range, 6)) : null,
+    canFinance ? safe(listFinancialAccounts(client)) : null,
+    canInventory ? safe(getInventoryByCategory(client, 6)) : null,
+    canInventory || canPurchases ? safe(getGoodsReceivedByMonth(client, currentYear)) : null,
+    canExpenses ? safe(getExpenseSnapshot(client)) : null,
+    canExpenses ? safe(getExpensesByCategory(client, range, 6)) : null,
+    canExpenses ? safe(getExpensesByMonth(client, currentYear)) : null,
+    canPurchases ? safe(getPurchasingOverview(client)) : null,
+    canSales ? safe(getCollectionsByMethod(client, range)) : null,
+    canSales ? safe(getRecentPayments(client, 6)) : null,
+    canInventory ? safe(getRecentStockMovements(client, 6)) : null,
+    canPurchases ? safe(getRecentPurchaseOrders(client, 6)) : null,
+    canCustomers ? safe(getCustomerGrowth(client, 12)) : null,
+    canSales || canExpenses || canCustomers ? safe(getBusinessLifetime(client)) : null,
   ]);
 
   const quickActions: QuickAction[] = [];

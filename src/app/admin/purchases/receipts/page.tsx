@@ -19,7 +19,7 @@ import { formatDate } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Goods Receipts — Yemanuel ERP",
+  title: "Goods Receipts — Yemanuel Store ERP",
 };
 
 const RECEIPT_STATUSES = ["draft", "received", "completed", "cancelled"];

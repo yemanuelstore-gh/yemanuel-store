@@ -22,7 +22,7 @@ import { formatDate } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Employees — Yemanuel ERP",
+  title: "Employees — Yemanuel Store ERP",
 };
 
 const EMPLOYEE_STATUSES = ["active", "on_leave", "terminated", "suspended", "inactive"];

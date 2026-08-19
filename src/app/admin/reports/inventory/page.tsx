@@ -15,7 +15,7 @@ import { formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Inventory Report — Yemanuel ERP",
+  title: "Inventory Report — Yemanuel Store ERP",
 };
 
 export default async function InventoryReportPage() {

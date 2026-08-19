@@ -38,7 +38,7 @@
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-display);
 
-  /* Yemanuel ERP design tokens — Midnight Navy + Signature Gold.
+  /* Yemanuel Store ERP design tokens — Midnight Navy + Signature Gold.
      ERP components use these tokens exclusively so future modules
      inherit the Yemanuel identity without hard-coded colours. */
   --color-erp-navy: #0b1f33;

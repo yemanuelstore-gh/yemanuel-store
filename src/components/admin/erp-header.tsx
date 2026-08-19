@@ -10,6 +10,7 @@ import {
   DropdownSeparator,
 } from "@/components/ui/dropdown";
 import { Tooltip } from "@/components/ui/tooltip";
+import { signOutAction } from "@/lib/auth-actions";
 
 export function ErpHeader({
   collapsed,
@@ -162,7 +163,18 @@ export function ErpHeader({
         <DropdownItem>My profile</DropdownItem>
         <DropdownItem>Workspace settings</DropdownItem>
         <DropdownSeparator />
-        <DropdownItem className="text-erp-cancelled">Sign out</DropdownItem>
+        <form action={signOutAction}>
+          <button
+            type="submit"
+            role="menuitem"
+            className={cn(
+              "flex w-full items-center gap-2 px-3 py-1.5 text-left text-[13px] text-erp-text transition-colors hover:bg-erp-canvas hover:text-erp-navy",
+              "text-erp-cancelled",
+            )}
+          >
+            Sign out
+          </button>
+        </form>
       </Dropdown>
     </header>
   );

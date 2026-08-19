@@ -21,7 +21,7 @@ import { formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Sales Report — Yemanuel ERP",
+  title: "Sales Report — Yemanuel Store ERP",
 };
 
 const RANGE_KEY = "quarter" as const;

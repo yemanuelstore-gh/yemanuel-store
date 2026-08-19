@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { DepartmentIcon } from "@/components/storefront/department-icons";
 import { signOutAction } from "@/lib/auth-actions";
 import { cn } from "@/lib/cn";
+import { Icon } from "@/components/ui/icons";
 import type { CategorySummary } from "@/lib/catalogue";
 import { wishlistCount, WISHLIST_CHANGE_EVENT } from "@/lib/wishlist";
 import type { StoreDepartment } from "@/lib/storefront-departments";
@@ -538,6 +539,14 @@ export function StoreHeader({
               Track order
             </Link>
 
+            <Link
+              href="/admin/login"
+              className="hidden h-9 items-center gap-1.5 rounded-md bg-navy px-3.5 text-xs font-semibold text-gold shadow-soft transition-colors hover:bg-navy-dark hover:text-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold md:inline-flex"
+            >
+              <Icon name="admin" size={12} />
+              Admin Portal
+            </Link>
+
             <button
               type="button"
               aria-expanded={menuOpen}
@@ -620,6 +629,14 @@ export function StoreHeader({
                 {link.label}
               </Link>
             ))}
+            <Link
+              href="/admin/login"
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center gap-3 rounded-md px-2 py-2.5 text-sm font-medium text-gold bg-navy-soft/50 transition-colors hover:bg-navy-soft hover:text-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+            >
+              <Icon name="admin" size={16} />
+              Admin Portal
+            </Link>
           </nav>
           <div className="border-t border-line pt-4">
             {signedIn ? (

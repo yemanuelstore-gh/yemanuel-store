@@ -9,22 +9,36 @@ export type ProductListRow = {
   id: string;
   name: string;
   slug: string;
+  description: string | null;
   status: string;
   created_at: string;
+  category_id: string | null;
+  category: { id: string; name: string; slug: string } | null;
+  brand_id: string | null;
+  brand: { id: string; name: string; slug: string } | null;
   variant_count: number;
   first_sku: string | null;
   price_min: number | null;
   price_max: number | null;
+  total_stock: number;
+  low_stock: boolean;
+  primary_image_url: string | null;
 };
 
 type VariantSeed = { id: string; product_id: string; sku: string | null };
 type PriceSeed = { variant_id: string; amount: number };
+type StockSeed = { variant_id: string; quantity_on_hand: number; reorder_level: number | null };
 
 export async function listProducts(
   client: DashboardClient,
-  params: ListQuery & { status?: string },
+  params: ListQuery & {
+    status?: string;
+    categoryId?: string;
+    brandId?: string;
+    stockStatus?: string;
+  },
 ): Promise<ListResult<ProductListRow>> {
-  const result = await listQuery<Omit<ProductListRow, "variant_count" | "first_sku" | "price_min" | "price_max">>(
+  const result = await listQuery<Omit<ProductListRow, "variant_count" | "first_sku" | "price_min" | "price_max" | "total_stock" | "low_stock" | "primary_image_url">>(
     client,
     "products",
     params,
@@ -37,15 +51,18 @@ export async function listProducts(
         }
       }
       if (params.status) query = query.eq("status", params.status);
+      if (params.categoryId) query = query.eq("category_id", params.categoryId);
+      if (params.brandId) query = query.eq("brand_id", params.brandId);
       return query;
     },
-    "id, name, slug, status, created_at",
+    "id, name, slug, description, status, created_at, category_id, brand_id, category:categories(id, name, slug), brand:brands(id, name, slug)",
   );
 
   if (result.rows.length === 0) return { rows: [], total: 0 };
 
   const productIds = result.rows.map((row) => row.id);
-  const [variants, prices] = await Promise.all([
+
+  const [variants, prices, stock, images] = await Promise.all([
     client
       .from("product_variants")
       .select("id, product_id, sku")
@@ -63,6 +80,24 @@ export async function listProducts(
         .in("variant_id", variantIds)
         .eq("price_type", "selling");
     })(),
+    (async () => {
+      const variantResult = await client
+        .from("product_variants")
+        .select("id")
+        .in("product_id", productIds);
+      const variantIds = ((variantResult.data ?? []) as { id: string }[]).map((v) => v.id);
+      if (variantIds.length === 0) return { data: [] as StockSeed[] } as const;
+      return client
+        .from("inventory_items")
+        .select("variant_id, quantity_on_hand, reorder_level")
+        .in("variant_id", variantIds);
+    })(),
+    client
+      .from("product_images")
+      .select("product_id, url, is_primary, sort_order")
+      .in("product_id", productIds)
+      .is("variant_id", null)
+      .order("sort_order", { ascending: true }),
   ]);
 
   const variantsByProduct = new Map<string, VariantSeed[]>();
@@ -83,19 +118,186 @@ export async function listProducts(
     }
   }
 
-  const rows: ProductListRow[] = result.rows.map((row) => {
+  const stockByProduct = new Map<string, { total: number; low: boolean }>();
+  for (const item of (stock.data ?? []) as unknown as StockSeed[]) {
+    for (const [productId, list] of variantsByProduct) {
+      if (list.some((variant) => variant.id === item.variant_id)) {
+        const current = stockByProduct.get(productId) ?? { total: 0, low: false };
+        current.total += Number(item.quantity_on_hand || 0);
+        if (item.reorder_level != null && Number(item.quantity_on_hand || 0) <= Number(item.reorder_level)) {
+          current.low = true;
+        }
+        stockByProduct.set(productId, current);
+      }
+    }
+  }
+
+  const primaryImagesByProduct = new Map<string, string>();
+  for (const image of (images.data ?? []) as unknown as { product_id: string; url: string; is_primary: boolean; sort_order: number }[]) {
+    if (!primaryImagesByProduct.has(image.product_id) || image.is_primary) {
+      primaryImagesByProduct.set(image.product_id, image.url);
+    }
+  }
+
+  let filteredRows = result.rows;
+  if (params.stockStatus) {
+    filteredRows = result.rows.filter((row) => {
+      const stock = stockByProduct.get(row.id);
+      const total = stock?.total ?? 0;
+      const low = stock?.low ?? false;
+      switch (params.stockStatus) {
+        case "in-stock":
+          return total > 0 && !low;
+        case "low-stock":
+          return low;
+        case "out-of-stock":
+          return total === 0;
+        default:
+          return true;
+      }
+    });
+  }
+
+  const rows: ProductListRow[] = filteredRows.map((row) => {
     const variantsOfProduct = variantsByProduct.get(row.id) ?? [];
     const amounts = (pricesByProduct.get(row.id) ?? []).filter((amount) => amount > 0);
+    const stock = stockByProduct.get(row.id) ?? { total: 0, low: false };
     return {
       ...row,
       variant_count: variantsOfProduct.length,
       first_sku: variantsOfProduct[0]?.sku ?? null,
       price_min: amounts.length ? Math.min(...amounts) : null,
       price_max: amounts.length ? Math.max(...amounts) : null,
+      total_stock: stock.total,
+      low_stock: stock.low,
+      primary_image_url: primaryImagesByProduct.get(row.id) ?? null,
     };
   });
 
   return { rows, total: result.total };
+}
+
+export type CategoryListRow = {
+  id: string;
+  name: string;
+  slug: string;
+  code: string | null;
+  description: string | null;
+  parent_id: string | null;
+  parent: { id: string; name: string; slug: string } | null;
+  status: string;
+  sort_order: number;
+  product_count: number;
+  created_at: string;
+  updated_at: string;
+};
+
+export async function listCategories(
+  client: DashboardClient,
+  params: ListQuery & { status?: string; parentId?: string | null },
+): Promise<ListResult<CategoryListRow>> {
+  return listQuery<Omit<CategoryListRow, "product_count">>(
+    client,
+    "categories",
+    params,
+    (q) => {
+      let query = q.order("sort_order", { ascending: true }).order("name", { ascending: true });
+      if (params.q) {
+        const term = params.q.trim();
+        if (term) {
+          query = query.or(`name.ilike.%${term}%,slug.ilike.%${term}%`);
+        }
+      }
+      if (params.status) query = query.eq("status", params.status);
+      if (params.parentId !== undefined) {
+        if (params.parentId === null) {
+          query = query.is("parent_id", null);
+        } else {
+          query = query.eq("parent_id", params.parentId);
+        }
+      }
+      return query;
+    },
+    "id, name, slug, description, parent_id, status, sort_order, created_at, updated_at, parent:categories(id, name, slug)",
+  ).then(async (result) => {
+    if (result.rows.length === 0) return { rows: [], total: 0 };
+
+    const categoryIds = result.rows.map((row) => row.id);
+    const { data: products } = await client
+      .from("products")
+      .select("category_id")
+      .in("category_id", categoryIds)
+      .eq("status", "active");
+
+    const counts = new Map<string, number>();
+    for (const product of products ?? []) {
+      counts.set(product.category_id, (counts.get(product.category_id) ?? 0) + 1);
+    }
+
+    const rows: CategoryListRow[] = result.rows.map((row) => ({
+      ...row,
+      product_count: counts.get(row.id) ?? 0,
+    }));
+
+    return { rows, total: result.total };
+  });
+}
+
+export type BrandListRow = {
+  id: string;
+  name: string;
+  slug: string;
+  description: string | null;
+  status: string;
+  product_count: number;
+  created_at: string;
+  updated_at: string;
+};
+
+export async function listBrands(
+  client: DashboardClient,
+  params: ListQuery & { status?: string },
+): Promise<ListResult<BrandListRow>> {
+  return listQuery<Omit<BrandListRow, "product_count">>(
+    client,
+    "brands",
+    params,
+    (q) => {
+      let query = q.order("name", { ascending: true });
+      if (params.q) {
+        const term = params.q.trim();
+        if (term) {
+          query = query.or(`name.ilike.%${term}%,slug.ilike.%${term}%`);
+        }
+      }
+      if (params.status) query = query.eq("status", params.status);
+      return query;
+    },
+    "id, name, slug, description, status, created_at, updated_at",
+  ).then(async (result) => {
+    if (result.rows.length === 0) return { rows: [], total: 0 };
+
+    const brandIds = result.rows.map((row) => row.id);
+    const { data: products } = await client
+      .from("products")
+      .select("brand_id")
+      .in("brand_id", brandIds)
+      .eq("status", "active");
+
+    const counts = new Map<string, number>();
+    for (const product of products ?? []) {
+      if (product.brand_id) {
+        counts.set(product.brand_id, (counts.get(product.brand_id) ?? 0) + 1);
+      }
+    }
+
+    const rows: BrandListRow[] = result.rows.map((row) => ({
+      ...row,
+      product_count: counts.get(row.id) ?? 0,
+    }));
+
+    return { rows, total: result.total };
+  });
 }
 
 export type VariantListRow = {
@@ -183,7 +385,7 @@ export async function listStock(
   params: ListQuery & { locationId?: string },
 ): Promise<ListResult<StockRow>> {
   const term = params.q?.trim();
-let variantIds: string[] | null = null;
+  let variantIds: string[] | null = null;
   if (term) {
     const ids = (await searchVariantIds(client, term)) ?? [];
     variantIds = ids;

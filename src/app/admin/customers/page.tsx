@@ -22,7 +22,7 @@ import { formatDate, formatGhanaPhone } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Customers — Yemanuel ERP",
+  title: "Customers — Yemanuel Store ERP",
 };
 
 function firstParam(value: string | string[] | undefined): string | undefined {

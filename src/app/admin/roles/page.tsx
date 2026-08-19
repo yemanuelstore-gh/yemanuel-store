@@ -14,7 +14,7 @@ import { listRoles, listPermissions } from "@/lib/admin/admin";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Roles & Permissions — Yemanuel ERP",
+  title: "Roles & Permissions — Yemanuel Store ERP",
 };
 
 export default async function RolesPage() {

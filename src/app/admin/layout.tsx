@@ -17,7 +17,7 @@ function SignInPrompt() {
           <div className="mx-auto mb-4 flex size-11 items-center justify-center rounded-lg bg-erp-gold font-display text-lg font-bold text-erp-navy-deep">
             Y
           </div>
-          <h1 className="text-xl font-semibold text-erp-text">Yemanuel ERP</h1>
+          <h1 className="text-xl font-semibold text-erp-text">Yemanuel Store ERP</h1>
           <p className="mt-1 text-sm text-erp-text-secondary">
             Sign in to access the store management workspace.
           </p>

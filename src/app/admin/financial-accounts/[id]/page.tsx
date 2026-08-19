@@ -31,7 +31,7 @@ import { cn } from "@/lib/cn";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Financial Account — Yemanuel ERP",
+  title: "Financial Account — Yemanuel Store ERP",
 };
 
 function InfoRow({

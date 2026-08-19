@@ -18,7 +18,7 @@ import { formatDateTime } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Audit Log — Yemanuel ERP",
+  title: "Audit Log — Yemanuel Store ERP",
 };
 
 const ACTIONS = ["create", "update", "delete", "login", "logout", "approve", "cancel"];

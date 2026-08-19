@@ -18,7 +18,7 @@ import { formatDate, formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Expenses — Yemanuel ERP",
+  title: "Expenses — Yemanuel Store ERP",
 };
 
 function firstParam(value: string | string[] | undefined): string | undefined {

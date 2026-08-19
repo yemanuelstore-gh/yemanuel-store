@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageContainer } from "@/components/admin/page-container";
 import { PageHeader } from "@/components/admin/page-header";
 import { Card } from "@/components/ui/card";
@@ -12,21 +11,19 @@ import { NoAccess } from "@/components/admin/no-access";
 import { getAdminSession, hasPermission } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
 import { createClient } from "@/lib/supabase/server";
-import { listOrders, PAGE_SIZE, customerDisplayName } from "@/lib/admin/sales";
+import { listOrders, PAGE_SIZE } from "@/lib/admin/sales";
 import {
-  CHANNEL_LABELS,
-  ORDER_STATUSES,
   ORDER_STATUS_LABELS,
-  PAYMENT_STATUSES,
   PAYMENT_STATUS_LABELS,
+  CHANNEL_LABELS,
   labelFor,
 } from "@/lib/admin/labels";
-import { formatGHS, formatDateTime } from "@/lib/format";
+import { formatDate, formatGHS } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Orders — Yemanuel ERP",
+  title: "Orders — Yemanuel Store ERP",
 };
 
 function firstParam(value: string | string[] | undefined): string | undefined {
@@ -48,7 +45,7 @@ export default async function OrdersPage({
     return (
       <PageContainer>
         <PageHeader title="Orders" breadcrumb={[{ label: "Sales" }, { label: "Orders" }]} />
-        <NoAccess module="orders" />
+        <NoAccess module="sales" />
       </PageContainer>
     );
   }
@@ -56,7 +53,8 @@ export default async function OrdersPage({
   const params = await searchParams;
   const q = firstParam(params.q);
   const status = firstParam(params.status);
-  const paymentStatus = firstParam(params.payment);
+  const paymentStatus = firstParam(params.paymentStatus);
+  const channel = firstParam(params.channel);
   const page = parsePage(firstParam(params.page));
   const client = await createClient();
 
@@ -66,18 +64,20 @@ export default async function OrdersPage({
     q,
     status,
     paymentStatus,
+    channel,
   });
 
   const urlParams = new URLSearchParams();
   if (q) urlParams.set("q", q);
   if (status) urlParams.set("status", status);
-  if (paymentStatus) urlParams.set("payment", paymentStatus);
+  if (paymentStatus) urlParams.set("paymentStatus", paymentStatus);
+  if (channel) urlParams.set("channel", channel);
 
   return (
     <PageContainer>
       <PageHeader
         title="Orders"
-        description="Every order across the storefront and the point of sale."
+        description="All orders placed through the storefront and point of sale."
         breadcrumb={[{ label: "Sales" }, { label: "Orders" }]}
       />
 
@@ -85,26 +85,43 @@ export default async function OrdersPage({
         <ListToolbar
           baseHref="/admin/orders"
           q={q}
-          searchPlaceholder="Search order number or guest…"
+          searchPlaceholder="Search order number or guest name…"
           count={`${total.toLocaleString()} order${total === 1 ? "" : "s"}`}
           filters={[
             {
               name: "status",
-              label: "order status",
+              label: "status",
               value: status,
-              options: ORDER_STATUSES.map((value) => ({
-                value,
-                label: labelFor(value, ORDER_STATUS_LABELS),
-              })),
+              options: [
+                { value: "pending", label: "Pending" },
+                { value: "processing", label: "Processing" },
+                { value: "shipped", label: "Shipped" },
+                { value: "delivered", label: "Delivered" },
+                { value: "cancelled", label: "Cancelled" },
+              ],
             },
             {
-              name: "payment",
-              label: "payment status",
+              name: "paymentStatus",
+              label: "payment",
               value: paymentStatus,
-              options: PAYMENT_STATUSES.map((value) => ({
-                value,
-                label: labelFor(value, PAYMENT_STATUS_LABELS),
-              })),
+              options: [
+                { value: "unpaid", label: "Unpaid" },
+                { value: "paid", label: "Paid" },
+                { value: "partially_paid", label: "Partially Paid" },
+                { value: "partially_refunded", label: "Partially Refunded" },
+                { value: "refunded", label: "Refunded" },
+                { value: "pending", label: "Pending" },
+                { value: "failed", label: "Failed" },
+              ],
+            },
+            {
+              name: "channel",
+              label: "channel",
+              value: channel,
+              options: [
+                { value: "online", label: "Online" },
+                { value: "in_store", label: "In Store" },
+              ],
             },
           ]}
         />
@@ -114,7 +131,7 @@ export default async function OrdersPage({
             icon="orders"
             title="No orders found"
             description={
-              q || status || paymentStatus
+              q || status || paymentStatus || channel
                 ? "Try adjusting your search or filters."
                 : "Orders placed on the storefront or at the point of sale will appear here."
             }
@@ -136,24 +153,23 @@ export default async function OrdersPage({
               <TBody>
                 {rows.map((order) => (
                   <TR key={order.id}>
-                    <TD className="font-medium text-erp-navy">
-                      <Link
-                        href={`/admin/orders/${order.order_number}`}
-                        className="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-erp-navy"
-                      >
-                        {order.order_number}
-                      </Link>
-                    </TD>
+                    <TD className="font-medium text-erp-navy">{order.order_number}</TD>
                     <TD className="max-w-48">
                       <span className="block truncate">
-                        {customerDisplayName(order.customers, order.guest_name)}
+                        {order.customers
+                          ? order.customers.business_name ||
+                            [order.customers.first_name, order.customers.last_name]
+                              .filter(Boolean)
+                              .join(" ") ||
+                            "—"
+                          : order.guest_name ?? "Guest"}
                       </span>
                     </TD>
                     <TD className="text-erp-text-secondary">
                       {labelFor(order.channel, CHANNEL_LABELS)}
                     </TD>
                     <TD className="text-right font-medium tabular-nums">
-                      {formatGHS(Number(order.total_amount || 0))}
+                      {formatGHS(order.total_amount ?? 0)}
                     </TD>
                     <TD>
                       <StatusBadge status={labelFor(order.payment_status, PAYMENT_STATUS_LABELS)} />
@@ -162,7 +178,7 @@ export default async function OrdersPage({
                       <StatusBadge status={labelFor(order.status, ORDER_STATUS_LABELS)} />
                     </TD>
                     <TD className="whitespace-nowrap text-erp-text-secondary">
-                      {formatDateTime(order.created_at)}
+                      {formatDate(order.created_at)}
                     </TD>
                   </TR>
                 ))}

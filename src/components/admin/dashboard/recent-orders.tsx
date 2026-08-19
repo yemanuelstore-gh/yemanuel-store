@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Table, THead, TBody, TR, TH, TD } from "@/components/ui/table";
 import { StatusBadge } from "@/components/admin/status-badge";
 import { formatGHS } from "@/lib/format";
@@ -41,12 +40,7 @@ export function RecentOrdersTable({ orders }: { orders: RecentOrderRow[] }) {
         {orders.map((order) => (
           <TR key={order.order_number}>
             <TD className="font-medium text-erp-navy">
-              <Link
-                href={`/admin/orders/${order.order_number}`}
-                className="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-erp-navy"
-              >
-                {order.order_number}
-              </Link>
+              {order.order_number}
             </TD>
             <TD className="max-w-48">
               <span className="block truncate">{order.customer_name}</span>

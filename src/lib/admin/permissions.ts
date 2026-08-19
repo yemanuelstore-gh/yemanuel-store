@@ -38,6 +38,7 @@ export const PERMISSIONS = {
   },
   finance: {
     read: "finance.read",
+    create: "finance.create",
   },
   settings: { manage: "settings.manage" },
   staff: { manage: "staff.manage" },

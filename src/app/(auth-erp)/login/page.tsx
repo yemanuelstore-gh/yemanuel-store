@@ -4,7 +4,7 @@ import { LoginForm } from "@/components/admin/login-form";
 import { getSessionAccount } from "@/lib/account";
 
 export const metadata: Metadata = {
-  title: "Sign in — Yemanuel ERP",
+  title: "Sign in — Yemanuel Store ERP",
 };
 
 export default async function LoginPage({
@@ -14,14 +14,14 @@ export default async function LoginPage({
 }) {
   const account = await getSessionAccount();
   if (account) {
-    redirect("/account");
+    redirect("/admin");
   }
 
   const { next } = await searchParams;
   const safeNext =
     typeof next === "string" && next.startsWith("/") && !next.startsWith("//")
       ? next
-      : undefined;
+      : "/admin";
 
   return (
     <div className="w-full max-w-[400px] rounded-xl border border-erp-border bg-erp-canvas shadow-[0_1px_2px_rgb(7_24_41/0.4),0_24px_60px_-24px_rgb(7_24_41/0.8)]">
@@ -38,7 +38,7 @@ export default async function LoginPage({
               YEMANUEL
             </p>
             <p className="text-[10px] font-medium uppercase tracking-[0.3em] text-erp-gold">
-              ERP
+              STORE ERP
             </p>
           </div>
         </div>

@@ -18,7 +18,7 @@ import { formatDate, formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Payments — Yemanuel ERP",
+  title: "Payments — Yemanuel Store ERP",
 };
 
 const PAYMENT_METHODS = ["cash", "mobile_money", "card", "bank_transfer", "other"];

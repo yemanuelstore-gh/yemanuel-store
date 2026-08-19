@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageContainer } from "@/components/admin/page-container";
 import { PageHeader } from "@/components/admin/page-header";
 import { Card } from "@/components/ui/card";
@@ -19,7 +18,7 @@ import { formatDateTime } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Returns — Yemanuel ERP",
+  title: "Returns — Yemanuel Store ERP",
 };
 
 function firstParam(value: string | string[] | undefined): string | undefined {
@@ -113,16 +112,7 @@ export default async function ReturnsPage({
                   <TR key={returnRow.id}>
                     <TD className="font-medium text-erp-navy">{returnRow.return_number}</TD>
                     <TD>
-                      {returnRow.orders?.order_number ? (
-                        <Link
-                          href={`/admin/orders/${returnRow.orders.order_number}`}
-                          className="text-erp-navy hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-erp-navy"
-                        >
-                          {returnRow.orders.order_number}
-                        </Link>
-                      ) : (
-                        "—"
-                      )}
+                      {returnRow.orders?.order_number ?? "—"}
                     </TD>
                     <TD className="max-w-44">
                       <span className="block truncate">

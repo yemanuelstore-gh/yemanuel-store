@@ -67,19 +67,6 @@ export function AlertsPanel({
       tone: alerts && alerts.pending_payment_count > 0 ? "warning" : "neutral",
     },
     {
-      id: "unfulfilled",
-      title: "Unfulfilled orders",
-      description:
-        alerts == null
-          ? "Order data unavailable"
-          : `${alerts.unfulfilled_order_count.toLocaleString()} order${
-              alerts.unfulfilled_order_count === 1 ? "" : "s"
-            } still to be fulfilled`,
-      icon: "orders",
-      href: "/admin/orders",
-      tone: alerts && alerts.unfulfilled_order_count > 0 ? "info" : "neutral",
-    },
-    {
       id: "open-pos",
       title: "Open purchase orders",
       description:

@@ -8,6 +8,7 @@ import { KpiCard } from "@/components/admin/kpi-card";
 import { StatusBadge } from "@/components/admin/status-badge";
 import { EmptyState } from "@/components/ui/empty-state";
 import { NoAccess } from "@/components/admin/no-access";
+import { AddAccount } from "@/components/admin/account-form";
 import { Alert } from "@/components/ui/alert";
 import { getAdminSession, hasPermission } from "@/lib/admin/session";
 import { PERMISSIONS } from "@/lib/admin/permissions";
@@ -28,7 +29,7 @@ import { cn } from "@/lib/cn";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Financial Accounts — Yemanuel ERP",
+  title: "Financial Accounts — Yemanuel Store ERP",
 };
 
 type AccountTypeFilter = "all" | FinancialAccountType;
@@ -187,8 +188,11 @@ export default async function FinancialAccountsPage({
     <PageContainer>
       <PageHeader
         title="Financial Accounts"
-        description="Manage the bank, mobile-money, and cash accounts used by Yemanuel ERP."
+        description="Manage the bank, mobile-money, and cash accounts used by Yemanuel Store ERP."
         breadcrumb={[{ label: "Finance" }, { label: "Financial Accounts" }]}
+        actions={
+          <AddAccount canCreate={hasPermission(session, PERMISSIONS.finance.create)} />
+        }
       />
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -248,6 +252,14 @@ export default async function FinancialAccountsPage({
               accounts.length === 0
                 ? "Bank, mobile-money and cash accounts used by Yemanuel will appear here once they are set up."
                 : "Try selecting another account type."
+            }
+            action={
+              accounts.length === 0 ? (
+                <AddAccount
+                  compact
+                  canCreate={hasPermission(session, PERMISSIONS.finance.create)}
+                />
+              ) : undefined
             }
           />
         ) : (

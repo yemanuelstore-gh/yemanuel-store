@@ -45,12 +45,9 @@ function PaymentList({ rows }: { rows: RecentPaymentRow[] }) {
           <div className="flex min-w-0 items-center gap-2.5">
             <span className="min-w-0">
               {payment.order_number ? (
-                <Link
-                  href={`/admin/orders/${payment.order_number}`}
-                  className="block truncate text-xs font-medium text-erp-navy hover:underline"
-                >
+                <span className="block truncate text-xs font-medium text-erp-navy">
                   {payment.order_number}
-                </Link>
+                </span>
               ) : (
                 <span className="block truncate text-xs font-medium text-erp-text">
                   Walk-in payment

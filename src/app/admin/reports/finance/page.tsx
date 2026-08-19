@@ -9,7 +9,7 @@ import { PERMISSIONS } from "@/lib/admin/permissions";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Finance Report — Yemanuel ERP",
+  title: "Finance Report — Yemanuel Store ERP",
 };
 
 export default async function FinanceReportPage() {

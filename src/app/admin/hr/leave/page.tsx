@@ -9,7 +9,7 @@ import { PERMISSIONS } from "@/lib/admin/permissions";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Leave — Yemanuel ERP",
+  title: "Leave — Yemanuel Store ERP",
 };
 
 export default async function LeavePage() {

@@ -18,7 +18,7 @@ import { formatDate } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Variants — Yemanuel ERP",
+  title: "Variants — Yemanuel Store ERP",
 };
 
 const VARIANT_STATUSES = ["active", "inactive", "archived"];

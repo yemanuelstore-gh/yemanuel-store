@@ -18,7 +18,7 @@ import { formatGhanaPhone } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Warehouses — Yemanuel ERP",
+  title: "Warehouses — Yemanuel Store ERP",
 };
 
 const LOCATION_TYPES = ["store", "warehouse", "pickup_point"];

@@ -18,7 +18,7 @@ import { formatDate, formatGHS } from "@/lib/format";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Supplier Invoices — Yemanuel ERP",
+  title: "Supplier Invoices — Yemanuel Store ERP",
 };
 
 const INVOICE_STATUSES = ["pending", "partially_paid", "paid", "cancelled"];
